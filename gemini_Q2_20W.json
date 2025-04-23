@@ -1,0 +1,600 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Write me a 20 word sentence without any words that appear in the Christian Bible.",
+    "required_word_count": 20,
+    "num_tests": 10,
+    "total_duration_seconds": 43.81410217285156,
+    "timestamp": "2025-04-18T21:30:28.704923"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "word_count_accuracy": 0.2,
+    "bible_words_accuracy": 0.0,
+    "total_success_rate": 0.0
+  },
+  "individual_test_results": [
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "Magnificent celestial orbs spin, glowing, traversing vast expanses; brilliant planets illuminate ethereal nocturnal skies, bringing peace through cosmic choreography.\n"
+      },
+      "validation": {
+        "original_sentence": "Magnificent celestial orbs spin, glowing, traversing vast expanses; brilliant planets illuminate ethereal nocturnal skies, bringing peace through cosmic choreography.",
+        "cleaned_sentence": "Magnificent celestial orbs spin glowing traversing vast expanses brilliant planets illuminate ethereal nocturnal skies bringing peace through cosmic choreography",
+        "words": [
+          "Magnificent",
+          "celestial",
+          "orbs",
+          "spin",
+          "glowing",
+          "traversing",
+          "vast",
+          "expanses",
+          "brilliant",
+          "planets",
+          "illuminate",
+          "ethereal",
+          "nocturnal",
+          "skies",
+          "bringing",
+          "peace",
+          "through",
+          "cosmic",
+          "choreography"
+        ],
+        "word_count": 19,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "Magnificent",
+          "celestial",
+          "spin",
+          "glowing",
+          "traversing",
+          "planets",
+          "skies",
+          "bringing",
+          "peace",
+          "through"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:29:45.494733",
+        "duration_seconds": 0.6038970947265625
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "Ancient peoples crafted stone tools near vast rivers, hunting beasts, gathering grain, & building shelters against harsh elements, ensuring survival for their community.\n"
+      },
+      "validation": {
+        "original_sentence": "Ancient peoples crafted stone tools near vast rivers, hunting beasts, gathering grain, & building shelters against harsh elements, ensuring survival for their community.",
+        "cleaned_sentence": "Ancient peoples crafted stone tools near vast rivers hunting beasts gathering grain  building shelters against harsh elements ensuring survival for their community",
+        "words": [
+          "Ancient",
+          "peoples",
+          "crafted",
+          "stone",
+          "tools",
+          "near",
+          "vast",
+          "rivers",
+          "hunting",
+          "beasts",
+          "gathering",
+          "grain",
+          "building",
+          "shelters",
+          "against",
+          "harsh",
+          "elements",
+          "ensuring",
+          "survival",
+          "for",
+          "their",
+          "community"
+        ],
+        "word_count": 22,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "Ancient",
+          "peoples",
+          "stone",
+          "near",
+          "rivers",
+          "hunting",
+          "beasts",
+          "gathering",
+          "grain",
+          "building",
+          "against",
+          "elements",
+          "for",
+          "their"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:29:49.804074",
+        "duration_seconds": 0.5654244422912598
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "A cosmic entity dwells among vast galaxies, their celestial dance echoing through space, shaping stars and planets of pure wonder.\n"
+      },
+      "validation": {
+        "original_sentence": "A cosmic entity dwells among vast galaxies, their celestial dance echoing through space, shaping stars and planets of pure wonder.",
+        "cleaned_sentence": "A cosmic entity dwells among vast galaxies their celestial dance echoing through space shaping stars and planets of pure wonder",
+        "words": [
+          "A",
+          "cosmic",
+          "entity",
+          "dwells",
+          "among",
+          "vast",
+          "galaxies",
+          "their",
+          "celestial",
+          "dance",
+          "echoing",
+          "through",
+          "space",
+          "shaping",
+          "stars",
+          "and",
+          "planets",
+          "of",
+          "pure",
+          "wonder"
+        ],
+        "word_count": 20,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "A",
+          "among",
+          "their",
+          "celestial",
+          "dance",
+          "through",
+          "space",
+          "stars",
+          "and",
+          "planets",
+          "of",
+          "pure",
+          "wonder"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:29:53.910301",
+        "duration_seconds": 0.4993903636932373
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "The cosmos extends far beyond our senses, with countless worlds unknown and phenomena that dwarf mankind's imagination.\n"
+      },
+      "validation": {
+        "original_sentence": "The cosmos extends far beyond our senses, with countless worlds unknown and phenomena that dwarf mankind's imagination.",
+        "cleaned_sentence": "The cosmos extends far beyond our senses with countless worlds unknown and phenomena that dwarf mankinds imagination",
+        "words": [
+          "The",
+          "cosmos",
+          "extends",
+          "far",
+          "beyond",
+          "our",
+          "senses",
+          "with",
+          "countless",
+          "worlds",
+          "unknown",
+          "and",
+          "phenomena",
+          "that",
+          "dwarf",
+          "mankinds",
+          "imagination"
+        ],
+        "word_count": 17,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "The",
+          "far",
+          "beyond",
+          "our",
+          "senses",
+          "with",
+          "worlds",
+          "unknown",
+          "and",
+          "that",
+          "dwarf",
+          "imagination"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:29:58.632723",
+        "duration_seconds": 0.6070897579193115
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "Deep space exploration excites many, sparking imaginations with amazing sights of planets, galaxies, and cosmic dust formations.\n"
+      },
+      "validation": {
+        "original_sentence": "Deep space exploration excites many, sparking imaginations with amazing sights of planets, galaxies, and cosmic dust formations.",
+        "cleaned_sentence": "Deep space exploration excites many sparking imaginations with amazing sights of planets galaxies and cosmic dust formations",
+        "words": [
+          "Deep",
+          "space",
+          "exploration",
+          "excites",
+          "many",
+          "sparking",
+          "imaginations",
+          "with",
+          "amazing",
+          "sights",
+          "of",
+          "planets",
+          "galaxies",
+          "and",
+          "cosmic",
+          "dust",
+          "formations"
+        ],
+        "word_count": 17,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "Deep",
+          "space",
+          "many",
+          "imaginations",
+          "with",
+          "of",
+          "planets",
+          "and",
+          "dust"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:30:02.786144",
+        "duration_seconds": 0.5068380832672119
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "Ancient tribes told amazing stories of brave warriors, mystical spirits, and great floods destroying their world with torrential downpours.\n"
+      },
+      "validation": {
+        "original_sentence": "Ancient tribes told amazing stories of brave warriors, mystical spirits, and great floods destroying their world with torrential downpours.",
+        "cleaned_sentence": "Ancient tribes told amazing stories of brave warriors mystical spirits and great floods destroying their world with torrential downpours",
+        "words": [
+          "Ancient",
+          "tribes",
+          "told",
+          "amazing",
+          "stories",
+          "of",
+          "brave",
+          "warriors",
+          "mystical",
+          "spirits",
+          "and",
+          "great",
+          "floods",
+          "destroying",
+          "their",
+          "world",
+          "with",
+          "torrential",
+          "downpours"
+        ],
+        "word_count": 19,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "Ancient",
+          "tribes",
+          "told",
+          "stories",
+          "of",
+          "warriors",
+          "spirits",
+          "and",
+          "great",
+          "floods",
+          "destroying",
+          "their",
+          "world",
+          "with"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:30:08.896928",
+        "duration_seconds": 0.571845293045044
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "Great thinkers ponder existence, questioning reality, nature, plus humanity's purpose amidst planets, stars, the cosmos' profound secrets, beyond life's brief span.\n"
+      },
+      "validation": {
+        "original_sentence": "Great thinkers ponder existence, questioning reality, nature, plus humanity's purpose amidst planets, stars, the cosmos' profound secrets, beyond life's brief span.",
+        "cleaned_sentence": "Great thinkers ponder existence questioning reality nature plus humanitys purpose amidst planets stars the cosmos profound secrets beyond lifes brief span",
+        "words": [
+          "Great",
+          "thinkers",
+          "ponder",
+          "existence",
+          "questioning",
+          "reality",
+          "nature",
+          "plus",
+          "humanitys",
+          "purpose",
+          "amidst",
+          "planets",
+          "stars",
+          "the",
+          "cosmos",
+          "profound",
+          "secrets",
+          "beyond",
+          "lifes",
+          "brief",
+          "span"
+        ],
+        "word_count": 21,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "Great",
+          "questioning",
+          "nature",
+          "purpose",
+          "amidst",
+          "planets",
+          "stars",
+          "the",
+          "secrets",
+          "beyond",
+          "span"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:30:14.312386",
+        "duration_seconds": 0.5177605152130127
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "Jupiter's moons revolve, shining, as cosmos flourish; humanity explores space, building colonies, forging alliances, pushing boundaries throughout this wondrous, vast existence.\n"
+      },
+      "validation": {
+        "original_sentence": "Jupiter's moons revolve, shining, as cosmos flourish; humanity explores space, building colonies, forging alliances, pushing boundaries throughout this wondrous, vast existence.",
+        "cleaned_sentence": "Jupiters moons revolve shining as cosmos flourish humanity explores space building colonies forging alliances pushing boundaries throughout this wondrous vast existence",
+        "words": [
+          "Jupiters",
+          "moons",
+          "revolve",
+          "shining",
+          "as",
+          "cosmos",
+          "flourish",
+          "humanity",
+          "explores",
+          "space",
+          "building",
+          "colonies",
+          "forging",
+          "alliances",
+          "pushing",
+          "boundaries",
+          "throughout",
+          "this",
+          "wondrous",
+          "vast",
+          "existence"
+        ],
+        "word_count": 21,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "moons",
+          "shining",
+          "as",
+          "flourish",
+          "space",
+          "building",
+          "pushing",
+          "throughout",
+          "this",
+          "wondrous"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:30:19.127883",
+        "duration_seconds": 0.5086684226989746
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "The antique copper bowl showcased jewels near a patterned rug: amethyst, garnet, emerald, plus ivory, jet, and amber.\n"
+      },
+      "validation": {
+        "original_sentence": "The antique copper bowl showcased jewels near a patterned rug: amethyst, garnet, emerald, plus ivory, jet, and amber.",
+        "cleaned_sentence": "The antique copper bowl showcased jewels near a patterned rug amethyst garnet emerald plus ivory jet and amber",
+        "words": [
+          "The",
+          "antique",
+          "copper",
+          "bowl",
+          "showcased",
+          "jewels",
+          "near",
+          "a",
+          "patterned",
+          "rug",
+          "amethyst",
+          "garnet",
+          "emerald",
+          "plus",
+          "ivory",
+          "jet",
+          "and",
+          "amber"
+        ],
+        "word_count": 18,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "The",
+          "copper",
+          "bowl",
+          "jewels",
+          "near",
+          "a",
+          "rug",
+          "amethyst",
+          "emerald",
+          "ivory",
+          "and"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:30:24.622908",
+        "duration_seconds": 0.5919287204742432
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 20-word sentence without biblical words",
+        "required_word_count": 20
+      },
+      "response": {
+        "raw_response": "The cosmos is vast, a tapestry of swirling nebulae, radiant stars, and quiet, cold planets adrift within immense, dark emptiness.\n"
+      },
+      "validation": {
+        "original_sentence": "The cosmos is vast, a tapestry of swirling nebulae, radiant stars, and quiet, cold planets adrift within immense, dark emptiness.",
+        "cleaned_sentence": "The cosmos is vast a tapestry of swirling nebulae radiant stars and quiet cold planets adrift within immense dark emptiness",
+        "words": [
+          "The",
+          "cosmos",
+          "is",
+          "vast",
+          "a",
+          "tapestry",
+          "of",
+          "swirling",
+          "nebulae",
+          "radiant",
+          "stars",
+          "and",
+          "quiet",
+          "cold",
+          "planets",
+          "adrift",
+          "within",
+          "immense",
+          "dark",
+          "emptiness"
+        ],
+        "word_count": 20,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "The",
+          "is",
+          "a",
+          "tapestry",
+          "of",
+          "radiant",
+          "stars",
+          "and",
+          "quiet",
+          "cold",
+          "planets",
+          "within",
+          "dark",
+          "emptiness"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:30:28.704908",
+        "duration_seconds": 0.4842956066131592
+      }
+    }
+  ]
+}

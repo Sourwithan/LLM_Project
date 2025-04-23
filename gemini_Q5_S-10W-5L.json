@@ -1,0 +1,381 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 10,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 60,
+    "most_common_words": [
+      [
+        "salad",
+        6
+      ],
+      [
+        "shine",
+        4
+      ],
+      [
+        "shout",
+        4
+      ],
+      [
+        "shirt",
+        3
+      ],
+      [
+        "sides",
+        3
+      ],
+      [
+        "sales",
+        3
+      ],
+      [
+        "salty",
+        3
+      ],
+      [
+        "saved",
+        3
+      ],
+      [
+        "scout",
+        3
+      ],
+      [
+        "shave",
+        3
+      ]
+    ],
+    "total_duration_seconds": 17.702415466308594,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "salad",
+          "shine",
+          "shirt",
+          "shout",
+          "skill",
+          "skirt",
+          "slump",
+          "smart",
+          "smell",
+          "sound"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"shine\",\n    \"shirt\",\n    \"shout\",\n    \"skill\",\n    \"skirt\",\n    \"slump\",\n    \"smart\",\n    \"smell\",\n    \"sound\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "salad",
+          "sides",
+          "shine",
+          "shirt",
+          "shoes",
+          "shout",
+          "slice",
+          "slope",
+          "smash",
+          "snail"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"sides\",\n    \"shine\",\n    \"shirt\",\n    \"shoes\",\n    \"shout\",\n    \"slice\",\n    \"slope\",\n    \"smash\",\n    \"snail\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "salad",
+          "sales",
+          "salty",
+          "salsa",
+          "satin",
+          "sauna",
+          "saved",
+          "scout",
+          "seize",
+          "shady"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"sales\",\n    \"salty\",\n    \"salsa\",\n    \"satin\",\n    \"sauna\",\n    \"saved\",\n    \"scout\",\n    \"seize\",\n    \"shady\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "salad",
+          "sails",
+          "salts",
+          "scars",
+          "scout",
+          "seats",
+          "shale",
+          "shave",
+          "ships",
+          "shock"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"sails\",\n    \"salts\",\n    \"scars\",\n    \"scout\",\n    \"seats\",\n    \"shale\",\n    \"shave\",\n    \"ships\",\n    \"shock\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "salad",
+          "salty",
+          "satin",
+          "sauna",
+          "saved",
+          "saves",
+          "scout",
+          "seize",
+          "sense",
+          "setup"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"salty\",\n    \"satin\",\n    \"sauna\",\n    \"saved\",\n    \"saves\",\n    \"scout\",\n    \"seize\",\n    \"sense\",\n    \"setup\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "salad",
+          "sales",
+          "salty",
+          "sauce",
+          "saved",
+          "scare",
+          "scene",
+          "scent",
+          "scope",
+          "score"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"sales\",\n    \"salty\",\n    \"sauce\",\n    \"saved\",\n    \"scare\",\n    \"scene\",\n    \"scent\",\n    \"scope\",\n    \"score\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "ships",
+          "shake",
+          "shall",
+          "shame",
+          "shape",
+          "share",
+          "shave",
+          "shawl",
+          "shell",
+          "shine"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"ships\",\n    \"shake\",\n    \"shall\",\n    \"shame\",\n    \"shape\",\n    \"share\",\n    \"shave\",\n    \"shawl\",\n    \"shell\",\n    \"shine\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "songs",
+          "soaps",
+          "shape",
+          "share",
+          "shave",
+          "shock",
+          "shoes",
+          "shore",
+          "shout",
+          "since"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"songs\",\n    \"soaps\",\n    \"shape\",\n    \"share\",\n    \"shave\",\n    \"shock\",\n    \"shoes\",\n    \"shore\",\n    \"shout\",\n    \"since\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "shark",
+          "sheet",
+          "shine",
+          "shirt",
+          "shock",
+          "shore",
+          "shout",
+          "sides",
+          "since",
+          "skill"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"shark\",\n    \"sheet\",\n    \"shine\",\n    \"shirt\",\n    \"shock\",\n    \"shore\",\n    \"shout\",\n    \"sides\",\n    \"since\",\n    \"skill\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "sails",
+          "sales",
+          "seats",
+          "sheds",
+          "ships",
+          "shone",
+          "shook",
+          "shows",
+          "sides",
+          "signs"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sails\",\n    \"sales\",\n    \"seats\",\n    \"sheds\",\n    \"ships\",\n    \"shone\",\n    \"shook\",\n    \"shows\",\n    \"sides\",\n    \"signs\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

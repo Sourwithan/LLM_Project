@@ -1,0 +1,1224 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "word_count_requested": 5,
+    "word_length": 5,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_accuracy": {
+      "english_words": 0.98,
+      "vowel_constraint": 1.0,
+      "length_constraint": 0.92,
+      "fully_valid": 0.92,
+      "correct_count": 1.0
+    },
+    "total_words": 50,
+    "unique_words": 25,
+    "uniqueness_ratio": 0.5,
+    "most_common_words": [
+      [
+        "facet",
+        9
+      ],
+      [
+        "audio",
+        7
+      ],
+      [
+        "route",
+        6
+      ],
+      [
+        "adieu",
+        4
+      ],
+      [
+        "abode",
+        3
+      ],
+      [
+        "irate",
+        2
+      ],
+      [
+        "pious",
+        1
+      ],
+      [
+        "grain",
+        1
+      ],
+      [
+        "juice",
+        1
+      ],
+      [
+        "adobe",
+        1
+      ]
+    ],
+    "total_duration_seconds": 18.6519615650177
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "pious",
+          "grain",
+          "juice",
+          "adobe"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n    \"words\": [\n        \"facet\",\n        \"pious\",\n        \"grain\",\n        \"juice\",\n        \"adobe\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "pious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "grain",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "juice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adobe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "radio",
+          "route",
+          "audio",
+          "adieu"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n  \"words\": [\n    \"facet\",\n    \"radio\",\n    \"route\",\n    \"audio\",\n    \"adieu\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "radio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "abode",
+          "agile",
+          "acute",
+          "ovary"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n    \"words\": [\"facet\", \"abode\", \"agile\", \"acute\", \"ovary\"]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abode",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "agile",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "acute",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ovary",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "abode",
+          "irate",
+          "audio",
+          "route"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n    \"words\": [\n        \"facet\",\n        \"abode\",\n        \"irate\",\n        \"audio\",\n        \"route\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abode",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "irate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "audio",
+          "route",
+          "irate",
+          "cairn"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n    \"words\": [\n        \"facet\",\n        \"audio\",\n        \"route\",\n        \"irate\",\n        \"cairn\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "irate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cairn",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "audio",
+          "route",
+          "raise",
+          "unfit"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n  \"words\": [\n    \"facet\",\n    \"audio\",\n    \"route\",\n    \"raise\",\n    \"unfit\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "raise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unfit",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "audio",
+          "route",
+          "adieu",
+          "mural"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n  \"words\": [\n    \"facet\",\n    \"audio\",\n    \"route\",\n    \"adieu\",\n    \"mural\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "mural",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "adieu",
+          "facetious",
+          "sequoia",
+          "obelia",
+          "unc\u0163ia"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n    \"words\": [\n        \"adieu\",\n        \"facetious\",\n        \"sequoia\",\n        \"obelia\",\n        \"unc\u0163ia\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facetious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 5,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sequoia",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 7,
+            "required_length": 5,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obelia",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 6,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unc\u0163ia",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 6,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 4,
+        "valid_vowels_count": 5,
+        "valid_length_count": 1,
+        "fully_valid_count": 1,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.8,
+          "vowel_constraint": 1.0,
+          "length_constraint": 0.2,
+          "fully_valid": 0.2,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "abode",
+          "slice",
+          "flair",
+          "audio"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n  \"words\": [\n    \"facet\",\n    \"abode\",\n    \"slice\",\n    \"flair\",\n    \"audio\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abode",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "slice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "flair",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "5 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "audio",
+          "adieu",
+          "ovule",
+          "facet",
+          "route"
+        ],
+        "word_count": 5,
+        "raw_response": "{\n  \"words\": [\n    \"audio\",\n    \"adieu\",\n    \"ovule\",\n    \"facet\",\n    \"route\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ovule",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 5,
+        "valid_vowels_count": 5,
+        "valid_length_count": 5,
+        "fully_valid_count": 5,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 5 words that have 10 letters.",
+    "word_length_requested": 10,
+    "word_count_requested": 5,
+    "num_tests": 10,
+    "total_duration_seconds": 17.352508544921875,
+    "timestamp": "2025-04-18T20:58:44.552854"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 1.4,
+    "avg_length_accuracy": 0.28,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.64,
+    "total_unique_words": 39,
+    "total_unique_correct_words": 13,
+    "most_common_words": [
+      [
+        "allotment",
+        5
+      ],
+      [
+        "influence",
+        3
+      ],
+      [
+        "attention",
+        2
+      ],
+      [
+        "completion",
+        2
+      ],
+      [
+        "editorial",
+        2
+      ],
+      [
+        "Attention",
+        2
+      ],
+      [
+        "Knowledge",
+        2
+      ],
+      [
+        "different",
+        1
+      ],
+      [
+        "necessary",
+        1
+      ],
+      [
+        "structure",
+        1
+      ],
+      [
+        "birthplace",
+        1
+      ],
+      [
+        "descending",
+        1
+      ],
+      [
+        "engagement",
+        1
+      ],
+      [
+        "absolutely",
+        1
+      ],
+      [
+        "adventure",
+        1
+      ],
+      [
+        "direction",
+        1
+      ],
+      [
+        "Birthplace",
+        1
+      ],
+      [
+        "Decathlon",
+        1
+      ],
+      [
+        "Everlasting",
+        1
+      ],
+      [
+        "bumptious",
+        1
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "completion",
+        2
+      ],
+      [
+        "birthplace",
+        1
+      ],
+      [
+        "descending",
+        1
+      ],
+      [
+        "engagement",
+        1
+      ],
+      [
+        "absolutely",
+        1
+      ],
+      [
+        "Birthplace",
+        1
+      ],
+      [
+        "exhibition",
+        1
+      ],
+      [
+        "collective",
+        1
+      ],
+      [
+        "strawberry",
+        1
+      ],
+      [
+        "generation",
+        1
+      ],
+      [
+        "leadership",
+        1
+      ],
+      [
+        "university",
+        1
+      ],
+      [
+        "basketball",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.34253953543107013,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.17126976771553507
+  },
+  "word_frequencies": {
+    "all_words": {
+      "attention": 2,
+      "different": 1,
+      "necessary": 1,
+      "structure": 1,
+      "influence": 3,
+      "allotment": 5,
+      "birthplace": 1,
+      "completion": 2,
+      "descending": 1,
+      "engagement": 1,
+      "absolutely": 1,
+      "adventure": 1,
+      "direction": 1,
+      "editorial": 2,
+      "Attention": 2,
+      "Birthplace": 1,
+      "Decathlon": 1,
+      "Everlasting": 1,
+      "Knowledge": 2,
+      "bumptious": 1,
+      "decathlon": 1,
+      "exorcised": 1,
+      "departure": 1,
+      "discharge": 1,
+      "Important": 1,
+      "Excellent": 1,
+      "Worldwide": 1,
+      "definable": 1,
+      "exhibition": 1,
+      "reprimand": 1,
+      "collective": 1,
+      "deception": 1,
+      "knowledge": 1,
+      "pollution": 1,
+      "strawberry": 1,
+      "generation": 1,
+      "leadership": 1,
+      "university": 1,
+      "basketball": 1
+    },
+    "correct_length_words": {
+      "birthplace": 1,
+      "completion": 2,
+      "descending": 1,
+      "engagement": 1,
+      "absolutely": 1,
+      "Birthplace": 1,
+      "exhibition": 1,
+      "collective": 1,
+      "strawberry": 1,
+      "generation": 1,
+      "leadership": 1,
+      "university": 1,
+      "basketball": 1
+    },
+    "word_count_by_length": {
+      "9": 35,
+      "10": 14,
+      "11": 1
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "attention",
+          "different",
+          "necessary",
+          "structure",
+          "influence"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"different\",\n    \"necessary\",\n    \"structure\",\n    \"influence\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), different (9 letters), necessary (9 letters), structure (9 letters), influence (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T20:58:27.732534",
+        "duration_seconds": 0.5325760841369629
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "allotment",
+          "birthplace",
+          "completion",
+          "descending",
+          "engagement"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"allotment\",\n    \"birthplace\",\n    \"completion\",\n    \"descending\",\n    \"engagement\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 4,
+        "correct_count": true,
+        "length_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: allotment (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T20:58:29.416376",
+        "duration_seconds": 0.6747028827667236
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "absolutely",
+          "adventure",
+          "attention",
+          "direction",
+          "editorial"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"absolutely\",\n    \"adventure\",\n    \"attention\",\n    \"direction\",\n    \"editorial\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: adventure (9 letters), attention (9 letters), direction (9 letters), editorial (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T20:58:31.220450",
+        "duration_seconds": 0.7230589389801025
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Attention",
+          "Birthplace",
+          "Decathlon",
+          "Everlasting",
+          "Knowledge"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Attention\",\n    \"Birthplace\",\n    \"Decathlon\",\n    \"Everlasting\",\n    \"Knowledge\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Attention (9 letters), Decathlon (9 letters), Everlasting (11 letters), Knowledge (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T20:58:32.952306",
+        "duration_seconds": 0.7045056819915771
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "allotment",
+          "bumptious",
+          "decathlon",
+          "exorcised",
+          "influence"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"allotment\",\n    \"bumptious\",\n    \"decathlon\",\n    \"exorcised\",\n    \"influence\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: allotment (9 letters), bumptious (9 letters), decathlon (9 letters), exorcised (9 letters), influence (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T20:58:34.857821",
+        "duration_seconds": 0.8626585006713867
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "allotment",
+          "completion",
+          "departure",
+          "discharge",
+          "editorial"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"allotment\",\n    \"completion\",\n    \"departure\",\n    \"discharge\",\n    \"editorial\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: allotment (9 letters), departure (9 letters), discharge (9 letters), editorial (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T20:58:36.600810",
+        "duration_seconds": 0.7317342758178711
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Attention",
+          "Knowledge",
+          "Important",
+          "Excellent",
+          "Worldwide"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Attention\",\n    \"Knowledge\",\n    \"Important\",\n    \"Excellent\",\n    \"Worldwide\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Attention (9 letters), Knowledge (9 letters), Important (9 letters), Excellent (9 letters), Worldwide (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T20:58:38.245680",
+        "duration_seconds": 0.6375041007995605
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "allotment",
+          "definable",
+          "exhibition",
+          "influence",
+          "reprimand"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"allotment\",\n    \"definable\",\n    \"exhibition\",\n    \"influence\",\n    \"reprimand\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: allotment (9 letters), definable (9 letters), influence (9 letters), reprimand (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T20:58:39.954962",
+        "duration_seconds": 0.7072935104370117
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "allotment",
+          "collective",
+          "deception",
+          "knowledge",
+          "pollution"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"allotment\",\n    \"collective\",\n    \"deception\",\n    \"knowledge\",\n    \"pollution\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: allotment (9 letters), deception (9 letters), knowledge (9 letters), pollution (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T20:58:41.804037",
+        "duration_seconds": 0.808403491973877
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "strawberry",
+          "generation",
+          "leadership",
+          "university",
+          "basketball"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"strawberry\",\n    \"generation\",\n    \"leadership\",\n    \"university\",\n    \"basketball\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T20:58:43.551366",
+        "duration_seconds": 0.7354476451873779
+      }
+    }
+  ]
+}

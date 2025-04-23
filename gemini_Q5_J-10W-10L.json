@@ -1,0 +1,397 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 8.1,
+    "avg_criteria_accuracy": 0.81,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.905,
+    "total_unique_words": 53,
+    "most_common_words": [
+      [
+        "Jillionths",
+        8
+      ],
+      [
+        "Jettisoned",
+        7
+      ],
+      [
+        "Jobcentres",
+        5
+      ],
+      [
+        "Jackknifed",
+        5
+      ],
+      [
+        "Jeopardize",
+        4
+      ],
+      [
+        "Jurisprude",
+        3
+      ],
+      [
+        "Jamboreees",
+        3
+      ],
+      [
+        "Jackhammer",
+        3
+      ],
+      [
+        "Jeopardise",
+        3
+      ],
+      [
+        "Journalise",
+        3
+      ]
+    ],
+    "total_duration_seconds": 21.453566074371338,
+    "std_dev_criteria_accuracy": 0.19119507199599983,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.09559753599799992
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jettisoned",
+          "Jimberjaws",
+          "Jillionths",
+          "Jobcentres",
+          "Jocoseness",
+          "Jocundness",
+          "Jointworms",
+          "Journalling",
+          "Jurisprude",
+          "Justnesses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jettisoned\",\n    \"Jimberjaws\",\n    \"Jillionths\",\n    \"Jobcentres\",\n    \"Jocoseness\",\n    \"Jocundness\",\n    \"Jointworms\",\n    \"Journalling\",\n    \"Jurisprude\",\n    \"Justnesses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Journalling (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackknifed",
+          "Jamboreees",
+          "Jawbreaking",
+          "Jeopardize",
+          "Jettisoned",
+          "Jillionths",
+          "Jingoistic",
+          "Jobcentres",
+          "Journeyman",
+          "Jurisprude"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackknifed\",\n    \"Jamboreees\",\n    \"Jawbreaking\",\n    \"Jeopardize\",\n    \"Jettisoned\",\n    \"Jillionths\",\n    \"Jingoistic\",\n    \"Jobcentres\",\n    \"Journeyman\",\n    \"Jurisprude\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Jawbreaking (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackhammer",
+          "Jackknifed",
+          "Jadeiteous",
+          "Jamborees",
+          "Jeanpaulia",
+          "Jeopardise",
+          "Jettisoned",
+          "Jillionths",
+          "Jocundness",
+          "Journalise"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackhammer\",\n    \"Jackknifed\",\n    \"Jadeiteous\",\n    \"Jamborees\",\n    \"Jeanpaulia\",\n    \"Jeopardise\",\n    \"Jettisoned\",\n    \"Jillionths\",\n    \"Jocundness\",\n    \"Journalise\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Jamborees (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackknifed",
+          "Jejunostomy",
+          "Jettisoning",
+          "Jigglingly",
+          "Jillionths",
+          "Joblessness",
+          "Joiningness",
+          "Journalised",
+          "Journeywork",
+          "Judgements"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackknifed\",\n    \"Jejunostomy\",\n    \"Jettisoning\",\n    \"Jigglingly\",\n    \"Jillionths\",\n    \"Joblessness\",\n    \"Joiningness\",\n    \"Journalised\",\n    \"Journeywork\",\n    \"Judgements\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Jejunostomy (11 letters), Jettisoning (11 letters), Joblessness (11 letters), Joiningness (11 letters), Journalised (11 letters), Journeywork (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackhammer",
+          "Jamborees",
+          "Jararacas",
+          "Jaspersome",
+          "Jawbreaking",
+          "Jeopardise",
+          "Jetsetting",
+          "Jewellery",
+          "Jigglingly",
+          "Joinerises"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackhammer\",\n    \"Jamborees\",\n    \"Jararacas\",\n    \"Jaspersome\",\n    \"Jawbreaking\",\n    \"Jeopardise\",\n    \"Jetsetting\",\n    \"Jewellery\",\n    \"Jigglingly\",\n    \"Joinerises\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Jamborees (9 letters), Jararacas (9 letters), Jawbreaking (11 letters), Jewellery (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackknifed",
+          "Jadeiteous",
+          "Jamboreees",
+          "Jeopardize",
+          "Jettisoned",
+          "Jillionths",
+          "Jobcentres",
+          "Joinderies",
+          "Journalise",
+          "Jurisprude"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackknifed\",\n    \"Jadeiteous\",\n    \"Jamboreees\",\n    \"Jeopardize\",\n    \"Jettisoned\",\n    \"Jillionths\",\n    \"Jobcentres\",\n    \"Joinderies\",\n    \"Journalise\",\n    \"Jurisprude\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackhammer",
+          "Jadestoneed",
+          "Japanesque",
+          "Jejuneness",
+          "Jeremiads",
+          "Jettisoned",
+          "Jiggumbobs",
+          "Joblessness",
+          "Jointworms",
+          "Journalise"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackhammer\",\n    \"Jadestoneed\",\n    \"Japanesque\",\n    \"Jejuneness\",\n    \"Jeremiads\",\n    \"Jettisoned\",\n    \"Jiggumbobs\",\n    \"Joblessness\",\n    \"Jointworms\",\n    \"Journalise\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Jadestoneed (11 letters), Jeremiads (9 letters), Joblessness (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jackknifed",
+          "Jamboreets",
+          "Jaundicing",
+          "Jawbonings",
+          "Jeopardise",
+          "Jettisoned",
+          "Jigglingly",
+          "Jillionths",
+          "Jobcentres",
+          "Jocoseness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackknifed\",\n    \"Jamboreets\",\n    \"Jaundicing\",\n    \"Jawbonings\",\n    \"Jeopardise\",\n    \"Jettisoned\",\n    \"Jigglingly\",\n    \"Jillionths\",\n    \"Jobcentres\",\n    \"Jocoseness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jamboreees",
+          "Japonizing",
+          "Jejuneness",
+          "Jeopardize",
+          "Jettisoned",
+          "Jewellingly",
+          "Jiggumbobs",
+          "Jillionths",
+          "Jobcentres",
+          "Joinerises"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jamboreees\",\n    \"Japonizing\",\n    \"Jejuneness\",\n    \"Jeopardize\",\n    \"Jettisoned\",\n    \"Jewellingly\",\n    \"Jiggumbobs\",\n    \"Jillionths\",\n    \"Jobcentres\",\n    \"Joinerises\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Jewellingly (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Jampanning",
+          "Jasperware",
+          "Jawbreakers",
+          "Jeopardize",
+          "Jetstreams",
+          "Jiggumbobs",
+          "Jillionths",
+          "Jingoisms",
+          "Jobholders",
+          "Journalize"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jampanning\",\n    \"Jasperware\",\n    \"Jawbreakers\",\n    \"Jeopardize\",\n    \"Jetstreams\",\n    \"Jiggumbobs\",\n    \"Jillionths\",\n    \"Jingoisms\",\n    \"Jobholders\",\n    \"Journalize\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Jawbreakers (11 letters), Jingoisms (9 letters)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 19.4,
+    "avg_criteria_accuracy": 0.97,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.985,
+    "total_unique_words": 61,
+    "most_common_words": [
+      [
+        "zebra",
+        11
+      ],
+      [
+        "zooms",
+        11
+      ],
+      [
+        "zesty",
+        10
+      ],
+      [
+        "zippy",
+        10
+      ],
+      [
+        "zeros",
+        10
+      ],
+      [
+        "zones",
+        9
+      ],
+      [
+        "zoned",
+        9
+      ],
+      [
+        "zincs",
+        8
+      ],
+      [
+        "zloty",
+        8
+      ],
+      [
+        "zowie",
+        8
+      ]
+    ],
+    "total_duration_seconds": 26.363258361816406,
+    "std_dev_criteria_accuracy": 0.06324555320336757,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.031622776601683784
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zesty",
+          "zones",
+          "zebra",
+          "zerks",
+          "zincs",
+          "zloty",
+          "zooms",
+          "zappy",
+          "zippy",
+          "zoned",
+          "zazen",
+          "zeros",
+          "ziram",
+          "zaire",
+          "zowie",
+          "zills",
+          "zymes",
+          "zincy",
+          "zetas",
+          "zoeal"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zesty\",\n    \"zones\",\n    \"zebra\",\n    \"zerks\",\n    \"zincs\",\n    \"zloty\",\n    \"zooms\",\n    \"zappy\",\n    \"zippy\",\n    \"zoned\",\n    \"zazen\",\n    \"zeros\",\n    \"ziram\",\n    \"zaire\",\n    \"zowie\",\n    \"zills\",\n    \"zymes\",\n    \"zincy\",\n    \"zetas\",\n    \"zoeal\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zonal",
+          "zoned",
+          "zoner",
+          "zoeae",
+          "zebra",
+          "zeros",
+          "zesty",
+          "zippy",
+          "zincs",
+          "zincs",
+          "zines",
+          "zipped",
+          "zipper",
+          "zloty",
+          "zooms",
+          "zoomed",
+          "zoris",
+          "zucch",
+          "zygote"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zonal\",\n    \"zoned\",\n    \"zoner\",\n    \"zoeae\",\n    \"zebra\",\n    \"zeros\",\n    \"zesty\",\n    \"zippy\",\n    \"zincs\",\n    \"zincs\",\n    \"zines\",\n    \"zipped\",\n    \"zipper\",\n    \"zloty\",\n    \"zooms\",\n    \"zoomed\",\n    \"zoris\",\n    \"zucch\",\n    \"zygote\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: zipped (6 letters), zipper (6 letters), zoomed (6 letters), zygote (6 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zebra",
+          "zeros",
+          "zesty",
+          "zippy",
+          "zoned",
+          "zoner",
+          "zones",
+          "zowie",
+          "zebra",
+          "zenas",
+          "zills",
+          "zloty",
+          "zoeae",
+          "zooks",
+          "zorro",
+          "zowie",
+          "zazen",
+          "zeals",
+          "zebec",
+          "zeins"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zebra\",\n    \"zeros\",\n    \"zesty\",\n    \"zippy\",\n    \"zoned\",\n    \"zoner\",\n    \"zones\",\n    \"zowie\",\n    \"zebra\",\n    \"zenas\",\n    \"zills\",\n    \"zloty\",\n    \"zoeae\",\n    \"zooks\",\n    \"zorro\",\n    \"zowie\",\n    \"zazen\",\n    \"zeals\",\n    \"zebec\",\n    \"zeins\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zesty",
+          "zebra",
+          "zeros",
+          "zonal",
+          "zoned",
+          "zonks",
+          "zooms",
+          "zowie",
+          "zippy",
+          "zinco",
+          "zippo",
+          "zills",
+          "ziens",
+          "ziram",
+          "zakat",
+          "zayin",
+          "zamia",
+          "zanja",
+          "zappy",
+          "zarfs"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zesty\",\n    \"zebra\",\n    \"zeros\",\n    \"zonal\",\n    \"zoned\",\n    \"zonks\",\n    \"zooms\",\n    \"zowie\",\n    \"zippy\",\n    \"zinco\",\n    \"zippo\",\n    \"zills\",\n    \"ziens\",\n    \"ziram\",\n    \"zakat\",\n    \"zayin\",\n    \"zamia\",\n    \"zanja\",\n    \"zappy\",\n    \"zarfs\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zoned",
+          "zoner",
+          "zooms",
+          "zoomed",
+          "zooms",
+          "zesty",
+          "zebra",
+          "zeros",
+          "zincs",
+          "zincy",
+          "zills",
+          "zippy",
+          "zirps",
+          "zloty",
+          "zowie",
+          "zymes",
+          "zonal",
+          "ziram",
+          "zitis"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zoned\",\n    \"zoner\",\n    \"zooms\",\n    \"zoomed\",\n    \"zooms\",\n    \"zesty\",\n    \"zebra\",\n    \"zeros\",\n    \"zincs\",\n    \"zincy\",\n    \"zills\",\n    \"zippy\",\n    \"zirps\",\n    \"zloty\",\n    \"zowie\",\n    \"zymes\",\n    \"zonal\",\n    \"ziram\",\n    \"zitis\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: zoomed (6 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zebra",
+          "zeros",
+          "zesty",
+          "zincs",
+          "zoned",
+          "zones",
+          "zooms",
+          "zowie",
+          "zilch",
+          "zippy",
+          "zloty",
+          "zakke",
+          "ziram",
+          "zolle",
+          "zowie",
+          "zoeae",
+          "zeals",
+          "zetas",
+          "zills",
+          "zinco"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zebra\",\n    \"zeros\",\n    \"zesty\",\n    \"zincs\",\n    \"zoned\",\n    \"zones\",\n    \"zooms\",\n    \"zowie\",\n    \"zilch\",\n    \"zippy\",\n    \"zloty\",\n    \"zakke\",\n    \"ziram\",\n    \"zolle\",\n    \"zowie\",\n    \"zoeae\",\n    \"zeals\",\n    \"zetas\",\n    \"zills\",\n    \"zinco\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zesty",
+          "zeros",
+          "zloty",
+          "zones",
+          "zooms",
+          "zebra",
+          "zappy",
+          "zippy",
+          "zazen",
+          "zilch",
+          "ziram",
+          "zoris",
+          "zines",
+          "zowie",
+          "ziffs",
+          "zanja",
+          "zanza",
+          "zeals",
+          "zebec",
+          "zocco"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zesty\",\n    \"zeros\",\n    \"zloty\",\n    \"zones\",\n    \"zooms\",\n    \"zebra\",\n    \"zappy\",\n    \"zippy\",\n    \"zazen\",\n    \"zilch\",\n    \"ziram\",\n    \"zoris\",\n    \"zines\",\n    \"zowie\",\n    \"ziffs\",\n    \"zanja\",\n    \"zanza\",\n    \"zeals\",\n    \"zebec\",\n    \"zocco\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zoned",
+          "zonks",
+          "zooms",
+          "zooey",
+          "zoeae",
+          "zebra",
+          "zeros",
+          "zesty",
+          "zests",
+          "zeals",
+          "zelos",
+          "zilch",
+          "zincy",
+          "zincs",
+          "zippy",
+          "zipps",
+          "zooms",
+          "zibet",
+          "zitis"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zoned\",\n    \"zonks\",\n    \"zooms\",\n    \"zooey\",\n    \"zoeae\",\n    \"zebra\",\n    \"zeros\",\n    \"zesty\",\n    \"zests\",\n    \"zeals\",\n    \"zelos\",\n    \"zilch\",\n    \"zincy\",\n    \"zincs\",\n    \"zippy\",\n    \"zipps\",\n    \"zooms\",\n    \"zibet\",\n    \"zitis\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zooms",
+          "zebra",
+          "zeros",
+          "zesty",
+          "zilch",
+          "zippy",
+          "zoned",
+          "zoeae",
+          "zaire",
+          "zoris",
+          "zymes",
+          "zincs",
+          "zloty",
+          "zazen",
+          "zambo",
+          "zanja",
+          "ziram",
+          "zolle",
+          "zocco"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zooms\",\n    \"zebra\",\n    \"zeros\",\n    \"zesty\",\n    \"zilch\",\n    \"zippy\",\n    \"zoned\",\n    \"zoeae\",\n    \"zaire\",\n    \"zoris\",\n    \"zymes\",\n    \"zincs\",\n    \"zloty\",\n    \"zazen\",\n    \"zambo\",\n    \"zanja\",\n    \"ziram\",\n    \"zolle\",\n    \"zocco\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zoned",
+          "zoner",
+          "zooms",
+          "zoomed",
+          "zooml",
+          "zoons",
+          "zesty",
+          "zebra",
+          "zeros",
+          "zills",
+          "zincs",
+          "zippy",
+          "zloty",
+          "ziram",
+          "zitis",
+          "zaire",
+          "zakat",
+          "zappy",
+          "zoris"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zoned\",\n    \"zoner\",\n    \"zooms\",\n    \"zoomed\",\n    \"zooml\",\n    \"zoons\",\n    \"zesty\",\n    \"zebra\",\n    \"zeros\",\n    \"zills\",\n    \"zincs\",\n    \"zippy\",\n    \"zloty\",\n    \"ziram\",\n    \"zitis\",\n    \"zaire\",\n    \"zakat\",\n    \"zappy\",\n    \"zoris\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: zoomed (6 letters)"
+        ]
+      }
+    }
+  ]
+}

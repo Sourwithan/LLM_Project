@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 6.8,
+    "avg_criteria_accuracy": 0.34,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.67,
+    "total_unique_words": 189,
+    "most_common_words": [
+      [
+        "Juxtapositionallyness",
+        6
+      ],
+      [
+        "Jurisdictionalization",
+        2
+      ],
+      [
+        "Jackknifingabilities",
+        2
+      ],
+      [
+        "Justificationalnesses",
+        2
+      ],
+      [
+        "Jurisprudentiallyness",
+        2
+      ],
+      [
+        "Juxtapositionableness",
+        2
+      ],
+      [
+        "Jubilantlycelebrated",
+        2
+      ],
+      [
+        "Journalisticallydriven",
+        1
+      ],
+      [
+        "Jeopardizationinducing",
+        1
+      ],
+      [
+        "Justificationoftheories",
+        1
+      ]
+    ],
+    "total_duration_seconds": 28.752873182296753,
+    "std_dev_criteria_accuracy": 0.2354664401659915,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.11773322008299573
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Jurisdictionalization",
+          "Juxtapositionallyness",
+          "Jackknifingabilities",
+          "Journalisticallydriven",
+          "Jeopardizationinducing",
+          "Justificationoftheories",
+          "Jeremiadicallyuttered",
+          "Jazzificationtechniques",
+          "Jejunosotomiessurgical",
+          "Justificationargument",
+          "Jackfruitplantations",
+          "Journalistsinterview",
+          "Jealousymisunderstand",
+          "Justificationsolution",
+          "Jerkycharacterization",
+          "Jazzsingerimprovising",
+          "Jejuneunderstanding",
+          "Jocularcommunications",
+          "Janglinglyaggregated",
+          "Jealousytransformations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jurisdictionalization\",\n    \"Juxtapositionallyness\",\n    \"Jackknifingabilities\",\n    \"Journalisticallydriven\",\n    \"Jeopardizationinducing\",\n    \"Justificationoftheories\",\n    \"Jeremiadicallyuttered\",\n    \"Jazzificationtechniques\",\n    \"Jejunosotomiessurgical\",\n    \"Justificationargument\",\n    \"Jackfruitplantations\",\n    \"Journalistsinterview\",\n    \"Jealousymisunderstand\",\n    \"Justificationsolution\",\n    \"Jerkycharacterization\",\n    \"Jazzsingerimprovising\",\n    \"Jejuneunderstanding\",\n    \"Jocularcommunications\",\n    \"Janglinglyaggregated\",\n    \"Jealousytransformations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Jurisdictionalization (21 letters), Juxtapositionallyness (21 letters), Journalisticallydriven (22 letters), Jeopardizationinducing (22 letters), Justificationoftheories (23 letters), Jeremiadicallyuttered (21 letters), Jazzificationtechniques (23 letters), Jejunosotomiessurgical (22 letters), Justificationargument (21 letters), Jealousymisunderstand (21 letters), Justificationsolution (21 letters), Jerkycharacterization (21 letters), Jazzsingerimprovising (21 letters), Jejuneunderstanding (19 letters), Jocularcommunications (21 letters), Jealousytransformations (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Juxtapositionallyness",
+          "Jackknifingnesssssss",
+          "Jetpropulsioningnesss",
+          "Journalisticallyness",
+          "Jettisoningnesssssss",
+          "Jubilantlychallenging",
+          "Jeopardizingnessssss",
+          "Juvenilelymotivatedly",
+          "Judiciouslyexamining",
+          "Justifiablyassumingg",
+          "Joiningnessssssxxxxx",
+          "Jigglingnessssssssss",
+          "Jauntinesssssssssss",
+          "Jabberingnesssssssss",
+          "Jadednesssssssssssss",
+          "Jealousnesssssssssss",
+          "Jesteringnesssssssss",
+          "Jewellednessssssssss",
+          "Joyfulnessssssssssss",
+          "Jovialitymotivatedly"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Juxtapositionallyness\",\n    \"Jackknifingnesssssss\",\n    \"Jetpropulsioningnesss\",\n    \"Journalisticallyness\",\n    \"Jettisoningnesssssss\",\n    \"Jubilantlychallenging\",\n    \"Jeopardizingnessssss\",\n    \"Juvenilelymotivatedly\",\n    \"Judiciouslyexamining\",\n    \"Justifiablyassumingg\",\n    \"Joiningnessssssxxxxx\",\n    \"Jigglingnessssssssss\",\n    \"Jauntinesssssssssss\",\n    \"Jabberingnesssssssss\",\n    \"Jadednesssssssssssss\",\n    \"Jealousnesssssssssss\",\n    \"Jesteringnesssssssss\",\n    \"Jewellednessssssssss\",\n    \"Joyfulnessssssssssss\",\n    \"Jovialitymotivatedly\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 15,
+        "correct_count": true,
+        "criteria_accuracy": 0.75,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.875,
+        "errors": [
+          "Words with incorrect length: Juxtapositionallyness (21 letters), Jetpropulsioningnesss (21 letters), Jubilantlychallenging (21 letters), Juvenilelymotivatedly (21 letters), Jauntinesssssssssss (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Juxtapositionallyness",
+          "Jackknifingabilities",
+          "Jeopardizationallzing",
+          "Jeopardizationizations",
+          "Jigglingnonchalantly",
+          "Jobsworthianification",
+          "Joiningupthinkingness",
+          "Journalisticenterings",
+          "Judgementalnessizing",
+          "Jugularveindistended",
+          "Jumpingsalmonfishes",
+          "Jurisdictionalities",
+          "Justificationallying",
+          "Juvenilehallucinated",
+          "Juxtaposinginstances",
+          "Jackhammermachinings",
+          "Jamboreefestivalized",
+          "Jejunodistillationed",
+          "Jerkyunsophisticated",
+          "Jewellerymanufactured"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Juxtapositionallyness\",\n    \"Jackknifingabilities\",\n    \"Jeopardizationallzing\",\n    \"Jeopardizationizations\",\n    \"Jigglingnonchalantly\",\n    \"Jobsworthianification\",\n    \"Joiningupthinkingness\",\n    \"Journalisticenterings\",\n    \"Judgementalnessizing\",\n    \"Jugularveindistended\",\n    \"Jumpingsalmonfishes\",\n    \"Jurisdictionalities\",\n    \"Justificationallying\",\n    \"Juvenilehallucinated\",\n    \"Juxtaposinginstances\",\n    \"Jackhammermachinings\",\n    \"Jamboreefestivalized\",\n    \"Jejunodistillationed\",\n    \"Jerkyunsophisticated\",\n    \"Jewellerymanufactured\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: Juxtapositionallyness (21 letters), Jeopardizationallzing (21 letters), Jeopardizationizations (22 letters), Jobsworthianification (21 letters), Joiningupthinkingness (21 letters), Journalisticenterings (21 letters), Jumpingsalmonfishes (19 letters), Jurisdictionalities (19 letters), Jewellerymanufactured (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Juxtapositionallyness",
+          "Jackknifingablenesss",
+          "Jigglingphosphorescent",
+          "Jeopardizationproblem",
+          "Journalisticallysound",
+          "Justificationalnesses",
+          "Juvenilificationissue",
+          "Jeopardizinginstances",
+          "Jackhammeringdevices",
+          "Jammingtransmitterses",
+          "Jitterbuggingcelebrat",
+          "Jauntingexpeditionary",
+          "Jabberwockyantagonism",
+          "Judgementalattitudee",
+          "Jurisdictionalpowers",
+          "Jewelmanufacturingday",
+          "Jackpotwinningnumber",
+          "Jubilantlyannouncing",
+          "Janitorialservicemen",
+          "Jeopardizingtheworld"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Juxtapositionallyness\",\n    \"Jackknifingablenesss\",\n    \"Jigglingphosphorescent\",\n    \"Jeopardizationproblem\",\n    \"Journalisticallysound\",\n    \"Justificationalnesses\",\n    \"Juvenilificationissue\",\n    \"Jeopardizinginstances\",\n    \"Jackhammeringdevices\",\n    \"Jammingtransmitterses\",\n    \"Jitterbuggingcelebrat\",\n    \"Jauntingexpeditionary\",\n    \"Jabberwockyantagonism\",\n    \"Judgementalattitudee\",\n    \"Jurisdictionalpowers\",\n    \"Jewelmanufacturingday\",\n    \"Jackpotwinningnumber\",\n    \"Jubilantlyannouncing\",\n    \"Janitorialservicemen\",\n    \"Jeopardizingtheworld\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Juxtapositionallyness (21 letters), Jigglingphosphorescent (22 letters), Jeopardizationproblem (21 letters), Journalisticallysound (21 letters), Justificationalnesses (21 letters), Juvenilificationissue (21 letters), Jeopardizinginstances (21 letters), Jammingtransmitterses (21 letters), Jitterbuggingcelebrat (21 letters), Jauntingexpeditionary (21 letters), Jabberwockyantagonism (21 letters), Jewelmanufacturingday (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Jurisprudentiallyness",
+          "Juxtapositionableness",
+          "Jackknifinglamentoses",
+          "Jeopardizationableness",
+          "Jettisoningluminosities",
+          "Jacobinicalconspiracies",
+          "Jasperizinglamentation",
+          "Jubilarianinvitations",
+          "Journeyinglongitudely",
+          "Judiciousnessanalyzing",
+          "Justificationabilities",
+          "Jamboreeingfestivities",
+          "Jiggingsensitivityness",
+          "Jalapenopepperoncini",
+          "Jaundiceddeceitfulness",
+          "Jocundheartednessless",
+          "Jointstockcompanieses",
+          "Joyousheartedsingings",
+          "Jovialpersonalityness",
+          "Joviallyconversations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jurisprudentiallyness\",\n    \"Juxtapositionableness\",\n    \"Jackknifinglamentoses\",\n    \"Jeopardizationableness\",\n    \"Jettisoningluminosities\",\n    \"Jacobinicalconspiracies\",\n    \"Jasperizinglamentation\",\n    \"Jubilarianinvitations\",\n    \"Journeyinglongitudely\",\n    \"Judiciousnessanalyzing\",\n    \"Justificationabilities\",\n    \"Jamboreeingfestivities\",\n    \"Jiggingsensitivityness\",\n    \"Jalapenopepperoncini\",\n    \"Jaundiceddeceitfulness\",\n    \"Jocundheartednessless\",\n    \"Jointstockcompanieses\",\n    \"Joyousheartedsingings\",\n    \"Jovialpersonalityness\",\n    \"Joviallyconversations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: Jurisprudentiallyness (21 letters), Juxtapositionableness (21 letters), Jackknifinglamentoses (21 letters), Jeopardizationableness (22 letters), Jettisoningluminosities (23 letters), Jacobinicalconspiracies (23 letters), Jasperizinglamentation (22 letters), Jubilarianinvitations (21 letters), Journeyinglongitudely (21 letters), Judiciousnessanalyzing (22 letters), Justificationabilities (22 letters), Jamboreeingfestivities (22 letters), Jiggingsensitivityness (22 letters), Jaundiceddeceitfulness (22 letters), Jocundheartednessless (21 letters), Jointstockcompanieses (21 letters), Joyousheartedsingings (21 letters), Jovialpersonalityness (21 letters), Joviallyconversations (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Juxtapositionallyness",
+          "Jackknifingheadlocks",
+          "Justifiablysmothering",
+          "Jetpropelledfireworks",
+          "Jeopardizationfactors",
+          "Jamboreeswimmingpools",
+          "Journalisticallynovel",
+          "Jubilantlycelebrated",
+          "Judgementalauthoritys",
+          "Jigglingconfectionary",
+          "Javelinlaunchingfield",
+          "Jazzmusicianshipofthe",
+          "Jewelerstradesmanship",
+          "Jeeringlydisrespected",
+          "Jointstockcompaniesll",
+          "Jumpsuitedparachutist",
+          "Junipersproutingsprig",
+          "Juridicallyquestioning",
+          "Justificationsuggested",
+          "Jocularlymisconstrued"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Juxtapositionallyness\",\n    \"Jackknifingheadlocks\",\n    \"Justifiablysmothering\",\n    \"Jetpropelledfireworks\",\n    \"Jeopardizationfactors\",\n    \"Jamboreeswimmingpools\",\n    \"Journalisticallynovel\",\n    \"Jubilantlycelebrated\",\n    \"Judgementalauthoritys\",\n    \"Jigglingconfectionary\",\n    \"Javelinlaunchingfield\",\n    \"Jazzmusicianshipofthe\",\n    \"Jewelerstradesmanship\",\n    \"Jeeringlydisrespected\",\n    \"Jointstockcompaniesll\",\n    \"Jumpsuitedparachutist\",\n    \"Junipersproutingsprig\",\n    \"Juridicallyquestioning\",\n    \"Justificationsuggested\",\n    \"Jocularlymisconstrued\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.1,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.55,
+        "errors": [
+          "Words with incorrect length: Juxtapositionallyness (21 letters), Justifiablysmothering (21 letters), Jetpropelledfireworks (21 letters), Jeopardizationfactors (21 letters), Jamboreeswimmingpools (21 letters), Journalisticallynovel (21 letters), Judgementalauthoritys (21 letters), Jigglingconfectionary (21 letters), Javelinlaunchingfield (21 letters), Jazzmusicianshipofthe (21 letters), Jewelerstradesmanship (21 letters), Jeeringlydisrespected (21 letters), Jointstockcompaniesll (21 letters), Jumpsuitedparachutist (21 letters), Junipersproutingsprig (21 letters), Juridicallyquestioning (22 letters), Justificationsuggested (22 letters), Jocularlymisconstrued (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Juxtapositionableness",
+          "Jackknifednessnesses",
+          "Jigglingbombastically",
+          "Jalapenoforetellings",
+          "Jamestownestablishment",
+          "Jawbreakinglydelicious",
+          "Jettisonmentdeliberate",
+          "Jewelcrusteddominations",
+          "Jeopardizationstaggered",
+          "Jeremiadicalpropensity",
+          "Jettisoningobstreperous",
+          "Jocundnessnonchalance",
+          "Jointhandleroverweight",
+          "Jointstockholdingcompany",
+          "Journalisticallyprecise",
+          "Joyfulnesssubstantially",
+          "Jubilantlyrecollected",
+          "Judgmentaldiscourtesy",
+          "Justificationrevisions",
+          "Juvenescenceperpetual"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Juxtapositionableness\",\n    \"Jackknifednessnesses\",\n    \"Jigglingbombastically\",\n    \"Jalapenoforetellings\",\n    \"Jamestownestablishment\",\n    \"Jawbreakinglydelicious\",\n    \"Jettisonmentdeliberate\",\n    \"Jewelcrusteddominations\",\n    \"Jeopardizationstaggered\",\n    \"Jeremiadicalpropensity\",\n    \"Jettisoningobstreperous\",\n    \"Jocundnessnonchalance\",\n    \"Jointhandleroverweight\",\n    \"Jointstockholdingcompany\",\n    \"Journalisticallyprecise\",\n    \"Joyfulnesssubstantially\",\n    \"Jubilantlyrecollected\",\n    \"Judgmentaldiscourtesy\",\n    \"Justificationrevisions\",\n    \"Juvenescenceperpetual\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.1,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.55,
+        "errors": [
+          "Words with incorrect length: Juxtapositionableness (21 letters), Jigglingbombastically (21 letters), Jamestownestablishment (22 letters), Jawbreakinglydelicious (22 letters), Jettisonmentdeliberate (22 letters), Jewelcrusteddominations (23 letters), Jeopardizationstaggered (23 letters), Jeremiadicalpropensity (22 letters), Jettisoningobstreperous (23 letters), Jocundnessnonchalance (21 letters), Jointhandleroverweight (22 letters), Jointstockholdingcompany (24 letters), Journalisticallyprecise (23 letters), Joyfulnesssubstantially (23 letters), Jubilantlyrecollected (21 letters), Judgmentaldiscourtesy (21 letters), Justificationrevisions (22 letters), Juvenescenceperpetual (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Jurisdictionalization",
+          "Justificationalnesses",
+          "Jackknifesubordinate",
+          "Jeopardizationrealign",
+          "Jettisoningpersecute",
+          "Juxtapositionunearth",
+          "Jactitationprocreate",
+          "Justificationpropose",
+          "Journalisticstating",
+          "Judiciousnessregain",
+          "Juvenescentconserve",
+          "Jabberwockyperceive",
+          "Jamboreegatherings",
+          "Jettisonedremoving",
+          "Judgementsupposing",
+          "Jovialityunfolding",
+          "Jeremiadpronounce",
+          "Joyfulnessadvocate",
+          "Justifiableenhance",
+          "Journalisationprove"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jurisdictionalization\",\n    \"Justificationalnesses\",\n    \"Jackknifesubordinate\",\n    \"Jeopardizationrealign\",\n    \"Jettisoningpersecute\",\n    \"Juxtapositionunearth\",\n    \"Jactitationprocreate\",\n    \"Justificationpropose\",\n    \"Journalisticstating\",\n    \"Judiciousnessregain\",\n    \"Juvenescentconserve\",\n    \"Jabberwockyperceive\",\n    \"Jamboreegatherings\",\n    \"Jettisonedremoving\",\n    \"Judgementsupposing\",\n    \"Jovialityunfolding\",\n    \"Jeremiadpronounce\",\n    \"Joyfulnessadvocate\",\n    \"Justifiableenhance\",\n    \"Journalisationprove\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.25,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.625,
+        "errors": [
+          "Words with incorrect length: Jurisdictionalization (21 letters), Justificationalnesses (21 letters), Jeopardizationrealign (21 letters), Journalisticstating (19 letters), Judiciousnessregain (19 letters), Juvenescentconserve (19 letters), Jabberwockyperceive (19 letters), Jamboreegatherings (18 letters), Jettisonedremoving (18 letters), Judgementsupposing (18 letters), Jovialityunfolding (18 letters), Jeremiadpronounce (17 letters), Joyfulnessadvocate (18 letters), Justifiableenhance (18 letters), Journalisationprove (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Jackhammeringthrough",
+          "Jackknifingdisasters",
+          "Jampackingtogetherness",
+          "Jargonisticverbosity",
+          "Jeopardizingstability",
+          "Jerkycontortionistic",
+          "Jewelboxornamentation",
+          "Jigglingincessantly",
+          "Jillionstransactions",
+          "Jitterbuggingmadness",
+          "Jobopportunitiesawait",
+          "Jocularityiswelcome",
+          "Joggingenthusiastically",
+          "Joiningcircumstances",
+          "Joltingunpredictably",
+          "Journalisticintegrity",
+          "Journeymenaccomplish",
+          "Jubilantlycelebrated",
+          "Judgementsaresubject",
+          "Juxtapositionsofwow"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Jackhammeringthrough\",\n    \"Jackknifingdisasters\",\n    \"Jampackingtogetherness\",\n    \"Jargonisticverbosity\",\n    \"Jeopardizingstability\",\n    \"Jerkycontortionistic\",\n    \"Jewelboxornamentation\",\n    \"Jigglingincessantly\",\n    \"Jillionstransactions\",\n    \"Jitterbuggingmadness\",\n    \"Jobopportunitiesawait\",\n    \"Jocularityiswelcome\",\n    \"Joggingenthusiastically\",\n    \"Joiningcircumstances\",\n    \"Joltingunpredictably\",\n    \"Journalisticintegrity\",\n    \"Journeymenaccomplish\",\n    \"Jubilantlycelebrated\",\n    \"Judgementsaresubject\",\n    \"Juxtapositionsofwow\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: Jampackingtogetherness (22 letters), Jeopardizingstability (21 letters), Jewelboxornamentation (21 letters), Jigglingincessantly (19 letters), Jobopportunitiesawait (21 letters), Jocularityiswelcome (19 letters), Joggingenthusiastically (23 letters), Journalisticintegrity (21 letters), Juxtapositionsofwow (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Juxtapositionallyness",
+          "Jurisprudentiallyness",
+          "Jigglinglystrengthens",
+          "Jejunostomycatheters",
+          "Journeywomanshipshun",
+          "Jackknifedwaggonner",
+          "Judgementskillfully",
+          "Jacobeanoverwhelmed",
+          "Jollificationspreeing",
+          "Jubilatingoverlooked",
+          "Jargonmongeringploys",
+          "Jeremiadspessimists",
+          "Jeopardizationimpact",
+          "Jewellerycraftspeople",
+          "Jettisoningobnoxious",
+          "Jawbreakerexpectant",
+          "Joustingtournaments",
+          "Joyfullycommunicates",
+          "Jubilantlyproclaimed",
+          "Judiciouslymoderated"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Juxtapositionallyness\",\n    \"Jurisprudentiallyness\",\n    \"Jigglinglystrengthens\",\n    \"Jejunostomycatheters\",\n    \"Journeywomanshipshun\",\n    \"Jackknifedwaggonner\",\n    \"Judgementskillfully\",\n    \"Jacobeanoverwhelmed\",\n    \"Jollificationspreeing\",\n    \"Jubilatingoverlooked\",\n    \"Jargonmongeringploys\",\n    \"Jeremiadspessimists\",\n    \"Jeopardizationimpact\",\n    \"Jewellerycraftspeople\",\n    \"Jettisoningobnoxious\",\n    \"Jawbreakerexpectant\",\n    \"Joustingtournaments\",\n    \"Joyfullycommunicates\",\n    \"Jubilantlyproclaimed\",\n    \"Judiciouslymoderated\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.45,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.725,
+        "errors": [
+          "Words with incorrect length: Juxtapositionallyness (21 letters), Jurisprudentiallyness (21 letters), Jigglinglystrengthens (21 letters), Jackknifedwaggonner (19 letters), Judgementskillfully (19 letters), Jacobeanoverwhelmed (19 letters), Jollificationspreeing (21 letters), Jeremiadspessimists (19 letters), Jewellerycraftspeople (21 letters), Jawbreakerexpectant (19 letters), Joustingtournaments (19 letters)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 0.2,
+    "avg_criteria_accuracy": 0.04,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.52,
+    "total_unique_words": 42,
+    "most_common_words": [
+      [
+        "Xenotransplantationally",
+        6
+      ],
+      [
+        "Xylopyrographicallyally",
+        2
+      ],
+      [
+        "Xenotransplantationist",
+        2
+      ],
+      [
+        "Xanthogranulomatously",
+        2
+      ],
+      [
+        "Xerochrysum bracteatumy",
+        1
+      ],
+      [
+        "Xiphophyllaceaeousness",
+        1
+      ],
+      [
+        "Xanthophyllaceousnesses",
+        1
+      ],
+      [
+        "Xenotransplantationlike",
+        1
+      ],
+      [
+        "Xylopyrographicallylike",
+        1
+      ],
+      [
+        "Xenotransplantationship",
+        1
+      ]
+    ],
+    "total_duration_seconds": 20.512633562088013,
+    "std_dev_criteria_accuracy": 0.08432740427115679,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.04216370213557838
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationally",
+          "Xerochrysum bracteatumy",
+          "Xiphophyllaceaeousness",
+          "Xanthophyllaceousnesses",
+          "Xylopyrographicallyally"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xenotransplantationally\",\n    \"Xerochrysum bracteatumy\",\n    \"Xiphophyllaceaeousness\",\n    \"Xanthophyllaceousnesses\",\n    \"Xylopyrographicallyally\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationally (23 letters), Xiphophyllaceaeousness (22 letters), Xanthophyllaceousnesses (23 letters), Xylopyrographicallyally (23 letters)",
+          "Non-alphabetic words: Xerochrysum bracteatumy"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationlike",
+          "Xylopyrographicallylike",
+          "Xenotransplantationship",
+          "Xylopyrographicalship",
+          "Xenophobiasuccumbing"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xenotransplantationlike\",\n    \"Xylopyrographicallylike\",\n    \"Xenotransplantationship\",\n    \"Xylopyrographicalship\",\n    \"Xenophobiasuccumbing\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationlike (23 letters), Xylopyrographicallylike (23 letters), Xenotransplantationship (23 letters), Xylopyrographicalship (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationally",
+          "Xenotransplantationsive",
+          "Xenotransplantabilities",
+          "Xylopyrographicalnesss",
+          "Xanthodermatoamelanoma"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xenotransplantationally\",\n    \"Xenotransplantationsive\",\n    \"Xenotransplantabilities\",\n    \"Xylopyrographicalnesss\",\n    \"Xanthodermatoamelanoma\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationally (23 letters), Xenotransplantationsive (23 letters), Xenotransplantabilities (23 letters), Xylopyrographicalnesss (22 letters), Xanthodermatoamelanoma (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xanthodermatosclerosis",
+          "Xenotransplantationally",
+          "Xanthogranulomatousness",
+          "Xerochasyphylaxisphylaxis",
+          "Xylopyrographicallygraphy"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xanthodermatosclerosis\",\n    \"Xenotransplantationally\",\n    \"Xanthogranulomatousness\",\n    \"Xerochasyphylaxisphylaxis\",\n    \"Xylopyrographicallygraphy\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xanthodermatosclerosis (22 letters), Xenotransplantationally (23 letters), Xanthogranulomatousness (23 letters), Xerochasyphylaxisphylaxis (25 letters), Xylopyrographicallygraphy (25 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xanthogranulomatosises",
+          "Xenotransplantationally",
+          "Xenodochiophilousnesses",
+          "Xenophobicallyhypnotized",
+          "Xylooligosaccharideses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xanthogranulomatosises\",\n    \"Xenotransplantationally\",\n    \"Xenodochiophilousnesses\",\n    \"Xenophobicallyhypnotized\",\n    \"Xylooligosaccharideses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xanthogranulomatosises (22 letters), Xenotransplantationally (23 letters), Xenodochiophilousnesses (23 letters), Xenophobicallyhypnotized (24 letters), Xylooligosaccharideses (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationist",
+          "Xenotransplantationsis",
+          "Xylopyrographerships",
+          "Xenodochiomorphologic",
+          "Xerophyticallywithered"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xenotransplantationist\",\n    \"Xenotransplantationsis\",\n    \"Xylopyrographerships\",\n    \"Xenodochiomorphologic\",\n    \"Xerophyticallywithered\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationist (22 letters), Xenotransplantationsis (22 letters), Xenodochiomorphologic (21 letters), Xerophyticallywithered (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationally",
+          "Xanthogranulomatously",
+          "Xanthoerythrodermally",
+          "Xenobiologicallyactive",
+          "Xenoparasitologically"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Xenotransplantationally\",\n        \"Xanthogranulomatously\",\n        \"Xanthoerythrodermally\",\n        \"Xenobiologicallyactive\",\n        \"Xenoparasitologically\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationally (23 letters), Xanthogranulomatously (21 letters), Xanthoerythrodermally (21 letters), Xenobiologicallyactive (22 letters), Xenoparasitologically (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationally",
+          "Xylopyrographicallyally",
+          "Xenodochiomorphological",
+          "Xanthochroiomorphically",
+          "Xenoparasitologicalally"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xenotransplantationally\",\n    \"Xylopyrographicallyally\",\n    \"Xenodochiomorphological\",\n    \"Xanthochroiomorphically\",\n    \"Xenoparasitologicalally\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationally (23 letters), Xylopyrographicallyally (23 letters), Xenodochiomorphological (23 letters), Xanthochroiomorphically (23 letters), Xenoparasitologicalally (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xenotransplantationist",
+          "Xylopyrographicalness",
+          "Xanthogranulomatously",
+          "Xenodochiophagophilist",
+          "Xenophobiasophistical"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xenotransplantationist\",\n    \"Xylopyrographicalness\",\n    \"Xanthogranulomatously\",\n    \"Xenodochiophagophilist\",\n    \"Xenophobiasophistical\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xenotransplantationist (22 letters), Xylopyrographicalness (21 letters), Xanthogranulomatously (21 letters), Xenodochiophagophilist (22 letters), Xenophobiasophistical (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Xanthippeancrophyllaceous",
+          "Xanthochroismspirochaetosis",
+          "Xenodochiadechrysophyllaceous",
+          "Xenomorphizationhypochondriac",
+          "Xylopyrographystereophotography"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xanthippeancrophyllaceous\",\n    \"Xanthochroismspirochaetosis\",\n    \"Xenodochiadechrysophyllaceous\",\n    \"Xenomorphizationhypochondriac\",\n    \"Xylopyrographystereophotography\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Xanthippeancrophyllaceous (25 letters), Xanthochroismspirochaetosis (27 letters), Xenodochiadechrysophyllaceous (29 letters), Xenomorphizationhypochondriac (29 letters), Xylopyrographystereophotography (31 letters)"
+        ]
+      }
+    }
+  ]
+}

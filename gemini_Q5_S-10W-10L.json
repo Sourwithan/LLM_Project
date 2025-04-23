@@ -1,0 +1,397 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 7.8,
+    "avg_criteria_accuracy": 0.78,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.89,
+    "total_unique_words": 67,
+    "most_common_words": [
+      [
+        "Scandalize",
+        6
+      ],
+      [
+        "Simplistic",
+        5
+      ],
+      [
+        "Scattering",
+        5
+      ],
+      [
+        "Schoolbook",
+        4
+      ],
+      [
+        "Sensations",
+        3
+      ],
+      [
+        "Seasonable",
+        3
+      ],
+      [
+        "Secretions",
+        3
+      ],
+      [
+        "Sculptress",
+        2
+      ],
+      [
+        "Seasonally",
+        2
+      ],
+      [
+        "Schizophren",
+        2
+      ]
+    ],
+    "total_duration_seconds": 18.344970226287842,
+    "std_dev_criteria_accuracy": 0.20439612955674524,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.10219806477837262
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Scandalize",
+          "ScarecrowS",
+          "SclerosisS",
+          "Sculptress",
+          "Seasonally",
+          "Sensations",
+          "SentimentS",
+          "Sequacious",
+          "Shieldings",
+          "Simplistic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scandalize\",\n    \"ScarecrowS\",\n    \"SclerosisS\",\n    \"Sculptress\",\n    \"Seasonally\",\n    \"Sensations\",\n    \"SentimentS\",\n    \"Sequacious\",\n    \"Shieldings\",\n    \"Simplistic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Sacrament",
+          "Sagittarius",
+          "Saponified",
+          "Scandalize",
+          "Schizophren",
+          "Scintillate",
+          "Sclerosing",
+          "Scrapingly",
+          "Seasonings",
+          "Sentimental"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sacrament\",\n    \"Sagittarius\",\n    \"Saponified\",\n    \"Scandalize\",\n    \"Schizophren\",\n    \"Scintillate\",\n    \"Sclerosing\",\n    \"Scrapingly\",\n    \"Seasonings\",\n    \"Sentimental\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: Sacrament (9 letters), Sagittarius (11 letters), Schizophren (11 letters), Scintillate (11 letters), Sentimental (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Sacrilege",
+          "Scandalize",
+          "Scattering",
+          "Schizophren",
+          "Seafaring",
+          "Seasonable",
+          "Sentiment",
+          "Shareholder",
+          "Sightseeing",
+          "Simplistic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sacrilege\",\n    \"Scandalize\",\n    \"Scattering\",\n    \"Schizophren\",\n    \"Seafaring\",\n    \"Seasonable\",\n    \"Sentiment\",\n    \"Shareholder\",\n    \"Sightseeing\",\n    \"Simplistic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Sacrilege (9 letters), Schizophren (11 letters), Seafaring (9 letters), Sentiment (9 letters), Shareholder (11 letters), Sightseeing (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "SacramentO",
+          "Sandstones",
+          "Scandalize",
+          "Schoolbook",
+          "Sculptures",
+          "Seasonably",
+          "Selflessly",
+          "Sensations",
+          "Signalling",
+          "Simplistic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"SacramentO\",\n    \"Sandstones\",\n    \"Scandalize\",\n    \"Schoolbook\",\n    \"Sculptures\",\n    \"Seasonably\",\n    \"Selflessly\",\n    \"Sensations\",\n    \"Signalling\",\n    \"Simplistic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Scrupulous",
+          "Scriptural",
+          "Seasonably",
+          "Semblances",
+          "Signatures",
+          "Significant",
+          "Simplistic",
+          "Simulations",
+          "Simultaneity",
+          "Solicitous"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scrupulous\",\n    \"Scriptural\",\n    \"Seasonably\",\n    \"Semblances\",\n    \"Signatures\",\n    \"Significant\",\n    \"Simplistic\",\n    \"Simulations\",\n    \"Simultaneity\",\n    \"Solicitous\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Significant (11 letters), Simulations (11 letters), Simultaneity (12 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Scattering",
+          "Schoolbook",
+          "Scrubwoman",
+          "Selflessly",
+          "Shakespeare",
+          "Signalised",
+          "Silhouette",
+          "Simplistic",
+          "Singleness",
+          "Sovereigns"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scattering\",\n    \"Schoolbook\",\n    \"Scrubwoman\",\n    \"Selflessly\",\n    \"Shakespeare\",\n    \"Signalised\",\n    \"Silhouette\",\n    \"Simplistic\",\n    \"Singleness\",\n    \"Sovereigns\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Shakespeare (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Sandstones",
+          "Scandalize",
+          "Scarecrows",
+          "Scattering",
+          "Scholarize",
+          "Sclerosis",
+          "Scoundrels",
+          "Screenplays",
+          "Sculptress",
+          "Secretions"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sandstones\",\n    \"Scandalize\",\n    \"Scarecrows\",\n    \"Scattering\",\n    \"Scholarize\",\n    \"Sclerosis\",\n    \"Scoundrels\",\n    \"Screenplays\",\n    \"Sculptress\",\n    \"Secretions\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Sclerosis (9 letters), Screenplays (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Scattering",
+          "Scandalized",
+          "Schoolbook",
+          "Scorpionid",
+          "Seamlessly",
+          "Seashores",
+          "Seasonable",
+          "Secretions",
+          "Sensations",
+          "Sentiment"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scattering\",\n    \"Scandalized\",\n    \"Schoolbook\",\n    \"Scorpionid\",\n    \"Seamlessly\",\n    \"Seashores\",\n    \"Seasonable\",\n    \"Secretions\",\n    \"Sensations\",\n    \"Sentiment\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Scandalized (11 letters), Seashores (9 letters), Sentiment (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Sacrilege",
+          "Sanguinary",
+          "Scattering",
+          "Schoolbook",
+          "Scrupulous",
+          "Seasonable",
+          "Sensuality",
+          "Sequential",
+          "Solicitous",
+          "Statuesque"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sacrilege\",\n    \"Sanguinary\",\n    \"Scattering\",\n    \"Schoolbook\",\n    \"Scrupulous\",\n    \"Seasonable\",\n    \"Sensuality\",\n    \"Sequential\",\n    \"Solicitous\",\n    \"Statuesque\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Sacrilege (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Scandalize",
+          "Scapularyx",
+          "Scholarize",
+          "Scleroderm",
+          "Scoringest",
+          "Screechowl",
+          "Seamstressy",
+          "Seasonally",
+          "Secretions",
+          "Sedimented"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scandalize\",\n    \"Scapularyx\",\n    \"Scholarize\",\n    \"Scleroderm\",\n    \"Scoringest\",\n    \"Screechowl\",\n    \"Seamstressy\",\n    \"Seasonally\",\n    \"Secretions\",\n    \"Sedimented\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Seamstressy (11 letters)"
+        ]
+      }
+    }
+  ]
+}

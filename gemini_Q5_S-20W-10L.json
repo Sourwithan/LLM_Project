@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 14.5,
+    "avg_criteria_accuracy": 0.725,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.8624999999999999,
+    "total_unique_words": 162,
+    "most_common_words": [
+      [
+        "Sensations",
+        5
+      ],
+      [
+        "Shortening",
+        4
+      ],
+      [
+        "scoffingly",
+        3
+      ],
+      [
+        "Scattering",
+        3
+      ],
+      [
+        "Selflessly",
+        3
+      ],
+      [
+        "Sequential",
+        3
+      ],
+      [
+        "Secretions",
+        3
+      ],
+      [
+        "Sedateness",
+        3
+      ],
+      [
+        "Segregation",
+        3
+      ],
+      [
+        "Serviceman",
+        3
+      ]
+    ],
+    "total_duration_seconds": 25.0785870552063,
+    "std_dev_criteria_accuracy": 0.2679655865135588,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.1339827932567794
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "saltspoon",
+          "scalloped",
+          "scarceness",
+          "scarifying",
+          "scattering",
+          "scenically",
+          "schoolbook",
+          "scientism",
+          "scimitars",
+          "scissoring",
+          "scoffingly",
+          "scorpions",
+          "scotching",
+          "scowdered",
+          "scrawling",
+          "screening",
+          "scribbled",
+          "scrimmage",
+          "scripting",
+          "scrounging"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"saltspoon\",\n    \"scalloped\",\n    \"scarceness\",\n    \"scarifying\",\n    \"scattering\",\n    \"scenically\",\n    \"schoolbook\",\n    \"scientism\",\n    \"scimitars\",\n    \"scissoring\",\n    \"scoffingly\",\n    \"scorpions\",\n    \"scotching\",\n    \"scowdered\",\n    \"scrawling\",\n    \"screening\",\n    \"scribbled\",\n    \"scrimmage\",\n    \"scripting\",\n    \"scrounging\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: saltspoon (9 letters), scalloped (9 letters), scientism (9 letters), scimitars (9 letters), scorpions (9 letters), scotching (9 letters), scowdered (9 letters), scrawling (9 letters), screening (9 letters), scribbled (9 letters), scrimmage (9 letters), scripting (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Secretarys",
+          "Sensations",
+          "Sequencers",
+          "ServitudeS",
+          "Shapeliest",
+          "Sheetrocks",
+          "Shimmersky",
+          "Shortening",
+          "ShowcasesS",
+          "ShowinessS",
+          "SideboardS",
+          "Sidestream",
+          "Sightseeing",
+          "Signatures",
+          "Similitude",
+          "Simulating",
+          "Simplicity",
+          "SkullcapsS",
+          "Sleepiness",
+          "Slithering"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Secretarys\",\n    \"Sensations\",\n    \"Sequencers\",\n    \"ServitudeS\",\n    \"Shapeliest\",\n    \"Sheetrocks\",\n    \"Shimmersky\",\n    \"Shortening\",\n    \"ShowcasesS\",\n    \"ShowinessS\",\n    \"SideboardS\",\n    \"Sidestream\",\n    \"Sightseeing\",\n    \"Signatures\",\n    \"Similitude\",\n    \"Simulating\",\n    \"Simplicity\",\n    \"SkullcapsS\",\n    \"Sleepiness\",\n    \"Slithering\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: Sightseeing (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Scattering",
+          "Screamingly",
+          "Seahorses",
+          "Segmentary",
+          "Selectness",
+          "Selflessly",
+          "Sensations",
+          "Sentenceds",
+          "Sequential",
+          "Servitudes",
+          "Shakiness",
+          "Sharecropt",
+          "Shellshock",
+          "Shopkeeper",
+          "Signatures",
+          "Significant",
+          "Singleness",
+          "Skinflint",
+          "Skittishly",
+          "Sluggishly"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scattering\",\n    \"Screamingly\",\n    \"Seahorses\",\n    \"Segmentary\",\n    \"Selectness\",\n    \"Selflessly\",\n    \"Sensations\",\n    \"Sentenceds\",\n    \"Sequential\",\n    \"Servitudes\",\n    \"Shakiness\",\n    \"Sharecropt\",\n    \"Shellshock\",\n    \"Shopkeeper\",\n    \"Signatures\",\n    \"Significant\",\n    \"Singleness\",\n    \"Skinflint\",\n    \"Skittishly\",\n    \"Sluggishly\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 15,
+        "correct_count": true,
+        "criteria_accuracy": 0.75,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.875,
+        "errors": [
+          "Words with incorrect length: Screamingly (11 letters), Seahorses (9 letters), Shakiness (9 letters), Significant (11 letters), Skinflint (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "scriptural",
+          "scrupulous",
+          "scattering",
+          "scoffingly",
+          "scratchings",
+          "screeching",
+          "screenplays",
+          "screenprint",
+          "scrimmaged",
+          "seasonably",
+          "sectioning",
+          "sedimentary",
+          "segmentally",
+          "selectness",
+          "semantical",
+          "sensational",
+          "separating",
+          "sequencers",
+          "sequentially",
+          "seriousness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"scriptural\",\n    \"scrupulous\",\n    \"scattering\",\n    \"scoffingly\",\n    \"scratchings\",\n    \"screeching\",\n    \"screenplays\",\n    \"screenprint\",\n    \"scrimmaged\",\n    \"seasonably\",\n    \"sectioning\",\n    \"sedimentary\",\n    \"segmentally\",\n    \"selectness\",\n    \"semantical\",\n    \"sensational\",\n    \"separating\",\n    \"sequencers\",\n    \"sequentially\",\n    \"seriousness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: scratchings (11 letters), screenplays (11 letters), screenprint (11 letters), sedimentary (11 letters), segmentally (11 letters), sensational (11 letters), sequentially (12 letters), seriousness (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "saltspoon",
+          "sandstone",
+          "saxophone",
+          "scallions",
+          "scorpions",
+          "screenplay",
+          "scrimmage",
+          "sculpting",
+          "searching",
+          "seasoning",
+          "sensitive",
+          "serpentine",
+          "signature",
+          "simplistic",
+          "situation",
+          "skeptical",
+          "slaughter",
+          "smoothing",
+          "sovereign",
+          "spherical"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"saltspoon\",\n    \"sandstone\",\n    \"saxophone\",\n    \"scallions\",\n    \"scorpions\",\n    \"screenplay\",\n    \"scrimmage\",\n    \"sculpting\",\n    \"searching\",\n    \"seasoning\",\n    \"sensitive\",\n    \"serpentine\",\n    \"signature\",\n    \"simplistic\",\n    \"situation\",\n    \"skeptical\",\n    \"slaughter\",\n    \"smoothing\",\n    \"sovereign\",\n    \"spherical\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.15,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.575,
+        "errors": [
+          "Words with incorrect length: saltspoon (9 letters), sandstone (9 letters), saxophone (9 letters), scallions (9 letters), scorpions (9 letters), scrimmage (9 letters), sculpting (9 letters), searching (9 letters), seasoning (9 letters), sensitive (9 letters), signature (9 letters), situation (9 letters), skeptical (9 letters), slaughter (9 letters), smoothing (9 letters), sovereign (9 letters), spherical (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Scattering",
+          "Schoolroom",
+          "Scrawniest",
+          "Sculptress",
+          "Seafaring",
+          "Seasonably",
+          "Secretions",
+          "Secularism",
+          "Sedateness",
+          "Segregation",
+          "Selflessly",
+          "Sensations",
+          "Sentiment",
+          "Separated",
+          "Serenading",
+          "Serviceman",
+          "Shakespeare",
+          "Shipwright",
+          "Signifying",
+          "Similarity"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scattering\",\n    \"Schoolroom\",\n    \"Scrawniest\",\n    \"Sculptress\",\n    \"Seafaring\",\n    \"Seasonably\",\n    \"Secretions\",\n    \"Secularism\",\n    \"Sedateness\",\n    \"Segregation\",\n    \"Selflessly\",\n    \"Sensations\",\n    \"Sentiment\",\n    \"Separated\",\n    \"Serenading\",\n    \"Serviceman\",\n    \"Shakespeare\",\n    \"Shipwright\",\n    \"Signifying\",\n    \"Similarity\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 15,
+        "correct_count": true,
+        "criteria_accuracy": 0.75,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.875,
+        "errors": [
+          "Words with incorrect length: Seafaring (9 letters), Segregation (11 letters), Sentiment (9 letters), Separated (9 letters), Shakespeare (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Scrupulous",
+          "Sculptured",
+          "Seasonable",
+          "Secondarys",
+          "Secretions",
+          "Secularism",
+          "Sedateness",
+          "Segmenting",
+          "Segregation",
+          "Selectable",
+          "Selectance",
+          "Selflessly",
+          "Sensations",
+          "Sensitives",
+          "Sequential",
+          "Serviceman",
+          "Sharpnesss",
+          "Shortening",
+          "Showmanship",
+          "Sillinesss"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scrupulous\",\n    \"Sculptured\",\n    \"Seasonable\",\n    \"Secondarys\",\n    \"Secretions\",\n    \"Secularism\",\n    \"Sedateness\",\n    \"Segmenting\",\n    \"Segregation\",\n    \"Selectable\",\n    \"Selectance\",\n    \"Selflessly\",\n    \"Sensations\",\n    \"Sensitives\",\n    \"Sequential\",\n    \"Serviceman\",\n    \"Sharpnesss\",\n    \"Shortening\",\n    \"Showmanship\",\n    \"Sillinesss\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 18,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Segregation (11 letters), Showmanship (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "saltshaker",
+          "sandstones",
+          "scalloping",
+          "scandalized",
+          "schoolbook",
+          "scoffingly",
+          "scrutinize",
+          "seasonably",
+          "sensations",
+          "sentencing",
+          "sequencing",
+          "shamblings",
+          "sharpeners",
+          "shellacked",
+          "shoplifter",
+          "shortening",
+          "shouldered",
+          "sightseeing",
+          "signifying",
+          "simplified"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"saltshaker\",\n    \"sandstones\",\n    \"scalloping\",\n    \"scandalized\",\n    \"schoolbook\",\n    \"scoffingly\",\n    \"scrutinize\",\n    \"seasonably\",\n    \"sensations\",\n    \"sentencing\",\n    \"sequencing\",\n    \"shamblings\",\n    \"sharpeners\",\n    \"shellacked\",\n    \"shoplifter\",\n    \"shortening\",\n    \"shouldered\",\n    \"sightseeing\",\n    \"signifying\",\n    \"simplified\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 18,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: scandalized (11 letters), sightseeing (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Scattering",
+          "ScavengerS",
+          "Schoolbook",
+          "Scriptural",
+          "SeahorsesS",
+          "Seasonings",
+          "SecessionS",
+          "Secretions",
+          "Sedateness",
+          "Segmenting",
+          "Segregation",
+          "SelectingS",
+          "SellotapeS",
+          "Sensations",
+          "Separatist",
+          "Sequencing",
+          "Serviceman",
+          "Settlement",
+          "Shareholder",
+          "Shortening"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scattering\",\n    \"ScavengerS\",\n    \"Schoolbook\",\n    \"Scriptural\",\n    \"SeahorsesS\",\n    \"Seasonings\",\n    \"SecessionS\",\n    \"Secretions\",\n    \"Sedateness\",\n    \"Segmenting\",\n    \"Segregation\",\n    \"SelectingS\",\n    \"SellotapeS\",\n    \"Sensations\",\n    \"Separatist\",\n    \"Sequencing\",\n    \"Serviceman\",\n    \"Settlement\",\n    \"Shareholder\",\n    \"Shortening\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 18,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Segregation (11 letters), Shareholder (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sandstorms",
+          "Sensationa",
+          "Sentencing",
+          "Sequential",
+          "Sequencers",
+          "Servitudes",
+          "Settlement",
+          "Shadowless",
+          "Sharewares",
+          "Shortening",
+          "Showboated",
+          "Sightseeing",
+          "Signifying",
+          "Simplistic",
+          "Simulating",
+          "Sisterhood",
+          "Situations",
+          "Skirmishes",
+          "Slownesses",
+          "Solidified"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sandstorms\",\n    \"Sensationa\",\n    \"Sentencing\",\n    \"Sequential\",\n    \"Sequencers\",\n    \"Servitudes\",\n    \"Settlement\",\n    \"Shadowless\",\n    \"Sharewares\",\n    \"Shortening\",\n    \"Showboated\",\n    \"Sightseeing\",\n    \"Signifying\",\n    \"Simplistic\",\n    \"Simulating\",\n    \"Sisterhood\",\n    \"Situations\",\n    \"Skirmishes\",\n    \"Slownesses\",\n    \"Solidified\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: Sightseeing (11 letters)"
+        ]
+      }
+    }
+  ]
+}

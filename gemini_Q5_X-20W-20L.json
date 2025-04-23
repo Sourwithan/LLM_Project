@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 0.5,
+    "avg_criteria_accuracy": 0.025,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.5125,
+    "total_unique_words": 48,
+    "most_common_words": [
+      [
+        "xenotransplantationist",
+        60
+      ],
+      [
+        "xenotransplantational",
+        20
+      ],
+      [
+        "xenotransplantationally",
+        20
+      ],
+      [
+        "xenotransplantationses",
+        17
+      ],
+      [
+        "xenotransplantationship",
+        13
+      ],
+      [
+        "xylopyrographycalliest",
+        10
+      ],
+      [
+        "xylopyrographicalworker",
+        8
+      ],
+      [
+        "xerothermophilousnesses",
+        5
+      ],
+      [
+        "xenodimensionalitysense",
+        5
+      ],
+      [
+        "xylopyrographicallyness",
+        4
+      ]
+    ],
+    "total_duration_seconds": 22.68405055999756,
+    "std_dev_criteria_accuracy": 0.07905694150420949,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.03952847075210474
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational",
+          "xenotransplantational"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\",\n    \"xenotransplantational\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters), xenotransplantational (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest",
+          "xenotransplantationses",
+          "xylopyrographycalliest"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\",\n    \"xenotransplantationses\",\n    \"xylopyrographycalliest\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters), xenotransplantationses (22 letters), xylopyrographycalliest (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationship",
+          "xenobiologicallycertain",
+          "xanthosiderofibrosises",
+          "xenodochiopathological",
+          "xenomorphogeneticallyal",
+          "xenophotographicallycal",
+          "xerocombinationalization",
+          "xerothermographicallycal",
+          "xylopyrographicallycal",
+          "xiphoidchondrocostalis",
+          "xylophonicallymodulated",
+          "xerographicallyprinted",
+          "xenolithologicallysound",
+          "xenophyticallyoriented",
+          "xeromorphicallyadapted",
+          "xenocrystallydeposited",
+          "xanthochromaticallyhued",
+          "xenophilicallyobserved",
+          "xenophobicallyaffected",
+          "xylographicallyengraved"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationship\",\n    \"xenobiologicallycertain\",\n    \"xanthosiderofibrosises\",\n    \"xenodochiopathological\",\n    \"xenomorphogeneticallyal\",\n    \"xenophotographicallycal\",\n    \"xerocombinationalization\",\n    \"xerothermographicallycal\",\n    \"xylopyrographicallycal\",\n    \"xiphoidchondrocostalis\",\n    \"xylophonicallymodulated\",\n    \"xerographicallyprinted\",\n    \"xenolithologicallysound\",\n    \"xenophyticallyoriented\",\n    \"xeromorphicallyadapted\",\n    \"xenocrystallydeposited\",\n    \"xanthochromaticallyhued\",\n    \"xenophilicallyobserved\",\n    \"xenophobicallyaffected\",\n    \"xylographicallyengraved\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationship (23 letters), xenobiologicallycertain (23 letters), xanthosiderofibrosises (22 letters), xenodochiopathological (22 letters), xenomorphogeneticallyal (23 letters), xenophotographicallycal (23 letters), xerocombinationalization (24 letters), xerothermographicallycal (24 letters), xylopyrographicallycal (22 letters), xiphoidchondrocostalis (22 letters), xylophonicallymodulated (23 letters), xerographicallyprinted (22 letters), xenolithologicallysound (23 letters), xenophyticallyoriented (22 letters), xeromorphicallyadapted (22 letters), xenocrystallydeposited (22 letters), xanthochromaticallyhued (23 letters), xenophilicallyobserved (22 letters), xenophobicallyaffected (22 letters), xylographicallyengraved (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationses",
+          "xerographicallyproduc",
+          "xylopyrographicallysc",
+          "xanthophyllaceousness",
+          "xenodiagnosticallyill",
+          "xeropthalmiologically",
+          "xenophobicallymistrea",
+          "xylographicallyrecord",
+          "xanthochroidalcomplex",
+          "xenocrystallypresent",
+          "xerothermiccondition",
+          "xenogamouspollination",
+          "xylophonicallyexpress",
+          "xanthopsiastimulated",
+          "xenolithicallylodged",
+          "xerarchsuccessionary",
+          "xenogeneicallyderived",
+          "xylographicallystated",
+          "xanthochromiatreatment",
+          "xenocentricallybiased"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationses\",\n    \"xerographicallyproduc\",\n    \"xylopyrographicallysc\",\n    \"xanthophyllaceousness\",\n    \"xenodiagnosticallyill\",\n    \"xeropthalmiologically\",\n    \"xenophobicallymistrea\",\n    \"xylographicallyrecord\",\n    \"xanthochroidalcomplex\",\n    \"xenocrystallypresent\",\n    \"xerothermiccondition\",\n    \"xenogamouspollination\",\n    \"xylophonicallyexpress\",\n    \"xanthopsiastimulated\",\n    \"xenolithicallylodged\",\n    \"xerarchsuccessionary\",\n    \"xenogeneicallyderived\",\n    \"xylographicallystated\",\n    \"xanthochromiatreatment\",\n    \"xenocentricallybiased\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.25,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.625,
+        "errors": [
+          "Words with incorrect length: xenotransplantationses (22 letters), xerographicallyproduc (21 letters), xylopyrographicallysc (21 letters), xanthophyllaceousness (21 letters), xenodiagnosticallyill (21 letters), xeropthalmiologically (21 letters), xenophobicallymistrea (21 letters), xylographicallyrecord (21 letters), xanthochroidalcomplex (21 letters), xenogamouspollination (21 letters), xylophonicallyexpress (21 letters), xenogeneicallyderived (21 letters), xylographicallystated (21 letters), xanthochromiatreatment (22 letters), xenocentricallybiased (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist",
+          "xenotransplantationist"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\",\n    \"xenotransplantationist\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters), xenotransplantationist (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally",
+          "xenotransplantationally"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\",\n    \"xenotransplantationally\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters), xenotransplantationally (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xenotransplantationship",
+          "xylopyrographicalworker",
+          "xylopyrographicalworker",
+          "xylopyrographicalworker",
+          "xylopyrographicalworker",
+          "xylopyrographicalworker",
+          "xylopyrographicalworker",
+          "xylopyrographicalworker",
+          "xenotransplantationship",
+          "xylopyrographicalworker",
+          "xenotransplantationship"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xenotransplantationship\",\n    \"xylopyrographicalworker\",\n    \"xylopyrographicalworker\",\n    \"xylopyrographicalworker\",\n    \"xylopyrographicalworker\",\n    \"xylopyrographicalworker\",\n    \"xylopyrographicalworker\",\n    \"xylopyrographicalworker\",\n    \"xenotransplantationship\",\n    \"xylopyrographicalworker\",\n    \"xenotransplantationship\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xenotransplantationship (23 letters), xylopyrographicalworker (23 letters), xylopyrographicalworker (23 letters), xylopyrographicalworker (23 letters), xylopyrographicalworker (23 letters), xylopyrographicalworker (23 letters), xylopyrographicalworker (23 letters), xylopyrographicalworker (23 letters), xenotransplantationship (23 letters), xylopyrographicalworker (23 letters), xenotransplantationship (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenotransplantationses",
+          "xerothermophilousnesses",
+          "xenodimensionalitysense",
+          "xenotransplantationses",
+          "xylopyrographicallyness",
+          "xerothermophilousnesses",
+          "xenodimensionalitysense",
+          "xenotransplantationses",
+          "xylopyrographicallyness",
+          "xerothermophilousnesses",
+          "xenodimensionalitysense",
+          "xenotransplantationses",
+          "xylopyrographicallyness",
+          "xerothermophilousnesses",
+          "xenodimensionalitysense",
+          "xenotransplantationses",
+          "xylopyrographicallyness",
+          "xerothermophilousnesses",
+          "xenodimensionalitysense",
+          "xenotransplantationses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenotransplantationses\",\n    \"xerothermophilousnesses\",\n    \"xenodimensionalitysense\",\n    \"xenotransplantationses\",\n    \"xylopyrographicallyness\",\n    \"xerothermophilousnesses\",\n    \"xenodimensionalitysense\",\n    \"xenotransplantationses\",\n    \"xylopyrographicallyness\",\n    \"xerothermophilousnesses\",\n    \"xenodimensionalitysense\",\n    \"xenotransplantationses\",\n    \"xylopyrographicallyness\",\n    \"xerothermophilousnesses\",\n    \"xenodimensionalitysense\",\n    \"xenotransplantationses\",\n    \"xylopyrographicallyness\",\n    \"xerothermophilousnesses\",\n    \"xenodimensionalitysense\",\n    \"xenotransplantationses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: xenotransplantationses (22 letters), xerothermophilousnesses (23 letters), xenodimensionalitysense (23 letters), xenotransplantationses (22 letters), xylopyrographicallyness (23 letters), xerothermophilousnesses (23 letters), xenodimensionalitysense (23 letters), xenotransplantationses (22 letters), xylopyrographicallyness (23 letters), xerothermophilousnesses (23 letters), xenodimensionalitysense (23 letters), xenotransplantationses (22 letters), xylopyrographicallyness (23 letters), xerothermophilousnesses (23 letters), xenodimensionalitysense (23 letters), xenotransplantationses (22 letters), xylopyrographicallyness (23 letters), xerothermophilousnesses (23 letters), xenodimensionalitysense (23 letters), xenotransplantationses (22 letters)"
+        ]
+      }
+    }
+  ]
+}

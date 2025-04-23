@@ -1,0 +1,481 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 20,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 84,
+    "most_common_words": [
+      [
+        "sense",
+        8
+      ],
+      [
+        "salty",
+        6
+      ],
+      [
+        "sauce",
+        6
+      ],
+      [
+        "seeds",
+        6
+      ],
+      [
+        "setup",
+        6
+      ],
+      [
+        "salad",
+        6
+      ],
+      [
+        "scene",
+        5
+      ],
+      [
+        "scent",
+        5
+      ],
+      [
+        "score",
+        5
+      ],
+      [
+        "seats",
+        5
+      ]
+    ],
+    "total_duration_seconds": 23.41940426826477,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "signs",
+          "since",
+          "sites",
+          "skill",
+          "skins",
+          "skirt",
+          "slabs",
+          "slash",
+          "slave",
+          "sleds",
+          "slice",
+          "slick",
+          "slide",
+          "slips",
+          "slots",
+          "smash",
+          "smell",
+          "smelt",
+          "smile",
+          "smite"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"signs\",\n    \"since\",\n    \"sites\",\n    \"skill\",\n    \"skins\",\n    \"skirt\",\n    \"slabs\",\n    \"slash\",\n    \"slave\",\n    \"sleds\",\n    \"slice\",\n    \"slick\",\n    \"slide\",\n    \"slips\",\n    \"slots\",\n    \"smash\",\n    \"smell\",\n    \"smelt\",\n    \"smile\",\n    \"smite\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "sales",
+          "salty",
+          "satin",
+          "sauce",
+          "saved",
+          "scare",
+          "scene",
+          "scent",
+          "scope",
+          "score",
+          "scrap",
+          "screw",
+          "seals",
+          "seams",
+          "seats",
+          "seeds",
+          "sense",
+          "serum",
+          "serve",
+          "setup"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sales\",\n    \"salty\",\n    \"satin\",\n    \"sauce\",\n    \"saved\",\n    \"scare\",\n    \"scene\",\n    \"scent\",\n    \"scope\",\n    \"score\",\n    \"scrap\",\n    \"screw\",\n    \"seals\",\n    \"seams\",\n    \"seats\",\n    \"seeds\",\n    \"sense\",\n    \"serum\",\n    \"serve\",\n    \"setup\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "sails",
+          "seats",
+          "sects",
+          "seeds",
+          "seeks",
+          "seers",
+          "sells",
+          "sends",
+          "sense",
+          "serum",
+          "setup",
+          "shale",
+          "shape",
+          "share",
+          "sharp",
+          "sheep",
+          "sheet",
+          "shelf",
+          "shell",
+          "shine"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sails\",\n    \"seats\",\n    \"sects\",\n    \"seeds\",\n    \"seeks\",\n    \"seers\",\n    \"sells\",\n    \"sends\",\n    \"sense\",\n    \"serum\",\n    \"setup\",\n    \"shale\",\n    \"shape\",\n    \"share\",\n    \"sharp\",\n    \"sheep\",\n    \"sheet\",\n    \"shelf\",\n    \"shell\",\n    \"shine\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "sails",
+          "salad",
+          "salty",
+          "satin",
+          "sauce",
+          "saved",
+          "scale",
+          "scare",
+          "scene",
+          "scent",
+          "scope",
+          "score",
+          "screw",
+          "seize",
+          "sense",
+          "serum",
+          "serve",
+          "setup",
+          "shame",
+          "shape"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sails\",\n    \"salad\",\n    \"salty\",\n    \"satin\",\n    \"sauce\",\n    \"saved\",\n    \"scale\",\n    \"scare\",\n    \"scene\",\n    \"scent\",\n    \"scope\",\n    \"score\",\n    \"screw\",\n    \"seize\",\n    \"sense\",\n    \"serum\",\n    \"serve\",\n    \"setup\",\n    \"shame\",\n    \"shape\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "salad",
+          "salty",
+          "salsa",
+          "satin",
+          "sauna",
+          "saved",
+          "saves",
+          "scars",
+          "scent",
+          "scoop",
+          "score",
+          "scout",
+          "seams",
+          "seats",
+          "seeds",
+          "sense",
+          "serum",
+          "setup",
+          "shake",
+          "shame"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"salty\",\n    \"salsa\",\n    \"satin\",\n    \"sauna\",\n    \"saved\",\n    \"saves\",\n    \"scars\",\n    \"scent\",\n    \"scoop\",\n    \"score\",\n    \"scout\",\n    \"seams\",\n    \"seats\",\n    \"seeds\",\n    \"sense\",\n    \"serum\",\n    \"setup\",\n    \"shake\",\n    \"shame\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "salad",
+          "shake",
+          "shame",
+          "shape",
+          "share",
+          "shark",
+          "sharp",
+          "shave",
+          "sheep",
+          "shelf",
+          "shell",
+          "shift",
+          "shine",
+          "shirt",
+          "shock",
+          "shoes",
+          "shore",
+          "short",
+          "shout",
+          "sides"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"shake\",\n    \"shame\",\n    \"shape\",\n    \"share\",\n    \"shark\",\n    \"sharp\",\n    \"shave\",\n    \"sheep\",\n    \"shelf\",\n    \"shell\",\n    \"shift\",\n    \"shine\",\n    \"shirt\",\n    \"shock\",\n    \"shoes\",\n    \"shore\",\n    \"short\",\n    \"shout\",\n    \"sides\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "sails",
+          "salad",
+          "sales",
+          "salty",
+          "sands",
+          "sauce",
+          "saves",
+          "scars",
+          "scene",
+          "scoop",
+          "scout",
+          "seals",
+          "seats",
+          "seeds",
+          "seize",
+          "sense",
+          "serum",
+          "setup",
+          "shake",
+          "shame"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sails\",\n    \"salad\",\n    \"sales\",\n    \"salty\",\n    \"sands\",\n    \"sauce\",\n    \"saves\",\n    \"scars\",\n    \"scene\",\n    \"scoop\",\n    \"scout\",\n    \"seals\",\n    \"seats\",\n    \"seeds\",\n    \"seize\",\n    \"sense\",\n    \"serum\",\n    \"setup\",\n    \"shake\",\n    \"shame\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "sauce",
+          "seeds",
+          "seize",
+          "sense",
+          "serve",
+          "shale",
+          "shape",
+          "share",
+          "shave",
+          "shelf",
+          "shell",
+          "shine",
+          "shirt",
+          "shock",
+          "shore",
+          "shout",
+          "shown",
+          "since",
+          "sites",
+          "sixth"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sauce\",\n    \"seeds\",\n    \"seize\",\n    \"sense\",\n    \"serve\",\n    \"shale\",\n    \"shape\",\n    \"share\",\n    \"shave\",\n    \"shelf\",\n    \"shell\",\n    \"shine\",\n    \"shirt\",\n    \"shock\",\n    \"shore\",\n    \"shout\",\n    \"shown\",\n    \"since\",\n    \"sites\",\n    \"sixth\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "sails",
+          "salad",
+          "salty",
+          "samba",
+          "sands",
+          "sauce",
+          "saved",
+          "scare",
+          "scarf",
+          "scene",
+          "scent",
+          "scope",
+          "score",
+          "screw",
+          "seals",
+          "seats",
+          "seeds",
+          "seems",
+          "seize",
+          "sense"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sails\",\n    \"salad\",\n    \"salty\",\n    \"samba\",\n    \"sands\",\n    \"sauce\",\n    \"saved\",\n    \"scare\",\n    \"scarf\",\n    \"scene\",\n    \"scent\",\n    \"scope\",\n    \"score\",\n    \"screw\",\n    \"seals\",\n    \"seats\",\n    \"seeds\",\n    \"seems\",\n    \"seize\",\n    \"sense\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "salad",
+          "sales",
+          "salty",
+          "salsa",
+          "satin",
+          "sauce",
+          "scaly",
+          "scare",
+          "scarf",
+          "scene",
+          "scent",
+          "scope",
+          "score",
+          "scout",
+          "screw",
+          "seize",
+          "sense",
+          "serve",
+          "setup",
+          "shade"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"salad\",\n    \"sales\",\n    \"salty\",\n    \"salsa\",\n    \"satin\",\n    \"sauce\",\n    \"scaly\",\n    \"scare\",\n    \"scarf\",\n    \"scene\",\n    \"scent\",\n    \"scope\",\n    \"score\",\n    \"scout\",\n    \"screw\",\n    \"seize\",\n    \"sense\",\n    \"serve\",\n    \"setup\",\n    \"shade\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

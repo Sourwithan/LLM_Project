@@ -1,0 +1,331 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 5,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 12,
+    "most_common_words": [
+      [
+        "xenon",
+        10
+      ],
+      [
+        "xerox",
+        10
+      ],
+      [
+        "xylem",
+        10
+      ],
+      [
+        "xeric",
+        6
+      ],
+      [
+        "xylol",
+        4
+      ],
+      [
+        "xysts",
+        4
+      ],
+      [
+        "xoana",
+        1
+      ],
+      [
+        "xlink",
+        1
+      ],
+      [
+        "xebec",
+        1
+      ],
+      [
+        "xylic",
+        1
+      ]
+    ],
+    "total_duration_seconds": 18.353793382644653,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xeric",
+          "xylol"
+        ],
+        "raw_response": "{\n  \"words\": [\"xenon\", \"xerox\", \"xylem\", \"xeric\", \"xylol\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xylol",
+          "xysts"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xylol\",\n    \"xysts\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xeric",
+          "xoana"
+        ],
+        "raw_response": "{\n  \"words\": [\"xenon\", \"xerox\", \"xylem\", \"xeric\", \"xoana\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xeric",
+          "xysts"
+        ],
+        "raw_response": "{\n  \"words\": [\"xenon\", \"xerox\", \"xylem\", \"xeric\", \"xysts\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xeric",
+          "xlink"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xeric\",\n    \"xlink\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xeric",
+          "xysts"
+        ],
+        "raw_response": "{\n  \"words\": [\"xenon\", \"xerox\", \"xylem\", \"xeric\", \"xysts\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xysts",
+          "xebec"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xysts\",\n    \"xebec\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xeric",
+          "xylol"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xeric\",\n    \"xylol\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xylol",
+          "xylic"
+        ],
+        "raw_response": "{\n  \"words\": [\"xenon\", \"xerox\", \"xylem\", \"xylol\", \"xylic\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xerus",
+          "xiaos"
+        ],
+        "raw_response": "{\n  \"words\": [\"xenon\", \"xerox\", \"xylem\", \"xerus\", \"xiaos\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 13.1,
+    "avg_criteria_accuracy": 0.655,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.8275,
+    "total_unique_words": 123,
+    "most_common_words": [
+      [
+        "zigzagging",
+        8
+      ],
+      [
+        "zincifying",
+        7
+      ],
+      [
+        "zestfully",
+        6
+      ],
+      [
+        "zitherists",
+        5
+      ],
+      [
+        "zirconates",
+        4
+      ],
+      [
+        "zoolatries",
+        4
+      ],
+      [
+        "zoometries",
+        4
+      ],
+      [
+        "zygomorphic",
+        4
+      ],
+      [
+        "zonesthesia",
+        3
+      ],
+      [
+        "zymogenesis",
+        3
+      ]
+    ],
+    "total_duration_seconds": 25.73714828491211,
+    "std_dev_criteria_accuracy": 0.09559753599799992,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.04779876799899995
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Zephyroses",
+          "Zygomorphic",
+          "Zygosporang",
+          "Zoosporous",
+          "Zucchinis",
+          "Zeppelins",
+          "Ziggurats",
+          "Zincifying",
+          "Zonations",
+          "Zoomorphic",
+          "Zenithally",
+          "Zealotries",
+          "Zootomists",
+          "Zoophobias",
+          "Zanderings",
+          "Zealotical",
+          "Zonations",
+          "Zootrophic",
+          "Zymogenies",
+          "Zonoplacem"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Zephyroses\",\n    \"Zygomorphic\",\n    \"Zygosporang\",\n    \"Zoosporous\",\n    \"Zucchinis\",\n    \"Zeppelins\",\n    \"Ziggurats\",\n    \"Zincifying\",\n    \"Zonations\",\n    \"Zoomorphic\",\n    \"Zenithally\",\n    \"Zealotries\",\n    \"Zootomists\",\n    \"Zoophobias\",\n    \"Zanderings\",\n    \"Zealotical\",\n    \"Zonations\",\n    \"Zootrophic\",\n    \"Zymogenies\",\n    \"Zonoplacem\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 13,
+        "correct_count": true,
+        "criteria_accuracy": 0.65,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.825,
+        "errors": [
+          "Words with incorrect length: Zygomorphic (11 letters), Zygosporang (11 letters), Zucchinis (9 letters), Zeppelins (9 letters), Ziggurats (9 letters), Zonations (9 letters), Zonations (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zamarindes",
+          "zephyrizes",
+          "zeuglodont",
+          "zigzagging",
+          "zingiberol",
+          "zinnwaldit",
+          "zirconates",
+          "zoicidally",
+          "zonesthesia",
+          "zoosporang",
+          "zoolatries",
+          "zoometries",
+          "zoophobias",
+          "zoothecial",
+          "zoriesthes",
+          "zosteriform",
+          "zymogenesis",
+          "zymographer",
+          "zygnematum",
+          "zygomelous"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zamarindes\",\n    \"zephyrizes\",\n    \"zeuglodont\",\n    \"zigzagging\",\n    \"zingiberol\",\n    \"zinnwaldit\",\n    \"zirconates\",\n    \"zoicidally\",\n    \"zonesthesia\",\n    \"zoosporang\",\n    \"zoolatries\",\n    \"zoometries\",\n    \"zoophobias\",\n    \"zoothecial\",\n    \"zoriesthes\",\n    \"zosteriform\",\n    \"zymogenesis\",\n    \"zymographer\",\n    \"zygnematum\",\n    \"zygomelous\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: zonesthesia (11 letters), zosteriform (11 letters), zymogenesis (11 letters), zymographer (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zimbabwean",
+          "zucchiniest",
+          "zoochemical",
+          "zymogenesis",
+          "zaninesses",
+          "zithernists",
+          "zigzagging",
+          "zoolatries",
+          "zonalities",
+          "zombifying",
+          "zonesthesia",
+          "zeppelined",
+          "zeroizing",
+          "zeugmatical",
+          "zygomorphic",
+          "zygobranchs",
+          "zoolithics",
+          "zincifying",
+          "zestfulness",
+          "zeitgeists"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zimbabwean\",\n    \"zucchiniest\",\n    \"zoochemical\",\n    \"zymogenesis\",\n    \"zaninesses\",\n    \"zithernists\",\n    \"zigzagging\",\n    \"zoolatries\",\n    \"zonalities\",\n    \"zombifying\",\n    \"zonesthesia\",\n    \"zeppelined\",\n    \"zeroizing\",\n    \"zeugmatical\",\n    \"zygomorphic\",\n    \"zygobranchs\",\n    \"zoolithics\",\n    \"zincifying\",\n    \"zestfulness\",\n    \"zeitgeists\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: zucchiniest (11 letters), zoochemical (11 letters), zymogenesis (11 letters), zithernists (11 letters), zonesthesia (11 letters), zeroizing (9 letters), zeugmatical (11 letters), zygomorphic (11 letters), zygobranchs (11 letters), zestfulness (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zillionses",
+          "zincifying",
+          "zitherists",
+          "zygomorphic",
+          "zygopteran",
+          "zizzlingly",
+          "zephyrlike",
+          "zaninesses",
+          "zealotries",
+          "zeitgeists",
+          "zenithally",
+          "zeppelined",
+          "zeroising",
+          "zestfully",
+          "zigzagging",
+          "zingaroons",
+          "zionistic",
+          "zonations",
+          "zoogeograp",
+          "zymogenics"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zillionses\",\n    \"zincifying\",\n    \"zitherists\",\n    \"zygomorphic\",\n    \"zygopteran\",\n    \"zizzlingly\",\n    \"zephyrlike\",\n    \"zaninesses\",\n    \"zealotries\",\n    \"zeitgeists\",\n    \"zenithally\",\n    \"zeppelined\",\n    \"zeroising\",\n    \"zestfully\",\n    \"zigzagging\",\n    \"zingaroons\",\n    \"zionistic\",\n    \"zonations\",\n    \"zoogeograp\",\n    \"zymogenics\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 15,
+        "correct_count": true,
+        "criteria_accuracy": 0.75,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.875,
+        "errors": [
+          "Words with incorrect length: zygomorphic (11 letters), zeroising (9 letters), zestfully (9 letters), zionistic (9 letters), zonations (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zirconiums",
+          "zoographies",
+          "zygomorphic",
+          "zucchinis",
+          "zitherists",
+          "zeppelins",
+          "zymologies",
+          "zodiacally",
+          "zoneplates",
+          "zoologists",
+          "zoolatries",
+          "zephyrlike",
+          "zigzagging",
+          "zaninesses",
+          "zingaroons",
+          "zombifying",
+          "zillionths",
+          "zooplankton",
+          "zestfully",
+          "zoundsgood"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zirconiums\",\n    \"zoographies\",\n    \"zygomorphic\",\n    \"zucchinis\",\n    \"zitherists\",\n    \"zeppelins\",\n    \"zymologies\",\n    \"zodiacally\",\n    \"zoneplates\",\n    \"zoologists\",\n    \"zoolatries\",\n    \"zephyrlike\",\n    \"zigzagging\",\n    \"zaninesses\",\n    \"zingaroons\",\n    \"zombifying\",\n    \"zillionths\",\n    \"zooplankton\",\n    \"zestfully\",\n    \"zoundsgood\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 14,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: zoographies (11 letters), zygomorphic (11 letters), zucchinis (9 letters), zeppelins (9 letters), zooplankton (11 letters), zestfully (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zephyritis",
+          "zestfully",
+          "zigzagging",
+          "zincifying",
+          "zionistic",
+          "zitherists",
+          "zoiatrics",
+          "zoochemical",
+          "zoogeoidal",
+          "zoogonidia",
+          "zoographies",
+          "zoological",
+          "zoometries",
+          "zoomorphic",
+          "zoopathology",
+          "zoophagous",
+          "zoraptions",
+          "zymogenes",
+          "zymogenies",
+          "zizzledest"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyritis\",\n    \"zestfully\",\n    \"zigzagging\",\n    \"zincifying\",\n    \"zionistic\",\n    \"zitherists\",\n    \"zoiatrics\",\n    \"zoochemical\",\n    \"zoogeoidal\",\n    \"zoogonidia\",\n    \"zoographies\",\n    \"zoological\",\n    \"zoometries\",\n    \"zoomorphic\",\n    \"zoopathology\",\n    \"zoophagous\",\n    \"zoraptions\",\n    \"zymogenes\",\n    \"zymogenies\",\n    \"zizzledest\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 13,
+        "correct_count": true,
+        "criteria_accuracy": 0.65,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.825,
+        "errors": [
+          "Words with incorrect length: zestfully (9 letters), zionistic (9 letters), zoiatrics (9 letters), zoochemical (11 letters), zoographies (11 letters), zoopathology (12 letters), zymogenes (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zestfully",
+          "zoologists",
+          "zephyrized",
+          "zygobranchs",
+          "zirconates",
+          "zeugmatically",
+          "zillionths",
+          "zymogenesis",
+          "zooerastia",
+          "zodiacally",
+          "zonesthesia",
+          "zoogeology",
+          "zeolitizing",
+          "zincograph",
+          "zipfastner",
+          "zealousness",
+          "zoomorphism",
+          "zerotoling",
+          "zymotically",
+          "zincifying"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zestfully\",\n    \"zoologists\",\n    \"zephyrized\",\n    \"zygobranchs\",\n    \"zirconates\",\n    \"zeugmatically\",\n    \"zillionths\",\n    \"zymogenesis\",\n    \"zooerastia\",\n    \"zodiacally\",\n    \"zonesthesia\",\n    \"zoogeology\",\n    \"zeolitizing\",\n    \"zincograph\",\n    \"zipfastner\",\n    \"zealousness\",\n    \"zoomorphism\",\n    \"zerotoling\",\n    \"zymotically\",\n    \"zincifying\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: zestfully (9 letters), zygobranchs (11 letters), zeugmatically (13 letters), zymogenesis (11 letters), zonesthesia (11 letters), zeolitizing (11 letters), zealousness (11 letters), zoomorphism (11 letters), zymotically (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zestfully",
+          "zigzagging",
+          "zymogenous",
+          "zephyrious",
+          "zonations",
+          "zeroizing",
+          "zincifying",
+          "zoometries",
+          "zoolatries",
+          "zygomorphy",
+          "zinfandel",
+          "zealotries",
+          "zeppelined",
+          "zingiberol",
+          "zitherists",
+          "zombiistic",
+          "zooplankton",
+          "zoomorphic",
+          "zootheisms",
+          "zymologies"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zestfully\",\n    \"zigzagging\",\n    \"zymogenous\",\n    \"zephyrious\",\n    \"zonations\",\n    \"zeroizing\",\n    \"zincifying\",\n    \"zoometries\",\n    \"zoolatries\",\n    \"zygomorphy\",\n    \"zinfandel\",\n    \"zealotries\",\n    \"zeppelined\",\n    \"zingiberol\",\n    \"zitherists\",\n    \"zombiistic\",\n    \"zooplankton\",\n    \"zoomorphic\",\n    \"zootheisms\",\n    \"zymologies\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 15,
+        "correct_count": true,
+        "criteria_accuracy": 0.75,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.875,
+        "errors": [
+          "Words with incorrect length: zestfully (9 letters), zonations (9 letters), zeroizing (9 letters), zinfandel (9 letters), zooplankton (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zephyrously",
+          "zigzagging",
+          "zymogenous",
+          "zincifying",
+          "zincograph",
+          "zirconates",
+          "zestfully",
+          "zoometries",
+          "zonations",
+          "zoochemical",
+          "zeugmatic",
+          "zeppelinic",
+          "zootrophic",
+          "zygomatici",
+          "zitherists",
+          "zeitgeists",
+          "zoogenies",
+          "zizzled",
+          "zenithally",
+          "zymograms"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyrously\",\n    \"zigzagging\",\n    \"zymogenous\",\n    \"zincifying\",\n    \"zincograph\",\n    \"zirconates\",\n    \"zestfully\",\n    \"zoometries\",\n    \"zonations\",\n    \"zoochemical\",\n    \"zeugmatic\",\n    \"zeppelinic\",\n    \"zootrophic\",\n    \"zygomatici\",\n    \"zitherists\",\n    \"zeitgeists\",\n    \"zoogenies\",\n    \"zizzled\",\n    \"zenithally\",\n    \"zymograms\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: zephyrously (11 letters), zestfully (9 letters), zonations (9 letters), zoochemical (11 letters), zeugmatic (9 letters), zoogenies (9 letters), zizzled (7 letters), zymograms (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "zephyrously",
+          "zigzagging",
+          "zinfandels",
+          "zincifying",
+          "zionistical",
+          "zirconates",
+          "zirconiums",
+          "zithernist",
+          "zoisiteous",
+          "zoologists",
+          "zoomorphism",
+          "zygomorphic",
+          "zygopteran",
+          "zymologies",
+          "zymoplastic",
+          "zealotries",
+          "zerothness",
+          "zeugmatic",
+          "zucchinis",
+          "zymograms"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyrously\",\n    \"zigzagging\",\n    \"zinfandels\",\n    \"zincifying\",\n    \"zionistical\",\n    \"zirconates\",\n    \"zirconiums\",\n    \"zithernist\",\n    \"zoisiteous\",\n    \"zoologists\",\n    \"zoomorphism\",\n    \"zygomorphic\",\n    \"zygopteran\",\n    \"zymologies\",\n    \"zymoplastic\",\n    \"zealotries\",\n    \"zerothness\",\n    \"zeugmatic\",\n    \"zucchinis\",\n    \"zymograms\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: zephyrously (11 letters), zionistical (11 letters), zoomorphism (11 letters), zygomorphic (11 letters), zymoplastic (11 letters), zeugmatic (9 letters), zucchinis (9 letters), zymograms (9 letters)"
+        ]
+      }
+    }
+  ]
+}

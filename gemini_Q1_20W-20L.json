@@ -1,0 +1,835 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 20 words that have 20 letters.",
+    "word_length_requested": 20,
+    "word_count_requested": 20,
+    "num_tests": 10,
+    "total_duration_seconds": 25.37358522415161,
+    "timestamp": "2025-04-18T21:09:47.005933"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 7.3,
+    "avg_length_accuracy": 0.365,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.6825,
+    "total_unique_words": 111,
+    "total_unique_correct_words": 33,
+    "most_common_words": [
+      [
+        "uncharacteristically",
+        10
+      ],
+      [
+        "compartmentalization",
+        10
+      ],
+      [
+        "counterdemonstrations",
+        7
+      ],
+      [
+        "disproportionateness",
+        6
+      ],
+      [
+        "responsibilities",
+        5
+      ],
+      [
+        "counterintelligence",
+        5
+      ],
+      [
+        "internationalization",
+        5
+      ],
+      [
+        "deinstitutionalization",
+        4
+      ],
+      [
+        "deinstitutionalizing",
+        4
+      ],
+      [
+        "electroencephalograms",
+        4
+      ],
+      [
+        "incomprehensibilities",
+        4
+      ],
+      [
+        "multidimensionalities",
+        3
+      ],
+      [
+        "representativenesses",
+        3
+      ],
+      [
+        "transubstantiations",
+        3
+      ],
+      [
+        "misunderstandings",
+        3
+      ],
+      [
+        "institutionalization",
+        3
+      ],
+      [
+        "representativeness",
+        3
+      ],
+      [
+        "overintellectualize",
+        3
+      ],
+      [
+        "multidimensionality",
+        3
+      ],
+      [
+        "electroencephalogram",
+        3
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "uncharacteristically",
+        10
+      ],
+      [
+        "compartmentalization",
+        10
+      ],
+      [
+        "disproportionateness",
+        6
+      ],
+      [
+        "internationalization",
+        5
+      ],
+      [
+        "deinstitutionalizing",
+        4
+      ],
+      [
+        "representativenesses",
+        3
+      ],
+      [
+        "institutionalization",
+        3
+      ],
+      [
+        "electroencephalogram",
+        3
+      ],
+      [
+        "supercalifragilistic",
+        3
+      ],
+      [
+        "indistinguishability",
+        3
+      ],
+      [
+        "mischaracterizations",
+        1
+      ],
+      [
+        "photoelectrochemical",
+        1
+      ],
+      [
+        "prognosticatiousness",
+        1
+      ],
+      [
+        "scientificnessnesses",
+        1
+      ],
+      [
+        "individualizationsss",
+        1
+      ],
+      [
+        "professionalizations",
+        1
+      ],
+      [
+        "anthropomorphization",
+        1
+      ],
+      [
+        "misunderstandingssss",
+        1
+      ],
+      [
+        "responsibilitiesyyyy",
+        1
+      ],
+      [
+        "counterintuitivelyyy",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.16507574019219176,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0825378700960959
+  },
+  "word_frequencies": {
+    "all_words": {
+      "uncharacteristically": 10,
+      "counterdemonstrations": 7,
+      "compartmentalization": 10,
+      "deinstitutionalization": 4,
+      "mischaracterizations": 1,
+      "conceptualizations": 2,
+      "disproportionateness": 6,
+      "hyperintellectualized": 1,
+      "multidimensionalities": 3,
+      "overcapitalizations": 1,
+      "photoelectrochemical": 1,
+      "prognosticatiousness": 1,
+      "representativenesses": 3,
+      "responsibilities": 5,
+      "transubstantiations": 3,
+      "counterintelligence": 5,
+      "superintendents": 1,
+      "establishmentarian": 1,
+      "sesquicentennials": 2,
+      "incomprehensibility": 1,
+      "misunderstandings": 3,
+      "scientificeducational": 1,
+      "internationalization": 5,
+      "incontrovertibility": 2,
+      "institutionalization": 3,
+      "representativeness": 3,
+      "conventionalization": 1,
+      "deinstitutionalize": 1,
+      "unconstitutionalism": 1,
+      "irregenerativeness": 1,
+      "overintellectualize": 3,
+      "multidimensionality": 3,
+      "superinfections": 1,
+      "hyperaggressiveness": 2,
+      "electroencephalogram": 3,
+      "extraterrestrially": 1,
+      "hypersensitivity": 1,
+      "misunderstandingly": 3,
+      "overcapitalization": 2,
+      "semiconsciousnesses": 1,
+      "subjectivities": 1,
+      "transubstantiation": 1,
+      "undemonstrativeness": 1,
+      "deinstitutionalizing": 4,
+      "otorhinolaryngological": 2,
+      "electroencephalograms": 4,
+      "counterintuitivelyness": 1,
+      "disproportionableness": 2,
+      "responsibilitiesnesses": 1,
+      "sesquicentennialsness": 1,
+      "scientificnessnesses": 1,
+      "individualizationsss": 1,
+      "professionalizations": 1,
+      "undisappointingness": 1,
+      "incomprehensibilities": 4,
+      "irreconcilabilities": 1,
+      "misunderstandingses": 1,
+      "anthropomorphization": 1,
+      "counterrevolutionaries": 2,
+      "decriminalizations": 1,
+      "denationalizations": 1,
+      "interdenominational": 1,
+      "internalizations": 1,
+      "nationalizations": 1,
+      "organizationalists": 1,
+      "particularizations": 1,
+      "personalizations": 1,
+      "professionalizing": 1,
+      "proportionalities": 1,
+      "representationalism": 1,
+      "unchallengeability": 1,
+      "misunderstandingssss": 1,
+      "responsibilitiesyyyy": 1,
+      "otorhinolaryngologist": 1,
+      "supercalifragilistic": 3,
+      "counterintuitivelyyy": 1,
+      "conceptualizationsss": 1,
+      "denationalizationsss": 1,
+      "institutionalizingg": 1,
+      "unconstitutionalists": 1,
+      "counterrevolutionary": 1,
+      "characteristicallyyy": 1,
+      "counterintelligencee": 1,
+      "indistinguishability": 3,
+      "counterdemonstration": 1,
+      "overintellectualizing": 3,
+      "irretrievablenesses": 1,
+      "antidisestablishmentarian": 1,
+      "extraterritorialities": 2,
+      "pathophysiologically": 1,
+      "thyroparathyroidectomize": 1,
+      "hyperintellectualizing": 2,
+      "interdenominationalism": 1,
+      "nondiscriminationists": 1,
+      "paleoanthropological": 1,
+      "simultaneousnesses": 1,
+      "superincomprehensible": 1,
+      "hyperaggressivenesses": 1,
+      "counterintuitively": 1,
+      "constitutionally": 1,
+      "antiestablishmentism": 1,
+      "neuropsychologically": 1,
+      "unprofessionalization": 1,
+      "misunderstandingships": 1,
+      "extraterrestriallyism": 1,
+      "incontrovertibilities": 1,
+      "industrializationation": 1,
+      "microminiaturization": 1,
+      "parliamentarianismism": 1,
+      "responsibilitiesness": 1,
+      "sensationalizationism": 1
+    },
+    "correct_length_words": {
+      "uncharacteristically": 10,
+      "compartmentalization": 10,
+      "mischaracterizations": 1,
+      "disproportionateness": 6,
+      "photoelectrochemical": 1,
+      "prognosticatiousness": 1,
+      "representativenesses": 3,
+      "internationalization": 5,
+      "institutionalization": 3,
+      "electroencephalogram": 3,
+      "deinstitutionalizing": 4,
+      "scientificnessnesses": 1,
+      "individualizationsss": 1,
+      "professionalizations": 1,
+      "anthropomorphization": 1,
+      "misunderstandingssss": 1,
+      "responsibilitiesyyyy": 1,
+      "supercalifragilistic": 3,
+      "counterintuitivelyyy": 1,
+      "conceptualizationsss": 1,
+      "denationalizationsss": 1,
+      "unconstitutionalists": 1,
+      "counterrevolutionary": 1,
+      "characteristicallyyy": 1,
+      "counterintelligencee": 1,
+      "indistinguishability": 3,
+      "counterdemonstration": 1,
+      "pathophysiologically": 1,
+      "paleoanthropological": 1,
+      "antiestablishmentism": 1,
+      "neuropsychologically": 1,
+      "microminiaturization": 1,
+      "responsibilitiesness": 1
+    },
+    "word_count_by_length": {
+      "20": 73,
+      "21": 38,
+      "22": 14,
+      "18": 22,
+      "19": 31,
+      "16": 10,
+      "15": 2,
+      "17": 7,
+      "14": 1,
+      "25": 1,
+      "24": 1
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "deinstitutionalization",
+          "mischaracterizations",
+          "conceptualizations",
+          "disproportionateness",
+          "hyperintellectualized",
+          "multidimensionalities",
+          "overcapitalizations",
+          "photoelectrochemical",
+          "prognosticatiousness",
+          "representativenesses",
+          "responsibilities",
+          "transubstantiations",
+          "counterintelligence",
+          "superintendents",
+          "establishmentarian",
+          "sesquicentennials",
+          "incomprehensibility"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"deinstitutionalization\",\n    \"mischaracterizations\",\n    \"conceptualizations\",\n    \"disproportionateness\",\n    \"hyperintellectualized\",\n    \"multidimensionalities\",\n    \"overcapitalizations\",\n    \"photoelectrochemical\",\n    \"prognosticatiousness\",\n    \"representativenesses\",\n    \"responsibilities\",\n    \"transubstantiations\",\n    \"counterintelligence\",\n    \"superintendents\",\n    \"establishmentarian\",\n    \"sesquicentennials\",\n    \"incomprehensibility\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 7,
+        "correct_count": true,
+        "length_accuracy": 0.35,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.675,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), deinstitutionalization (22 letters), conceptualizations (18 letters), hyperintellectualized (21 letters), multidimensionalities (21 letters), overcapitalizations (19 letters), responsibilities (16 letters), transubstantiations (19 letters), counterintelligence (19 letters), superintendents (15 letters), establishmentarian (18 letters), sesquicentennials (17 letters), incomprehensibility (19 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:09:22.937200",
+        "duration_seconds": 1.3052051067352295
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "responsibilities",
+          "misunderstandings",
+          "scientificeducational",
+          "internationalization",
+          "incontrovertibility",
+          "institutionalization",
+          "representativeness",
+          "disproportionateness",
+          "conventionalization",
+          "counterintelligence",
+          "deinstitutionalize",
+          "unconstitutionalism",
+          "irregenerativeness",
+          "overintellectualize",
+          "multidimensionality",
+          "superinfections",
+          "hyperaggressiveness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"responsibilities\",\n    \"misunderstandings\",\n    \"scientificeducational\",\n    \"internationalization\",\n    \"incontrovertibility\",\n    \"institutionalization\",\n    \"representativeness\",\n    \"disproportionateness\",\n    \"conventionalization\",\n    \"counterintelligence\",\n    \"deinstitutionalize\",\n    \"unconstitutionalism\",\n    \"irregenerativeness\",\n    \"overintellectualize\",\n    \"multidimensionality\",\n    \"superinfections\",\n    \"hyperaggressiveness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 0.25,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.625,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), responsibilities (16 letters), misunderstandings (17 letters), scientificeducational (21 letters), incontrovertibility (19 letters), representativeness (18 letters), conventionalization (19 letters), counterintelligence (19 letters), deinstitutionalize (18 letters), unconstitutionalism (19 letters), irregenerativeness (18 letters), overintellectualize (19 letters), multidimensionality (19 letters), superinfections (15 letters), hyperaggressiveness (19 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:09:25.221720",
+        "duration_seconds": 1.2834982872009277
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "compartmentalization",
+          "counterintelligence",
+          "deinstitutionalization",
+          "disproportionateness",
+          "electroencephalogram",
+          "extraterrestrially",
+          "hyperaggressiveness",
+          "hypersensitivity",
+          "incontrovertibility",
+          "institutionalization",
+          "internationalization",
+          "misunderstandingly",
+          "overcapitalization",
+          "overintellectualize",
+          "responsibilities",
+          "semiconsciousnesses",
+          "subjectivities",
+          "transubstantiation",
+          "undemonstrativeness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"compartmentalization\",\n    \"counterintelligence\",\n    \"deinstitutionalization\",\n    \"disproportionateness\",\n    \"electroencephalogram\",\n    \"extraterrestrially\",\n    \"hyperaggressiveness\",\n    \"hypersensitivity\",\n    \"incontrovertibility\",\n    \"institutionalization\",\n    \"internationalization\",\n    \"misunderstandingly\",\n    \"overcapitalization\",\n    \"overintellectualize\",\n    \"responsibilities\",\n    \"semiconsciousnesses\",\n    \"subjectivities\",\n    \"transubstantiation\",\n    \"undemonstrativeness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 6,
+        "correct_count": true,
+        "length_accuracy": 0.3,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.65,
+        "errors": [
+          "Words with incorrect length: counterintelligence (19 letters), deinstitutionalization (22 letters), extraterrestrially (18 letters), hyperaggressiveness (19 letters), hypersensitivity (16 letters), incontrovertibility (19 letters), misunderstandingly (18 letters), overcapitalization (18 letters), overintellectualize (19 letters), responsibilities (16 letters), semiconsciousnesses (19 letters), subjectivities (14 letters), transubstantiation (18 letters), undemonstrativeness (19 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:09:27.560402",
+        "duration_seconds": 1.3376860618591309
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "deinstitutionalizing",
+          "internationalization",
+          "otorhinolaryngological",
+          "electroencephalograms",
+          "counterintuitivelyness",
+          "disproportionableness",
+          "responsibilitiesnesses",
+          "sesquicentennialsness",
+          "scientificnessnesses",
+          "individualizationsss",
+          "professionalizations",
+          "undisappointingness",
+          "incomprehensibilities",
+          "irreconcilabilities",
+          "misunderstandingses",
+          "anthropomorphization",
+          "counterrevolutionaries"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"deinstitutionalizing\",\n    \"internationalization\",\n    \"otorhinolaryngological\",\n    \"electroencephalograms\",\n    \"counterintuitivelyness\",\n    \"disproportionableness\",\n    \"responsibilitiesnesses\",\n    \"sesquicentennialsness\",\n    \"scientificnessnesses\",\n    \"individualizationsss\",\n    \"professionalizations\",\n    \"undisappointingness\",\n    \"incomprehensibilities\",\n    \"irreconcilabilities\",\n    \"misunderstandingses\",\n    \"anthropomorphization\",\n    \"counterrevolutionaries\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 8,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), otorhinolaryngological (22 letters), electroencephalograms (21 letters), counterintuitivelyness (22 letters), disproportionableness (21 letters), responsibilitiesnesses (22 letters), sesquicentennialsness (21 letters), undisappointingness (19 letters), incomprehensibilities (21 letters), irreconcilabilities (19 letters), misunderstandingses (19 letters), counterrevolutionaries (22 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:09:31.547663",
+        "duration_seconds": 1.4165849685668945
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterintelligence",
+          "compartmentalization",
+          "conceptualizations",
+          "deinstitutionalizing",
+          "decriminalizations",
+          "denationalizations",
+          "interdenominational",
+          "internalizations",
+          "misunderstandings",
+          "multidimensionality",
+          "nationalizations",
+          "organizationalists",
+          "overcapitalization",
+          "particularizations",
+          "personalizations",
+          "professionalizing",
+          "proportionalities",
+          "representationalism",
+          "unchallengeability"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterintelligence\",\n    \"compartmentalization\",\n    \"conceptualizations\",\n    \"deinstitutionalizing\",\n    \"decriminalizations\",\n    \"denationalizations\",\n    \"interdenominational\",\n    \"internalizations\",\n    \"misunderstandings\",\n    \"multidimensionality\",\n    \"nationalizations\",\n    \"organizationalists\",\n    \"overcapitalization\",\n    \"particularizations\",\n    \"personalizations\",\n    \"professionalizing\",\n    \"proportionalities\",\n    \"representationalism\",\n    \"unchallengeability\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 3,
+        "correct_count": true,
+        "length_accuracy": 0.15,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.575,
+        "errors": [
+          "Words with incorrect length: counterintelligence (19 letters), conceptualizations (18 letters), decriminalizations (18 letters), denationalizations (18 letters), interdenominational (19 letters), internalizations (16 letters), misunderstandings (17 letters), multidimensionality (19 letters), nationalizations (16 letters), organizationalists (18 letters), overcapitalization (18 letters), particularizations (18 letters), personalizations (16 letters), professionalizing (17 letters), proportionalities (17 letters), representationalism (19 letters), unchallengeability (18 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:09:34.022971",
+        "duration_seconds": 1.4747066497802734
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "misunderstandingssss",
+          "electroencephalograms",
+          "responsibilitiesyyyy",
+          "otorhinolaryngologist",
+          "supercalifragilistic",
+          "disproportionateness",
+          "counterintuitivelyyy",
+          "conceptualizationsss",
+          "denationalizationsss",
+          "institutionalizingg",
+          "multidimensionality",
+          "unconstitutionalists",
+          "counterrevolutionary",
+          "representativeness",
+          "characteristicallyyy",
+          "counterintelligencee",
+          "indistinguishability"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"misunderstandingssss\",\n    \"electroencephalograms\",\n    \"responsibilitiesyyyy\",\n    \"otorhinolaryngologist\",\n    \"supercalifragilistic\",\n    \"disproportionateness\",\n    \"counterintuitivelyyy\",\n    \"conceptualizationsss\",\n    \"denationalizationsss\",\n    \"institutionalizingg\",\n    \"multidimensionality\",\n    \"unconstitutionalists\",\n    \"counterrevolutionary\",\n    \"representativeness\",\n    \"characteristicallyyy\",\n    \"counterintelligencee\",\n    \"indistinguishability\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 14,
+        "correct_count": true,
+        "length_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), electroencephalograms (21 letters), otorhinolaryngologist (21 letters), institutionalizingg (19 letters), multidimensionality (19 letters), representativeness (18 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:09:36.405013",
+        "duration_seconds": 1.3813459873199463
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstration",
+          "compartmentalization",
+          "deinstitutionalizing",
+          "internationalization",
+          "overintellectualizing",
+          "counterintelligence",
+          "disproportionateness",
+          "misunderstandingly",
+          "irretrievablenesses",
+          "electroencephalogram",
+          "supercalifragilistic",
+          "antidisestablishmentarian",
+          "incomprehensibilities",
+          "extraterritorialities",
+          "otorhinolaryngological",
+          "pathophysiologically",
+          "thyroparathyroidectomize",
+          "indistinguishability",
+          "responsibilities"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstration\",\n    \"compartmentalization\",\n    \"deinstitutionalizing\",\n    \"internationalization\",\n    \"overintellectualizing\",\n    \"counterintelligence\",\n    \"disproportionateness\",\n    \"misunderstandingly\",\n    \"irretrievablenesses\",\n    \"electroencephalogram\",\n    \"supercalifragilistic\",\n    \"antidisestablishmentarian\",\n    \"incomprehensibilities\",\n    \"extraterritorialities\",\n    \"otorhinolaryngological\",\n    \"pathophysiologically\",\n    \"thyroparathyroidectomize\",\n    \"indistinguishability\",\n    \"responsibilities\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: overintellectualizing (21 letters), counterintelligence (19 letters), misunderstandingly (18 letters), irretrievablenesses (19 letters), antidisestablishmentarian (25 letters), incomprehensibilities (21 letters), extraterritorialities (21 letters), otorhinolaryngological (22 letters), thyroparathyroidectomize (24 letters), responsibilities (16 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:09:38.808588",
+        "duration_seconds": 1.4030206203460693
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "deinstitutionalization",
+          "disproportionableness",
+          "electroencephalograms",
+          "extraterritorialities",
+          "hyperintellectualizing",
+          "incomprehensibilities",
+          "interdenominationalism",
+          "misunderstandings",
+          "nondiscriminationists",
+          "overintellectualizing",
+          "paleoanthropological",
+          "representativenesses",
+          "responsibilities",
+          "sesquicentennials",
+          "simultaneousnesses",
+          "superincomprehensible",
+          "transubstantiations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"deinstitutionalization\",\n    \"disproportionableness\",\n    \"electroencephalograms\",\n    \"extraterritorialities\",\n    \"hyperintellectualizing\",\n    \"incomprehensibilities\",\n    \"interdenominationalism\",\n    \"misunderstandings\",\n    \"nondiscriminationists\",\n    \"overintellectualizing\",\n    \"paleoanthropological\",\n    \"representativenesses\",\n    \"responsibilities\",\n    \"sesquicentennials\",\n    \"simultaneousnesses\",\n    \"superincomprehensible\",\n    \"transubstantiations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 4,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), deinstitutionalization (22 letters), disproportionableness (21 letters), electroencephalograms (21 letters), extraterritorialities (21 letters), hyperintellectualizing (22 letters), incomprehensibilities (21 letters), interdenominationalism (22 letters), misunderstandings (17 letters), nondiscriminationists (21 letters), overintellectualizing (21 letters), responsibilities (16 letters), sesquicentennials (17 letters), simultaneousnesses (18 letters), superincomprehensible (21 letters), transubstantiations (19 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:09:41.164263",
+        "duration_seconds": 1.3553071022033691
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "compartmentalization",
+          "disproportionateness",
+          "electroencephalogram",
+          "counterdemonstrations",
+          "misunderstandingly",
+          "hyperaggressivenesses",
+          "counterintuitively",
+          "overintellectualize",
+          "deinstitutionalizing",
+          "indistinguishability",
+          "internationalization",
+          "supercalifragilistic",
+          "constitutionally",
+          "representativeness",
+          "counterrevolutionaries",
+          "antiestablishmentism",
+          "multidimensionalities",
+          "neuropsychologically",
+          "unprofessionalization"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"compartmentalization\",\n    \"disproportionateness\",\n    \"electroencephalogram\",\n    \"counterdemonstrations\",\n    \"misunderstandingly\",\n    \"hyperaggressivenesses\",\n    \"counterintuitively\",\n    \"overintellectualize\",\n    \"deinstitutionalizing\",\n    \"indistinguishability\",\n    \"internationalization\",\n    \"supercalifragilistic\",\n    \"constitutionally\",\n    \"representativeness\",\n    \"counterrevolutionaries\",\n    \"antiestablishmentism\",\n    \"multidimensionalities\",\n    \"neuropsychologically\",\n    \"unprofessionalization\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), misunderstandingly (18 letters), hyperaggressivenesses (21 letters), counterintuitively (18 letters), overintellectualize (19 letters), constitutionally (16 letters), representativeness (18 letters), counterrevolutionaries (22 letters), multidimensionalities (21 letters), unprofessionalization (21 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:09:43.583328",
+        "duration_seconds": 1.4184842109680176
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "deinstitutionalization",
+          "misunderstandingships",
+          "electroencephalograms",
+          "extraterrestriallyism",
+          "hyperintellectualizing",
+          "incomprehensibilities",
+          "incontrovertibilities",
+          "industrializationation",
+          "institutionalization",
+          "microminiaturization",
+          "multidimensionalities",
+          "overintellectualizing",
+          "parliamentarianismism",
+          "representativenesses",
+          "responsibilitiesness",
+          "sensationalizationism",
+          "transubstantiations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"deinstitutionalization\",\n    \"misunderstandingships\",\n    \"electroencephalograms\",\n    \"extraterrestriallyism\",\n    \"hyperintellectualizing\",\n    \"incomprehensibilities\",\n    \"incontrovertibilities\",\n    \"industrializationation\",\n    \"institutionalization\",\n    \"microminiaturization\",\n    \"multidimensionalities\",\n    \"overintellectualizing\",\n    \"parliamentarianismism\",\n    \"representativenesses\",\n    \"responsibilitiesness\",\n    \"sensationalizationism\",\n    \"transubstantiations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 6,
+        "correct_count": true,
+        "length_accuracy": 0.3,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.65,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), deinstitutionalization (22 letters), misunderstandingships (21 letters), electroencephalograms (21 letters), extraterrestriallyism (21 letters), hyperintellectualizing (22 letters), incomprehensibilities (21 letters), incontrovertibilities (21 letters), industrializationation (22 letters), multidimensionalities (21 letters), overintellectualizing (21 letters), parliamentarianismism (21 letters), sensationalizationism (21 letters), transubstantiations (19 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:09:46.004581",
+        "duration_seconds": 1.4210107326507568
+      }
+    }
+  ]
+}

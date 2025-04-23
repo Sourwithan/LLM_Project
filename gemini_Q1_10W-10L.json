@@ -1,0 +1,605 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 10 words that have 10 letters.",
+    "word_length_requested": 10,
+    "word_count_requested": 10,
+    "num_tests": 10,
+    "total_duration_seconds": 17.561049222946167,
+    "timestamp": "2025-04-18T20:56:58.209700"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 0.9,
+    "avg_length_accuracy": 0.09,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.545,
+    "total_unique_words": 58,
+    "total_unique_correct_words": 9,
+    "most_common_words": [
+      [
+        "attention",
+        10
+      ],
+      [
+        "direction",
+        7
+      ],
+      [
+        "knowledge",
+        6
+      ],
+      [
+        "influence",
+        5
+      ],
+      [
+        "necessary",
+        4
+      ],
+      [
+        "marketing",
+        4
+      ],
+      [
+        "telephone",
+        4
+      ],
+      [
+        "education",
+        2
+      ],
+      [
+        "landscape",
+        2
+      ],
+      [
+        "pollution",
+        2
+      ],
+      [
+        "abundance",
+        2
+      ],
+      [
+        "algorithm",
+        2
+      ],
+      [
+        "political",
+        2
+      ],
+      [
+        "fantastic",
+        2
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "portfolio",
+        2
+      ],
+      [
+        "operation",
+        1
+      ],
+      [
+        "sacrifice",
+        1
+      ],
+      [
+        "signature",
+        1
+      ],
+      [
+        "astronomy",
+        1
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "deposition",
+        1
+      ],
+      [
+        "absolutely",
+        1
+      ],
+      [
+        "birthplace",
+        1
+      ],
+      [
+        "completion",
+        1
+      ],
+      [
+        "democratic",
+        1
+      ],
+      [
+        "especially",
+        1
+      ],
+      [
+        "everything",
+        1
+      ],
+      [
+        "laboratory",
+        1
+      ],
+      [
+        "reputation",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.2183269719175042,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.1091634859587521
+  },
+  "word_frequencies": {
+    "all_words": {
+      "attention": 10,
+      "direction": 7,
+      "education": 2,
+      "influence": 5,
+      "landscape": 2,
+      "necessary": 4,
+      "operation": 1,
+      "pollution": 2,
+      "sacrifice": 1,
+      "signature": 1,
+      "abundance": 2,
+      "algorithm": 2,
+      "astronomy": 1,
+      "cafeteria": 1,
+      "centurion": 1,
+      "chemistry": 1,
+      "crocodile": 1,
+      "debutante": 1,
+      "deposition": 1,
+      "knowledge": 6,
+      "marketing": 4,
+      "political": 2,
+      "potential": 1,
+      "procedure": 1,
+      "radiation": 1,
+      "situation": 1,
+      "telephone": 4,
+      "essential": 1,
+      "fantastic": 2,
+      "passenger": 1,
+      "reporters": 1,
+      "important": 2,
+      "discovery": 1,
+      "beautiful": 1,
+      "excellent": 1,
+      "absolutely": 1,
+      "birthplace": 1,
+      "completion": 1,
+      "democratic": 1,
+      "especially": 1,
+      "everything": 1,
+      "laboratory": 1,
+      "satellite": 1,
+      "lifestyle": 1,
+      "offensive": 1,
+      "exclusion": 1,
+      "isolation": 1,
+      "nostalgia": 1,
+      "portfolio": 2,
+      "reputation": 1,
+      "authority": 1,
+      "beginning": 1,
+      "celebrate": 1,
+      "cognitive": 1,
+      "committee": 1,
+      "criterion": 1,
+      "departure": 1,
+      "objection": 1
+    },
+    "correct_length_words": {
+      "deposition": 1,
+      "absolutely": 1,
+      "birthplace": 1,
+      "completion": 1,
+      "democratic": 1,
+      "especially": 1,
+      "everything": 1,
+      "laboratory": 1,
+      "reputation": 1
+    },
+    "word_count_by_length": {
+      "9": 91,
+      "10": 9
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "education",
+          "influence",
+          "landscape",
+          "necessary",
+          "operation",
+          "pollution",
+          "sacrifice",
+          "signature"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"education\",\n    \"influence\",\n    \"landscape\",\n    \"necessary\",\n    \"operation\",\n    \"pollution\",\n    \"sacrifice\",\n    \"signature\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), education (9 letters), influence (9 letters), landscape (9 letters), necessary (9 letters), operation (9 letters), pollution (9 letters), sacrifice (9 letters), signature (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T20:56:41.445222",
+        "duration_seconds": 0.7969892024993896
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "abundance",
+          "algorithm",
+          "astronomy",
+          "attention",
+          "cafeteria",
+          "centurion",
+          "chemistry",
+          "crocodile",
+          "debutante",
+          "deposition"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"abundance\",\n    \"algorithm\",\n    \"astronomy\",\n    \"attention\",\n    \"cafeteria\",\n    \"centurion\",\n    \"chemistry\",\n    \"crocodile\",\n    \"debutante\",\n    \"deposition\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.1,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.55,
+        "errors": [
+          "Words with incorrect length: abundance (9 letters), algorithm (9 letters), astronomy (9 letters), attention (9 letters), cafeteria (9 letters), centurion (9 letters), chemistry (9 letters), crocodile (9 letters), debutante (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T20:56:43.210920",
+        "duration_seconds": 0.7649245262145996
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "knowledge",
+          "marketing",
+          "political",
+          "potential",
+          "procedure",
+          "radiation",
+          "situation",
+          "telephone"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"knowledge\",\n    \"marketing\",\n    \"political\",\n    \"potential\",\n    \"procedure\",\n    \"radiation\",\n    \"situation\",\n    \"telephone\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), knowledge (9 letters), marketing (9 letters), political (9 letters), potential (9 letters), procedure (9 letters), radiation (9 letters), situation (9 letters), telephone (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T20:56:44.904227",
+        "duration_seconds": 0.6928913593292236
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "education",
+          "essential",
+          "fantastic",
+          "influence",
+          "knowledge",
+          "landscape",
+          "passenger",
+          "reporters"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"education\",\n    \"essential\",\n    \"fantastic\",\n    \"influence\",\n    \"knowledge\",\n    \"landscape\",\n    \"passenger\",\n    \"reporters\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), education (9 letters), essential (9 letters), fantastic (9 letters), influence (9 letters), knowledge (9 letters), landscape (9 letters), passenger (9 letters), reporters (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T20:56:46.645501",
+        "duration_seconds": 0.7404177188873291
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "important",
+          "discovery",
+          "marketing",
+          "pollution",
+          "telephone",
+          "beautiful",
+          "excellent",
+          "knowledge"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"important\",\n    \"discovery\",\n    \"marketing\",\n    \"pollution\",\n    \"telephone\",\n    \"beautiful\",\n    \"excellent\",\n    \"knowledge\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), important (9 letters), discovery (9 letters), marketing (9 letters), pollution (9 letters), telephone (9 letters), beautiful (9 letters), excellent (9 letters), knowledge (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T20:56:48.483698",
+        "duration_seconds": 0.8373794555664062
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "absolutely",
+          "attention",
+          "birthplace",
+          "completion",
+          "democratic",
+          "especially",
+          "everything",
+          "laboratory",
+          "necessary",
+          "satellite"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"absolutely\",\n    \"attention\",\n    \"birthplace\",\n    \"completion\",\n    \"democratic\",\n    \"especially\",\n    \"everything\",\n    \"laboratory\",\n    \"necessary\",\n    \"satellite\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 7,
+        "correct_count": true,
+        "length_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), necessary (9 letters), satellite (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T20:56:50.141908",
+        "duration_seconds": 0.6580846309661865
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "influence",
+          "knowledge",
+          "lifestyle",
+          "marketing",
+          "necessary",
+          "offensive",
+          "political",
+          "telephone"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"influence\",\n    \"knowledge\",\n    \"lifestyle\",\n    \"marketing\",\n    \"necessary\",\n    \"offensive\",\n    \"political\",\n    \"telephone\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), influence (9 letters), knowledge (9 letters), lifestyle (9 letters), marketing (9 letters), necessary (9 letters), offensive (9 letters), political (9 letters), telephone (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T20:56:51.891877",
+        "duration_seconds": 0.7497150897979736
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "exclusion",
+          "fantastic",
+          "influence",
+          "isolation",
+          "knowledge",
+          "nostalgia",
+          "portfolio",
+          "reputation"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"exclusion\",\n    \"fantastic\",\n    \"influence\",\n    \"isolation\",\n    \"knowledge\",\n    \"nostalgia\",\n    \"portfolio\",\n    \"reputation\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.1,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.55,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), exclusion (9 letters), fantastic (9 letters), influence (9 letters), isolation (9 letters), knowledge (9 letters), nostalgia (9 letters), portfolio (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T20:56:53.663024",
+        "duration_seconds": 0.7705214023590088
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "abundance",
+          "algorithm",
+          "attention",
+          "authority",
+          "beginning",
+          "celebrate",
+          "cognitive",
+          "committee",
+          "criterion",
+          "departure"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"abundance\",\n    \"algorithm\",\n    \"attention\",\n    \"authority\",\n    \"beginning\",\n    \"celebrate\",\n    \"cognitive\",\n    \"committee\",\n    \"criterion\",\n    \"departure\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: abundance (9 letters), algorithm (9 letters), attention (9 letters), authority (9 letters), beginning (9 letters), celebrate (9 letters), cognitive (9 letters), committee (9 letters), criterion (9 letters), departure (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T20:56:55.444937",
+        "duration_seconds": 0.7809731960296631
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "attention",
+          "direction",
+          "objection",
+          "important",
+          "influence",
+          "knowledge",
+          "marketing",
+          "necessary",
+          "portfolio",
+          "telephone"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"direction\",\n    \"objection\",\n    \"important\",\n    \"influence\",\n    \"knowledge\",\n    \"marketing\",\n    \"necessary\",\n    \"portfolio\",\n    \"telephone\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), direction (9 letters), objection (9 letters), important (9 letters), influence (9 letters), knowledge (9 letters), marketing (9 letters), necessary (9 letters), portfolio (9 letters), telephone (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T20:56:57.209000",
+        "duration_seconds": 0.7633161544799805
+      }
+    }
+  ]
+}

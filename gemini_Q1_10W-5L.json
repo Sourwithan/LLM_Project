@@ -1,0 +1,666 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 10 words that have 5 letters.",
+    "word_length_requested": 5,
+    "word_count_requested": 10,
+    "num_tests": 10,
+    "total_duration_seconds": 17.38343071937561,
+    "timestamp": "2025-04-18T20:50:26.381498"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 9.8,
+    "avg_length_accuracy": 0.98,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.99,
+    "total_unique_words": 52,
+    "total_unique_correct_words": 50,
+    "most_common_words": [
+      [
+        "apple",
+        7
+      ],
+      [
+        "chair",
+        7
+      ],
+      [
+        "house",
+        7
+      ],
+      [
+        "table",
+        5
+      ],
+      [
+        "plant",
+        5
+      ],
+      [
+        "water",
+        4
+      ],
+      [
+        "earth",
+        4
+      ],
+      [
+        "world",
+        4
+      ],
+      [
+        "about",
+        4
+      ],
+      [
+        "music",
+        3
+      ],
+      [
+        "light",
+        3
+      ],
+      [
+        "dream",
+        3
+      ],
+      [
+        "grape",
+        3
+      ],
+      [
+        "river",
+        2
+      ],
+      [
+        "cloud",
+        2
+      ],
+      [
+        "phone",
+        1
+      ],
+      [
+        "movie",
+        1
+      ],
+      [
+        "night",
+        1
+      ],
+      [
+        "stone",
+        1
+      ],
+      [
+        "beach",
+        1
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "apple",
+        7
+      ],
+      [
+        "chair",
+        7
+      ],
+      [
+        "house",
+        7
+      ],
+      [
+        "table",
+        5
+      ],
+      [
+        "plant",
+        5
+      ],
+      [
+        "water",
+        4
+      ],
+      [
+        "earth",
+        4
+      ],
+      [
+        "world",
+        4
+      ],
+      [
+        "about",
+        4
+      ],
+      [
+        "music",
+        3
+      ],
+      [
+        "light",
+        3
+      ],
+      [
+        "dream",
+        3
+      ],
+      [
+        "grape",
+        3
+      ],
+      [
+        "river",
+        2
+      ],
+      [
+        "cloud",
+        2
+      ],
+      [
+        "phone",
+        1
+      ],
+      [
+        "movie",
+        1
+      ],
+      [
+        "night",
+        1
+      ],
+      [
+        "stone",
+        1
+      ],
+      [
+        "beach",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.06324555320336757,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.031622776601683784
+  },
+  "word_frequencies": {
+    "all_words": {
+      "apple": 7,
+      "table": 5,
+      "chair": 7,
+      "water": 4,
+      "phone": 1,
+      "house": 7,
+      "plant": 5,
+      "earth": 4,
+      "music": 3,
+      "movie": 1,
+      "world": 4,
+      "light": 3,
+      "night": 1,
+      "stone": 1,
+      "river": 2,
+      "beach": 1,
+      "cloud": 2,
+      "heart": 1,
+      "dream": 3,
+      "about": 4,
+      "above": 1,
+      "actor": 1,
+      "acute": 1,
+      "admit": 1,
+      "adopt": 1,
+      "again": 1,
+      "agent": 1,
+      "agree": 1,
+      "ahead": 1,
+      "flour": 1,
+      "grape": 3,
+      "image": 1,
+      "juice": 1,
+      "sound": 1,
+      "lemon": 1,
+      "peach": 1,
+      "melon": 1,
+      "plum": 1,
+      "berry": 1,
+      "mango": 1,
+      "kiwi": 1,
+      "guava": 1,
+      "other": 1,
+      "which": 1,
+      "their": 1,
+      "there": 1,
+      "first": 1,
+      "would": 1,
+      "these": 1,
+      "click": 1,
+      "paint": 1,
+      "bread": 1
+    },
+    "correct_length_words": {
+      "apple": 7,
+      "table": 5,
+      "chair": 7,
+      "water": 4,
+      "phone": 1,
+      "house": 7,
+      "plant": 5,
+      "earth": 4,
+      "music": 3,
+      "movie": 1,
+      "world": 4,
+      "light": 3,
+      "night": 1,
+      "stone": 1,
+      "river": 2,
+      "beach": 1,
+      "cloud": 2,
+      "heart": 1,
+      "dream": 3,
+      "about": 4,
+      "above": 1,
+      "actor": 1,
+      "acute": 1,
+      "admit": 1,
+      "adopt": 1,
+      "again": 1,
+      "agent": 1,
+      "agree": 1,
+      "ahead": 1,
+      "flour": 1,
+      "grape": 3,
+      "image": 1,
+      "juice": 1,
+      "sound": 1,
+      "lemon": 1,
+      "peach": 1,
+      "melon": 1,
+      "berry": 1,
+      "mango": 1,
+      "guava": 1,
+      "other": 1,
+      "which": 1,
+      "their": 1,
+      "there": 1,
+      "first": 1,
+      "would": 1,
+      "these": 1,
+      "click": 1,
+      "paint": 1,
+      "bread": 1
+    },
+    "word_count_by_length": {
+      "5": 98,
+      "4": 2
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "apple",
+          "table",
+          "chair",
+          "water",
+          "phone",
+          "house",
+          "plant",
+          "earth",
+          "music",
+          "movie"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"apple\",\n    \"table\",\n    \"chair\",\n    \"water\",\n    \"phone\",\n    \"house\",\n    \"plant\",\n    \"earth\",\n    \"music\",\n    \"movie\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T20:50:09.764835",
+        "duration_seconds": 0.7671449184417725
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "apple",
+          "table",
+          "chair",
+          "plant",
+          "water",
+          "house",
+          "world",
+          "light",
+          "night",
+          "music"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"apple\",\n    \"table\",\n    \"chair\",\n    \"plant\",\n    \"water\",\n    \"house\",\n    \"world\",\n    \"light\",\n    \"night\",\n    \"music\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T20:50:11.522100",
+        "duration_seconds": 0.75714111328125
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "apple",
+          "house",
+          "chair",
+          "table",
+          "water",
+          "earth",
+          "light",
+          "world",
+          "plant",
+          "stone"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"apple\",\n    \"house\",\n    \"chair\",\n    \"table\",\n    \"water\",\n    \"earth\",\n    \"light\",\n    \"world\",\n    \"plant\",\n    \"stone\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T20:50:13.287358",
+        "duration_seconds": 0.764988899230957
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "apple",
+          "house",
+          "table",
+          "chair",
+          "plant",
+          "river",
+          "beach",
+          "cloud",
+          "heart",
+          "dream"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"apple\",\n    \"house\",\n    \"table\",\n    \"chair\",\n    \"plant\",\n    \"river\",\n    \"beach\",\n    \"cloud\",\n    \"heart\",\n    \"dream\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T20:50:15.024410",
+        "duration_seconds": 0.7369792461395264
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "about",
+          "above",
+          "actor",
+          "acute",
+          "admit",
+          "adopt",
+          "again",
+          "agent",
+          "agree",
+          "ahead"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"about\",\n    \"above\",\n    \"actor\",\n    \"acute\",\n    \"admit\",\n    \"adopt\",\n    \"again\",\n    \"agent\",\n    \"agree\",\n    \"ahead\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T20:50:16.816135",
+        "duration_seconds": 0.7911052703857422
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "about",
+          "apple",
+          "chair",
+          "dream",
+          "earth",
+          "flour",
+          "grape",
+          "house",
+          "image",
+          "juice"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"about\",\n    \"apple\",\n    \"chair\",\n    \"dream\",\n    \"earth\",\n    \"flour\",\n    \"grape\",\n    \"house\",\n    \"image\",\n    \"juice\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T20:50:18.491069",
+        "duration_seconds": 0.6748137474060059
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "about",
+          "table",
+          "chair",
+          "house",
+          "water",
+          "earth",
+          "plant",
+          "world",
+          "light",
+          "sound"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"about\",\n    \"table\",\n    \"chair\",\n    \"house\",\n    \"water\",\n    \"earth\",\n    \"plant\",\n    \"world\",\n    \"light\",\n    \"sound\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T20:50:20.230084",
+        "duration_seconds": 0.7388603687286377
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "apple",
+          "grape",
+          "lemon",
+          "peach",
+          "melon",
+          "plum",
+          "berry",
+          "mango",
+          "kiwi",
+          "guava"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"apple\",\n    \"grape\",\n    \"lemon\",\n    \"peach\",\n    \"melon\",\n    \"plum\",\n    \"berry\",\n    \"mango\",\n    \"kiwi\",\n    \"guava\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 8,
+        "correct_count": true,
+        "length_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: plum (4 letters), kiwi (4 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T20:50:21.933268",
+        "duration_seconds": 0.7030177116394043
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "about",
+          "other",
+          "which",
+          "their",
+          "there",
+          "first",
+          "would",
+          "these",
+          "click",
+          "paint"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"about\",\n    \"other\",\n    \"which\",\n    \"their\",\n    \"there\",\n    \"first\",\n    \"would\",\n    \"these\",\n    \"click\",\n    \"paint\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T20:50:23.660866",
+        "duration_seconds": 0.7274641990661621
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "apple",
+          "grape",
+          "house",
+          "chair",
+          "bread",
+          "river",
+          "music",
+          "cloud",
+          "dream",
+          "world"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"apple\",\n    \"grape\",\n    \"house\",\n    \"chair\",\n    \"bread\",\n    \"river\",\n    \"music\",\n    \"cloud\",\n    \"dream\",\n    \"world\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_length_words": 10,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T20:50:25.380931",
+        "duration_seconds": 0.7199006080627441
+      }
+    }
+  ]
+}

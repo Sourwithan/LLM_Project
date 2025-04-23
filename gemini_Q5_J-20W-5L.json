@@ -1,0 +1,481 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 20,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 65,
+    "most_common_words": [
+      [
+        "jests",
+        10
+      ],
+      [
+        "jewel",
+        10
+      ],
+      [
+        "jaunt",
+        9
+      ],
+      [
+        "jerky",
+        8
+      ],
+      [
+        "jilts",
+        8
+      ],
+      [
+        "jives",
+        6
+      ],
+      [
+        "joint",
+        6
+      ],
+      [
+        "japes",
+        6
+      ],
+      [
+        "joust",
+        6
+      ],
+      [
+        "jelly",
+        5
+      ]
+    ],
+    "total_duration_seconds": 24.383504629135132,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jails",
+          "jaunt",
+          "jawan",
+          "jelly",
+          "jerks",
+          "jerky",
+          "jests",
+          "jewel",
+          "jibed",
+          "jilts",
+          "jingo",
+          "jived",
+          "jives",
+          "jocks",
+          "johns",
+          "joins",
+          "joint",
+          "jokes",
+          "jokey",
+          "jowls"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jails\",\n    \"jaunt\",\n    \"jawan\",\n    \"jelly\",\n    \"jerks\",\n    \"jerky\",\n    \"jests\",\n    \"jewel\",\n    \"jibed\",\n    \"jilts\",\n    \"jingo\",\n    \"jived\",\n    \"jives\",\n    \"jocks\",\n    \"johns\",\n    \"joins\",\n    \"joint\",\n    \"jokes\",\n    \"jokey\",\n    \"jowls\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "judos",
+          "jests",
+          "jived",
+          "jilts",
+          "jewel",
+          "japes",
+          "jerks",
+          "joint",
+          "joust",
+          "jowls",
+          "jumpy",
+          "junks",
+          "joins",
+          "jaunt",
+          "jambs",
+          "jerry",
+          "jacks",
+          "jades",
+          "jaffa",
+          "jeers"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"judos\",\n    \"jests\",\n    \"jived\",\n    \"jilts\",\n    \"jewel\",\n    \"japes\",\n    \"jerks\",\n    \"joint\",\n    \"joust\",\n    \"jowls\",\n    \"jumpy\",\n    \"junks\",\n    \"joins\",\n    \"jaunt\",\n    \"jambs\",\n    \"jerry\",\n    \"jacks\",\n    \"jades\",\n    \"jaffa\",\n    \"jeers\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jails",
+          "japan",
+          "japed",
+          "japes",
+          "jaunt",
+          "jawan",
+          "jawed",
+          "jazer",
+          "jeans",
+          "jeers",
+          "jells",
+          "jelly",
+          "jerks",
+          "jerky",
+          "jests",
+          "jeton",
+          "jewel",
+          "jiber",
+          "jives",
+          "jocks"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jails\",\n    \"japan\",\n    \"japed\",\n    \"japes\",\n    \"jaunt\",\n    \"jawan\",\n    \"jawed\",\n    \"jazer\",\n    \"jeans\",\n    \"jeers\",\n    \"jells\",\n    \"jelly\",\n    \"jerks\",\n    \"jerky\",\n    \"jests\",\n    \"jeton\",\n    \"jewel\",\n    \"jiber\",\n    \"jives\",\n    \"jocks\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Judas",
+          "judge",
+          "juice",
+          "jujus",
+          "jowls",
+          "joint",
+          "joust",
+          "joker",
+          "jolly",
+          "jerky",
+          "jilts",
+          "jived",
+          "jives",
+          "jaunt",
+          "jests",
+          "jeton",
+          "jewel",
+          "jello",
+          "jocks",
+          "japes"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Judas\",\n    \"judge\",\n    \"juice\",\n    \"jujus\",\n    \"jowls\",\n    \"joint\",\n    \"joust\",\n    \"joker\",\n    \"jolly\",\n    \"jerky\",\n    \"jilts\",\n    \"jived\",\n    \"jives\",\n    \"jaunt\",\n    \"jests\",\n    \"jeton\",\n    \"jewel\",\n    \"jello\",\n    \"jocks\",\n    \"japes\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "James",
+          "jails",
+          "Japan",
+          "japed",
+          "japer",
+          "japes",
+          "jaunt",
+          "jawed",
+          "jazzy",
+          "jeans",
+          "jeers",
+          "jells",
+          "jelly",
+          "jerks",
+          "jerky",
+          "jests",
+          "jeton",
+          "jetty",
+          "jewel",
+          "jiber"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"James\",\n    \"jails\",\n    \"Japan\",\n    \"japed\",\n    \"japer\",\n    \"japes\",\n    \"jaunt\",\n    \"jawed\",\n    \"jazzy\",\n    \"jeans\",\n    \"jeers\",\n    \"jells\",\n    \"jelly\",\n    \"jerks\",\n    \"jerky\",\n    \"jests\",\n    \"jeton\",\n    \"jetty\",\n    \"jewel\",\n    \"jiber\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jewel",
+          "joust",
+          "jowls",
+          "joint",
+          "joker",
+          "jilts",
+          "jumpy",
+          "jazzy",
+          "jumbo",
+          "jaded",
+          "japes",
+          "jerky",
+          "jests",
+          "joins",
+          "juice",
+          "judge",
+          "jumps",
+          "jives",
+          "jolly",
+          "jaunt"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jewel\",\n    \"joust\",\n    \"jowls\",\n    \"joint\",\n    \"joker\",\n    \"jilts\",\n    \"jumpy\",\n    \"jazzy\",\n    \"jumbo\",\n    \"jaded\",\n    \"japes\",\n    \"jerky\",\n    \"jests\",\n    \"joins\",\n    \"juice\",\n    \"judge\",\n    \"jumps\",\n    \"jives\",\n    \"jolly\",\n    \"jaunt\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jacks",
+          "jaunt",
+          "jests",
+          "jewel",
+          "jilts",
+          "joins",
+          "joint",
+          "jokes",
+          "joker",
+          "jokey",
+          "jolly",
+          "joust",
+          "judge",
+          "judos",
+          "juice",
+          "jumpy",
+          "junks",
+          "junta",
+          "juror",
+          "justs"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jacks\",\n    \"jaunt\",\n    \"jests\",\n    \"jewel\",\n    \"jilts\",\n    \"joins\",\n    \"joint\",\n    \"jokes\",\n    \"joker\",\n    \"jokey\",\n    \"jolly\",\n    \"joust\",\n    \"judge\",\n    \"judos\",\n    \"juice\",\n    \"jumpy\",\n    \"junks\",\n    \"junta\",\n    \"juror\",\n    \"justs\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jazzy",
+          "jeans",
+          "jello",
+          "jerky",
+          "jests",
+          "jewel",
+          "jilts",
+          "joins",
+          "joint",
+          "joked",
+          "joker",
+          "jokes",
+          "jolly",
+          "jolts",
+          "joust",
+          "judge",
+          "judos",
+          "juicy",
+          "jumps",
+          "jumbo"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jazzy\",\n    \"jeans\",\n    \"jello\",\n    \"jerky\",\n    \"jests\",\n    \"jewel\",\n    \"jilts\",\n    \"joins\",\n    \"joint\",\n    \"joked\",\n    \"joker\",\n    \"jokes\",\n    \"jolly\",\n    \"jolts\",\n    \"joust\",\n    \"judge\",\n    \"judos\",\n    \"juicy\",\n    \"jumps\",\n    \"jumbo\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "James",
+          "jambs",
+          "jaunt",
+          "jazzy",
+          "jelly",
+          "jerky",
+          "jests",
+          "jewel",
+          "jiffy",
+          "jilts",
+          "jimmy",
+          "jingo",
+          "jinks",
+          "jived",
+          "jives",
+          "joker",
+          "jokey",
+          "joles",
+          "jolly",
+          "joust"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"James\",\n    \"jambs\",\n    \"jaunt\",\n    \"jazzy\",\n    \"jelly\",\n    \"jerky\",\n    \"jests\",\n    \"jewel\",\n    \"jiffy\",\n    \"jilts\",\n    \"jimmy\",\n    \"jingo\",\n    \"jinks\",\n    \"jived\",\n    \"jives\",\n    \"joker\",\n    \"jokey\",\n    \"joles\",\n    \"jolly\",\n    \"joust\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jacks",
+          "jaded",
+          "jails",
+          "jambs",
+          "japes",
+          "jaunt",
+          "jawan",
+          "jawed",
+          "jelly",
+          "jerky",
+          "jests",
+          "jetty",
+          "jewel",
+          "jihad",
+          "jilts",
+          "jimmy",
+          "jingo",
+          "jinks",
+          "jived",
+          "jives"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jacks\",\n    \"jaded\",\n    \"jails\",\n    \"jambs\",\n    \"japes\",\n    \"jaunt\",\n    \"jawan\",\n    \"jawed\",\n    \"jelly\",\n    \"jerky\",\n    \"jests\",\n    \"jetty\",\n    \"jewel\",\n    \"jihad\",\n    \"jilts\",\n    \"jimmy\",\n    \"jingo\",\n    \"jinks\",\n    \"jived\",\n    \"jives\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 20 words that have 10 letters.",
+    "word_length_requested": 10,
+    "word_count_requested": 20,
+    "num_tests": 10,
+    "total_duration_seconds": 20.066420316696167,
+    "timestamp": "2025-04-18T21:07:38.300194"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 2.9,
+    "avg_length_accuracy": 0.145,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.5725,
+    "total_unique_words": 105,
+    "total_unique_correct_words": 26,
+    "most_common_words": [
+      [
+        "attention",
+        8
+      ],
+      [
+        "important",
+        7
+      ],
+      [
+        "knowledge",
+        6
+      ],
+      [
+        "telephone",
+        5
+      ],
+      [
+        "direction",
+        5
+      ],
+      [
+        "education",
+        5
+      ],
+      [
+        "necessary",
+        5
+      ],
+      [
+        "fantastic",
+        5
+      ],
+      [
+        "discovery",
+        4
+      ],
+      [
+        "influence",
+        4
+      ],
+      [
+        "condition",
+        4
+      ],
+      [
+        "landscape",
+        4
+      ],
+      [
+        "community",
+        4
+      ],
+      [
+        "difficult",
+        3
+      ],
+      [
+        "fortunate",
+        3
+      ],
+      [
+        "paragraph",
+        3
+      ],
+      [
+        "agreement",
+        3
+      ],
+      [
+        "dangerous",
+        3
+      ],
+      [
+        "president",
+        3
+      ],
+      [
+        "potential",
+        3
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "generation",
+        2
+      ],
+      [
+        "management",
+        2
+      ],
+      [
+        "government",
+        2
+      ],
+      [
+        "university",
+        1
+      ],
+      [
+        "restaurant",
+        1
+      ],
+      [
+        "television",
+        1
+      ],
+      [
+        "literature",
+        1
+      ],
+      [
+        "artificial",
+        1
+      ],
+      [
+        "experience",
+        1
+      ],
+      [
+        "collection",
+        1
+      ],
+      [
+        "historical",
+        1
+      ],
+      [
+        "successful",
+        1
+      ],
+      [
+        "appearance",
+        1
+      ],
+      [
+        "assignment",
+        1
+      ],
+      [
+        "basketball",
+        1
+      ],
+      [
+        "investment",
+        1
+      ],
+      [
+        "population",
+        1
+      ],
+      [
+        "attractive",
+        1
+      ],
+      [
+        "conclusion",
+        1
+      ],
+      [
+        "reputation",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.29762952362514933,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.14881476181257466
+  },
+  "word_frequencies": {
+    "all_words": {
+      "ambidextrous": 1,
+      "university": 1,
+      "restaurant": 1,
+      "generation": 2,
+      "television": 1,
+      "literature": 1,
+      "artificial": 1,
+      "experience": 1,
+      "collection": 1,
+      "historical": 1,
+      "successful": 1,
+      "appearance": 1,
+      "assignment": 1,
+      "basketball": 1,
+      "investment": 1,
+      "management": 2,
+      "population": 1,
+      "attractive": 1,
+      "government": 2,
+      "conclusion": 1,
+      "attention": 8,
+      "important": 7,
+      "knowledge": 6,
+      "difficult": 3,
+      "discovery": 4,
+      "influence": 4,
+      "telephone": 5,
+      "pollution": 1,
+      "celebrate": 1,
+      "fortunate": 3,
+      "direction": 5,
+      "recognize": 2,
+      "adventure": 1,
+      "paragraph": 3,
+      "condition": 4,
+      "agreement": 3,
+      "furniture": 1,
+      "invisible": 1,
+      "dangerous": 3,
+      "president": 3,
+      "education": 5,
+      "equipment": 2,
+      "existence": 1,
+      "landscape": 4,
+      "necessary": 5,
+      "objective": 1,
+      "operation": 2,
+      "potential": 3,
+      "reputation": 1,
+      "apartment": 2,
+      "excellent": 2,
+      "breakfast": 2,
+      "passenger": 2,
+      "signature": 2,
+      "candidate": 3,
+      "fantastic": 5,
+      "associate": 1,
+      "committee": 1,
+      "reference": 2,
+      "available": 3,
+      "abundance": 3,
+      "attribute": 1,
+      "calculate": 1,
+      "cautiously": 1,
+      "ceremonies": 1,
+      "collective": 1,
+      "component": 1,
+      "decoration": 1,
+      "delegation": 1,
+      "delicious": 2,
+      "diplomacy": 1,
+      "essential": 3,
+      "evidently": 1,
+      "generally": 1,
+      "happiness": 3,
+      "community": 4,
+      "economics": 1,
+      "insurance": 2,
+      "marketing": 3,
+      "optimistic": 1,
+      "geometric": 2,
+      "qualified": 1,
+      "sensitive": 2,
+      "wonderful": 1,
+      "automatic": 1,
+      "ignorance": 1,
+      "kilometer": 1,
+      "operative": 1,
+      "qualities": 1,
+      "treatment": 1,
+      "universal": 1,
+      "voluntary": 1,
+      "alignment": 1,
+      "authority": 1,
+      "beautiful": 1,
+      "certainly": 1,
+      "challenge": 1,
+      "conscious": 1,
+      "different": 1,
+      "efficient": 1,
+      "expensive": 1,
+      "financial": 1,
+      "situation": 1,
+      "republics": 1,
+      "libraries": 1
+    },
+    "correct_length_words": {
+      "university": 1,
+      "restaurant": 1,
+      "generation": 2,
+      "television": 1,
+      "literature": 1,
+      "artificial": 1,
+      "experience": 1,
+      "collection": 1,
+      "historical": 1,
+      "successful": 1,
+      "appearance": 1,
+      "assignment": 1,
+      "basketball": 1,
+      "investment": 1,
+      "management": 2,
+      "population": 1,
+      "attractive": 1,
+      "government": 2,
+      "conclusion": 1,
+      "reputation": 1,
+      "cautiously": 1,
+      "ceremonies": 1,
+      "collective": 1,
+      "decoration": 1,
+      "delegation": 1,
+      "optimistic": 1
+    },
+    "word_count_by_length": {
+      "12": 1,
+      "10": 29,
+      "9": 170
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "ambidextrous",
+          "university",
+          "restaurant",
+          "generation",
+          "television",
+          "literature",
+          "artificial",
+          "experience",
+          "collection",
+          "historical",
+          "successful",
+          "appearance",
+          "assignment",
+          "basketball",
+          "investment",
+          "management",
+          "population",
+          "attractive",
+          "government",
+          "conclusion"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"ambidextrous\",\n    \"university\",\n    \"restaurant\",\n    \"generation\",\n    \"television\",\n    \"literature\",\n    \"artificial\",\n    \"experience\",\n    \"collection\",\n    \"historical\",\n    \"successful\",\n    \"appearance\",\n    \"assignment\",\n    \"basketball\",\n    \"investment\",\n    \"management\",\n    \"population\",\n    \"attractive\",\n    \"government\",\n    \"conclusion\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 19,
+        "correct_count": true,
+        "length_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: ambidextrous (12 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:07:19.266908",
+        "duration_seconds": 1.0335509777069092
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "attention",
+          "important",
+          "knowledge",
+          "difficult",
+          "discovery",
+          "influence",
+          "telephone",
+          "pollution",
+          "celebrate",
+          "fortunate",
+          "direction",
+          "recognize",
+          "adventure",
+          "paragraph",
+          "condition",
+          "agreement",
+          "furniture",
+          "invisible",
+          "dangerous",
+          "president"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"important\",\n    \"knowledge\",\n    \"difficult\",\n    \"discovery\",\n    \"influence\",\n    \"telephone\",\n    \"pollution\",\n    \"celebrate\",\n    \"fortunate\",\n    \"direction\",\n    \"recognize\",\n    \"adventure\",\n    \"paragraph\",\n    \"condition\",\n    \"agreement\",\n    \"furniture\",\n    \"invisible\",\n    \"dangerous\",\n    \"president\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), important (9 letters), knowledge (9 letters), difficult (9 letters), discovery (9 letters), influence (9 letters), telephone (9 letters), pollution (9 letters), celebrate (9 letters), fortunate (9 letters), direction (9 letters), recognize (9 letters), adventure (9 letters), paragraph (9 letters), condition (9 letters), agreement (9 letters), furniture (9 letters), invisible (9 letters), dangerous (9 letters), president (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:07:21.389337",
+        "duration_seconds": 1.1217939853668213
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "attention",
+          "condition",
+          "direction",
+          "education",
+          "equipment",
+          "existence",
+          "generation",
+          "government",
+          "important",
+          "influence",
+          "knowledge",
+          "landscape",
+          "management",
+          "necessary",
+          "objective",
+          "operation",
+          "paragraph",
+          "potential",
+          "president",
+          "reputation"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"condition\",\n    \"direction\",\n    \"education\",\n    \"equipment\",\n    \"existence\",\n    \"generation\",\n    \"government\",\n    \"important\",\n    \"influence\",\n    \"knowledge\",\n    \"landscape\",\n    \"management\",\n    \"necessary\",\n    \"objective\",\n    \"operation\",\n    \"paragraph\",\n    \"potential\",\n    \"president\",\n    \"reputation\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 4,
+        "correct_count": true,
+        "length_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), condition (9 letters), direction (9 letters), education (9 letters), equipment (9 letters), existence (9 letters), important (9 letters), influence (9 letters), knowledge (9 letters), landscape (9 letters), necessary (9 letters), objective (9 letters), operation (9 letters), paragraph (9 letters), potential (9 letters), president (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:07:23.527914",
+        "duration_seconds": 1.1378562450408936
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "telephone",
+          "attention",
+          "important",
+          "direction",
+          "dangerous",
+          "apartment",
+          "knowledge",
+          "excellent",
+          "agreement",
+          "difficult",
+          "breakfast",
+          "equipment",
+          "passenger",
+          "signature",
+          "candidate",
+          "fantastic",
+          "associate",
+          "committee",
+          "reference",
+          "available"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"telephone\",\n    \"attention\",\n    \"important\",\n    \"direction\",\n    \"dangerous\",\n    \"apartment\",\n    \"knowledge\",\n    \"excellent\",\n    \"agreement\",\n    \"difficult\",\n    \"breakfast\",\n    \"equipment\",\n    \"passenger\",\n    \"signature\",\n    \"candidate\",\n    \"fantastic\",\n    \"associate\",\n    \"committee\",\n    \"reference\",\n    \"available\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: telephone (9 letters), attention (9 letters), important (9 letters), direction (9 letters), dangerous (9 letters), apartment (9 letters), knowledge (9 letters), excellent (9 letters), agreement (9 letters), difficult (9 letters), breakfast (9 letters), equipment (9 letters), passenger (9 letters), signature (9 letters), candidate (9 letters), fantastic (9 letters), associate (9 letters), committee (9 letters), reference (9 letters), available (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:07:25.524526",
+        "duration_seconds": 0.9964497089385986
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "abundance",
+          "attention",
+          "attribute",
+          "calculate",
+          "candidate",
+          "cautiously",
+          "ceremonies",
+          "collective",
+          "component",
+          "decoration",
+          "delegation",
+          "delicious",
+          "diplomacy",
+          "discovery",
+          "essential",
+          "evidently",
+          "fantastic",
+          "fortunate",
+          "generally",
+          "happiness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"abundance\",\n    \"attention\",\n    \"attribute\",\n    \"calculate\",\n    \"candidate\",\n    \"cautiously\",\n    \"ceremonies\",\n    \"collective\",\n    \"component\",\n    \"decoration\",\n    \"delegation\",\n    \"delicious\",\n    \"diplomacy\",\n    \"discovery\",\n    \"essential\",\n    \"evidently\",\n    \"fantastic\",\n    \"fortunate\",\n    \"generally\",\n    \"happiness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 0.25,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.625,
+        "errors": [
+          "Words with incorrect length: abundance (9 letters), attention (9 letters), attribute (9 letters), calculate (9 letters), candidate (9 letters), component (9 letters), delicious (9 letters), diplomacy (9 letters), discovery (9 letters), essential (9 letters), evidently (9 letters), fantastic (9 letters), fortunate (9 letters), generally (9 letters), happiness (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:07:27.486017",
+        "duration_seconds": 0.9614055156707764
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "attention",
+          "available",
+          "breakfast",
+          "candidate",
+          "community",
+          "condition",
+          "discovery",
+          "economics",
+          "education",
+          "essential",
+          "fortunate",
+          "important",
+          "influence",
+          "insurance",
+          "knowledge",
+          "landscape",
+          "marketing",
+          "necessary",
+          "optimistic",
+          "potential"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"available\",\n    \"breakfast\",\n    \"candidate\",\n    \"community\",\n    \"condition\",\n    \"discovery\",\n    \"economics\",\n    \"education\",\n    \"essential\",\n    \"fortunate\",\n    \"important\",\n    \"influence\",\n    \"insurance\",\n    \"knowledge\",\n    \"landscape\",\n    \"marketing\",\n    \"necessary\",\n    \"optimistic\",\n    \"potential\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 1,
+        "correct_count": true,
+        "length_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), available (9 letters), breakfast (9 letters), candidate (9 letters), community (9 letters), condition (9 letters), discovery (9 letters), economics (9 letters), education (9 letters), essential (9 letters), fortunate (9 letters), important (9 letters), influence (9 letters), insurance (9 letters), knowledge (9 letters), landscape (9 letters), marketing (9 letters), necessary (9 letters), potential (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:07:29.425739",
+        "duration_seconds": 0.9392690658569336
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "abundance",
+          "attention",
+          "community",
+          "difficult",
+          "education",
+          "fantastic",
+          "geometric",
+          "happiness",
+          "important",
+          "knowledge",
+          "landscape",
+          "marketing",
+          "necessary",
+          "operation",
+          "passenger",
+          "qualified",
+          "recognize",
+          "sensitive",
+          "telephone",
+          "wonderful"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"abundance\",\n    \"attention\",\n    \"community\",\n    \"difficult\",\n    \"education\",\n    \"fantastic\",\n    \"geometric\",\n    \"happiness\",\n    \"important\",\n    \"knowledge\",\n    \"landscape\",\n    \"marketing\",\n    \"necessary\",\n    \"operation\",\n    \"passenger\",\n    \"qualified\",\n    \"recognize\",\n    \"sensitive\",\n    \"telephone\",\n    \"wonderful\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: abundance (9 letters), attention (9 letters), community (9 letters), difficult (9 letters), education (9 letters), fantastic (9 letters), geometric (9 letters), happiness (9 letters), important (9 letters), knowledge (9 letters), landscape (9 letters), marketing (9 letters), necessary (9 letters), operation (9 letters), passenger (9 letters), qualified (9 letters), recognize (9 letters), sensitive (9 letters), telephone (9 letters), wonderful (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:07:31.401167",
+        "duration_seconds": 0.9744472503662109
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "automatic",
+          "delicious",
+          "education",
+          "fantastic",
+          "geometric",
+          "happiness",
+          "ignorance",
+          "kilometer",
+          "landscape",
+          "marketing",
+          "necessary",
+          "operative",
+          "paragraph",
+          "qualities",
+          "reference",
+          "sensitive",
+          "telephone",
+          "treatment",
+          "universal",
+          "voluntary"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"automatic\",\n    \"delicious\",\n    \"education\",\n    \"fantastic\",\n    \"geometric\",\n    \"happiness\",\n    \"ignorance\",\n    \"kilometer\",\n    \"landscape\",\n    \"marketing\",\n    \"necessary\",\n    \"operative\",\n    \"paragraph\",\n    \"qualities\",\n    \"reference\",\n    \"sensitive\",\n    \"telephone\",\n    \"treatment\",\n    \"universal\",\n    \"voluntary\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: automatic (9 letters), delicious (9 letters), education (9 letters), fantastic (9 letters), geometric (9 letters), happiness (9 letters), ignorance (9 letters), kilometer (9 letters), landscape (9 letters), marketing (9 letters), necessary (9 letters), operative (9 letters), paragraph (9 letters), qualities (9 letters), reference (9 letters), sensitive (9 letters), telephone (9 letters), treatment (9 letters), universal (9 letters), voluntary (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:07:33.366742",
+        "duration_seconds": 0.9649078845977783
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "abundance",
+          "alignment",
+          "apartment",
+          "attention",
+          "authority",
+          "beautiful",
+          "certainly",
+          "challenge",
+          "community",
+          "condition",
+          "conscious",
+          "dangerous",
+          "different",
+          "direction",
+          "efficient",
+          "essential",
+          "excellent",
+          "expensive",
+          "financial",
+          "important"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"abundance\",\n    \"alignment\",\n    \"apartment\",\n    \"attention\",\n    \"authority\",\n    \"beautiful\",\n    \"certainly\",\n    \"challenge\",\n    \"community\",\n    \"condition\",\n    \"conscious\",\n    \"dangerous\",\n    \"different\",\n    \"direction\",\n    \"efficient\",\n    \"essential\",\n    \"excellent\",\n    \"expensive\",\n    \"financial\",\n    \"important\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: abundance (9 letters), alignment (9 letters), apartment (9 letters), attention (9 letters), authority (9 letters), beautiful (9 letters), certainly (9 letters), challenge (9 letters), community (9 letters), condition (9 letters), conscious (9 letters), dangerous (9 letters), different (9 letters), direction (9 letters), efficient (9 letters), essential (9 letters), excellent (9 letters), expensive (9 letters), financial (9 letters), important (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:07:35.325978",
+        "duration_seconds": 0.9590508937835693
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "attention",
+          "influence",
+          "insurance",
+          "fantastic",
+          "direction",
+          "necessary",
+          "important",
+          "available",
+          "potential",
+          "knowledge",
+          "agreement",
+          "education",
+          "signature",
+          "community",
+          "situation",
+          "telephone",
+          "discovery",
+          "republics",
+          "president",
+          "libraries"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"attention\",\n    \"influence\",\n    \"insurance\",\n    \"fantastic\",\n    \"direction\",\n    \"necessary\",\n    \"important\",\n    \"available\",\n    \"potential\",\n    \"knowledge\",\n    \"agreement\",\n    \"education\",\n    \"signature\",\n    \"community\",\n    \"situation\",\n    \"telephone\",\n    \"discovery\",\n    \"republics\",\n    \"president\",\n    \"libraries\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: attention (9 letters), influence (9 letters), insurance (9 letters), fantastic (9 letters), direction (9 letters), necessary (9 letters), important (9 letters), available (9 letters), potential (9 letters), knowledge (9 letters), agreement (9 letters), education (9 letters), signature (9 letters), community (9 letters), situation (9 letters), telephone (9 letters), discovery (9 letters), republics (9 letters), president (9 letters), libraries (9 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:07:37.299025",
+        "duration_seconds": 0.9724385738372803
+      }
+    }
+  ]
+}

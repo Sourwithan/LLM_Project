@@ -1,0 +1,351 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 0.3,
+    "avg_criteria_accuracy": 0.060000000000000005,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.53,
+    "total_unique_words": 45,
+    "most_common_words": [
+      [
+        "zoosporangiophorousness",
+        5
+      ],
+      [
+        "zymohydrographicalness",
+        2
+      ],
+      [
+        "Zygomaticoauricularissterocleidomastoideus",
+        1
+      ],
+      [
+        "Zoologicoarcheologicalundergroundingcorporations",
+        1
+      ],
+      [
+        "Zeppelinadvertisementsportrayalsofthemindcontrol",
+        1
+      ],
+      [
+        "Zirconiumorthosilicatesulphophosphatesulphurous",
+        1
+      ],
+      [
+        "Zoanthodemosdesoxyribonucleicacidreproductions",
+        1
+      ],
+      [
+        "zoosporangiosporophore",
+        1
+      ],
+      [
+        "zygodactylomorphological",
+        1
+      ],
+      [
+        "zootheisticallyinclined",
+        1
+      ]
+    ],
+    "total_duration_seconds": 20.839994430541992,
+    "std_dev_criteria_accuracy": 0.1349897115421106,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.06749485577105527
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Zygomaticoauricularissterocleidomastoideus",
+          "Zoologicoarcheologicalundergroundingcorporations",
+          "Zeppelinadvertisementsportrayalsofthemindcontrol",
+          "Zirconiumorthosilicatesulphophosphatesulphurous",
+          "Zoanthodemosdesoxyribonucleicacidreproductions"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Zygomaticoauricularissterocleidomastoideus\",\n        \"Zoologicoarcheologicalundergroundingcorporations\",\n        \"Zeppelinadvertisementsportrayalsofthemindcontrol\",\n        \"Zirconiumorthosilicatesulphophosphatesulphurous\",\n        \"Zoanthodemosdesoxyribonucleicacidreproductions\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Zygomaticoauricularissterocleidomastoideus (42 letters), Zoologicoarcheologicalundergroundingcorporations (48 letters), Zeppelinadvertisementsportrayalsofthemindcontrol (48 letters), Zirconiumorthosilicatesulphophosphatesulphurous (47 letters), Zoanthodemosdesoxyribonucleicacidreproductions (46 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoosporangiosporophore",
+          "zygodactylomorphological",
+          "zymohydrographicalness",
+          "zootheisticallyinclined",
+          "zonochloritefluoridize"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoosporangiosporophore\",\n    \"zygodactylomorphological\",\n    \"zymohydrographicalness\",\n    \"zootheisticallyinclined\",\n    \"zonochloritefluoridize\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: zoosporangiosporophore (22 letters), zygodactylomorphological (24 letters), zymohydrographicalness (22 letters), zootheisticallyinclined (23 letters), zonochloritefluoridize (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoogeographicallyzoos",
+          "zymotechnologieszymes",
+          "zephyrianlyzephyrians",
+          "zigzagginglyzigzagged",
+          "zoogeographistzooecs"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoogeographicallyzoos\",\n    \"zymotechnologieszymes\",\n    \"zephyrianlyzephyrians\",\n    \"zigzagginglyzigzagged\",\n    \"zoogeographistzooecs\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: zoogeographicallyzoos (21 letters), zymotechnologieszymes (21 letters), zephyrianlyzephyrians (21 letters), zigzagginglyzigzagged (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoogeographicalzoogeo",
+          "zymotechnologicalzym",
+          "zygomaticoauricularzy",
+          "zymohydrographicalzy",
+          "zizzlinglyinteresting"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoogeographicalzoogeo\",\n    \"zymotechnologicalzym\",\n    \"zygomaticoauricularzy\",\n    \"zymohydrographicalzy\",\n    \"zizzlinglyinteresting\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: zoogeographicalzoogeo (21 letters), zygomaticoauricularzy (21 letters), zizzlinglyinteresting (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Zygomaticoauricularisness",
+          "Zoologicoarchaeologically",
+          "Zygomaticomaxillarepostale",
+          "Zarathustrianisticallyism",
+          "Zygodactylomorphousnesses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Zygomaticoauricularisness\",\n    \"Zoologicoarchaeologically\",\n    \"Zygomaticomaxillarepostale\",\n    \"Zarathustrianisticallyism\",\n    \"Zygodactylomorphousnesses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Zygomaticoauricularisness (25 letters), Zoologicoarchaeologically (25 letters), Zygomaticomaxillarepostale (26 letters), Zarathustrianisticallyism (25 letters), Zygodactylomorphousnesses (25 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoosporangiophoraceous",
+          "zygomorphenchymataceous",
+          "zymohydrographicalness",
+          "zymotechnologicallyminded",
+          "zoogeographicallyderived"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoosporangiophoraceous\",\n    \"zygomorphenchymataceous\",\n    \"zymohydrographicalness\",\n    \"zymotechnologicallyminded\",\n    \"zoogeographicallyderived\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: zoosporangiophoraceous (22 letters), zygomorphenchymataceous (23 letters), zymohydrographicalness (22 letters), zymotechnologicallyminded (25 letters), zoogeographicallyderived (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoosporangiophorousness",
+          "zoosporangiophorousness",
+          "zoosporangiophorousness",
+          "zoosporangiophorousness",
+          "zoosporangiophorousness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoosporangiophorousness\",\n    \"zoosporangiophorousness\",\n    \"zoosporangiophorousness\",\n    \"zoosporangiophorousness\",\n    \"zoosporangiophorousness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: zoosporangiophorousness (23 letters), zoosporangiophorousness (23 letters), zoosporangiophorousness (23 letters), zoosporangiophorousness (23 letters), zoosporangiophorousness (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Zoogeographicalzonation",
+          "Zoogeographicozonation",
+          "Zygomaticoauricularis",
+          "Zygomaticomaxillareses",
+          "Zeppelinificationzones"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Zoogeographicalzonation\",\n        \"Zoogeographicozonation\",\n        \"Zygomaticoauricularis\",\n        \"Zygomaticomaxillareses\",\n        \"Zeppelinificationzones\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Zoogeographicalzonation (23 letters), Zoogeographicozonation (22 letters), Zygomaticoauricularis (21 letters), Zygomaticomaxillareses (22 letters), Zeppelinificationzones (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoogeographicalnessess",
+          "zygomaticoauricularises",
+          "zeugmatographicalnesses",
+          "zymotechnologicalnesses",
+          "zoroastrianisationalist"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoogeographicalnessess\",\n    \"zygomaticoauricularises\",\n    \"zeugmatographicalnesses\",\n    \"zymotechnologicalnesses\",\n    \"zoroastrianisationalist\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: zoogeographicalnessess (22 letters), zygomaticoauricularises (23 letters), zeugmatographicalnesses (23 letters), zymotechnologicalnesses (23 letters), zoroastrianisationalist (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zoogeographicalprospect",
+          "zygomorphicinflorescence",
+          "zoolatrouslyromanticize",
+          "zoroastrianizationtrend",
+          "zealousphilanthropists"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zoogeographicalprospect\",\n    \"zygomorphicinflorescence\",\n    \"zoolatrouslyromanticize\",\n    \"zoroastrianizationtrend\",\n    \"zealousphilanthropists\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: zoogeographicalprospect (23 letters), zygomorphicinflorescence (24 letters), zoolatrouslyromanticize (23 letters), zoroastrianizationtrend (23 letters), zealousphilanthropists (22 letters)"
+        ]
+      }
+    }
+  ]
+}

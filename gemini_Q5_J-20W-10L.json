@@ -1,0 +1,502 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 15.6,
+    "avg_criteria_accuracy": 0.78,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.89,
+    "total_unique_words": 112,
+    "most_common_words": [
+      [
+        "jobholders",
+        8
+      ],
+      [
+        "jeopardize",
+        7
+      ],
+      [
+        "jollifying",
+        7
+      ],
+      [
+        "jeremiads",
+        5
+      ],
+      [
+        "jocoseness",
+        5
+      ],
+      [
+        "jaywalking",
+        5
+      ],
+      [
+        "jocundness",
+        5
+      ],
+      [
+        "jigglingly",
+        4
+      ],
+      [
+        "journeying",
+        4
+      ],
+      [
+        "jillionths",
+        4
+      ]
+    ],
+    "total_duration_seconds": 23.740283012390137,
+    "std_dev_criteria_accuracy": 0.10852547064066471,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.05426273532033235
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jackknifed",
+          "jamboreees",
+          "japanning",
+          "jeopardize",
+          "jeremiads",
+          "jewellery",
+          "jigglingly",
+          "jillionth",
+          "jingoistic",
+          "jobholders",
+          "jocoseness",
+          "joggingly",
+          "joinership",
+          "jointworm",
+          "jollifying",
+          "joltingly",
+          "journalsim",
+          "journeying",
+          "jovialness",
+          "juddering"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jackknifed\",\n    \"jamboreees\",\n    \"japanning\",\n    \"jeopardize\",\n    \"jeremiads\",\n    \"jewellery\",\n    \"jigglingly\",\n    \"jillionth\",\n    \"jingoistic\",\n    \"jobholders\",\n    \"jocoseness\",\n    \"joggingly\",\n    \"joinership\",\n    \"jointworm\",\n    \"jollifying\",\n    \"joltingly\",\n    \"journalsim\",\n    \"journeying\",\n    \"jovialness\",\n    \"juddering\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: japanning (9 letters), jeremiads (9 letters), jewellery (9 letters), jillionth (9 letters), joggingly (9 letters), jointworm (9 letters), joltingly (9 letters), juddering (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jamborees",
+          "janglings",
+          "japanizing",
+          "jasperware",
+          "jeopardize",
+          "jeremiads",
+          "jibbooming",
+          "jigglingly",
+          "jillionths",
+          "jimberjaws",
+          "jingoistic",
+          "jobholders",
+          "jocoseness",
+          "jogtrotted",
+          "joineries",
+          "jointworms",
+          "jollifying",
+          "journaling",
+          "journeying",
+          "judderings"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jamborees\",\n    \"janglings\",\n    \"japanizing\",\n    \"jasperware\",\n    \"jeopardize\",\n    \"jeremiads\",\n    \"jibbooming\",\n    \"jigglingly\",\n    \"jillionths\",\n    \"jimberjaws\",\n    \"jingoistic\",\n    \"jobholders\",\n    \"jocoseness\",\n    \"jogtrotted\",\n    \"joineries\",\n    \"jointworms\",\n    \"jollifying\",\n    \"journaling\",\n    \"journeying\",\n    \"judderings\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: jamborees (9 letters), janglings (9 letters), jeremiads (9 letters), joineries (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jailbreaki",
+          "jambstones",
+          "japonizing",
+          "jargoning",
+          "jasperized",
+          "jaundiceous",
+          "jawbonings",
+          "jaywalking",
+          "jeopardize",
+          "jeremiads",
+          "jettisoned",
+          "jewelries",
+          "jibboomed",
+          "jiggumbobs",
+          "jillionths",
+          "jingoistic",
+          "jobholders",
+          "jocundness",
+          "journaling",
+          "judgemental"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jailbreaki\",\n    \"jambstones\",\n    \"japonizing\",\n    \"jargoning\",\n    \"jasperized\",\n    \"jaundiceous\",\n    \"jawbonings\",\n    \"jaywalking\",\n    \"jeopardize\",\n    \"jeremiads\",\n    \"jettisoned\",\n    \"jewelries\",\n    \"jibboomed\",\n    \"jiggumbobs\",\n    \"jillionths\",\n    \"jingoistic\",\n    \"jobholders\",\n    \"jocundness\",\n    \"journaling\",\n    \"judgemental\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 14,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: jargoning (9 letters), jaundiceous (11 letters), jeremiads (9 letters), jewelries (9 letters), jibboomed (9 letters), judgemental (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jackknifed",
+          "jailkeeper",
+          "japanningly",
+          "jargonneer",
+          "jarovizing",
+          "jawbreaking",
+          "jaywalking",
+          "jeopardised",
+          "jettisoned",
+          "jibbooming",
+          "jitterbugs",
+          "jobholders",
+          "jocoseness",
+          "joinerwork",
+          "jollifying",
+          "jouncingly",
+          "journalise",
+          "journeyman",
+          "jowlishness",
+          "judgements"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jackknifed\",\n    \"jailkeeper\",\n    \"japanningly\",\n    \"jargonneer\",\n    \"jarovizing\",\n    \"jawbreaking\",\n    \"jaywalking\",\n    \"jeopardised\",\n    \"jettisoned\",\n    \"jibbooming\",\n    \"jitterbugs\",\n    \"jobholders\",\n    \"jocoseness\",\n    \"joinerwork\",\n    \"jollifying\",\n    \"jouncingly\",\n    \"journalise\",\n    \"journeyman\",\n    \"jowlishness\",\n    \"judgements\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: japanningly (11 letters), jawbreaking (11 letters), jeopardised (11 letters), jowlishness (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jargonised",
+          "jauntiness",
+          "jewellerys",
+          "jitterbugs",
+          "jobcentres",
+          "jobholders",
+          "jointersed",
+          "jolterhead",
+          "jollifying",
+          "journaling",
+          "journeyers",
+          "judderings",
+          "judgements",
+          "judicature",
+          "jugulating",
+          "juxtaposes",
+          "jackhammer",
+          "jackrolling",
+          "jailbreaked",
+          "jeopardise"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jargonised\",\n    \"jauntiness\",\n    \"jewellerys\",\n    \"jitterbugs\",\n    \"jobcentres\",\n    \"jobholders\",\n    \"jointersed\",\n    \"jolterhead\",\n    \"jollifying\",\n    \"journaling\",\n    \"journeyers\",\n    \"judderings\",\n    \"judgements\",\n    \"judicature\",\n    \"jugulating\",\n    \"juxtaposes\",\n    \"jackhammer\",\n    \"jackrolling\",\n    \"jailbreaked\",\n    \"jeopardise\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 18,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: jackrolling (11 letters), jailbreaked (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jargonized",
+          "jawbreaking",
+          "jeopardize",
+          "jewelweeds",
+          "jobholders",
+          "jocundness",
+          "joinerisms",
+          "jointworms",
+          "joltingest",
+          "journalese",
+          "journeying",
+          "judderings",
+          "jugulating",
+          "jumpinesss",
+          "jumpmaster",
+          "jurisprude",
+          "justifiers",
+          "justifying",
+          "juxtaposed",
+          "juxtaposes"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jargonized\",\n    \"jawbreaking\",\n    \"jeopardize\",\n    \"jewelweeds\",\n    \"jobholders\",\n    \"jocundness\",\n    \"joinerisms\",\n    \"jointworms\",\n    \"joltingest\",\n    \"journalese\",\n    \"journeying\",\n    \"judderings\",\n    \"jugulating\",\n    \"jumpinesss\",\n    \"jumpmaster\",\n    \"jurisprude\",\n    \"justifiers\",\n    \"justifying\",\n    \"juxtaposed\",\n    \"juxtaposes\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: jawbreaking (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "javelinman",
+          "jewellers'",
+          "jetsamlike",
+          "jobholder",
+          "jocundness",
+          "joeyriding",
+          "jointworms",
+          "jolterhead",
+          "journeyman",
+          "judgemental",
+          "jugulating",
+          "jumbifying",
+          "jumpmaster",
+          "jurisdict",
+          "justiciars",
+          "juxtaposed",
+          "jailbirdie",
+          "jangliest",
+          "jeroboams",
+          "jewelries"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"javelinman\",\n    \"jewellers'\",\n    \"jetsamlike\",\n    \"jobholder\",\n    \"jocundness\",\n    \"joeyriding\",\n    \"jointworms\",\n    \"jolterhead\",\n    \"journeyman\",\n    \"judgemental\",\n    \"jugulating\",\n    \"jumbifying\",\n    \"jumpmaster\",\n    \"jurisdict\",\n    \"justiciars\",\n    \"juxtaposed\",\n    \"jailbirdie\",\n    \"jangliest\",\n    \"jeroboams\",\n    \"jewelries\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 13,
+        "correct_count": true,
+        "criteria_accuracy": 0.65,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.825,
+        "errors": [
+          "Words with incorrect length: jobholder (9 letters), judgemental (11 letters), jurisdict (9 letters), jangliest (9 letters), jeroboams (9 letters), jewelries (9 letters)",
+          "Non-alphabetic words: jewellers'"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jamborees",
+          "janglingly",
+          "japanizing",
+          "japonizing",
+          "jaundiceous",
+          "jauntiness",
+          "jaywalking",
+          "jeopardize",
+          "jeremiads",
+          "jeremiases",
+          "jibbooming",
+          "jigglingly",
+          "jillionths",
+          "jinglingly",
+          "jobholders",
+          "jocundness",
+          "jollifying",
+          "journaling",
+          "journeying",
+          "juddering"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jamborees\",\n    \"janglingly\",\n    \"japanizing\",\n    \"japonizing\",\n    \"jaundiceous\",\n    \"jauntiness\",\n    \"jaywalking\",\n    \"jeopardize\",\n    \"jeremiads\",\n    \"jeremiases\",\n    \"jibbooming\",\n    \"jigglingly\",\n    \"jillionths\",\n    \"jinglingly\",\n    \"jobholders\",\n    \"jocundness\",\n    \"jollifying\",\n    \"journaling\",\n    \"journeying\",\n    \"juddering\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: jamborees (9 letters), jaundiceous (11 letters), jeremiads (9 letters), juddering (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jackknifed",
+          "jailkeeper",
+          "janglingly",
+          "japanizing",
+          "jargoning",
+          "jasperware",
+          "jawboning",
+          "jaywalking",
+          "jeopardize",
+          "jeremiads",
+          "jibboomman",
+          "jigglingly",
+          "jillionths",
+          "jimberjaws",
+          "jinglebell",
+          "jobcentres",
+          "jocoseness",
+          "joinerwork",
+          "jollifying",
+          "journalise"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jackknifed\",\n    \"jailkeeper\",\n    \"janglingly\",\n    \"japanizing\",\n    \"jargoning\",\n    \"jasperware\",\n    \"jawboning\",\n    \"jaywalking\",\n    \"jeopardize\",\n    \"jeremiads\",\n    \"jibboomman\",\n    \"jigglingly\",\n    \"jillionths\",\n    \"jimberjaws\",\n    \"jinglebell\",\n    \"jobcentres\",\n    \"jocoseness\",\n    \"joinerwork\",\n    \"jollifying\",\n    \"journalise\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: jargoning (9 letters), jawboning (9 letters), jeremiads (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "jackpotted",
+          "jadeitingu",
+          "jailbreaking",
+          "jalousieing",
+          "jamboreeing",
+          "jargonizing",
+          "jasmineous",
+          "jauntiness",
+          "jaywalking",
+          "jejuneness",
+          "jellifying",
+          "jeopardize",
+          "jettisoned",
+          "jeweleries",
+          "jobholders",
+          "jocoseness",
+          "jocundness",
+          "jointworms",
+          "jollifying",
+          "journalling"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jackpotted\",\n    \"jadeitingu\",\n    \"jailbreaking\",\n    \"jalousieing\",\n    \"jamboreeing\",\n    \"jargonizing\",\n    \"jasmineous\",\n    \"jauntiness\",\n    \"jaywalking\",\n    \"jejuneness\",\n    \"jellifying\",\n    \"jeopardize\",\n    \"jettisoned\",\n    \"jeweleries\",\n    \"jobholders\",\n    \"jocoseness\",\n    \"jocundness\",\n    \"jointworms\",\n    \"jollifying\",\n    \"journalling\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 15,
+        "correct_count": true,
+        "criteria_accuracy": 0.75,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.875,
+        "errors": [
+          "Words with incorrect length: jailbreaking (12 letters), jalousieing (11 letters), jamboreeing (11 letters), jargonizing (11 letters), journalling (11 letters)"
+        ]
+      }
+    }
+  ]
+}

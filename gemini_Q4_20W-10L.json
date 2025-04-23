@@ -1,0 +1,4073 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "word_count_requested": 20,
+    "word_length": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_accuracy": {
+      "english_words": 0.53,
+      "vowel_constraint": 0.635,
+      "length_constraint": 0.51,
+      "fully_valid": 0.095,
+      "correct_count": 1.0
+    },
+    "total_words": 200,
+    "unique_words": 150,
+    "uniqueness_ratio": 0.75,
+    "most_common_words": [
+      [
+        "equations",
+        8
+      ],
+      [
+        "education",
+        7
+      ],
+      [
+        "adventious",
+        5
+      ],
+      [
+        "abstemious",
+        5
+      ],
+      [
+        "abduction",
+        4
+      ],
+      [
+        "cautioned",
+        4
+      ],
+      [
+        "tenacious",
+        4
+      ],
+      [
+        "ambidextry",
+        4
+      ],
+      [
+        "obduracin",
+        3
+      ],
+      [
+        "facetious",
+        3
+      ]
+    ],
+    "total_duration_seconds": 24.202128887176514
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "abduction",
+          "obduracin",
+          "cautioned",
+          "equations",
+          "ambidexty",
+          "education",
+          "facetiously",
+          "precations",
+          "tenacious",
+          "aeronautic",
+          "adventious",
+          "antiserum",
+          "authorized",
+          "automized",
+          "behavior",
+          "bloodstain",
+          "bootlaces",
+          "boundaries",
+          "bouquet",
+          "bounties"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abduction\",\n    \"obduracin\",\n    \"cautioned\",\n    \"equations\",\n    \"ambidexty\",\n    \"education\",\n    \"facetiously\",\n    \"precations\",\n    \"tenacious\",\n    \"aeronautic\",\n    \"adventious\",\n    \"antiserum\",\n    \"authorized\",\n    \"automized\",\n    \"behavior\",\n    \"bloodstain\",\n    \"bootlaces\",\n    \"boundaries\",\n    \"bouquet\",\n    \"bounties\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abduction",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obduracin",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cautioned",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ambidexty",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facetiously",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "precations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "tenacious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "aeronautic",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 2,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "a"
+            ]
+          },
+          {
+            "word": "adventious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "antiserum",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "authorized",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "automized",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "behavior",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bloodstain",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "bootlaces",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "boundaries",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bouquet",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 7,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "bounties",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 10,
+        "valid_vowels_count": 16,
+        "valid_length_count": 6,
+        "fully_valid_count": 1,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.5,
+          "vowel_constraint": 0.8,
+          "length_constraint": 0.3,
+          "fully_valid": 0.05,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "abduction",
+          "obduracin",
+          "education",
+          "ambidextry",
+          "equations",
+          "cautioned",
+          "precocity",
+          "radiotele",
+          "modularity",
+          "outlander",
+          "exclusion",
+          "renovation",
+          "regulatory",
+          "operation",
+          "ovulation",
+          "prelation",
+          "relation",
+          "detouring",
+          "alteration",
+          "recitation"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abduction\",\n    \"obduracin\",\n    \"education\",\n    \"ambidextry\",\n    \"equations\",\n    \"cautioned\",\n    \"precocity\",\n    \"radiotele\",\n    \"modularity\",\n    \"outlander\",\n    \"exclusion\",\n    \"renovation\",\n    \"regulatory\",\n    \"operation\",\n    \"ovulation\",\n    \"prelation\",\n    \"relation\",\n    \"detouring\",\n    \"alteration\",\n    \"recitation\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abduction",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obduracin",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ambidextry",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cautioned",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "precocity",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "radiotele",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "modularity",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "outlander",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "exclusion",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "renovation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "regulatory",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "operation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "ovulation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "prelation",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "relation",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "detouring",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "alteration",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 2,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "a"
+            ]
+          },
+          {
+            "word": "recitation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          }
+        ],
+        "valid_english_count": 13,
+        "valid_vowels_count": 14,
+        "valid_length_count": 6,
+        "fully_valid_count": 1,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.65,
+          "vowel_constraint": 0.7,
+          "length_constraint": 0.3,
+          "fully_valid": 0.05,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "adventious",
+          "abstemious",
+          "facetious",
+          "gravedious",
+          "gradiently",
+          "adventurous",
+          "affectious",
+          "gravelious",
+          "candescent",
+          "auctioned",
+          "advectious",
+          "decauduous",
+          "adventured",
+          "vauclusian",
+          "caesiously",
+          "bravissimo",
+          "mancipious",
+          "cavaliered",
+          "obduracies",
+          "acquisitive"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n    \"words\": [\n        \"adventious\",\n        \"abstemious\",\n        \"facetious\",\n        \"gravedious\",\n        \"gradiently\",\n        \"adventurous\",\n        \"affectious\",\n        \"gravelious\",\n        \"candescent\",\n        \"auctioned\",\n        \"advectious\",\n        \"decauduous\",\n        \"adventured\",\n        \"vauclusian\",\n        \"caesiously\",\n        \"bravissimo\",\n        \"mancipious\",\n        \"cavaliered\",\n        \"obduracies\",\n        \"acquisitive\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "adventious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abstemious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facetious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "gravedious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "gradiently",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adventurous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "affectious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "gravelious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "candescent",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "auctioned",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "advectious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "decauduous",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 3
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "adventured",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "vauclusian",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 2,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "a",
+              "u"
+            ]
+          },
+          {
+            "word": "caesiously",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bravissimo",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "mancipious",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 2,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "cavaliered",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 2,
+              "e": 2,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "a",
+              "e"
+            ]
+          },
+          {
+            "word": "obduracies",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "acquisitive",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 3,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          }
+        ],
+        "valid_english_count": 6,
+        "valid_vowels_count": 11,
+        "valid_length_count": 16,
+        "fully_valid_count": 2,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.3,
+          "vowel_constraint": 0.55,
+          "length_constraint": 0.8,
+          "fully_valid": 0.1,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "beguiling",
+          "ambidextry",
+          "proclaiming",
+          "authority",
+          "demotivating",
+          "sequoiaing",
+          "narcotise",
+          "vituperate",
+          "adulterino",
+          "precaution",
+          "adventious",
+          "abstemious",
+          "cauligenous",
+          "persuasion",
+          "education",
+          "auriferous",
+          "abluent",
+          "equations",
+          "overacting",
+          "uniparent"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n    \"words\": [\n        \"beguiling\",\n        \"ambidextry\",\n        \"proclaiming\",\n        \"authority\",\n        \"demotivating\",\n        \"sequoiaing\",\n        \"narcotise\",\n        \"vituperate\",\n        \"adulterino\",\n        \"precaution\",\n        \"adventious\",\n        \"abstemious\",\n        \"cauligenous\",\n        \"persuasion\",\n        \"education\",\n        \"auriferous\",\n        \"abluent\",\n        \"equations\",\n        \"overacting\",\n        \"uniparent\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "beguiling",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 2,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "ambidextry",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "proclaiming",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "authority",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "demotivating",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 12,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "sequoiaing",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "narcotise",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "vituperate",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "adulterino",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "precaution",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adventious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abstemious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cauligenous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "persuasion",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "auriferous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "abluent",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 7,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "overacting",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "uniparent",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 11,
+        "valid_vowels_count": 13,
+        "valid_length_count": 10,
+        "fully_valid_count": 3,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.55,
+          "vowel_constraint": 0.65,
+          "length_constraint": 0.5,
+          "fully_valid": 0.15,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "abstemious",
+          "facetious",
+          "arsenious",
+          "adulterous",
+          "precarious",
+          "authorizes",
+          "obviously",
+          "education",
+          "equations",
+          "equalizing",
+          "irresolute",
+          "aeronautic",
+          "cutaneous",
+          "behaviour",
+          "perfusion",
+          "renovation",
+          "recusation",
+          "generation",
+          "operation",
+          "cautioners"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abstemious\",\n    \"facetious\",\n    \"arsenious\",\n    \"adulterous\",\n    \"precarious\",\n    \"authorizes\",\n    \"obviously\",\n    \"education\",\n    \"equations\",\n    \"equalizing\",\n    \"irresolute\",\n    \"aeronautic\",\n    \"cutaneous\",\n    \"behaviour\",\n    \"perfusion\",\n    \"renovation\",\n    \"recusation\",\n    \"generation\",\n    \"operation\",\n    \"cautioners\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abstemious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facetious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "arsenious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adulterous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "precarious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "authorizes",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obviously",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equalizing",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "irresolute",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "aeronautic",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 2,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "a"
+            ]
+          },
+          {
+            "word": "cutaneous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "behaviour",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "perfusion",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "renovation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "recusation",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "generation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "operation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "cautioners",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 17,
+        "valid_vowels_count": 11,
+        "valid_length_count": 11,
+        "fully_valid_count": 3,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.85,
+          "vowel_constraint": 0.55,
+          "length_constraint": 0.55,
+          "fully_valid": 0.15,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "abduction",
+          "ambiguous",
+          "amplitude",
+          "anxiouser",
+          "auditione",
+          "calumniose",
+          "cautioned",
+          "cauligenous",
+          "cutaneous",
+          "education",
+          "equation",
+          "excursion",
+          "infatuous",
+          "inoculate",
+          "lobulation",
+          "lucidness",
+          "modulation",
+          "mountain",
+          "obduration",
+          "unnoticed"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abduction\",\n    \"ambiguous\",\n    \"amplitude\",\n    \"anxiouser\",\n    \"auditione\",\n    \"calumniose\",\n    \"cautioned\",\n    \"cauligenous\",\n    \"cutaneous\",\n    \"education\",\n    \"equation\",\n    \"excursion\",\n    \"infatuous\",\n    \"inoculate\",\n    \"lobulation\",\n    \"lucidness\",\n    \"modulation\",\n    \"mountain\",\n    \"obduration\",\n    \"unnoticed\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abduction",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ambiguous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "amplitude",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "anxiouser",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "auditione",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "calumniose",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cautioned",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cauligenous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "cutaneous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equation",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "excursion",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "infatuous",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "inoculate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "lobulation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "lucidness",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "modulation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "mountain",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obduration",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "unnoticed",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 15,
+        "valid_vowels_count": 12,
+        "valid_length_count": 4,
+        "fully_valid_count": 0,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.75,
+          "vowel_constraint": 0.6,
+          "length_constraint": 0.2,
+          "fully_valid": 0.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "voudoyants",
+          "ambigenous",
+          "subvention",
+          "outranging",
+          "equations",
+          "vituperous",
+          "cautioning",
+          "sanctuous",
+          "adulterous",
+          "lobationen",
+          "abstemious",
+          "mountainous",
+          "tenacious",
+          "unaspiring",
+          "precautions",
+          "precaution",
+          "venomous",
+          "vitreous",
+          "tenurions",
+          "tenacious"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n    \"words\": [\n        \"voudoyants\",\n        \"ambigenous\",\n        \"subvention\",\n        \"outranging\",\n        \"equations\",\n        \"vituperous\",\n        \"cautioning\",\n        \"sanctuous\",\n        \"adulterous\",\n        \"lobationen\",\n        \"abstemious\",\n        \"mountainous\",\n        \"tenacious\",\n        \"unaspiring\",\n        \"precautions\",\n        \"precaution\",\n        \"venomous\",\n        \"vitreous\",\n        \"tenurions\",\n        \"tenacious\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "voudoyants",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "ambigenous",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "subvention",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "outranging",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "vituperous",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "cautioning",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 2,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "sanctuous",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "adulterous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "lobationen",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "abstemious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "mountainous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "o",
+              "u"
+            ]
+          },
+          {
+            "word": "tenacious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unaspiring",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 2,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "precautions",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "precaution",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "venomous",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "vitreous",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 8,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "tenurions",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "tenacious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 11,
+        "valid_vowels_count": 11,
+        "valid_length_count": 11,
+        "fully_valid_count": 4,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.55,
+          "vowel_constraint": 0.55,
+          "length_constraint": 0.55,
+          "fully_valid": 0.2,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "abduction",
+          "obduracin",
+          "exclusion",
+          "education",
+          "equations",
+          "precauting",
+          "unpoetical",
+          "unctionary",
+          "auctioneer",
+          "behaviour",
+          "obduration",
+          "cautionsly",
+          "decollation",
+          "locutionary",
+          "precociously",
+          "questionary",
+          "adulterino",
+          "ambidextry",
+          "procreated",
+          "undulatory"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abduction\",\n    \"obduracin\",\n    \"exclusion\",\n    \"education\",\n    \"equations\",\n    \"precauting\",\n    \"unpoetical\",\n    \"unctionary\",\n    \"auctioneer\",\n    \"behaviour\",\n    \"obduration\",\n    \"cautionsly\",\n    \"decollation\",\n    \"locutionary\",\n    \"precociously\",\n    \"questionary\",\n    \"adulterino\",\n    \"ambidextry\",\n    \"procreated\",\n    \"undulatory\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abduction",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obduracin",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "exclusion",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "precauting",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unpoetical",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unctionary",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "auctioneer",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "behaviour",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "obduration",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "cautionsly",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "decollation",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "locutionary",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "precociously",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 12,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "questionary",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adulterino",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ambidextry",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "procreated",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "undulatory",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          }
+        ],
+        "valid_english_count": 10,
+        "valid_vowels_count": 13,
+        "valid_length_count": 10,
+        "fully_valid_count": 0,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.5,
+          "vowel_constraint": 0.65,
+          "length_constraint": 0.5,
+          "fully_valid": 0.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "ambidextry",
+          "uncopylids",
+          "turbomycin",
+          "subaxially",
+          "unmiracled",
+          "bockendahl",
+          "youthfully",
+          "bucktoothly",
+          "unholyback",
+          "myoblastic",
+          "unboyishly",
+          "polymathic",
+          "subtonicity",
+          "blousyhead",
+          "unholybook",
+          "subdiaconal",
+          "bouncingly",
+          "unluckybad",
+          "troublingly",
+          "polyacidic"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n    \"words\": [\n        \"ambidextry\",\n        \"uncopylids\",\n        \"turbomycin\",\n        \"subaxially\",\n        \"unmiracled\",\n        \"bockendahl\",\n        \"youthfully\",\n        \"bucktoothly\",\n        \"unholyback\",\n        \"myoblastic\",\n        \"unboyishly\",\n        \"polymathic\",\n        \"subtonicity\",\n        \"blousyhead\",\n        \"unholybook\",\n        \"subdiaconal\",\n        \"bouncingly\",\n        \"unluckybad\",\n        \"troublingly\",\n        \"polyacidic\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "ambidextry",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "uncopylids",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "turbomycin",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "subaxially",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 2,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "a"
+            ]
+          },
+          {
+            "word": "unmiracled",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bockendahl",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "youthfully",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "bucktoothly",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 2,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "unholyback",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "myoblastic",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unboyishly",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "polymathic",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "subtonicity",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 2,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "blousyhead",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unholybook",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 3,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "subdiaconal",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 2,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "a"
+            ]
+          },
+          {
+            "word": "bouncingly",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "unluckybad",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 0,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "troublingly",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 11,
+            "required_length": 10,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "polyacidic",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          }
+        ],
+        "valid_english_count": 7,
+        "valid_vowels_count": 12,
+        "valid_length_count": 16,
+        "fully_valid_count": 4,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.35,
+          "vowel_constraint": 0.6,
+          "length_constraint": 0.8,
+          "fully_valid": 0.2,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 10",
+      "response": {
+        "words": [
+          "abstemious",
+          "facetious",
+          "precauious",
+          "adventious",
+          "sequacious",
+          "tenacious",
+          "gradatious",
+          "vocationed",
+          "cautioned",
+          "equations",
+          "rationised",
+          "education",
+          "cautioners",
+          "equations",
+          "rationised",
+          "adventious",
+          "fractious",
+          "abjections",
+          "sanctious",
+          "factioners"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abstemious\",\n    \"facetious\",\n    \"precauious\",\n    \"adventious\",\n    \"sequacious\",\n    \"tenacious\",\n    \"gradatious\",\n    \"vocationed\",\n    \"cautioned\",\n    \"equations\",\n    \"rationised\",\n    \"education\",\n    \"cautioners\",\n    \"equations\",\n    \"rationised\",\n    \"adventious\",\n    \"fractious\",\n    \"abjections\",\n    \"sanctious\",\n    \"factioners\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abstemious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facetious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "precauious",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "adventious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sequacious",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 6,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "u"
+            ]
+          },
+          {
+            "word": "tenacious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "gradatious",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 2,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": [
+              "a"
+            ]
+          },
+          {
+            "word": "vocationed",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "cautioned",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "rationised",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "education",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cautioners",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equations",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "rationised",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 2,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "adventious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 5,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "fractious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abjections",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sanctious",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 9,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "factioners",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 10,
+            "required_length": 10,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 6,
+        "valid_vowels_count": 14,
+        "valid_length_count": 12,
+        "fully_valid_count": 1,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.3,
+          "vowel_constraint": 0.7,
+          "length_constraint": 0.6,
+          "fully_valid": 0.05,
+          "count_accuracy": 1.0
+        }
+      }
+    }
+  ]
+}

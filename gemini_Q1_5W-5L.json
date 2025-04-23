@@ -1,0 +1,541 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 5 words that have 5 letters.",
+    "word_length_requested": 5,
+    "word_count_requested": 5,
+    "num_tests": 10,
+    "total_duration_seconds": 15.085657596588135,
+    "timestamp": "2025-04-18T21:00:22.899991"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 5,
+    "avg_length_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 19,
+    "total_unique_correct_words": 19,
+    "most_common_words": [
+      [
+        "apple",
+        6
+      ],
+      [
+        "house",
+        4
+      ],
+      [
+        "table",
+        4
+      ],
+      [
+        "about",
+        4
+      ],
+      [
+        "grape",
+        4
+      ],
+      [
+        "water",
+        3
+      ],
+      [
+        "chair",
+        3
+      ],
+      [
+        "lemon",
+        3
+      ],
+      [
+        "melon",
+        3
+      ],
+      [
+        "light",
+        2
+      ],
+      [
+        "their",
+        2
+      ],
+      [
+        "which",
+        2
+      ],
+      [
+        "would",
+        2
+      ],
+      [
+        "other",
+        2
+      ],
+      [
+        "peach",
+        2
+      ],
+      [
+        "dream",
+        1
+      ],
+      [
+        "bread",
+        1
+      ],
+      [
+        "berry",
+        1
+      ],
+      [
+        "plant",
+        1
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "apple",
+        6
+      ],
+      [
+        "house",
+        4
+      ],
+      [
+        "table",
+        4
+      ],
+      [
+        "about",
+        4
+      ],
+      [
+        "grape",
+        4
+      ],
+      [
+        "water",
+        3
+      ],
+      [
+        "chair",
+        3
+      ],
+      [
+        "lemon",
+        3
+      ],
+      [
+        "melon",
+        3
+      ],
+      [
+        "light",
+        2
+      ],
+      [
+        "their",
+        2
+      ],
+      [
+        "which",
+        2
+      ],
+      [
+        "would",
+        2
+      ],
+      [
+        "other",
+        2
+      ],
+      [
+        "peach",
+        2
+      ],
+      [
+        "dream",
+        1
+      ],
+      [
+        "bread",
+        1
+      ],
+      [
+        "berry",
+        1
+      ],
+      [
+        "plant",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "word_frequencies": {
+    "all_words": {
+      "apple": 6,
+      "house": 4,
+      "water": 3,
+      "dream": 1,
+      "light": 2,
+      "table": 4,
+      "chair": 3,
+      "bread": 1,
+      "about": 4,
+      "their": 2,
+      "which": 2,
+      "would": 2,
+      "other": 2,
+      "grape": 4,
+      "lemon": 3,
+      "peach": 2,
+      "melon": 3,
+      "berry": 1,
+      "plant": 1
+    },
+    "correct_length_words": {
+      "apple": 6,
+      "house": 4,
+      "water": 3,
+      "dream": 1,
+      "light": 2,
+      "table": 4,
+      "chair": 3,
+      "bread": 1,
+      "about": 4,
+      "their": 2,
+      "which": 2,
+      "would": 2,
+      "other": 2,
+      "grape": 4,
+      "lemon": 3,
+      "peach": 2,
+      "melon": 3,
+      "berry": 1,
+      "plant": 1
+    },
+    "word_count_by_length": {
+      "5": 50
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "apple",
+          "house",
+          "water",
+          "dream",
+          "light"
+        ],
+        "raw_response": "{\n  \"words\": [\"apple\", \"house\", \"water\", \"dream\", \"light\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:00:08.472482",
+        "duration_seconds": 0.6584641933441162
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "apple",
+          "table",
+          "chair",
+          "house",
+          "bread"
+        ],
+        "raw_response": "{\n  \"words\": [\"apple\", \"table\", \"chair\", \"house\", \"bread\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:00:09.976006",
+        "duration_seconds": 0.50345778465271
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "about",
+          "table",
+          "light",
+          "water",
+          "house"
+        ],
+        "raw_response": "{\n  \"words\": [\"about\", \"table\", \"light\", \"water\", \"house\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:00:11.473456",
+        "duration_seconds": 0.4965550899505615
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "about",
+          "their",
+          "which",
+          "would",
+          "other"
+        ],
+        "raw_response": "{\n  \"words\": [\"about\", \"their\", \"which\", \"would\", \"other\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:00:12.965243",
+        "duration_seconds": 0.4914424419403076
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "apple",
+          "grape",
+          "lemon",
+          "peach",
+          "melon"
+        ],
+        "raw_response": "{\n  \"words\": [\"apple\", \"grape\", \"lemon\", \"peach\", \"melon\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:00:14.423344",
+        "duration_seconds": 0.4573688507080078
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "apple",
+          "grape",
+          "house",
+          "chair",
+          "table"
+        ],
+        "raw_response": "{\n  \"words\": [\"apple\", \"grape\", \"house\", \"chair\", \"table\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:00:15.922761",
+        "duration_seconds": 0.49918270111083984
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "apple",
+          "grape",
+          "lemon",
+          "melon",
+          "berry"
+        ],
+        "raw_response": "{\n  \"words\": [\"apple\", \"grape\", \"lemon\", \"melon\", \"berry\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:00:17.415715",
+        "duration_seconds": 0.4920217990875244
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "apple",
+          "grape",
+          "lemon",
+          "peach",
+          "melon"
+        ],
+        "raw_response": "{\n  \"words\": [\"apple\", \"grape\", \"lemon\", \"peach\", \"melon\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:00:18.916531",
+        "duration_seconds": 0.49991297721862793
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "about",
+          "table",
+          "chair",
+          "water",
+          "plant"
+        ],
+        "raw_response": "{\n  \"words\": [\"about\", \"table\", \"chair\", \"water\", \"plant\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:00:20.449748",
+        "duration_seconds": 0.5322701930999756
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "about",
+          "their",
+          "which",
+          "would",
+          "other"
+        ],
+        "raw_response": "{\n  \"words\": [\"about\", \"their\", \"which\", \"would\", \"other\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 5,
+        "correct_count": true,
+        "length_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:00:21.898764",
+        "duration_seconds": 0.44822096824645996
+      }
+    }
+  ]
+}

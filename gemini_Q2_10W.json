@@ -1,0 +1,444 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Write me a 10 word sentence without any words that appear in the Christian Bible.",
+    "required_word_count": 10,
+    "num_tests": 10,
+    "total_duration_seconds": 42.98216724395752,
+    "timestamp": "2025-04-18T21:27:05.794055"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "word_count_accuracy": 0.3,
+    "bible_words_accuracy": 0.0,
+    "total_success_rate": 0.0
+  },
+  "individual_test_results": [
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Beneath vast skies, creatures roamed. Sun warmed earth, life flourished wondrously.\n"
+      },
+      "validation": {
+        "original_sentence": "Beneath vast skies, creatures roamed. Sun warmed earth, life flourished wondrously.",
+        "cleaned_sentence": "Beneath vast skies creatures roamed Sun warmed earth life flourished wondrously",
+        "words": [
+          "Beneath",
+          "vast",
+          "skies",
+          "creatures",
+          "roamed",
+          "Sun",
+          "warmed",
+          "earth",
+          "life",
+          "flourished",
+          "wondrously"
+        ],
+        "word_count": 11,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "Beneath",
+          "skies",
+          "creatures",
+          "Sun",
+          "warmed",
+          "earth",
+          "life",
+          "wondrously"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:26:23.351814",
+        "duration_seconds": 0.5399158000946045
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Galaxies swirl; quasars emit energy; existence wonders, pondering cosmic, physical phenomena. \n"
+      },
+      "validation": {
+        "original_sentence": "Galaxies swirl; quasars emit energy; existence wonders, pondering cosmic, physical phenomena.",
+        "cleaned_sentence": "Galaxies swirl quasars emit energy existence wonders pondering cosmic physical phenomena",
+        "words": [
+          "Galaxies",
+          "swirl",
+          "quasars",
+          "emit",
+          "energy",
+          "existence",
+          "wonders",
+          "pondering",
+          "cosmic",
+          "physical",
+          "phenomena"
+        ],
+        "word_count": 11,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "wonders",
+          "pondering"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:26:28.447229",
+        "duration_seconds": 0.5513110160827637
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "The blue, vast sphere revolved, untouched by mankind's foolish squabbles.\n"
+      },
+      "validation": {
+        "original_sentence": "The blue, vast sphere revolved, untouched by mankind's foolish squabbles.",
+        "cleaned_sentence": "The blue vast sphere revolved untouched by mankinds foolish squabbles",
+        "words": [
+          "The",
+          "blue",
+          "vast",
+          "sphere",
+          "revolved",
+          "untouched",
+          "by",
+          "mankinds",
+          "foolish",
+          "squabbles"
+        ],
+        "word_count": 10,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "The",
+          "blue",
+          "by",
+          "foolish"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:26:33.619128",
+        "duration_seconds": 0.5337309837341309
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Serene clouds floated past old, grand fortress walls under vast azure skies.\n"
+      },
+      "validation": {
+        "original_sentence": "Serene clouds floated past old, grand fortress walls under vast azure skies.",
+        "cleaned_sentence": "Serene clouds floated past old grand fortress walls under vast azure skies",
+        "words": [
+          "Serene",
+          "clouds",
+          "floated",
+          "past",
+          "old",
+          "grand",
+          "fortress",
+          "walls",
+          "under",
+          "vast",
+          "azure",
+          "skies"
+        ],
+        "word_count": 12,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "clouds",
+          "past",
+          "old",
+          "fortress",
+          "walls",
+          "under",
+          "skies"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:26:37.226400",
+        "duration_seconds": 0.5352263450622559
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Majestic aurora painted skies, illuminating frozen tundra's silent, icy expanse.\n"
+      },
+      "validation": {
+        "original_sentence": "Majestic aurora painted skies, illuminating frozen tundra's silent, icy expanse.",
+        "cleaned_sentence": "Majestic aurora painted skies illuminating frozen tundras silent icy expanse",
+        "words": [
+          "Majestic",
+          "aurora",
+          "painted",
+          "skies",
+          "illuminating",
+          "frozen",
+          "tundras",
+          "silent",
+          "icy",
+          "expanse"
+        ],
+        "word_count": 10,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "Majestic",
+          "painted",
+          "skies",
+          "frozen",
+          "silent"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:26:44.406187",
+        "duration_seconds": 0.575678825378418
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Gaia's vibrant flora thrives; sunbeam warmth melts glacial, frozen landscapes afar.\n"
+      },
+      "validation": {
+        "original_sentence": "Gaia's vibrant flora thrives; sunbeam warmth melts glacial, frozen landscapes afar.",
+        "cleaned_sentence": "Gaias vibrant flora thrives sunbeam warmth melts glacial frozen landscapes afar",
+        "words": [
+          "Gaias",
+          "vibrant",
+          "flora",
+          "thrives",
+          "sunbeam",
+          "warmth",
+          "melts",
+          "glacial",
+          "frozen",
+          "landscapes",
+          "afar"
+        ],
+        "word_count": 11,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "warmth",
+          "frozen",
+          "afar"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:26:48.688171",
+        "duration_seconds": 0.47270917892456055
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Nature's grand tapestry unfolds, painting skies with twilight's brush, slowly fading.\n"
+      },
+      "validation": {
+        "original_sentence": "Nature's grand tapestry unfolds, painting skies with twilight's brush, slowly fading.",
+        "cleaned_sentence": "Natures grand tapestry unfolds painting skies with twilights brush slowly fading",
+        "words": [
+          "Natures",
+          "grand",
+          "tapestry",
+          "unfolds",
+          "painting",
+          "skies",
+          "with",
+          "twilights",
+          "brush",
+          "slowly",
+          "fading"
+        ],
+        "word_count": 11,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "tapestry",
+          "skies",
+          "with",
+          "slowly",
+          "fading"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:26:52.765627",
+        "duration_seconds": 0.44469428062438965
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Vast galactic cosmos: bright nebulas shine, stellar dust floats, amazing, grand.\n"
+      },
+      "validation": {
+        "original_sentence": "Vast galactic cosmos: bright nebulas shine, stellar dust floats, amazing, grand.",
+        "cleaned_sentence": "Vast galactic cosmos bright nebulas shine stellar dust floats amazing grand",
+        "words": [
+          "Vast",
+          "galactic",
+          "cosmos",
+          "bright",
+          "nebulas",
+          "shine",
+          "stellar",
+          "dust",
+          "floats",
+          "amazing",
+          "grand"
+        ],
+        "word_count": 11,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "bright",
+          "shine",
+          "dust",
+          "floats"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:26:57.242664",
+        "duration_seconds": 0.5182704925537109
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Galaxies rotate, displaying complex mathematical relationships; studying this aids perception.\n"
+      },
+      "validation": {
+        "original_sentence": "Galaxies rotate, displaying complex mathematical relationships; studying this aids perception.",
+        "cleaned_sentence": "Galaxies rotate displaying complex mathematical relationships studying this aids perception",
+        "words": [
+          "Galaxies",
+          "rotate",
+          "displaying",
+          "complex",
+          "mathematical",
+          "relationships",
+          "studying",
+          "this",
+          "aids",
+          "perception"
+        ],
+        "word_count": 10,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "this"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:27:01.671330",
+        "duration_seconds": 0.6051938533782959
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 10-word sentence without biblical words",
+        "required_word_count": 10
+      },
+      "response": {
+        "raw_response": "Serene twilight painted the sky; birds flew toward distant, unknown lands.\n"
+      },
+      "validation": {
+        "original_sentence": "Serene twilight painted the sky; birds flew toward distant, unknown lands.",
+        "cleaned_sentence": "Serene twilight painted the sky birds flew toward distant unknown lands",
+        "words": [
+          "Serene",
+          "twilight",
+          "painted",
+          "the",
+          "sky",
+          "birds",
+          "flew",
+          "toward",
+          "distant",
+          "unknown",
+          "lands"
+        ],
+        "word_count": 11,
+        "correct_word_count": false,
+        "bible_words_found": [
+          "twilight",
+          "painted",
+          "the",
+          "sky",
+          "birds",
+          "flew",
+          "toward",
+          "unknown",
+          "lands"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:27:05.794038",
+        "duration_seconds": 0.5684125423431396
+      }
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Give me a list of 5 words that have 20 letters.",
+    "word_length_requested": 20,
+    "word_count_requested": 5,
+    "num_tests": 10,
+    "total_duration_seconds": 16.316378355026245,
+    "timestamp": "2025-04-18T21:04:45.658868"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 2.2,
+    "avg_length_accuracy": 0.44,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.72,
+    "total_unique_words": 21,
+    "total_unique_correct_words": 7,
+    "most_common_words": [
+      [
+        "uncharacteristically",
+        9
+      ],
+      [
+        "compartmentalization",
+        8
+      ],
+      [
+        "deinstitutionalization",
+        5
+      ],
+      [
+        "counterintelligence",
+        4
+      ],
+      [
+        "counterdemonstrations",
+        3
+      ],
+      [
+        "misunderstandingly",
+        3
+      ],
+      [
+        "responsibilities",
+        3
+      ],
+      [
+        "misunderstandings",
+        2
+      ],
+      [
+        "representativenesses",
+        1
+      ],
+      [
+        "disestablishmentarianism",
+        1
+      ],
+      [
+        "uncharacteristicallyness",
+        1
+      ],
+      [
+        "counterintuitivenessses",
+        1
+      ],
+      [
+        "conceptualisticallyness",
+        1
+      ],
+      [
+        "compartmentalizations",
+        1
+      ],
+      [
+        "counterdemonstration",
+        1
+      ],
+      [
+        "deinstitutionalizing",
+        1
+      ],
+      [
+        "compartmentalisation",
+        1
+      ],
+      [
+        "deinstitutionalisation",
+        1
+      ],
+      [
+        "counterintuitively",
+        1
+      ],
+      [
+        "disestablishmentarian",
+        1
+      ]
+    ],
+    "most_common_correct_words": [
+      [
+        "uncharacteristically",
+        9
+      ],
+      [
+        "compartmentalization",
+        8
+      ],
+      [
+        "representativenesses",
+        1
+      ],
+      [
+        "counterdemonstration",
+        1
+      ],
+      [
+        "deinstitutionalizing",
+        1
+      ],
+      [
+        "compartmentalisation",
+        1
+      ],
+      [
+        "supercalifragilistic",
+        1
+      ]
+    ],
+    "std_dev_length_accuracy": 0.2065591117977289,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.10327955589886448
+  },
+  "word_frequencies": {
+    "all_words": {
+      "uncharacteristically": 9,
+      "counterdemonstrations": 3,
+      "misunderstandingly": 3,
+      "representativenesses": 1,
+      "compartmentalization": 8,
+      "disestablishmentarianism": 1,
+      "uncharacteristicallyness": 1,
+      "counterintuitivenessses": 1,
+      "conceptualisticallyness": 1,
+      "compartmentalizations": 1,
+      "counterintelligence": 4,
+      "deinstitutionalization": 5,
+      "responsibilities": 3,
+      "misunderstandings": 2,
+      "counterdemonstration": 1,
+      "deinstitutionalizing": 1,
+      "compartmentalisation": 1,
+      "deinstitutionalisation": 1,
+      "counterintuitively": 1,
+      "disestablishmentarian": 1,
+      "supercalifragilistic": 1
+    },
+    "correct_length_words": {
+      "uncharacteristically": 9,
+      "representativenesses": 1,
+      "compartmentalization": 8,
+      "counterdemonstration": 1,
+      "deinstitutionalizing": 1,
+      "compartmentalisation": 1,
+      "supercalifragilistic": 1
+    },
+    "word_count_by_length": {
+      "20": 22,
+      "21": 5,
+      "18": 4,
+      "24": 2,
+      "23": 2,
+      "19": 4,
+      "22": 6,
+      "16": 3,
+      "17": 2
+    }
+  },
+  "individual_test_results": [
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "misunderstandingly",
+          "representativenesses",
+          "compartmentalization"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"misunderstandingly\",\n    \"representativenesses\",\n    \"compartmentalization\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 3,
+        "correct_count": true,
+        "length_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), misunderstandingly (18 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:04:30.142361",
+        "duration_seconds": 0.800236701965332
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "disestablishmentarianism",
+          "uncharacteristicallyness",
+          "counterintuitivenessses",
+          "conceptualisticallyness",
+          "compartmentalizations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"disestablishmentarianism\",\n    \"uncharacteristicallyness\",\n    \"counterintuitivenessses\",\n    \"conceptualisticallyness\",\n    \"compartmentalizations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 0,
+        "correct_count": true,
+        "length_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: disestablishmentarianism (24 letters), uncharacteristicallyness (24 letters), counterintuitivenessses (23 letters), conceptualisticallyness (23 letters), compartmentalizations (21 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:04:31.828196",
+        "duration_seconds": 0.6850056648254395
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "compartmentalization",
+          "counterintelligence",
+          "deinstitutionalization",
+          "misunderstandingly"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"compartmentalization\",\n    \"counterintelligence\",\n    \"deinstitutionalization\",\n    \"misunderstandingly\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 2,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: counterintelligence (19 letters), deinstitutionalization (22 letters), misunderstandingly (18 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:04:33.451554",
+        "duration_seconds": 0.6224477291107178
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "compartmentalization",
+          "counterintelligence",
+          "deinstitutionalization",
+          "responsibilities"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"compartmentalization\",\n    \"counterintelligence\",\n    \"deinstitutionalization\",\n    \"responsibilities\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 2,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: counterintelligence (19 letters), deinstitutionalization (22 letters), responsibilities (16 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:04:35.005014",
+        "duration_seconds": 0.5530340671539307
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "deinstitutionalization",
+          "misunderstandings"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"deinstitutionalization\",\n    \"misunderstandings\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 2,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), deinstitutionalization (22 letters), misunderstandings (17 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:04:36.606096",
+        "duration_seconds": 0.6003203392028809
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstrations",
+          "compartmentalization",
+          "deinstitutionalization",
+          "misunderstandings"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstrations\",\n    \"compartmentalization\",\n    \"deinstitutionalization\",\n    \"misunderstandings\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 2,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: counterdemonstrations (21 letters), deinstitutionalization (22 letters), misunderstandings (17 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:04:38.250225",
+        "duration_seconds": 0.6435129642486572
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "compartmentalization",
+          "counterintelligence",
+          "deinstitutionalization",
+          "misunderstandingly"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"compartmentalization\",\n    \"counterintelligence\",\n    \"deinstitutionalization\",\n    \"misunderstandingly\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 2,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: counterintelligence (19 letters), deinstitutionalization (22 letters), misunderstandingly (18 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:04:39.866630",
+        "duration_seconds": 0.6154758930206299
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterdemonstration",
+          "compartmentalization",
+          "deinstitutionalizing",
+          "responsibilities"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterdemonstration\",\n    \"compartmentalization\",\n    \"deinstitutionalizing\",\n    \"responsibilities\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 4,
+        "correct_count": true,
+        "length_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: responsibilities (16 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:04:41.453987",
+        "duration_seconds": 0.5864949226379395
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "compartmentalisation",
+          "deinstitutionalisation",
+          "counterintelligence",
+          "responsibilities"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"compartmentalisation\",\n    \"deinstitutionalisation\",\n    \"counterintelligence\",\n    \"responsibilities\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 2,
+        "correct_count": true,
+        "length_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: deinstitutionalisation (22 letters), counterintelligence (19 letters), responsibilities (16 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:04:43.087619",
+        "duration_seconds": 0.6328437328338623
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "uncharacteristically",
+          "counterintuitively",
+          "compartmentalization",
+          "disestablishmentarian",
+          "supercalifragilistic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"uncharacteristically\",\n    \"counterintuitively\",\n    \"compartmentalization\",\n    \"disestablishmentarian\",\n    \"supercalifragilistic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_length_words": 3,
+        "correct_count": true,
+        "length_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: counterintuitively (18 letters), disestablishmentarian (21 letters)"
+        ]
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:04:44.658005",
+        "duration_seconds": 0.5701026916503906
+      }
+    }
+  ]
+}

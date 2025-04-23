@@ -1,0 +1,3949 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "word_count_requested": 20,
+    "word_length": 5,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_accuracy": {
+      "english_words": 0.875,
+      "vowel_constraint": 0.945,
+      "length_constraint": 0.99,
+      "fully_valid": 0.83,
+      "correct_count": 1.0
+    },
+    "total_words": 200,
+    "unique_words": 137,
+    "uniqueness_ratio": 0.685,
+    "most_common_words": [
+      [
+        "audio",
+        8
+      ],
+      [
+        "route",
+        7
+      ],
+      [
+        "adieu",
+        6
+      ],
+      [
+        "ouija",
+        5
+      ],
+      [
+        "urate",
+        5
+      ],
+      [
+        "canoe",
+        5
+      ],
+      [
+        "suite",
+        4
+      ],
+      [
+        "arise",
+        3
+      ],
+      [
+        "place",
+        3
+      ],
+      [
+        "crane",
+        3
+      ]
+    ],
+    "total_duration_seconds": 22.667869806289673
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "irade",
+          "audio",
+          "ouija",
+          "urate",
+          "adieu",
+          "arise",
+          "route",
+          "ovine",
+          "equal",
+          "uncap",
+          "ideas",
+          "canoe",
+          "slice",
+          "adore",
+          "cider",
+          "arose",
+          "place",
+          "crane",
+          "alter",
+          "bloke"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"irade\",\n    \"audio\",\n    \"ouija\",\n    \"urate\",\n    \"adieu\",\n    \"arise\",\n    \"route\",\n    \"ovine\",\n    \"equal\",\n    \"uncap\",\n    \"ideas\",\n    \"canoe\",\n    \"slice\",\n    \"adore\",\n    \"cider\",\n    \"arose\",\n    \"place\",\n    \"crane\",\n    \"alter\",\n    \"bloke\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "irade",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ouija",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "urate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "arise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ovine",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "equal",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "uncap",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ideas",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "canoe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "slice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adore",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cider",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "arose",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "place",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "crane",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "alter",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bloke",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 19,
+        "valid_vowels_count": 20,
+        "valid_length_count": 20,
+        "fully_valid_count": 19,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.95,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 0.95,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "audio",
+          "adieu",
+          "route",
+          "ouija",
+          "urate",
+          "irate",
+          "arise",
+          "roate",
+          "ultra",
+          "raise",
+          "aloes",
+          "ariel",
+          "canoe",
+          "movie",
+          "juice",
+          "piece",
+          "quake",
+          "suite",
+          "waive",
+          "noise"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"audio\",\n    \"adieu\",\n    \"route\",\n    \"ouija\",\n    \"urate\",\n    \"irate\",\n    \"arise\",\n    \"roate\",\n    \"ultra\",\n    \"raise\",\n    \"aloes\",\n    \"ariel\",\n    \"canoe\",\n    \"movie\",\n    \"juice\",\n    \"piece\",\n    \"quake\",\n    \"suite\",\n    \"waive\",\n    \"noise\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ouija",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "urate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "irate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "arise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "roate",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ultra",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "raise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "aloes",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ariel",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "canoe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "movie",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "juice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "piece",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "quake",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "suite",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "waive",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "noise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 18,
+        "valid_vowels_count": 19,
+        "valid_length_count": 20,
+        "fully_valid_count": 17,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.9,
+          "vowel_constraint": 0.95,
+          "length_constraint": 1.0,
+          "fully_valid": 0.85,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "adieu",
+          "audio",
+          "ouija",
+          "miaou",
+          "urate",
+          "apieu",
+          "zoeae",
+          "queue",
+          "route",
+          "canoe",
+          "folio",
+          "ovate",
+          "acute",
+          "place",
+          "irate",
+          "glide",
+          "suite",
+          "oxide",
+          "agile",
+          "slave"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"adieu\",\n    \"audio\",\n    \"ouija\",\n    \"miaou\",\n    \"urate\",\n    \"apieu\",\n    \"zoeae\",\n    \"queue\",\n    \"route\",\n    \"canoe\",\n    \"folio\",\n    \"ovate\",\n    \"acute\",\n    \"place\",\n    \"irate\",\n    \"glide\",\n    \"suite\",\n    \"oxide\",\n    \"agile\",\n    \"slave\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ouija",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "miaou",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "urate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "apieu",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "zoeae",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "queue",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 0,
+              "o": 0,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "e",
+              "u"
+            ]
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "canoe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "folio",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "ovate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "acute",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "place",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "irate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "glide",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "suite",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "oxide",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "agile",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "slave",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 17,
+        "valid_vowels_count": 17,
+        "valid_length_count": 20,
+        "fully_valid_count": 15,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.85,
+          "vowel_constraint": 0.85,
+          "length_constraint": 1.0,
+          "fully_valid": 0.75,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "abuse",
+          "audio",
+          "adieu",
+          "owiea",
+          "ovule",
+          "ounce",
+          "mould",
+          "rouse",
+          "ouija",
+          "saute",
+          "quote",
+          "route",
+          "value",
+          "bogie",
+          "adore",
+          "canoe",
+          "biped",
+          "oxide",
+          "drape",
+          "amigo"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abuse\",\n    \"audio\",\n    \"adieu\",\n    \"owiea\",\n    \"ovule\",\n    \"ounce\",\n    \"mould\",\n    \"rouse\",\n    \"ouija\",\n    \"saute\",\n    \"quote\",\n    \"route\",\n    \"value\",\n    \"bogie\",\n    \"adore\",\n    \"canoe\",\n    \"biped\",\n    \"oxide\",\n    \"drape\",\n    \"amigo\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abuse",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "owiea",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ovule",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ounce",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "mould",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "rouse",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ouija",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "saute",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "quote",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "value",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bogie",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adore",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "canoe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "biped",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "oxide",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "drape",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "amigo",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 19,
+        "valid_vowels_count": 20,
+        "valid_length_count": 20,
+        "fully_valid_count": 19,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.95,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 0.95,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "abode",
+          "audio",
+          "bayou",
+          "coaly",
+          "coyed",
+          "dairy",
+          "d\u0439\u043e\u0432\u0435",
+          "fjord",
+          "graze",
+          "hairy",
+          "juice",
+          "lazed",
+          "miaou",
+          "owie!",
+          "pious",
+          "query",
+          "raise",
+          "route",
+          "sauce",
+          "towie"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abode\",\n    \"audio\",\n    \"bayou\",\n    \"coaly\",\n    \"coyed\",\n    \"dairy\",\n    \"d\u0439\u043e\u0432\u0435\",\n    \"fjord\",\n    \"graze\",\n    \"hairy\",\n    \"juice\",\n    \"lazed\",\n    \"miaou\",\n    \"owie!\",\n    \"pious\",\n    \"query\",\n    \"raise\",\n    \"route\",\n    \"sauce\",\n    \"towie\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abode",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bayou",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "coaly",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "coyed",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "dairy",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "d\u0439\u043e\u0432\u0435",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 0,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "fjord",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 1,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "graze",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "hairy",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "juice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "lazed",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "miaou",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "owie",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 4,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "pious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "query",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "raise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sauce",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "towie",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 13,
+        "valid_vowels_count": 20,
+        "valid_length_count": 19,
+        "fully_valid_count": 13,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.65,
+          "vowel_constraint": 1.0,
+          "length_constraint": 0.95,
+          "fully_valid": 0.65,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "adieu",
+          "audio",
+          "ouija",
+          "aloes",
+          "urate",
+          "route",
+          "owie",
+          "queue",
+          "suite",
+          "canoe",
+          "movie",
+          "saute",
+          "arise",
+          "cause",
+          "raise",
+          "piece",
+          "boise",
+          "voice",
+          "above",
+          "abuse"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"adieu\",\n    \"audio\",\n    \"ouija\",\n    \"aloes\",\n    \"urate\",\n    \"route\",\n    \"owie\",\n    \"queue\",\n    \"suite\",\n    \"canoe\",\n    \"movie\",\n    \"saute\",\n    \"arise\",\n    \"cause\",\n    \"raise\",\n    \"piece\",\n    \"boise\",\n    \"voice\",\n    \"above\",\n    \"abuse\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ouija",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "aloes",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "urate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "owie",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": false,
+            "actual_length": 4,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "queue",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 0,
+              "o": 0,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "e",
+              "u"
+            ]
+          },
+          {
+            "word": "suite",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "canoe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "movie",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "saute",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "arise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cause",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "raise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "piece",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "boise",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "voice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "above",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abuse",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 17,
+        "valid_vowels_count": 18,
+        "valid_length_count": 19,
+        "fully_valid_count": 15,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.85,
+          "vowel_constraint": 0.9,
+          "length_constraint": 0.95,
+          "fully_valid": 0.75,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "adieu",
+          "audio",
+          "facet",
+          "grape",
+          "route",
+          "irate",
+          "slice",
+          "crane",
+          "chime",
+          "brave",
+          "price",
+          "shale",
+          "clout",
+          "boast",
+          "stain",
+          "point",
+          "sauce",
+          "bloke",
+          "shave",
+          "suite"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"adieu\",\n    \"audio\",\n    \"facet\",\n    \"grape\",\n    \"route\",\n    \"irate\",\n    \"slice\",\n    \"crane\",\n    \"chime\",\n    \"brave\",\n    \"price\",\n    \"shale\",\n    \"clout\",\n    \"boast\",\n    \"stain\",\n    \"point\",\n    \"sauce\",\n    \"bloke\",\n    \"shave\",\n    \"suite\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "adieu",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "grape",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "irate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "slice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "crane",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "chime",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "brave",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "price",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "shale",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "clout",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "boast",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "stain",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "point",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sauce",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "bloke",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "shave",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "suite",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 20,
+        "valid_vowels_count": 20,
+        "valid_length_count": 20,
+        "fully_valid_count": 20,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 1.0,
+          "length_constraint": 1.0,
+          "fully_valid": 1.0,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "abode",
+          "adobe",
+          "baler",
+          "brace",
+          "cable",
+          "cadet",
+          "cider",
+          "clade",
+          "coder",
+          "crane",
+          "crate",
+          "drape",
+          "glare",
+          "graze",
+          "grime",
+          "globe",
+          "grope",
+          "halee",
+          "hazer",
+          "place"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"abode\",\n    \"adobe\",\n    \"baler\",\n    \"brace\",\n    \"cable\",\n    \"cadet\",\n    \"cider\",\n    \"clade\",\n    \"coder\",\n    \"crane\",\n    \"crate\",\n    \"drape\",\n    \"glare\",\n    \"graze\",\n    \"grime\",\n    \"globe\",\n    \"grope\",\n    \"halee\",\n    \"hazer\",\n    \"place\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abode",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "adobe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "baler",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "brace",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cable",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cadet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "cider",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "clade",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "coder",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "crane",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "crate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "drape",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "glare",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "graze",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "grime",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "globe",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "grope",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "halee",
+            "is_valid_english": false,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 2,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "hazer",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "place",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 18,
+        "valid_vowels_count": 19,
+        "valid_length_count": 20,
+        "fully_valid_count": 18,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.9,
+          "vowel_constraint": 0.95,
+          "length_constraint": 1.0,
+          "fully_valid": 0.9,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "Abuse",
+          "Audio",
+          "Ounce",
+          "Route",
+          "Plane",
+          "House",
+          "Juice",
+          "Irate",
+          "Alone",
+          "Piece",
+          "Queue",
+          "Suite",
+          "Raise",
+          "Sauce",
+          "Acute",
+          "Slave",
+          "Loose",
+          "Quite",
+          "Salve",
+          "Pause"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n    \"words\": [\n        \"Abuse\",\n        \"Audio\",\n        \"Ounce\",\n        \"Route\",\n        \"Plane\",\n        \"House\",\n        \"Juice\",\n        \"Irate\",\n        \"Alone\",\n        \"Piece\",\n        \"Queue\",\n        \"Suite\",\n        \"Raise\",\n        \"Sauce\",\n        \"Acute\",\n        \"Slave\",\n        \"Loose\",\n        \"Quite\",\n        \"Salve\",\n        \"Pause\"\n    ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "abuse",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "ounce",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "route",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "plane",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "house",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "juice",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "irate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "alone",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 1,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "piece",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "e"
+            ]
+          },
+          {
+            "word": "queue",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 0,
+              "e": 2,
+              "i": 0,
+              "o": 0,
+              "u": 2
+            },
+            "repeated_vowels": [
+              "e",
+              "u"
+            ]
+          },
+          {
+            "word": "suite",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "raise",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sauce",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "acute",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "slave",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "loose",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 0,
+              "o": 2,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "o"
+            ]
+          },
+          {
+            "word": "quite",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "salve",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "pause",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 20,
+        "valid_vowels_count": 17,
+        "valid_length_count": 20,
+        "fully_valid_count": 17,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 1.0,
+          "vowel_constraint": 0.85,
+          "length_constraint": 1.0,
+          "fully_valid": 0.85,
+          "count_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "success": true,
+      "requested": "20 words that contain all English vowels at most once with a word length of 5",
+      "response": {
+        "words": [
+          "facet",
+          "pious",
+          "laced",
+          "audio",
+          "urate",
+          "icily",
+          "biped",
+          "taped",
+          "fated",
+          "caged",
+          "pales",
+          "waged",
+          "abled",
+          "paved",
+          "safed",
+          "waved",
+          "sated",
+          "baled",
+          "gated",
+          "saved"
+        ],
+        "word_count": 20,
+        "raw_response": "{\n  \"words\": [\n    \"facet\",\n    \"pious\",\n    \"laced\",\n    \"audio\",\n    \"urate\",\n    \"icily\",\n    \"biped\",\n    \"taped\",\n    \"fated\",\n    \"caged\",\n    \"pales\",\n    \"waged\",\n    \"abled\",\n    \"paved\",\n    \"safed\",\n    \"waved\",\n    \"sated\",\n    \"baled\",\n    \"gated\",\n    \"saved\"\n  ]\n}"
+      },
+      "validation": {
+        "word_validations": [
+          {
+            "word": "facet",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "pious",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "laced",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "audio",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 4,
+            "vowel_counts": {
+              "a": 1,
+              "e": 0,
+              "i": 1,
+              "o": 1,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "urate",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 3,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 1
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "icily",
+            "is_valid_english": true,
+            "has_valid_vowels": false,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 0,
+              "i": 2,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": [
+              "i"
+            ]
+          },
+          {
+            "word": "biped",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 0,
+              "e": 1,
+              "i": 1,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "taped",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "fated",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "caged",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "pales",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "waged",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "abled",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "paved",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "safed",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "waved",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "sated",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "baled",
+            "is_valid_english": false,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "gated",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          },
+          {
+            "word": "saved",
+            "is_valid_english": true,
+            "has_valid_vowels": true,
+            "has_valid_length": true,
+            "actual_length": 5,
+            "required_length": 5,
+            "total_vowels": 2,
+            "vowel_counts": {
+              "a": 1,
+              "e": 1,
+              "i": 0,
+              "o": 0,
+              "u": 0
+            },
+            "repeated_vowels": []
+          }
+        ],
+        "valid_english_count": 14,
+        "valid_vowels_count": 19,
+        "valid_length_count": 20,
+        "fully_valid_count": 13,
+        "correct_count": true,
+        "accuracy": {
+          "english_words": 0.7,
+          "vowel_constraint": 0.95,
+          "length_constraint": 1.0,
+          "fully_valid": 0.65,
+          "count_accuracy": 1.0
+        }
+      }
+    }
+  ]
+}

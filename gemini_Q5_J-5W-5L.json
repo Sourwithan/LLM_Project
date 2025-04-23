@@ -1,0 +1,331 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 5,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 25,
+    "most_common_words": [
+      [
+        "jests",
+        8
+      ],
+      [
+        "jewel",
+        6
+      ],
+      [
+        "judge",
+        4
+      ],
+      [
+        "jeans",
+        3
+      ],
+      [
+        "jello",
+        3
+      ],
+      [
+        "jerky",
+        3
+      ],
+      [
+        "jilts",
+        3
+      ],
+      [
+        "jowls",
+        2
+      ],
+      [
+        "joker",
+        2
+      ],
+      [
+        "jokey",
+        1
+      ]
+    ],
+    "total_duration_seconds": 17.981656312942505,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jeans",
+          "jello",
+          "jests",
+          "jokey",
+          "julep"
+        ],
+        "raw_response": "{\n  \"words\": [\"jeans\", \"jello\", \"jests\", \"jokey\", \"julep\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jests",
+          "judos",
+          "jujus",
+          "jewel",
+          "jowls"
+        ],
+        "raw_response": "{\n  \"words\": [\"jests\", \"judos\", \"jujus\", \"jewel\", \"jowls\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jeers",
+          "jelly",
+          "jerky",
+          "jests",
+          "jived"
+        ],
+        "raw_response": "{\n  \"words\": [\"jeers\", \"jelly\", \"jerky\", \"jests\", \"jived\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "JAZZY",
+          "JEWEL",
+          "JOINS",
+          "JUDGE",
+          "JUICE"
+        ],
+        "raw_response": "{\n  \"words\": [\"JAZZY\", \"JEWEL\", \"JOINS\", \"JUDGE\", \"JUICE\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jeans",
+          "jello",
+          "jests",
+          "judge",
+          "juice"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"jeans\",\n    \"jello\",\n    \"jests\",\n    \"judge\",\n    \"juice\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jewel",
+          "jerky",
+          "jests",
+          "jilts",
+          "joker"
+        ],
+        "raw_response": "{\n  \"words\": [\"jewel\", \"jerky\", \"jests\", \"jilts\", \"joker\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jewel",
+          "judge",
+          "jests",
+          "jello",
+          "jives"
+        ],
+        "raw_response": "{\n  \"words\": [\"jewel\", \"judge\", \"jests\", \"jello\", \"jives\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jeans",
+          "jests",
+          "jewel",
+          "jilts",
+          "jowls"
+        ],
+        "raw_response": "{\n  \"words\": [\"jeans\", \"jests\", \"jewel\", \"jilts\", \"jowls\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jewel",
+          "judge",
+          "joker",
+          "jilts",
+          "jumps"
+        ],
+        "raw_response": "{\n  \"words\": [\"jewel\", \"judge\", \"joker\", \"jilts\", \"jumps\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "J",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "jails",
+          "jerky",
+          "jests",
+          "jewel",
+          "judge"
+        ],
+        "raw_response": "{\n  \"words\": [\"jails\", \"jerky\", \"jests\", \"jewel\", \"judge\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

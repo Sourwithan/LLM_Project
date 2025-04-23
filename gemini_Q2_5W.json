@@ -1,0 +1,366 @@
+{
+  "test_configuration": {
+    "model": "gemini-2.0-flash",
+    "prompt": "Write me a 5 word sentence without any words that appear in the Christian Bible.",
+    "required_word_count": 5,
+    "num_tests": 10,
+    "total_duration_seconds": 42.15605974197388,
+    "timestamp": "2025-04-18T21:31:41.953524"
+  },
+  "average_metrics": {
+    "num_tests": 10,
+    "word_count_accuracy": 1.0,
+    "bible_words_accuracy": 0.0,
+    "total_success_rate": 0.0
+  },
+  "individual_test_results": [
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Zebras jump over green fields.\n"
+      },
+      "validation": {
+        "original_sentence": "Zebras jump over green fields.",
+        "cleaned_sentence": "Zebras jump over green fields",
+        "words": [
+          "Zebras",
+          "jump",
+          "over",
+          "green",
+          "fields"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "over",
+          "green",
+          "fields"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 1,
+        "start_time": "2025-04-18T21:31:00.284131",
+        "duration_seconds": 0.48665738105773926
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Zebras jump over quaint fences.\n"
+      },
+      "validation": {
+        "original_sentence": "Zebras jump over quaint fences.",
+        "cleaned_sentence": "Zebras jump over quaint fences",
+        "words": [
+          "Zebras",
+          "jump",
+          "over",
+          "quaint",
+          "fences"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "over",
+          "fences"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 2,
+        "start_time": "2025-04-18T21:31:05.129464",
+        "duration_seconds": 0.5419676303863525
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Zebras enjoy eating tasty apples.\n"
+      },
+      "validation": {
+        "original_sentence": "Zebras enjoy eating tasty apples.",
+        "cleaned_sentence": "Zebras enjoy eating tasty apples",
+        "words": [
+          "Zebras",
+          "enjoy",
+          "eating",
+          "tasty",
+          "apples"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "enjoy",
+          "eating",
+          "apples"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 3,
+        "start_time": "2025-04-18T21:31:10.392359",
+        "duration_seconds": 0.4913926124572754
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Zebras quip, joking, faking laughter.\n"
+      },
+      "validation": {
+        "original_sentence": "Zebras quip, joking, faking laughter.",
+        "cleaned_sentence": "Zebras quip joking faking laughter",
+        "words": [
+          "Zebras",
+          "quip",
+          "joking",
+          "faking",
+          "laughter"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "laughter"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 4,
+        "start_time": "2025-04-18T21:31:15.785337",
+        "duration_seconds": 0.4907498359680176
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Zebras enjoy eating purple grass.\n"
+      },
+      "validation": {
+        "original_sentence": "Zebras enjoy eating purple grass.",
+        "cleaned_sentence": "Zebras enjoy eating purple grass",
+        "words": [
+          "Zebras",
+          "enjoy",
+          "eating",
+          "purple",
+          "grass"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "enjoy",
+          "eating",
+          "purple",
+          "grass"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 5,
+        "start_time": "2025-04-18T21:31:20.966472",
+        "duration_seconds": 0.42510032653808594
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Cats jump, birds sing loudly.\n"
+      },
+      "validation": {
+        "original_sentence": "Cats jump, birds sing loudly.",
+        "cleaned_sentence": "Cats jump birds sing loudly",
+        "words": [
+          "Cats",
+          "jump",
+          "birds",
+          "sing",
+          "loudly"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "birds",
+          "sing"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 6,
+        "start_time": "2025-04-18T21:31:25.234636",
+        "duration_seconds": 0.439037561416626
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Winter storms bring icy devastation.\n"
+      },
+      "validation": {
+        "original_sentence": "Winter storms bring icy devastation.",
+        "cleaned_sentence": "Winter storms bring icy devastation",
+        "words": [
+          "Winter",
+          "storms",
+          "bring",
+          "icy",
+          "devastation"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "Winter",
+          "bring",
+          "devastation"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 7,
+        "start_time": "2025-04-18T21:31:28.791315",
+        "duration_seconds": 0.43090200424194336
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Zebras jump quite happily now.\n"
+      },
+      "validation": {
+        "original_sentence": "Zebras jump quite happily now.",
+        "cleaned_sentence": "Zebras jump quite happily now",
+        "words": [
+          "Zebras",
+          "jump",
+          "quite",
+          "happily",
+          "now"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "quite",
+          "now"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 8,
+        "start_time": "2025-04-18T21:31:33.621041",
+        "duration_seconds": 0.4535088539123535
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Dreams lack concrete earthly meaning.\n"
+      },
+      "validation": {
+        "original_sentence": "Dreams lack concrete earthly meaning.",
+        "cleaned_sentence": "Dreams lack concrete earthly meaning",
+        "words": [
+          "Dreams",
+          "lack",
+          "concrete",
+          "earthly",
+          "meaning"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "Dreams",
+          "lack",
+          "earthly",
+          "meaning"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 9,
+        "start_time": "2025-04-18T21:31:37.349677",
+        "duration_seconds": 0.44214916229248047
+      }
+    },
+    {
+      "success": false,
+      "requested": {
+        "task": "Generate a 5-word sentence without biblical words",
+        "required_word_count": 5
+      },
+      "response": {
+        "raw_response": "Stars ignite, planets slowly spin.\n"
+      },
+      "validation": {
+        "original_sentence": "Stars ignite, planets slowly spin.",
+        "cleaned_sentence": "Stars ignite planets slowly spin",
+        "words": [
+          "Stars",
+          "ignite",
+          "planets",
+          "slowly",
+          "spin"
+        ],
+        "word_count": 5,
+        "correct_word_count": true,
+        "bible_words_found": [
+          "Stars",
+          "planets",
+          "slowly",
+          "spin"
+        ],
+        "has_bible_words": true,
+        "success": false
+      },
+      "timing": {
+        "test_number": 10,
+        "start_time": "2025-04-18T21:31:41.953509",
+        "duration_seconds": 0.4865989685058594
+      }
+    }
+  ]
+}

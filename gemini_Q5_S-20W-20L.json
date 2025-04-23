@@ -1,0 +1,504 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 0.9,
+    "avg_criteria_accuracy": 0.045,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.5225,
+    "total_unique_words": 132,
+    "most_common_words": [
+      [
+        "Sesquipedalianistically",
+        63
+      ],
+      [
+        "Spectrophotometrically",
+        4
+      ],
+      [
+        "Supercalifragilistic",
+        3
+      ],
+      [
+        "Supercalifragilistically",
+        2
+      ],
+      [
+        "Splenoportographies's",
+        1
+      ],
+      [
+        "Supercalifragilistics",
+        1
+      ],
+      [
+        "Superinconvenientnesses",
+        1
+      ],
+      [
+        "Supersensitivenessesses",
+        1
+      ],
+      [
+        "Subadministrationships's",
+        1
+      ],
+      [
+        "Standardisationsations's",
+        1
+      ]
+    ],
+    "total_duration_seconds": 27.72278356552124,
+    "std_dev_criteria_accuracy": 0.09264628073124864,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.04632314036562433
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Spectrophotometrically",
+          "Splenoportographies's",
+          "Supercalifragilistics",
+          "Superinconvenientnesses",
+          "Supersensitivenessesses",
+          "Subadministrationships's",
+          "Standardisationsations's",
+          "Semiprofessionalnesses",
+          "Substitutionalizations",
+          "Substantiationalnesses",
+          "Sacramentarianistically",
+          "Scripturalistically's",
+          "Secularizationalnesses",
+          "Sedimentationistically",
+          "Selectivitysensitively",
+          "Selfconsciousnessness's",
+          "Senegambianshipmongers",
+          "Sensationalistically's",
+          "Sentimentalistically's"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Spectrophotometrically\",\n    \"Splenoportographies's\",\n    \"Supercalifragilistics\",\n    \"Superinconvenientnesses\",\n    \"Supersensitivenessesses\",\n    \"Subadministrationships's\",\n    \"Standardisationsations's\",\n    \"Semiprofessionalnesses\",\n    \"Substitutionalizations\",\n    \"Substantiationalnesses\",\n    \"Sacramentarianistically\",\n    \"Scripturalistically's\",\n    \"Secularizationalnesses\",\n    \"Sedimentationistically\",\n    \"Selectivitysensitively\",\n    \"Selfconsciousnessness's\",\n    \"Senegambianshipmongers\",\n    \"Sensationalistically's\",\n    \"Sentimentalistically's\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Spectrophotometrically (22 letters), Supercalifragilistics (21 letters), Superinconvenientnesses (23 letters), Supersensitivenessesses (23 letters), Semiprofessionalnesses (22 letters), Substitutionalizations (22 letters), Substantiationalnesses (22 letters), Sacramentarianistically (23 letters), Secularizationalnesses (22 letters), Sedimentationistically (22 letters), Selectivitysensitively (22 letters), Senegambianshipmongers (22 letters)",
+          "Non-alphabetic words: Splenoportographies's, Subadministrationships's, Standardisationsations's, Scripturalistically's, Selfconsciousnessness's, Sensationalistically's, Sentimentalistically's"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Supercalifragilistically",
+          "Substantializeworthiness",
+          "Spectrophotofluorometrically",
+          "Systematizationunderstand",
+          "Subcommitteeinstitutional",
+          "Scholasticismunderstand",
+          "Selfrighteousnessslander",
+          "Semiconductorindustrial",
+          "Sympatheticecologically",
+          "Solicitousnessunderhand",
+          "Straightforwardnesslimit",
+          "Substitutabilitytesting",
+          "Standardizationunderstand",
+          "Satisfactorinessunderdog",
+          "Sophisticationunderneath",
+          "Stochasticityunderpins",
+          "Sensationalizationunderground",
+          "Socioeconomicallyunderling",
+          "Sustainabilityundersold"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Supercalifragilistically\",\n    \"Substantializeworthiness\",\n    \"Spectrophotofluorometrically\",\n    \"Systematizationunderstand\",\n    \"Subcommitteeinstitutional\",\n    \"Scholasticismunderstand\",\n    \"Selfrighteousnessslander\",\n    \"Semiconductorindustrial\",\n    \"Sympatheticecologically\",\n    \"Solicitousnessunderhand\",\n    \"Straightforwardnesslimit\",\n    \"Substitutabilitytesting\",\n    \"Standardizationunderstand\",\n    \"Satisfactorinessunderdog\",\n    \"Sophisticationunderneath\",\n    \"Stochasticityunderpins\",\n    \"Sensationalizationunderground\",\n    \"Socioeconomicallyunderling\",\n    \"Sustainabilityundersold\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Supercalifragilistically (24 letters), Substantializeworthiness (24 letters), Spectrophotofluorometrically (28 letters), Systematizationunderstand (25 letters), Subcommitteeinstitutional (25 letters), Scholasticismunderstand (23 letters), Selfrighteousnessslander (24 letters), Semiconductorindustrial (23 letters), Sympatheticecologically (23 letters), Solicitousnessunderhand (23 letters), Straightforwardnesslimit (24 letters), Substitutabilitytesting (23 letters), Standardizationunderstand (25 letters), Satisfactorinessunderdog (24 letters), Sophisticationunderneath (24 letters), Stochasticityunderpins (22 letters), Sensationalizationunderground (29 letters), Socioeconomicallyunderling (26 letters), Sustainabilityundersold (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Schizophrenicallyaffect",
+          "Sensationalisticallyexc",
+          "Standardisationtheorist",
+          "Substantivizationalisms",
+          "Supercalifragilisticx",
+          "Spectrophotofluorometr",
+          "Sophisticationcreating",
+          "Spectacularlygorgeousness",
+          "Systematicallyorganised",
+          "Selfconsciousnessstress",
+          "Substantiationallytrue",
+          "Sustainabilityoriented",
+          "Scrumptiousnessinducing",
+          "Sophisticatedlyrefined",
+          "Superintendentshiproles",
+          "Sympatheticallyhelping",
+          "Stimulationtheorization",
+          "Sedimentarycomposition",
+          "Socioeconomicstatusbias"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Schizophrenicallyaffect\",\n    \"Sensationalisticallyexc\",\n    \"Standardisationtheorist\",\n    \"Substantivizationalisms\",\n    \"Supercalifragilisticx\",\n    \"Spectrophotofluorometr\",\n    \"Sophisticationcreating\",\n    \"Spectacularlygorgeousness\",\n    \"Systematicallyorganised\",\n    \"Selfconsciousnessstress\",\n    \"Substantiationallytrue\",\n    \"Sustainabilityoriented\",\n    \"Scrumptiousnessinducing\",\n    \"Sophisticatedlyrefined\",\n    \"Superintendentshiproles\",\n    \"Sympatheticallyhelping\",\n    \"Stimulationtheorization\",\n    \"Sedimentarycomposition\",\n    \"Socioeconomicstatusbias\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Schizophrenicallyaffect (23 letters), Sensationalisticallyexc (23 letters), Standardisationtheorist (23 letters), Substantivizationalisms (23 letters), Supercalifragilisticx (21 letters), Spectrophotofluorometr (22 letters), Sophisticationcreating (22 letters), Spectacularlygorgeousness (25 letters), Systematicallyorganised (23 letters), Selfconsciousnessstress (23 letters), Substantiationallytrue (22 letters), Sustainabilityoriented (22 letters), Scrumptiousnessinducing (23 letters), Sophisticatedlyrefined (22 letters), Superintendentshiproles (23 letters), Sympatheticallyhelping (22 letters), Stimulationtheorization (23 letters), Sedimentarycomposition (22 letters), Socioeconomicstatusbias (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Superinfrastructures",
+          "Subcompartmentalizing",
+          "Spectrofluorometries",
+          "StatisticallyRelevantly",
+          "StenographicallyHidden",
+          "Supersensitivenesseses",
+          "Suburbanisationnesses",
+          "Standardisationnesses",
+          "Systematisationnesses",
+          "Schizophrenicallities",
+          "Sensationalistically",
+          "Sophisticatednesses",
+          "Substantiationnesses",
+          "Substitutabilitieses",
+          "Superimpositionnesses",
+          "Self-congratulatings",
+          "Semiautobiographical",
+          "Semi-internationally",
+          "Subsidiarinessesses",
+          "Superresponsiveness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Superinfrastructures\",\n    \"Subcompartmentalizing\",\n    \"Spectrofluorometries\",\n    \"StatisticallyRelevantly\",\n    \"StenographicallyHidden\",\n    \"Supersensitivenesseses\",\n    \"Suburbanisationnesses\",\n    \"Standardisationnesses\",\n    \"Systematisationnesses\",\n    \"Schizophrenicallities\",\n    \"Sensationalistically\",\n    \"Sophisticatednesses\",\n    \"Substantiationnesses\",\n    \"Substitutabilitieses\",\n    \"Superimpositionnesses\",\n    \"Self-congratulatings\",\n    \"Semiautobiographical\",\n    \"Semi-internationally\",\n    \"Subsidiarinessesses\",\n    \"Superresponsiveness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.3,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.65,
+        "errors": [
+          "Words with incorrect length: Subcompartmentalizing (21 letters), StatisticallyRelevantly (23 letters), StenographicallyHidden (22 letters), Supersensitivenesseses (22 letters), Suburbanisationnesses (21 letters), Standardisationnesses (21 letters), Systematisationnesses (21 letters), Schizophrenicallities (21 letters), Sophisticatednesses (19 letters), Superimpositionnesses (21 letters), Subsidiarinessesses (19 letters), Superresponsiveness (19 letters)",
+          "Non-alphabetic words: Self-congratulatings, Semi-internationally"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Supercalifragilistic",
+          "Substantivizationsocial",
+          "Supernaturalisticallys",
+          "Subordinationalistically",
+          "Self-congratulatingness",
+          "Scientificoreligiously",
+          "Spectrophotometrically",
+          "Stereophotogrammetrical",
+          "Systematizationalkindred",
+          "Sensationalisticjournal",
+          "Standardizationpolicies",
+          "Subcommissionerateboard",
+          "Socioenvironmentalistic",
+          "Statisticalinformation",
+          "Sociodemographicfactors",
+          "Structuralinefficiency",
+          "Synergisticallycombined",
+          "Syntheticallyfabricated",
+          "Serendipitouslydiscover"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Supercalifragilistic\",\n    \"Substantivizationsocial\",\n    \"Supernaturalisticallys\",\n    \"Subordinationalistically\",\n    \"Self-congratulatingness\",\n    \"Scientificoreligiously\",\n    \"Spectrophotometrically\",\n    \"Stereophotogrammetrical\",\n    \"Systematizationalkindred\",\n    \"Sensationalisticjournal\",\n    \"Standardizationpolicies\",\n    \"Subcommissionerateboard\",\n    \"Socioenvironmentalistic\",\n    \"Statisticalinformation\",\n    \"Sociodemographicfactors\",\n    \"Structuralinefficiency\",\n    \"Synergisticallycombined\",\n    \"Syntheticallyfabricated\",\n    \"Serendipitouslydiscover\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Substantivizationsocial (23 letters), Supernaturalisticallys (22 letters), Subordinationalistically (24 letters), Scientificoreligiously (22 letters), Spectrophotometrically (22 letters), Stereophotogrammetrical (23 letters), Systematizationalkindred (24 letters), Sensationalisticjournal (23 letters), Standardizationpolicies (23 letters), Subcommissionerateboard (23 letters), Socioenvironmentalistic (23 letters), Statisticalinformation (22 letters), Sociodemographicfactors (23 letters), Structuralinefficiency (22 letters), Synergisticallycombined (23 letters), Syntheticallyfabricated (23 letters), Serendipitouslydiscover (23 letters)",
+          "Non-alphabetic words: Self-congratulatingness"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Sesquicentennialsubject",
+          "Supercalifragilistic",
+          "Subdermatoglyphicsally",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically",
+          "Sesquipedalianistically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Sesquicentennialsubject\",\n    \"Supercalifragilistic\",\n    \"Subdermatoglyphicsally\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\",\n    \"Sesquipedalianistically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Sesquicentennialsubject (23 letters), Subdermatoglyphicsally (22 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters), Sesquipedalianistically (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Substantivizationalities",
+          "Superincomprehensibility",
+          "Supercalifragilistically",
+          "Synergisticallyharmonize",
+          "Schistosomatidosesquial",
+          "Stochasticapproximations",
+          "Suburbanizationstrategies",
+          "Socioeconomicanalysands",
+          "Spectrophotometrically",
+          "Selfactualizationseeking",
+          "Sympatheticallylistening",
+          "Scrumptiousnessdelighted",
+          "Simultaneouslyoperating",
+          "Standardizationscheming",
+          "Subsidizationinfluencing",
+          "Summarizationprocessing",
+          "Synchronizationsolutions",
+          "Simplificationstrategizing",
+          "Satisfactorilycompleting"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Substantivizationalities\",\n    \"Superincomprehensibility\",\n    \"Supercalifragilistically\",\n    \"Synergisticallyharmonize\",\n    \"Schistosomatidosesquial\",\n    \"Stochasticapproximations\",\n    \"Suburbanizationstrategies\",\n    \"Socioeconomicanalysands\",\n    \"Spectrophotometrically\",\n    \"Selfactualizationseeking\",\n    \"Sympatheticallylistening\",\n    \"Scrumptiousnessdelighted\",\n    \"Simultaneouslyoperating\",\n    \"Standardizationscheming\",\n    \"Subsidizationinfluencing\",\n    \"Summarizationprocessing\",\n    \"Synchronizationsolutions\",\n    \"Simplificationstrategizing\",\n    \"Satisfactorilycompleting\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Substantivizationalities (24 letters), Superincomprehensibility (24 letters), Supercalifragilistically (24 letters), Synergisticallyharmonize (24 letters), Schistosomatidosesquial (23 letters), Stochasticapproximations (24 letters), Suburbanizationstrategies (25 letters), Socioeconomicanalysands (23 letters), Spectrophotometrically (22 letters), Selfactualizationseeking (24 letters), Sympatheticallylistening (24 letters), Scrumptiousnessdelighted (24 letters), Simultaneouslyoperating (23 letters), Standardizationscheming (23 letters), Subsidizationinfluencing (24 letters), Summarizationprocessing (23 letters), Synchronizationsolutions (24 letters), Simplificationstrategizing (26 letters), Satisfactorilycompleting (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Schizophrenicallyshrewd",
+          "Substantiveparticulars",
+          "Supercalifragilistic",
+          "Spectrophotometrically",
+          "Standardizationseating",
+          "Synergisticallyshaping",
+          "Sophisticatednessscale",
+          "Stochasticprocessskill",
+          "Sublimationprevalence",
+          "Satisfactorinesssurvey",
+          "Systematizationstudies",
+          "Socioeconomicstatistic",
+          "Scholasticachievements",
+          "Stimulationenhancement",
+          "Strategicallysoliciting",
+          "Selfdeterminationstyles",
+          "Sustainabilitysolutions",
+          "Simultaneouslyscouting",
+          "Skepticalinvestigations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Schizophrenicallyshrewd\",\n    \"Substantiveparticulars\",\n    \"Supercalifragilistic\",\n    \"Spectrophotometrically\",\n    \"Standardizationseating\",\n    \"Synergisticallyshaping\",\n    \"Sophisticatednessscale\",\n    \"Stochasticprocessskill\",\n    \"Sublimationprevalence\",\n    \"Satisfactorinesssurvey\",\n    \"Systematizationstudies\",\n    \"Socioeconomicstatistic\",\n    \"Scholasticachievements\",\n    \"Stimulationenhancement\",\n    \"Strategicallysoliciting\",\n    \"Selfdeterminationstyles\",\n    \"Sustainabilitysolutions\",\n    \"Simultaneouslyscouting\",\n    \"Skepticalinvestigations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Schizophrenicallyshrewd (23 letters), Substantiveparticulars (22 letters), Spectrophotometrically (22 letters), Standardizationseating (22 letters), Synergisticallyshaping (22 letters), Sophisticatednessscale (22 letters), Stochasticprocessskill (22 letters), Sublimationprevalence (21 letters), Satisfactorinesssurvey (22 letters), Systematizationstudies (22 letters), Socioeconomicstatistic (22 letters), Scholasticachievements (22 letters), Stimulationenhancement (22 letters), Strategicallysoliciting (23 letters), Selfdeterminationstyles (23 letters), Sustainabilitysolutions (23 letters), Simultaneouslyscouting (22 letters), Skepticalinvestigations (23 letters)"
+        ]
+      }
+    }
+  ]
+}

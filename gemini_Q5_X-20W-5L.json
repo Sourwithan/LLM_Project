@@ -1,0 +1,489 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 18.3,
+    "avg_criteria_accuracy": 0.915,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.9575,
+    "total_unique_words": 52,
+    "most_common_words": [
+      [
+        "xerox",
+        17
+      ],
+      [
+        "xeric",
+        14
+      ],
+      [
+        "xenon",
+        13
+      ],
+      [
+        "xysts",
+        13
+      ],
+      [
+        "xylem",
+        12
+      ],
+      [
+        "xerus",
+        10
+      ],
+      [
+        "xenyl",
+        10
+      ],
+      [
+        "xebec",
+        10
+      ],
+      [
+        "xylan",
+        10
+      ],
+      [
+        "xylol",
+        9
+      ]
+    ],
+    "total_duration_seconds": 23.539382219314575,
+    "std_dev_criteria_accuracy": 0.147290340635238,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.073645170317619
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xysti",
+          "xerus",
+          "xeric",
+          "xylol",
+          "xysts",
+          "xenyl",
+          "xeres",
+          "xebec",
+          "xinca",
+          "xrays",
+          "xlink",
+          "xenal",
+          "xenos",
+          "xylic",
+          "xylan",
+          "xviii",
+          "xviii"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xysti\",\n    \"xerus\",\n    \"xeric\",\n    \"xylol\",\n    \"xysts\",\n    \"xenyl\",\n    \"xeres\",\n    \"xebec\",\n    \"xinca\",\n    \"xrays\",\n    \"xlink\",\n    \"xenal\",\n    \"xenos\",\n    \"xylic\",\n    \"xylan\",\n    \"xviii\",\n    \"xviii\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xerox",
+          "xenon",
+          "xylem",
+          "xeric",
+          "xysts",
+          "xylol",
+          "xylic",
+          "xylan",
+          "xerus",
+          "xebec",
+          "xenyl",
+          "xerox",
+          "xenon",
+          "xylem",
+          "xeric",
+          "xysts",
+          "xylol",
+          "xylic",
+          "xylan",
+          "xerus"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xerox\",\n    \"xenon\",\n    \"xylem\",\n    \"xeric\",\n    \"xysts\",\n    \"xylol\",\n    \"xylic\",\n    \"xylan\",\n    \"xerus\",\n    \"xebec\",\n    \"xenyl\",\n    \"xerox\",\n    \"xenon\",\n    \"xylem\",\n    \"xeric\",\n    \"xysts\",\n    \"xylol\",\n    \"xylic\",\n    \"xylan\",\n    \"xerus\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xysts",
+          "xebec",
+          "Xenia",
+          "xiang",
+          "xerus",
+          "xeric",
+          "xerox",
+          "Xaver",
+          "xrays",
+          "xylan",
+          "xenyl",
+          "xeric",
+          "xerox",
+          "xenon",
+          "xylem",
+          "xylic",
+          "xylyl"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xysts\",\n    \"xebec\",\n    \"Xenia\",\n    \"xiang\",\n    \"xerus\",\n    \"xeric\",\n    \"xerox\",\n    \"Xaver\",\n    \"xrays\",\n    \"xylan\",\n    \"xenyl\",\n    \"xeric\",\n    \"xerox\",\n    \"xenon\",\n    \"xylem\",\n    \"xylic\",\n    \"xylyl\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xlink",
+          "xrays",
+          "xeric",
+          "xysts",
+          "xenyl",
+          "xerus",
+          "xebec",
+          "xylan",
+          "xoana",
+          "xoron",
+          "xines",
+          "xinca",
+          "xeme",
+          "xeric",
+          "xerox",
+          "xysts",
+          "xeres"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xlink\",\n    \"xrays\",\n    \"xeric\",\n    \"xysts\",\n    \"xenyl\",\n    \"xerus\",\n    \"xebec\",\n    \"xylan\",\n    \"xoana\",\n    \"xoron\",\n    \"xines\",\n    \"xinca\",\n    \"xeme\",\n    \"xeric\",\n    \"xerox\",\n    \"xysts\",\n    \"xeres\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: xeme (4 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xylol",
+          "xerus",
+          "xysts",
+          "xebec",
+          "xylic",
+          "xinca",
+          "xeric",
+          "xines",
+          "xlink",
+          "xylan",
+          "xylyl",
+          "xenyl",
+          "xerox",
+          "xeres",
+          "xenon",
+          "xinca",
+          "xylyl"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xylol\",\n    \"xerus\",\n    \"xysts\",\n    \"xebec\",\n    \"xylic\",\n    \"xinca\",\n    \"xeric\",\n    \"xines\",\n    \"xlink\",\n    \"xylan\",\n    \"xylyl\",\n    \"xenyl\",\n    \"xerox\",\n    \"xeres\",\n    \"xenon\",\n    \"xinca\",\n    \"xylyl\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xylol",
+          "xysts",
+          "xebec",
+          "xerus",
+          "xiang",
+          "xavier",
+          "xenyl",
+          "xerox",
+          "xeric",
+          "xoana",
+          "xrays",
+          "ximia",
+          "xenias",
+          "xinao",
+          "xiphos",
+          "xerox",
+          "xylia"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xylol\",\n    \"xysts\",\n    \"xebec\",\n    \"xerus\",\n    \"xiang\",\n    \"xavier\",\n    \"xenyl\",\n    \"xerox\",\n    \"xeric\",\n    \"xoana\",\n    \"xrays\",\n    \"ximia\",\n    \"xenias\",\n    \"xinao\",\n    \"xiphos\",\n    \"xerox\",\n    \"xylia\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: xavier (6 letters), xenias (6 letters), xiphos (6 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xebec",
+          "xysts",
+          "xeric",
+          "xylol",
+          "xenyl",
+          "ximia",
+          "xinca",
+          "xrays",
+          "extol",
+          "exert",
+          "excel",
+          "exile",
+          "exist",
+          "extra",
+          "expat",
+          "exalt",
+          "exits"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xebec\",\n    \"xysts\",\n    \"xeric\",\n    \"xylol\",\n    \"xenyl\",\n    \"ximia\",\n    \"xinca\",\n    \"xrays\",\n    \"extol\",\n    \"exert\",\n    \"excel\",\n    \"exile\",\n    \"exist\",\n    \"extra\",\n    \"expat\",\n    \"exalt\",\n    \"exits\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words not starting with 'X': extol (starts with 'e'), exert (starts with 'e'), excel (starts with 'e'), exile (starts with 'e'), exist (starts with 'e'), extra (starts with 'e'), expat (starts with 'e'), exalt (starts with 'e'), exits (starts with 'e')"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xysts",
+          "xeric",
+          "xebec",
+          "xylan",
+          "xiang",
+          "xviii",
+          "ximia",
+          "xinca",
+          "xrays",
+          "xysti",
+          "xenyl",
+          "xerus",
+          "xeres",
+          "xians",
+          "xenia",
+          "xenos",
+          "xinji"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xysts\",\n    \"xeric\",\n    \"xebec\",\n    \"xylan\",\n    \"xiang\",\n    \"xviii\",\n    \"ximia\",\n    \"xinca\",\n    \"xrays\",\n    \"xysti\",\n    \"xenyl\",\n    \"xerus\",\n    \"xeres\",\n    \"xians\",\n    \"xenia\",\n    \"xenos\",\n    \"xinji\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xylol",
+          "xysti",
+          "xysts",
+          "xerus",
+          "xebec",
+          "xeric",
+          "xhtml",
+          "xylia",
+          "xrays",
+          "xylan",
+          "xenyl",
+          "xysts",
+          "xanax",
+          "exing",
+          "axing",
+          "oxing",
+          "ixing"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xylol\",\n    \"xysti\",\n    \"xysts\",\n    \"xerus\",\n    \"xebec\",\n    \"xeric\",\n    \"xhtml\",\n    \"xylia\",\n    \"xrays\",\n    \"xylan\",\n    \"xenyl\",\n    \"xysts\",\n    \"xanax\",\n    \"exing\",\n    \"axing\",\n    \"oxing\",\n    \"ixing\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words not starting with 'X': exing (starts with 'e'), axing (starts with 'a'), oxing (starts with 'o'), ixing (starts with 'i')"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenon",
+          "xerox",
+          "xylem",
+          "xysts",
+          "xebec",
+          "xerus",
+          "xylan",
+          "xylol",
+          "ximia",
+          "xeric",
+          "xinca",
+          "xrays",
+          "xviii",
+          "xviii",
+          "xylan",
+          "xylol",
+          "xeric",
+          "xenyl",
+          "xpath",
+          "xviii"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenon\",\n    \"xerox\",\n    \"xylem\",\n    \"xysts\",\n    \"xebec\",\n    \"xerus\",\n    \"xylan\",\n    \"xylol\",\n    \"ximia\",\n    \"xeric\",\n    \"xinca\",\n    \"xrays\",\n    \"xviii\",\n    \"xviii\",\n    \"xylan\",\n    \"xylol\",\n    \"xeric\",\n    \"xenyl\",\n    \"xpath\",\n    \"xviii\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

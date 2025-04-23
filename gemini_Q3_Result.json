@@ -1,0 +1,164 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "valid_yes_no_responses": 10,
+    "yes_no_accuracy_rate": 1.0,
+    "correct_word_count_sentences": 6,
+    "word_count_accuracy_rate": 0.6,
+    "total_sentences": 10,
+    "unique_sentences": 10,
+    "uniqueness_ratio": 1.0,
+    "most_common_sentences": [
+      [
+        "Y'all gonna get a Coke, hon? Fixin' to go now.",
+        1
+      ],
+      [
+        "I reckon y'all should fix that busted sprinkler over yonder, hon.",
+        1
+      ],
+      [
+        "Y'all fixin' to eat crawfish etouffee down yonder, hon? Bless it.",
+        1
+      ],
+      [
+        "Y'all come over; I reckon we gonna fix that crick.",
+        1
+      ],
+      [
+        "I reckon y'all gonna need some fixin's at the grocery store.",
+        1
+      ]
+    ],
+    "legibility_distribution": {
+      "Yes": 6,
+      "No": 4
+    },
+    "legibility_yes_ratio": 0.6,
+    "total_duration_seconds": 15.809502840042114
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Y'all gonna get a Coke, hon? Fixin' to go now.",
+        "word_count": 10,
+        "is_ten_words": true,
+        "still_legible": "Yes",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Y'all gonna get a Coke, hon? Fixin' to go now.\",\n  \"still_legible\": \"Yes\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "I reckon y'all should fix that busted sprinkler over yonder, hon.",
+        "word_count": 11,
+        "is_ten_words": false,
+        "still_legible": "No",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"I reckon y'all should fix that busted sprinkler over yonder, hon.\",\n  \"still_legible\": \"No\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Y'all fixin' to eat crawfish etouffee down yonder, hon? Bless it.",
+        "word_count": 11,
+        "is_ten_words": false,
+        "still_legible": "No",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Y'all fixin' to eat crawfish etouffee down yonder, hon? Bless it.\",\n  \"still_legible\": \"No\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Y'all come over; I reckon we gonna fix that crick.",
+        "word_count": 10,
+        "is_ten_words": true,
+        "still_legible": "Yes",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Y'all come over; I reckon we gonna fix that crick.\",\n  \"still_legible\": \"Yes\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "I reckon y'all gonna need some fixin's at the grocery store.",
+        "word_count": 11,
+        "is_ten_words": false,
+        "still_legible": "Yes",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"I reckon y'all gonna need some fixin's at the grocery store.\",\n  \"still_legible\": \"Yes\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Fixin' to tote groceries, y'all. Park the buggy at HEB.",
+        "word_count": 10,
+        "is_ten_words": true,
+        "still_legible": "Yes",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Fixin' to tote groceries, y'all. Park the buggy at HEB.\",\n  \"still_legible\": \"Yes\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Y'all gonna need some fixins for the barbecue, right now?",
+        "word_count": 10,
+        "is_ten_words": true,
+        "still_legible": "Yes",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Y'all gonna need some fixins for the barbecue, right now?\",\n  \"still_legible\": \"Yes\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Y'all fixin' to go huntin' for some crawdads down yonder?",
+        "word_count": 10,
+        "is_ten_words": true,
+        "still_legible": "No",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Y'all fixin' to go huntin' for some crawdads down yonder?\",\n  \"still_legible\": \"No\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "Y'all might could get some crawfish from the bayou, then.",
+        "word_count": 10,
+        "is_ten_words": true,
+        "still_legible": "No",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"Y'all might could get some crawfish from the bayou, then.\" ,\n  \"still_legible\": \"No\"\n}"
+      }
+    },
+    {
+      "success": true,
+      "requested": "10 word sentence legible in Southern North America and illegible in New England",
+      "response": {
+        "sentence": "I reckon y'all should fix that crick, it's about to flood.",
+        "word_count": 11,
+        "is_ten_words": false,
+        "still_legible": "Yes",
+        "is_valid_response": true,
+        "raw_response": "{\n  \"sentence\": \"I reckon y'all should fix that crick, it's about to flood.\",\n  \"still_legible\": \"Yes\"\n}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 3.1,
+    "avg_criteria_accuracy": 0.62,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.81,
+    "total_unique_words": 33,
+    "most_common_words": [
+      [
+        "zincograph",
+        5
+      ],
+      [
+        "zigzagging",
+        3
+      ],
+      [
+        "zillionaire",
+        3
+      ],
+      [
+        "zymogenics",
+        3
+      ],
+      [
+        "zephyrlike",
+        2
+      ],
+      [
+        "zymometers",
+        2
+      ],
+      [
+        "zinfandels",
+        2
+      ],
+      [
+        "zephyrouses",
+        2
+      ],
+      [
+        "zephyrized",
+        2
+      ],
+      [
+        "Zeppelined",
+        2
+      ]
+    ],
+    "total_duration_seconds": 17.539823293685913,
+    "std_dev_criteria_accuracy": 0.19888578520235065,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.09944289260117534
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zephyrlike",
+          "zigzagging",
+          "zillionaire",
+          "zymogenics",
+          "zooeciasis"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyrlike\",\n    \"zigzagging\",\n    \"zillionaire\",\n    \"zymogenics\",\n    \"zooeciasis\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: zillionaire (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zymometers",
+          "zeuglodonts",
+          "zincograph",
+          "zymogenies",
+          "zinfandels"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zymometers\",\n    \"zeuglodonts\",\n    \"zincograph\",\n    \"zymogenies\",\n    \"zinfandels\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: zeuglodonts (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zinfandels",
+          "zucchinisss",
+          "zymologists",
+          "zymogenics",
+          "zillionths"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zinfandels\",\n    \"zucchinisss\",\n    \"zymologists\",\n    \"zymogenics\",\n    \"zillionths\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: zucchinisss (11 letters), zymologists (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zephyrouses",
+          "zigzagging",
+          "zincograph",
+          "zoogeograph",
+          "zymogenous"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyrouses\",\n    \"zigzagging\",\n    \"zincograph\",\n    \"zoogeograph\",\n    \"zymogenous\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: zephyrouses (11 letters), zoogeograph (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zephyrouses",
+          "zigzaggingly",
+          "zincograph",
+          "zillionaire",
+          "zoogeography"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyrouses\",\n    \"zigzaggingly\",\n    \"zincograph\",\n    \"zillionaire\",\n    \"zoogeography\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: zephyrouses (11 letters), zigzaggingly (12 letters), zillionaire (11 letters), zoogeography (12 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zaninesses",
+          "zephyrized",
+          "zygomorphic",
+          "zincograph",
+          "zoosporang"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zaninesses\",\n    \"zephyrized\",\n    \"zygomorphic\",\n    \"zincograph\",\n    \"zoosporang\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: zygomorphic (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Zeppelined",
+          "Zincograph",
+          "Zygomorphic",
+          "Zucchinis",
+          "Zoogeograph"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Zeppelined\",\n    \"Zincograph\",\n    \"Zygomorphic\",\n    \"Zucchinis\",\n    \"Zoogeograph\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Zygomorphic (11 letters), Zucchinis (9 letters), Zoogeograph (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Zygomorphic",
+          "Zinfandels",
+          "Zeppelined",
+          "Zillionths",
+          "Zincography"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Zygomorphic\",\n    \"Zinfandels\",\n    \"Zeppelined\",\n    \"Zillionths\",\n    \"Zincography\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Zygomorphic (11 letters), Zincography (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zephyrized",
+          "zigzagging",
+          "zirconiums",
+          "zonesthesia",
+          "zymogenics"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zephyrized\",\n    \"zigzagging\",\n    \"zirconiums\",\n    \"zonesthesia\",\n    \"zymogenics\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: zonesthesia (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "zincograph",
+          "zymometers",
+          "zymogenetic",
+          "zephyrlike",
+          "zillionaire"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zincograph\",\n    \"zymometers\",\n    \"zymogenetic\",\n    \"zephyrlike\",\n    \"zillionaire\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: zymogenetic (11 letters), zillionaire (11 letters)"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 10,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 25,
+    "most_common_words": [
+      [
+        "zesty",
+        10
+      ],
+      [
+        "zebra",
+        10
+      ],
+      [
+        "zoned",
+        10
+      ],
+      [
+        "zippy",
+        9
+      ],
+      [
+        "zones",
+        8
+      ],
+      [
+        "zooms",
+        8
+      ],
+      [
+        "zeros",
+        6
+      ],
+      [
+        "zilch",
+        5
+      ],
+      [
+        "zazen",
+        4
+      ],
+      [
+        "zowie",
+        4
+      ]
+    ],
+    "total_duration_seconds": 22.33440327644348,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zesty",
+          "zebra",
+          "zonal",
+          "zooms",
+          "zeros",
+          "zoned",
+          "zippy",
+          "zloty",
+          "zazen"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zesty\",\n    \"zebra\",\n    \"zonal\",\n    \"zooms\",\n    \"zeros\",\n    \"zoned\",\n    \"zippy\",\n    \"zloty\",\n    \"zazen\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zesty",
+          "zebra",
+          "zincs",
+          "zappy",
+          "zippy",
+          "zoned",
+          "zooms",
+          "zeros",
+          "zibet"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zesty\",\n    \"zebra\",\n    \"zincs\",\n    \"zappy\",\n    \"zippy\",\n    \"zoned\",\n    \"zooms\",\n    \"zeros\",\n    \"zibet\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zesty",
+          "zippy",
+          "zebra",
+          "zones",
+          "zonal",
+          "zoned",
+          "zooms",
+          "zooid",
+          "zoris",
+          "ziram"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zesty\",\n    \"zippy\",\n    \"zebra\",\n    \"zones\",\n    \"zonal\",\n    \"zoned\",\n    \"zooms\",\n    \"zooid\",\n    \"zoris\",\n    \"ziram\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zoned",
+          "zooms",
+          "zebra",
+          "zesty",
+          "zilch",
+          "zippy",
+          "zincs",
+          "zoeal",
+          "zymes"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zoned\",\n    \"zooms\",\n    \"zebra\",\n    \"zesty\",\n    \"zilch\",\n    \"zippy\",\n    \"zincs\",\n    \"zoeal\",\n    \"zymes\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zebra",
+          "zesty",
+          "zilch",
+          "zones",
+          "zoned",
+          "zooms",
+          "zonks",
+          "zippy",
+          "ziram",
+          "zitis"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zebra\",\n    \"zesty\",\n    \"zilch\",\n    \"zones\",\n    \"zoned\",\n    \"zooms\",\n    \"zonks\",\n    \"zippy\",\n    \"ziram\",\n    \"zitis\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zebra",
+          "zeros",
+          "zesty",
+          "zippy",
+          "zoned",
+          "zoner",
+          "zooms",
+          "zoons",
+          "zowie",
+          "zymes"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zebra\",\n    \"zeros\",\n    \"zesty\",\n    \"zippy\",\n    \"zoned\",\n    \"zoner\",\n    \"zooms\",\n    \"zoons\",\n    \"zowie\",\n    \"zymes\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zesty",
+          "zebra",
+          "zeros",
+          "zoned",
+          "zoner",
+          "zippy",
+          "zloty",
+          "zazen",
+          "zoeal",
+          "zowie"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zesty\",\n    \"zebra\",\n    \"zeros\",\n    \"zoned\",\n    \"zoner\",\n    \"zippy\",\n    \"zloty\",\n    \"zazen\",\n    \"zoeal\",\n    \"zowie\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zesty",
+          "zebra",
+          "zilch",
+          "zones",
+          "zoned",
+          "zooms",
+          "zoons",
+          "zloty",
+          "zaire",
+          "zazen"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zesty\",\n    \"zebra\",\n    \"zilch\",\n    \"zones\",\n    \"zoned\",\n    \"zooms\",\n    \"zoons\",\n    \"zloty\",\n    \"zaire\",\n    \"zazen\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zesty",
+          "zebra",
+          "zonal",
+          "zowie",
+          "zazen",
+          "zeros",
+          "zilch",
+          "zippy",
+          "zoned"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zesty\",\n    \"zebra\",\n    \"zonal\",\n    \"zowie\",\n    \"zazen\",\n    \"zeros\",\n    \"zilch\",\n    \"zippy\",\n    \"zoned\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "Z",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "zones",
+          "zesty",
+          "zebra",
+          "zeros",
+          "zilch",
+          "zincs",
+          "zooms",
+          "zowie",
+          "zoned",
+          "zippy"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"zones\",\n    \"zesty\",\n    \"zebra\",\n    \"zeros\",\n    \"zilch\",\n    \"zincs\",\n    \"zooms\",\n    \"zowie\",\n    \"zoned\",\n    \"zippy\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

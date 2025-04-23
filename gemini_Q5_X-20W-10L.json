@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 12.3,
+    "avg_criteria_accuracy": 0.615,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.8075,
+    "total_unique_words": 124,
+    "most_common_words": [
+      [
+        "xenolithic",
+        8
+      ],
+      [
+        "xenogenies",
+        8
+      ],
+      [
+        "xenografts",
+        8
+      ],
+      [
+        "xanthating",
+        6
+      ],
+      [
+        "xenophobes",
+        6
+      ],
+      [
+        "xenophobia",
+        5
+      ],
+      [
+        "xenophobias",
+        5
+      ],
+      [
+        "xerography",
+        4
+      ],
+      [
+        "xylographer",
+        4
+      ],
+      [
+        "xiphoidian",
+        4
+      ]
+    ],
+    "total_duration_seconds": 22.713316202163696,
+    "std_dev_criteria_accuracy": 0.21991159840060986,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.10995579920030493
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthating",
+          "xenolithic",
+          "xenophobes",
+          "xenophobia",
+          "xerography",
+          "xiphisterni",
+          "xylographer",
+          "xylography",
+          "xenogenies",
+          "xiphoidian",
+          "xenocrysts",
+          "xanthenes",
+          "xenagogue",
+          "xanthopsia",
+          "xanthomata",
+          "xenoglossy",
+          "xenotime",
+          "xenurus",
+          "xerophyte",
+          "xylopyrography"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthating\",\n    \"xenolithic\",\n    \"xenophobes\",\n    \"xenophobia\",\n    \"xerography\",\n    \"xiphisterni\",\n    \"xylographer\",\n    \"xylography\",\n    \"xenogenies\",\n    \"xiphoidian\",\n    \"xenocrysts\",\n    \"xanthenes\",\n    \"xenagogue\",\n    \"xanthopsia\",\n    \"xanthomata\",\n    \"xenoglossy\",\n    \"xenotime\",\n    \"xenurus\",\n    \"xerophyte\",\n    \"xylopyrography\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: xiphisterni (11 letters), xylographer (11 letters), xanthenes (9 letters), xenagogue (9 letters), xenotime (8 letters), xenurus (7 letters), xerophyte (9 letters), xylopyrography (14 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthates",
+          "xenografts",
+          "xerophytes",
+          "xiphopagus",
+          "xylophagic",
+          "xylophones",
+          "xanthicize",
+          "xenolithic",
+          "xeriscape",
+          "xiphoidian",
+          "xyloplastic",
+          "xeroderma",
+          "xenophobia",
+          "xenotropic",
+          "xysterisms",
+          "xyloglyphy",
+          "xanthenes",
+          "xerochasy",
+          "xeroticism",
+          "xenogenies"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthates\",\n    \"xenografts\",\n    \"xerophytes\",\n    \"xiphopagus\",\n    \"xylophagic\",\n    \"xylophones\",\n    \"xanthicize\",\n    \"xenolithic\",\n    \"xeriscape\",\n    \"xiphoidian\",\n    \"xyloplastic\",\n    \"xeroderma\",\n    \"xenophobia\",\n    \"xenotropic\",\n    \"xysterisms\",\n    \"xyloglyphy\",\n    \"xanthenes\",\n    \"xerochasy\",\n    \"xeroticism\",\n    \"xenogenies\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 14,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: xanthates (9 letters), xeriscape (9 letters), xyloplastic (11 letters), xeroderma (9 letters), xanthenes (9 letters), xerochasy (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Xanthating",
+          "Xanthidiums",
+          "Xenization",
+          "Xenoblasts",
+          "Xenocrinus",
+          "Xenogenies",
+          "Xenophobes",
+          "Xenophobias",
+          "Xenophonic",
+          "Xerocopying",
+          "Xerography",
+          "Xerophytes",
+          "Xiphoidian",
+          "Xylocarps",
+          "Xylograph",
+          "Xylopyrography",
+          "Xylosemia",
+          "Xyridaceae",
+          "Xyridales",
+          "Xystospora"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Xanthating\",\n    \"Xanthidiums\",\n    \"Xenization\",\n    \"Xenoblasts\",\n    \"Xenocrinus\",\n    \"Xenogenies\",\n    \"Xenophobes\",\n    \"Xenophobias\",\n    \"Xenophonic\",\n    \"Xerocopying\",\n    \"Xerography\",\n    \"Xerophytes\",\n    \"Xiphoidian\",\n    \"Xylocarps\",\n    \"Xylograph\",\n    \"Xylopyrography\",\n    \"Xylosemia\",\n    \"Xyridaceae\",\n    \"Xyridales\",\n    \"Xystospora\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Xanthidiums (11 letters), Xenophobias (11 letters), Xerocopying (11 letters), Xylocarps (9 letters), Xylograph (9 letters), Xylopyrography (14 letters), Xylosemia (9 letters), Xyridales (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthates",
+          "xanthating",
+          "xenolithic",
+          "xenogenies",
+          "xenophobes",
+          "xenophobia",
+          "xerarchies",
+          "xerography",
+          "xiphoidian",
+          "xylocopas",
+          "xylenolses",
+          "xylidinine",
+          "xylocarps",
+          "xylopyrogs",
+          "xylosteous",
+          "xylotomics",
+          "xenoblasty",
+          "xenophobias",
+          "xenoplasts",
+          "xenotimers"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthates\",\n    \"xanthating\",\n    \"xenolithic\",\n    \"xenogenies\",\n    \"xenophobes\",\n    \"xenophobia\",\n    \"xerarchies\",\n    \"xerography\",\n    \"xiphoidian\",\n    \"xylocopas\",\n    \"xylenolses\",\n    \"xylidinine\",\n    \"xylocarps\",\n    \"xylopyrogs\",\n    \"xylosteous\",\n    \"xylotomics\",\n    \"xenoblasty\",\n    \"xenophobias\",\n    \"xenoplasts\",\n    \"xenotimers\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: xanthates (9 letters), xylocopas (9 letters), xylocarps (9 letters), xenophobias (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xerosereis",
+          "xenophobes",
+          "xenylamine",
+          "xerography",
+          "xylopyrite",
+          "xylanases",
+          "xanthaline",
+          "xanthomata",
+          "xenografts",
+          "xenolithic",
+          "xerophobes",
+          "xerophytic",
+          "xenogenies",
+          "xylographs",
+          "xenogenous",
+          "xerodermas",
+          "xiphopages",
+          "xylidinine",
+          "xylocarps",
+          "xenophobias"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xerosereis\",\n    \"xenophobes\",\n    \"xenylamine\",\n    \"xerography\",\n    \"xylopyrite\",\n    \"xylanases\",\n    \"xanthaline\",\n    \"xanthomata\",\n    \"xenografts\",\n    \"xenolithic\",\n    \"xerophobes\",\n    \"xerophytic\",\n    \"xenogenies\",\n    \"xylographs\",\n    \"xenogenous\",\n    \"xerodermas\",\n    \"xiphopages\",\n    \"xylidinine\",\n    \"xylocarps\",\n    \"xenophobias\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: xylanases (9 letters), xylocarps (9 letters), xenophobias (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xenografts",
+          "xenolithic",
+          "xenophobes",
+          "xerarchies",
+          "xerography",
+          "xerosereis",
+          "xylographer",
+          "xylographic",
+          "xylolagnia",
+          "xanthating",
+          "xanthation",
+          "xenogenies",
+          "xenogamies",
+          "xenografts",
+          "xenophobias",
+          "xylocarps",
+          "xylogenesis",
+          "xylolagnist",
+          "xenomenias",
+          "xerodermas"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xenografts\",\n    \"xenolithic\",\n    \"xenophobes\",\n    \"xerarchies\",\n    \"xerography\",\n    \"xerosereis\",\n    \"xylographer\",\n    \"xylographic\",\n    \"xylolagnia\",\n    \"xanthating\",\n    \"xanthation\",\n    \"xenogenies\",\n    \"xenogamies\",\n    \"xenografts\",\n    \"xenophobias\",\n    \"xylocarps\",\n    \"xylogenesis\",\n    \"xylolagnist\",\n    \"xenomenias\",\n    \"xerodermas\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 14,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: xylographer (11 letters), xylographic (11 letters), xenophobias (11 letters), xylocarps (9 letters), xylogenesis (11 letters), xylolagnist (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthating",
+          "xanthelasma",
+          "xenophobias",
+          "xerophobous",
+          "xerophyllum",
+          "xerophilism",
+          "xerographies",
+          "xerothermic",
+          "xenografts",
+          "xenoliths",
+          "xenoglossia",
+          "xenogenies",
+          "xanthochroi",
+          "xenodochies",
+          "xiphoiditis",
+          "xenomania",
+          "xylographies",
+          "xenogenous",
+          "xenomorphic",
+          "xylopyrography"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthating\",\n    \"xanthelasma\",\n    \"xenophobias\",\n    \"xerophobous\",\n    \"xerophyllum\",\n    \"xerophilism\",\n    \"xerographies\",\n    \"xerothermic\",\n    \"xenografts\",\n    \"xenoliths\",\n    \"xenoglossia\",\n    \"xenogenies\",\n    \"xanthochroi\",\n    \"xenodochies\",\n    \"xiphoiditis\",\n    \"xenomania\",\n    \"xylographies\",\n    \"xenogenous\",\n    \"xenomorphic\",\n    \"xylopyrography\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: xanthelasma (11 letters), xenophobias (11 letters), xerophobous (11 letters), xerophyllum (11 letters), xerophilism (11 letters), xerographies (12 letters), xerothermic (11 letters), xenoliths (9 letters), xenoglossia (11 letters), xanthochroi (11 letters), xenodochies (11 letters), xiphoiditis (11 letters), xenomania (9 letters), xylographies (12 letters), xenomorphic (11 letters), xylopyrography (14 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthating",
+          "xenophobes",
+          "xenophobia",
+          "xerophytic",
+          "xylographer",
+          "xylopyrogy",
+          "xiphopagus",
+          "xanthenes",
+          "xantheins",
+          "xanthelasma",
+          "xenografts",
+          "xenolithic",
+          "xerophily",
+          "xerocopied",
+          "xeriscapes",
+          "xerosere",
+          "xylenes",
+          "xylocarp",
+          "xylophone",
+          "xylotrygon"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthating\",\n    \"xenophobes\",\n    \"xenophobia\",\n    \"xerophytic\",\n    \"xylographer\",\n    \"xylopyrogy\",\n    \"xiphopagus\",\n    \"xanthenes\",\n    \"xantheins\",\n    \"xanthelasma\",\n    \"xenografts\",\n    \"xenolithic\",\n    \"xerophily\",\n    \"xerocopied\",\n    \"xeriscapes\",\n    \"xerosere\",\n    \"xylenes\",\n    \"xylocarp\",\n    \"xylophone\",\n    \"xylotrygon\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: xylographer (11 letters), xanthenes (9 letters), xantheins (9 letters), xanthelasma (11 letters), xerophily (9 letters), xerosere (8 letters), xylenes (7 letters), xylocarp (8 letters), xylophone (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthates",
+          "xenografts",
+          "xenolithic",
+          "xenophobes",
+          "xenophobia",
+          "xerophytes",
+          "xerophytic",
+          "xiphoidian",
+          "xylographer",
+          "xylographic",
+          "xylopyrogr",
+          "xysteruses",
+          "xanthicnes",
+          "xerarchies",
+          "xerosising",
+          "xenonising",
+          "xenotripsy",
+          "xericities",
+          "xenogenies",
+          "xenotropic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthates\",\n    \"xenografts\",\n    \"xenolithic\",\n    \"xenophobes\",\n    \"xenophobia\",\n    \"xerophytes\",\n    \"xerophytic\",\n    \"xiphoidian\",\n    \"xylographer\",\n    \"xylographic\",\n    \"xylopyrogr\",\n    \"xysteruses\",\n    \"xanthicnes\",\n    \"xerarchies\",\n    \"xerosising\",\n    \"xenonising\",\n    \"xenotripsy\",\n    \"xericities\",\n    \"xenogenies\",\n    \"xenotropic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: xanthates (9 letters), xylographer (11 letters), xylographic (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "X",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "xanthating",
+          "xenagoguees",
+          "xenophobias",
+          "xenonisation",
+          "xerophytism",
+          "xiphophylls",
+          "xylographies",
+          "xylophonist",
+          "xenolithic",
+          "xanthochroi",
+          "xerographic",
+          "xenografts",
+          "xenogenies",
+          "xenonising",
+          "xanthates",
+          "xanthocarp",
+          "xanthenes",
+          "xenoblast",
+          "xerochasy",
+          "xeroderma"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"xanthating\",\n    \"xenagoguees\",\n    \"xenophobias\",\n    \"xenonisation\",\n    \"xerophytism\",\n    \"xiphophylls\",\n    \"xylographies\",\n    \"xylophonist\",\n    \"xenolithic\",\n    \"xanthochroi\",\n    \"xerographic\",\n    \"xenografts\",\n    \"xenogenies\",\n    \"xenonising\",\n    \"xanthates\",\n    \"xanthocarp\",\n    \"xanthenes\",\n    \"xenoblast\",\n    \"xerochasy\",\n    \"xeroderma\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.3,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.65,
+        "errors": [
+          "Words with incorrect length: xenagoguees (11 letters), xenophobias (11 letters), xenonisation (12 letters), xerophytism (11 letters), xiphophylls (11 letters), xylographies (12 letters), xylophonist (11 letters), xanthochroi (11 letters), xerographic (11 letters), xanthates (9 letters), xanthenes (9 letters), xenoblast (9 letters), xerochasy (9 letters), xeroderma (9 letters)"
+        ]
+      }
+    }
+  ]
+}
