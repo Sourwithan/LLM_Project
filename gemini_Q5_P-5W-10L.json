@@ -1,0 +1,347 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 3.1,
+    "avg_criteria_accuracy": 0.62,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.81,
+    "total_unique_words": 38,
+    "most_common_words": [
+      [
+        "Paraphrase",
+        6
+      ],
+      [
+        "Pamphleteer",
+        3
+      ],
+      [
+        "Peripheral",
+        2
+      ],
+      [
+        "Penultimate",
+        2
+      ],
+      [
+        "Pedagogical",
+        2
+      ],
+      [
+        "Paradoxical",
+        2
+      ],
+      [
+        "Paperbacks",
+        2
+      ],
+      [
+        "Panelboard",
+        1
+      ],
+      [
+        "Passphrase",
+        1
+      ],
+      [
+        "Patchworks",
+        1
+      ]
+    ],
+    "total_duration_seconds": 17.292081832885742,
+    "std_dev_criteria_accuracy": 0.30477678535099895,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.15238839267549947
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Panelboard",
+          "Paraphrase",
+          "Passphrase",
+          "Patchworks",
+          "Penniesing"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Panelboard\",\n    \"Paraphrase\",\n    \"Passphrase\",\n    \"Patchworks\",\n    \"Penniesing\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Palindromic",
+          "Parametric",
+          "Pathogenic",
+          "Perceptive",
+          "Peripheral"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Palindromic\",\n    \"Parametric\",\n    \"Pathogenic\",\n    \"Perceptive\",\n    \"Peripheral\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Palindromic (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Palaeology",
+          "Paraphrase",
+          "Pediatrics",
+          "Penultimate",
+          "Perfidious"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Palaeology\",\n    \"Paraphrase\",\n    \"Pediatrics\",\n    \"Penultimate\",\n    \"Perfidious\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Penultimate (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Palimpsests",
+          "Paraphrased",
+          "Pedagogical",
+          "Periphrasis",
+          "Philologist"
+        ],
+        "raw_response": "{\n  \"words\": [\"Palimpsests\", \"Paraphrased\", \"Pedagogical\", \"Periphrasis\", \"Philologist\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Palimpsests (11 letters), Paraphrased (11 letters), Pedagogical (11 letters), Periphrasis (11 letters), Philologist (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Paintbrush",
+          "Pamphleteer",
+          "Paradoxical",
+          "Patronizing",
+          "Perfection"
+        ],
+        "raw_response": "{\n  \"words\": [\"Paintbrush\", \"Pamphleteer\", \"Paradoxical\", \"Patronizing\", \"Perfection\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Pamphleteer (11 letters), Paradoxical (11 letters), Patronizing (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pacifistic",
+          "Pamphleteer",
+          "Paramountcy",
+          "Paraphrase",
+          "Patronship"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pacifistic\",\n    \"Pamphleteer\",\n    \"Paramountcy\",\n    \"Paraphrase\",\n    \"Patronship\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Pamphleteer (11 letters), Paramountcy (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Paraphrase",
+          "Penmanship",
+          "Perception",
+          "Peripheral",
+          "Promotions"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paraphrase\",\n    \"Penmanship\",\n    \"Perception\",\n    \"Peripheral\",\n    \"Promotions\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Palindromes",
+          "Paperbacks",
+          "Paratroops",
+          "Penitently",
+          "Periodicals"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Palindromes\",\n    \"Paperbacks\",\n    \"Paratroops\",\n    \"Penitently\",\n    \"Periodicals\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Palindromes (11 letters), Periodicals (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pamphleteer",
+          "Paraphrase",
+          "Pauperised",
+          "Penultimate",
+          "Personable"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pamphleteer\",\n    \"Paraphrase\",\n    \"Pauperised\",\n    \"Penultimate\",\n    \"Personable\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Pamphleteer (11 letters), Penultimate (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Paperbacks",
+          "Paradoxical",
+          "Paraphrase",
+          "Peculiarize",
+          "Pedagogical"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paperbacks\",\n    \"Paradoxical\",\n    \"Paraphrase\",\n    \"Peculiarize\",\n    \"Pedagogical\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Paradoxical (11 letters), Peculiarize (11 letters), Pedagogical (11 letters)"
+        ]
+      }
+    }
+  ]
+}

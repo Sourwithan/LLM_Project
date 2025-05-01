@@ -1,0 +1,403 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 7.3,
+    "avg_criteria_accuracy": 0.73,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.865,
+    "total_unique_words": 65,
+    "most_common_words": [
+      [
+        "Calculable",
+        5
+      ],
+      [
+        "Capricious",
+        5
+      ],
+      [
+        "Calligraphy",
+        4
+      ],
+      [
+        "Campaigner",
+        4
+      ],
+      [
+        "Causations",
+        4
+      ],
+      [
+        "Cacography",
+        3
+      ],
+      [
+        "Calisthenic",
+        3
+      ],
+      [
+        "Calamitous",
+        3
+      ],
+      [
+        "Capitalism",
+        3
+      ],
+      [
+        "Categorize",
+        3
+      ]
+    ],
+    "total_duration_seconds": 23.091638803482056,
+    "std_dev_criteria_accuracy": 0.13374935098492588,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.06687467549246291
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Cacography",
+          "Calculable",
+          "Calisthenic",
+          "Calligraphy",
+          "Campaigner",
+          "Candelabra",
+          "Canonizing",
+          "Captioning",
+          "Caravanned",
+          "Caretaking"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Cacography\",\n    \"Calculable\",\n    \"Calisthenic\",\n    \"Calligraphy\",\n    \"Campaigner\",\n    \"Candelabra\",\n    \"Canonizing\",\n    \"Captioning\",\n    \"Caravanned\",\n    \"Caretaking\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Calisthenic (11 letters), Calligraphy (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Cacography",
+          "Calamitous",
+          "Calisthenic",
+          "Calligraphy",
+          "Campaigner",
+          "Capitalism",
+          "Capricious",
+          "Captivating",
+          "Categorize",
+          "Causation's"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Cacography\",\n    \"Calamitous\",\n    \"Calisthenic\",\n    \"Calligraphy\",\n    \"Campaigner\",\n    \"Capitalism\",\n    \"Capricious\",\n    \"Captivating\",\n    \"Categorize\",\n    \"Causation's\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Calisthenic (11 letters), Calligraphy (11 letters), Captivating (11 letters)",
+          "Non-alphabetic words: Causation's"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Calculable",
+          "California",
+          "Canonicity",
+          "Capitalism",
+          "Capricious",
+          "Caravansary",
+          "Cartography",
+          "Casuistical",
+          "Celebrated",
+          "Centrifugal"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calculable\",\n    \"California\",\n    \"Canonicity\",\n    \"Capitalism\",\n    \"Capricious\",\n    \"Caravansary\",\n    \"Cartography\",\n    \"Casuistical\",\n    \"Celebrated\",\n    \"Centrifugal\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Caravansary (11 letters), Cartography (11 letters), Casuistical (11 letters), Centrifugal (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Calisthenic",
+          "Capricious",
+          "Categorize",
+          "Centrifugal",
+          "Ceremonial",
+          "Championship",
+          "Chronicles",
+          "Circumvent",
+          "Combustible",
+          "Communicate"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calisthenic\",\n    \"Capricious\",\n    \"Categorize\",\n    \"Centrifugal\",\n    \"Ceremonial\",\n    \"Championship\",\n    \"Chronicles\",\n    \"Circumvent\",\n    \"Combustible\",\n    \"Communicate\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: Calisthenic (11 letters), Centrifugal (11 letters), Championship (12 letters), Combustible (11 letters), Communicate (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Cacography",
+          "Campaniles",
+          "Candelabra",
+          "Capitalize",
+          "Carpentries",
+          "Cartwheels",
+          "Catalepsis",
+          "Caterwauls",
+          "Causations",
+          "Celebrants"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Cacography\",\n    \"Campaniles\",\n    \"Candelabra\",\n    \"Capitalize\",\n    \"Carpentries\",\n    \"Cartwheels\",\n    \"Catalepsis\",\n    \"Caterwauls\",\n    \"Causations\",\n    \"Celebrants\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Carpentries (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Calamitous",
+          "Calculable",
+          "Calligraphy",
+          "Campaigner",
+          "Capricious",
+          "Carburetor",
+          "Cartridges",
+          "Castigating",
+          "Categorize",
+          "Celebrated"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calamitous\",\n    \"Calculable\",\n    \"Calligraphy\",\n    \"Campaigner\",\n    \"Capricious\",\n    \"Carburetor\",\n    \"Cartridges\",\n    \"Castigating\",\n    \"Categorize\",\n    \"Celebrated\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Calligraphy (11 letters), Castigating (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Calamities",
+          "Calculated",
+          "Calligraphy",
+          "Campaniles",
+          "Capacities",
+          "Capitalism",
+          "Carbohydrate",
+          "Caricature",
+          "Castration",
+          "Causations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calamities\",\n    \"Calculated\",\n    \"Calligraphy\",\n    \"Campaniles\",\n    \"Capacities\",\n    \"Capitalism\",\n    \"Carbohydrate\",\n    \"Caricature\",\n    \"Castration\",\n    \"Causations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Calligraphy (11 letters), Carbohydrate (12 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Carnations",
+          "Causations",
+          "Centennials",
+          "Certitudes",
+          "Chainstore",
+          "Chambering",
+          "Championship",
+          "Charitable",
+          "Chronicles",
+          "Circuited"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Carnations\",\n    \"Causations\",\n    \"Centennials\",\n    \"Certitudes\",\n    \"Chainstore\",\n    \"Chambering\",\n    \"Championship\",\n    \"Charitable\",\n    \"Chronicles\",\n    \"Circuited\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Centennials (11 letters), Championship (12 letters), Circuited (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Calculable",
+          "Calligraph",
+          "Campestrian",
+          "Capricious",
+          "Causations",
+          "Celeritous",
+          "Censorious",
+          "Cerebrated",
+          "Certifying",
+          "Choreograp"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calculable\",\n    \"Calligraph\",\n    \"Campestrian\",\n    \"Capricious\",\n    \"Causations\",\n    \"Celeritous\",\n    \"Censorious\",\n    \"Cerebrated\",\n    \"Certifying\",\n    \"Choreograp\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: Campestrian (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Cacographer",
+          "Calculable",
+          "Calamitous",
+          "Calibrator",
+          "Calligraph",
+          "Campaigner",
+          "Candlestick",
+          "Canoeist's",
+          "Capitalise",
+          "Carburetor"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Cacographer\",\n    \"Calculable\",\n    \"Calamitous\",\n    \"Calibrator\",\n    \"Calligraph\",\n    \"Campaigner\",\n    \"Candlestick\",\n    \"Canoeist's\",\n    \"Capitalise\",\n    \"Carburetor\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Cacographer (11 letters), Candlestick (11 letters)",
+          "Non-alphabetic words: Canoeist's"
+        ]
+      }
+    }
+  ]
+}

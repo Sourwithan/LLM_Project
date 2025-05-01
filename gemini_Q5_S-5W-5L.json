@@ -1,0 +1,331 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 5,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 25,
+    "most_common_words": [
+      [
+        "salad",
+        5
+      ],
+      [
+        "shine",
+        5
+      ],
+      [
+        "shake",
+        4
+      ],
+      [
+        "since",
+        4
+      ],
+      [
+        "shows",
+        3
+      ],
+      [
+        "skill",
+        3
+      ],
+      [
+        "ships",
+        3
+      ],
+      [
+        "songs",
+        3
+      ],
+      [
+        "shirt",
+        2
+      ],
+      [
+        "shark",
+        2
+      ]
+    ],
+    "total_duration_seconds": 16.93349289894104,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "start",
+          "state",
+          "shows",
+          "sides",
+          "shake"
+        ],
+        "raw_response": "{\n  \"words\": [\"start\", \"state\", \"shows\", \"sides\", \"shake\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "salad",
+          "shirt",
+          "shown",
+          "since",
+          "skill"
+        ],
+        "raw_response": "{\n  \"words\": [\"salad\", \"shirt\", \"shown\", \"since\", \"skill\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "salad",
+          "signs",
+          "sites",
+          "shake",
+          "ships"
+        ],
+        "raw_response": "{\n  \"words\": [\"salad\", \"signs\", \"sites\", \"shake\", \"ships\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "salad",
+          "shady",
+          "shine",
+          "skill",
+          "songs"
+        ],
+        "raw_response": "{\n  \"words\": [\"salad\", \"shady\", \"shine\", \"skill\", \"songs\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "shark",
+          "shout",
+          "shine",
+          "since",
+          "slice"
+        ],
+        "raw_response": "{\n  \"words\": [\"shark\", \"shout\", \"shine\", \"since\", \"slice\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "songs",
+          "since",
+          "spies",
+          "stirs",
+          "shows"
+        ],
+        "raw_response": "{\n  \"words\": [\"songs\", \"since\", \"spies\", \"stirs\", \"shows\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "salad",
+          "shake",
+          "shape",
+          "shout",
+          "shine"
+        ],
+        "raw_response": "{\n  \"words\": [\"salad\", \"shake\", \"shape\", \"shout\", \"shine\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "since",
+          "songs",
+          "sound",
+          "ships",
+          "shows"
+        ],
+        "raw_response": "{\n  \"words\": [\"since\", \"songs\", \"sound\", \"ships\", \"shows\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "shark",
+          "ships",
+          "socks",
+          "shake",
+          "shine"
+        ],
+        "raw_response": "{\n  \"words\": [\"shark\", \"ships\", \"socks\", \"shake\", \"shine\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "salad",
+          "sugar",
+          "shine",
+          "shirt",
+          "skill"
+        ],
+        "raw_response": "{\n  \"words\": [\"salad\", \"sugar\", \"shine\", \"shirt\", \"skill\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

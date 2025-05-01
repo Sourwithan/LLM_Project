@@ -258,9 +258,9 @@ def run_multiple_tests(
 # Main function to demonstrate the code
 def main():
     # Parameters for the word list request
-    starting_letter = "S"
-    word_length = 10
-    word_count = 10
+    starting_letter = "C"
+    word_length = 5
+    word_count = 5
     num_tests = 10
     
     # Load environment variables from .env file

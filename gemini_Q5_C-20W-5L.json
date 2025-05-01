@@ -1,0 +1,481 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 20,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 87,
+    "most_common_words": [
+      [
+        "catch",
+        9
+      ],
+      [
+        "charm",
+        7
+      ],
+      [
+        "cheap",
+        7
+      ],
+      [
+        "chase",
+        6
+      ],
+      [
+        "cause",
+        5
+      ],
+      [
+        "cells",
+        5
+      ],
+      [
+        "chaos",
+        5
+      ],
+      [
+        "cheat",
+        5
+      ],
+      [
+        "chess",
+        5
+      ],
+      [
+        "chief",
+        5
+      ]
+    ],
+    "total_duration_seconds": 20.651150465011597,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "cares",
+          "carol",
+          "carts",
+          "catch",
+          "cause",
+          "caves",
+          "cells",
+          "chaos",
+          "charm",
+          "cheap",
+          "cheat",
+          "chefs",
+          "chess",
+          "chief",
+          "child",
+          "chill",
+          "chips",
+          "choir",
+          "choke",
+          "chops"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"cares\",\n    \"carol\",\n    \"carts\",\n    \"catch\",\n    \"cause\",\n    \"caves\",\n    \"cells\",\n    \"chaos\",\n    \"charm\",\n    \"cheap\",\n    \"cheat\",\n    \"chefs\",\n    \"chess\",\n    \"chief\",\n    \"child\",\n    \"chill\",\n    \"chips\",\n    \"choir\",\n    \"choke\",\n    \"chops\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "chase",
+          "charm",
+          "chart",
+          "cheap",
+          "cheat",
+          "check",
+          "cheek",
+          "cheer",
+          "chess",
+          "chief",
+          "child",
+          "chill",
+          "chips",
+          "choir",
+          "choke",
+          "chord",
+          "chore",
+          "chose",
+          "chuck",
+          "civil"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"chase\",\n    \"charm\",\n    \"chart\",\n    \"cheap\",\n    \"cheat\",\n    \"check\",\n    \"cheek\",\n    \"cheer\",\n    \"chess\",\n    \"chief\",\n    \"child\",\n    \"chill\",\n    \"chips\",\n    \"choir\",\n    \"choke\",\n    \"chord\",\n    \"chore\",\n    \"chose\",\n    \"chuck\",\n    \"civil\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "catch",
+          "cider",
+          "clown",
+          "coach",
+          "coins",
+          "colon",
+          "color",
+          "coral",
+          "could",
+          "count",
+          "court",
+          "cover",
+          "crabs",
+          "craft",
+          "crane",
+          "crawl",
+          "crazy",
+          "cream",
+          "creek",
+          "crime"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"catch\",\n    \"cider\",\n    \"clown\",\n    \"coach\",\n    \"coins\",\n    \"colon\",\n    \"color\",\n    \"coral\",\n    \"could\",\n    \"count\",\n    \"court\",\n    \"cover\",\n    \"crabs\",\n    \"craft\",\n    \"crane\",\n    \"crawl\",\n    \"crazy\",\n    \"cream\",\n    \"creek\",\n    \"crime\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "cable",
+          "cache",
+          "calif",
+          "camel",
+          "canal",
+          "candy",
+          "canon",
+          "cared",
+          "cares",
+          "cargo",
+          "carol",
+          "carpy",
+          "carts",
+          "carve",
+          "cases",
+          "casts",
+          "catch",
+          "cause",
+          "caves",
+          "cells"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"cable\",\n    \"cache\",\n    \"calif\",\n    \"camel\",\n    \"canal\",\n    \"candy\",\n    \"canon\",\n    \"cared\",\n    \"cares\",\n    \"cargo\",\n    \"carol\",\n    \"carpy\",\n    \"carts\",\n    \"carve\",\n    \"cases\",\n    \"casts\",\n    \"catch\",\n    \"cause\",\n    \"caves\",\n    \"cells\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "chick",
+          "chunk",
+          "catch",
+          "charm",
+          "chair",
+          "chase",
+          "chalk",
+          "cheap",
+          "check",
+          "chest",
+          "chief",
+          "child",
+          "china",
+          "chips",
+          "choir",
+          "choke",
+          "chops",
+          "chord",
+          "claim",
+          "class"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"chick\",\n    \"chunk\",\n    \"catch\",\n    \"charm\",\n    \"chair\",\n    \"chase\",\n    \"chalk\",\n    \"cheap\",\n    \"check\",\n    \"chest\",\n    \"chief\",\n    \"child\",\n    \"china\",\n    \"chips\",\n    \"choir\",\n    \"choke\",\n    \"chops\",\n    \"chord\",\n    \"claim\",\n    \"class\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "catch",
+          "cause",
+          "chain",
+          "chair",
+          "chalk",
+          "champ",
+          "chant",
+          "chaos",
+          "charm",
+          "chart",
+          "chase",
+          "cheap",
+          "cheat",
+          "check",
+          "cheek",
+          "cheer",
+          "chess",
+          "chief",
+          "child",
+          "chill"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"catch\",\n    \"cause\",\n    \"chain\",\n    \"chair\",\n    \"chalk\",\n    \"champ\",\n    \"chant\",\n    \"chaos\",\n    \"charm\",\n    \"chart\",\n    \"chase\",\n    \"cheap\",\n    \"cheat\",\n    \"check\",\n    \"cheek\",\n    \"cheer\",\n    \"chess\",\n    \"chief\",\n    \"child\",\n    \"chill\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "catch",
+          "cells",
+          "cents",
+          "chain",
+          "chair",
+          "chalk",
+          "champ",
+          "chant",
+          "chaos",
+          "charm",
+          "chart",
+          "chase",
+          "cheap",
+          "cheat",
+          "check",
+          "cheek",
+          "cheer",
+          "chess",
+          "chief",
+          "child"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"catch\",\n    \"cells\",\n    \"cents\",\n    \"chain\",\n    \"chair\",\n    \"chalk\",\n    \"champ\",\n    \"chant\",\n    \"chaos\",\n    \"charm\",\n    \"chart\",\n    \"chase\",\n    \"cheap\",\n    \"cheat\",\n    \"check\",\n    \"cheek\",\n    \"cheer\",\n    \"chess\",\n    \"chief\",\n    \"child\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "catch",
+          "caves",
+          "cause",
+          "cease",
+          "cells",
+          "chain",
+          "chair",
+          "chalk",
+          "champ",
+          "chant",
+          "chaos",
+          "charm",
+          "chart",
+          "chase",
+          "cheap",
+          "cheat",
+          "check",
+          "cheek",
+          "cheer",
+          "chess"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"catch\",\n    \"caves\",\n    \"cause\",\n    \"cease\",\n    \"cells\",\n    \"chain\",\n    \"chair\",\n    \"chalk\",\n    \"champ\",\n    \"chant\",\n    \"chaos\",\n    \"charm\",\n    \"chart\",\n    \"chase\",\n    \"cheap\",\n    \"cheat\",\n    \"check\",\n    \"cheek\",\n    \"cheer\",\n    \"chess\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "catch",
+          "cider",
+          "clown",
+          "count",
+          "crack",
+          "crane",
+          "crawl",
+          "crazy",
+          "cream",
+          "creek",
+          "creep",
+          "crime",
+          "crisp",
+          "cross",
+          "crowd",
+          "crown",
+          "crude",
+          "cruel",
+          "crumb",
+          "curry"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"catch\",\n    \"cider\",\n    \"clown\",\n    \"count\",\n    \"crack\",\n    \"crane\",\n    \"crawl\",\n    \"crazy\",\n    \"cream\",\n    \"creek\",\n    \"creep\",\n    \"crime\",\n    \"crisp\",\n    \"cross\",\n    \"crowd\",\n    \"crown\",\n    \"crude\",\n    \"cruel\",\n    \"crumb\",\n    \"curry\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "codes",
+          "cable",
+          "carol",
+          "carry",
+          "carve",
+          "cases",
+          "catch",
+          "cause",
+          "cells",
+          "cents",
+          "chain",
+          "chair",
+          "chalk",
+          "champ",
+          "chant",
+          "chaos",
+          "charm",
+          "chart",
+          "chase",
+          "cheap"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"codes\",\n    \"cable\",\n    \"carol\",\n    \"carry\",\n    \"carve\",\n    \"cases\",\n    \"catch\",\n    \"cause\",\n    \"cells\",\n    \"cents\",\n    \"chain\",\n    \"chair\",\n    \"chalk\",\n    \"champ\",\n    \"chant\",\n    \"chaos\",\n    \"charm\",\n    \"chart\",\n    \"chase\",\n    \"cheap\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

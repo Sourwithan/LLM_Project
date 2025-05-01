@@ -1,0 +1,73 @@
+Performance Analysis of Z-Words from 9 files
+=============================================
+
+ACCURACY METRICS:
+Average success rate: 1.0000
+Average criteria accuracy: 0.5744
+Average count accuracy: 1.0000
+Average overall accuracy: 0.7872
+
+PERFORMANCE BY FILE (sorted by word dimensions):
+  5W-5L.json (gemini_Q5_Z-5W-5L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 1.0000
+    Count Accuracy: 1.0000
+    Overall Accuracy: 1.0000
+    Processing Time: 15.71 seconds
+
+  5W-10L.json (gemini_Q5_Z-5W-10L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.6200
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.8100
+    Processing Time: 17.54 seconds
+
+  5W-20L.json (gemini_Q5_Z-5W-20L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.0600
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.5300
+    Processing Time: 20.84 seconds
+
+  10W-5L.json (gemini_Q5_Z-10W-5L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 1.0000
+    Count Accuracy: 1.0000
+    Overall Accuracy: 1.0000
+    Processing Time: 22.33 seconds
+
+  10W-10L.json (gemini_Q5_Z-10W-10L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.6000
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.8000
+    Processing Time: 21.06 seconds
+
+  10W-20L.json (gemini_Q5_Z-10W-20L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.0800
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.5400
+    Processing Time: 21.70 seconds
+
+  20W-5L.json (gemini_Q5_Z-20W-5L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.9700
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.9850
+    Processing Time: 26.36 seconds
+
+  20W-10L.json (gemini_Q5_Z-20W-10L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.6550
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.8275
+    Processing Time: 25.74 seconds
+
+  20W-20L.json (gemini_Q5_Z-20W-20L.json):
+    Success Rate: 1.0000
+    Criteria Accuracy: 0.1850
+    Count Accuracy: 1.0000
+    Overall Accuracy: 0.5925
+    Processing Time: 33.97 seconds
+

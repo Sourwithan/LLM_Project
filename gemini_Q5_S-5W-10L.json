@@ -1,0 +1,349 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 3.4,
+    "avg_criteria_accuracy": 0.68,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.84,
+    "total_unique_words": 41,
+    "most_common_words": [
+      [
+        "Scandalize",
+        3
+      ],
+      [
+        "Scriptural",
+        3
+      ],
+      [
+        "Scholarship",
+        2
+      ],
+      [
+        "Scrupulous",
+        2
+      ],
+      [
+        "Sensations",
+        2
+      ],
+      [
+        "Schoolbook",
+        2
+      ],
+      [
+        "Sensuously",
+        2
+      ],
+      [
+        "Scenically",
+        1
+      ],
+      [
+        "Sclerosis",
+        1
+      ],
+      [
+        "Significant",
+        1
+      ]
+    ],
+    "total_duration_seconds": 20.417730808258057,
+    "std_dev_criteria_accuracy": 0.23475755815545346,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.11737877907772674
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Scandalize",
+          "Scenically",
+          "Scholarship",
+          "Sclerosis",
+          "Scriptural"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scandalize\",\n    \"Scenically\",\n    \"Scholarship\",\n    \"Sclerosis\",\n    \"Scriptural\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Scholarship (11 letters), Sclerosis (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Scrupulous",
+          "Sensations",
+          "Significant",
+          "Spectacles",
+          "Strengthen"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scrupulous\",\n    \"Sensations\",\n    \"Significant\",\n    \"Spectacles\",\n    \"Strengthen\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Significant (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "sandstones",
+          "scandalized",
+          "sensational",
+          "shatterable",
+          "shipwrights"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"sandstones\",\n    \"scandalized\",\n    \"sensational\",\n    \"shatterable\",\n    \"shipwrights\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: scandalized (11 letters), sensational (11 letters), shatterable (11 letters), shipwrights (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sandstones",
+          "Schoolbook",
+          "Secularise",
+          "Sendwiches",
+          "Sophistic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sandstones\",\n    \"Schoolbook\",\n    \"Secularise\",\n    \"Sendwiches\",\n    \"Sophistic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Sophistic (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sacrileges",
+          "Scandalize",
+          "Schoolbook",
+          "Scrupulous",
+          "Sensations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sacrileges\",\n    \"Scandalize\",\n    \"Schoolbook\",\n    \"Scrupulous\",\n    \"Sensations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "scandalize",
+          "scholarize",
+          "scotomized",
+          "secretions",
+          "segregation"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"scandalize\",\n    \"scholarize\",\n    \"scotomized\",\n    \"secretions\",\n    \"segregation\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: segregation (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sclerotium",
+          "Scintillate",
+          "Scriptural",
+          "Seasonable",
+          "Sensuously"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sclerotium\",\n    \"Scintillate\",\n    \"Scriptural\",\n    \"Seasonable\",\n    \"Sensuously\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Scintillate (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Scandalize",
+          "Schizophren",
+          "Sclerosing",
+          "Scriptural",
+          "Sensuously"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Scandalize\",\n    \"Schizophren\",\n    \"Sclerosing\",\n    \"Scriptural\",\n    \"Sensuously\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Schizophren (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sacramentos",
+          "Sandalwood",
+          "Scarecrows",
+          "Scholarship",
+          "Schoolbooks"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sacramentos\",\n    \"Sandalwood\",\n    \"Scarecrows\",\n    \"Scholarship\",\n    \"Schoolbooks\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Sacramentos (11 letters), Scholarship (11 letters), Schoolbooks (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sculptured",
+          "Sensational",
+          "Simplistic",
+          "Solicitude",
+          "Specialisms"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sculptured\",\n    \"Sensational\",\n    \"Simplistic\",\n    \"Solicitude\",\n    \"Specialisms\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Sensational (11 letters), Specialisms (11 letters)"
+        ]
+      }
+    }
+  ]
+}

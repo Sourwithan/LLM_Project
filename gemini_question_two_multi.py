@@ -1,5 +1,6 @@
 import json
 import os
+from dotenv import load_dotenv
 import re
 import time
 import datetime
@@ -161,11 +162,8 @@ def run_multiple_tests(
         
         all_results.append(result)
         
-        # Add a small delay to avoid rate limiting
-        if i < num_tests - 1:  # No need to wait after the last test
-            delay = random.uniform(3, 5)
-            print(f"Waiting {delay:.2f} seconds before next test...")
-            time.sleep(delay)
+        # Remove wait between tests - This is the change
+        # No delay code here
     
     end_time = time.time()
     total_duration = end_time - start_time
@@ -212,7 +210,9 @@ def run_multiple_tests(
 def main():
     # Parameters for the sentence request
     required_word_count = 5
-    num_tests = 10  # Reduced from 10 to avoid rate limits
+    num_tests = 10
+        
+    load_dotenv()
     
     # Get API key from environment or user input
     api_key = os.environ.get("GOOGLE_AI_STUDIO_API_KEY")
@@ -259,7 +259,7 @@ def main():
     
     # Save the comprehensive report to a file
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"gemini_Q2_Result.json"
+    filename = f"gemini_Q2_{required_word_count}W.json"
     with open(filename, "w") as f:
         json.dump(comprehensive_report, f, indent=2)
     print(f"\nComprehensive report saved to {filename}")

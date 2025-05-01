@@ -1,0 +1,352 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 0.1,
+    "avg_criteria_accuracy": 0.02,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.51,
+    "total_unique_words": 40,
+    "most_common_words": [
+      [
+        "Pneumoencephalographically",
+        6
+      ],
+      [
+        "Pseudopseudohypoparathyroidism",
+        3
+      ],
+      [
+        "Pneumoultramicroscopicsilicovolcanoconiosis",
+        2
+      ],
+      [
+        "Proportionablenessesness",
+        2
+      ],
+      [
+        "Psychophysicotherapeutics",
+        2
+      ],
+      [
+        "Proprioceptionisticallyly",
+        1
+      ],
+      [
+        "Pseudolymphangiomatously",
+        1
+      ],
+      [
+        "Proportionablenessesess",
+        1
+      ],
+      [
+        "Predeterminationististically",
+        1
+      ],
+      [
+        "Papyraceousnessesessessess",
+        1
+      ]
+    ],
+    "total_duration_seconds": 19.578906297683716,
+    "std_dev_criteria_accuracy": 0.0632455532033676,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.031622776601683784
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoencephalographically",
+          "Proprioceptionisticallyly",
+          "Pseudolymphangiomatously",
+          "Proportionablenessesess",
+          "Predeterminationististically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoencephalographically\",\n    \"Proprioceptionisticallyly\",\n    \"Pseudolymphangiomatously\",\n    \"Proportionablenessesess\",\n    \"Predeterminationististically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoencephalographically (26 letters), Proprioceptionisticallyly (25 letters), Pseudolymphangiomatously (24 letters), Proportionablenessesess (23 letters), Predeterminationististically (28 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Papyraceousnessesessessess",
+          "Procrastinationistssessess",
+          "Proprioceptionistssessess"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Papyraceousnessesessessess\",\n    \"Procrastinationistssessess\",\n    \"Proprioceptionistssessess\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoultramicroscopicsilicovolcanoconiosis (43 letters), Pseudopseudohypoparathyroidism (30 letters), Papyraceousnessesessessess (26 letters), Procrastinationistssessess (26 letters), Proprioceptionistssessess (25 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Papilionaceousnessesplendourousnessly",
+          "Palanquinbearers'incomprehensibilities",
+          "Protoflocculatunocillipilifications"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Papilionaceousnessesplendourousnessly\",\n    \"Palanquinbearers'incomprehensibilities\",\n    \"Protoflocculatunocillipilifications\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoultramicroscopicsilicovolcanoconiosis (43 letters), Pseudopseudohypoparathyroidism (30 letters), Papilionaceousnessesplendourousnessly (37 letters), Protoflocculatunocillipilifications (35 letters)",
+          "Non-alphabetic words: Palanquinbearers'incomprehensibilities"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "pneumoencephalographically",
+          "preindustrializations",
+          "professionalizations",
+          "pseudoliberallyminded",
+          "psychophysiologically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"pneumoencephalographically\",\n    \"preindustrializations\",\n    \"professionalizations\",\n    \"pseudoliberallyminded\",\n    \"psychophysiologically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: pneumoencephalographically (26 letters), preindustrializations (21 letters), pseudoliberallyminded (21 letters), psychophysiologically (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumonoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Preantepenultimatepreantepenultimate",
+          "Patriarchalpreponderatingoveraffectionateness",
+          "Proteroglyphousopisthoglyphousalternativeness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Preantepenultimatepreantepenultimate\",\n    \"Patriarchalpreponderatingoveraffectionateness\",\n    \"Proteroglyphousopisthoglyphousalternativeness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), Pseudopseudohypoparathyroidism (30 letters), Preantepenultimatepreantepenultimate (36 letters), Patriarchalpreponderatingoveraffectionateness (45 letters), Proteroglyphousopisthoglyphousalternativeness (45 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoencephalographically",
+          "Pseudolymphomatouslymphoma",
+          "Proportionablenessesness",
+          "Pathologicopsychological",
+          "Predeterminationistically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoencephalographically\",\n    \"Pseudolymphomatouslymphoma\",\n    \"Proportionablenessesness\",\n    \"Pathologicopsychological\",\n    \"Predeterminationistically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoencephalographically (26 letters), Pseudolymphomatouslymphoma (26 letters), Proportionablenessesness (24 letters), Pathologicopsychological (24 letters), Predeterminationistically (25 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoencephalographically",
+          "Proportionablenesslessness",
+          "Pseudolymphomatousnesses",
+          "Psychophysicotherapeutics",
+          "Palatopharyngoplastieses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoencephalographically\",\n    \"Proportionablenesslessness\",\n    \"Pseudolymphomatousnesses\",\n    \"Psychophysicotherapeutics\",\n    \"Palatopharyngoplastieses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoencephalographically (26 letters), Proportionablenesslessness (26 letters), Pseudolymphomatousnesses (24 letters), Psychophysicotherapeutics (25 letters), Palatopharyngoplastieses (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoencephalographically",
+          "Proprietorializationalism",
+          "Pseudoliberallydemocrat",
+          "Pseudoeconometricallys",
+          "Proportionablenessnesses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoencephalographically\",\n    \"Proprietorializationalism\",\n    \"Pseudoliberallydemocrat\",\n    \"Pseudoeconometricallys\",\n    \"Proportionablenessnesses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoencephalographically (26 letters), Proprietorializationalism (25 letters), Pseudoliberallydemocrat (23 letters), Pseudoeconometricallys (22 letters), Proportionablenessnesses (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoencephalographically",
+          "Proportionablenessesness",
+          "Pseudolymphomatiousness",
+          "Psychoimmunoneurological",
+          "Pathophysiologicallyness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoencephalographically\",\n    \"Proportionablenessesness\",\n    \"Pseudolymphomatiousness\",\n    \"Psychoimmunoneurological\",\n    \"Pathophysiologicallyness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoencephalographically (26 letters), Proportionablenessesness (24 letters), Pseudolymphomatiousness (23 letters), Psychoimmunoneurological (24 letters), Pathophysiologicallyness (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Pneumoencephalographically",
+          "Pseudolymphangiomyomatosis",
+          "Proprietorialnessesness",
+          "Psychophysicotherapeutics",
+          "Paleoanthropologically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoencephalographically\",\n    \"Pseudolymphangiomyomatosis\",\n    \"Proprietorialnessesness\",\n    \"Psychophysicotherapeutics\",\n    \"Paleoanthropologically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoencephalographically (26 letters), Pseudolymphangiomyomatosis (26 letters), Proprietorialnessesness (23 letters), Psychophysicotherapeutics (25 letters), Paleoanthropologically (22 letters)"
+        ]
+      }
+    }
+  ]
+}

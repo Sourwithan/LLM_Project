@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 14.9,
+    "avg_criteria_accuracy": 0.745,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.8725,
+    "total_unique_words": 161,
+    "most_common_words": [
+      [
+        "Ceremonial",
+        4
+      ],
+      [
+        "Chronicles",
+        4
+      ],
+      [
+        "calligraph",
+        3
+      ],
+      [
+        "cataloging",
+        3
+      ],
+      [
+        "Capricious",
+        3
+      ],
+      [
+        "Categorize",
+        3
+      ],
+      [
+        "Centrifuge",
+        3
+      ],
+      [
+        "Circulated",
+        3
+      ],
+      [
+        "Calisthenic",
+        3
+      ],
+      [
+        "Celebrated",
+        3
+      ]
+    ],
+    "total_duration_seconds": 23.32392191886902,
+    "std_dev_criteria_accuracy": 0.25652593544426566,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.1282629677221328
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "calculable",
+          "calamities",
+          "calisthenic",
+          "calligraph",
+          "camouflage",
+          "campaniles",
+          "candelabra",
+          "cantilever",
+          "capacities",
+          "capricious",
+          "captivating",
+          "carabinieri",
+          "carbohydra",
+          "caricature",
+          "casualties",
+          "cataloging",
+          "catastatic",
+          "caterwauls",
+          "causations",
+          "celebrated"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"calculable\",\n    \"calamities\",\n    \"calisthenic\",\n    \"calligraph\",\n    \"camouflage\",\n    \"campaniles\",\n    \"candelabra\",\n    \"cantilever\",\n    \"capacities\",\n    \"capricious\",\n    \"captivating\",\n    \"carabinieri\",\n    \"carbohydra\",\n    \"caricature\",\n    \"casualties\",\n    \"cataloging\",\n    \"catastatic\",\n    \"caterwauls\",\n    \"causations\",\n    \"celebrated\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: calisthenic (11 letters), captivating (11 letters), carabinieri (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "calamitous",
+          "capacitate",
+          "carboxylic",
+          "cataclysmic",
+          "categorise",
+          "cauterized",
+          "centigrade",
+          "ceremonial",
+          "chaperoned",
+          "checkpoint",
+          "chemically",
+          "chieftains",
+          "chocolatey",
+          "chordatous",
+          "chromatics",
+          "chronicler",
+          "chrysalids",
+          "cicatrized",
+          "circumvent",
+          "civilising"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"calamitous\",\n    \"capacitate\",\n    \"carboxylic\",\n    \"cataclysmic\",\n    \"categorise\",\n    \"cauterized\",\n    \"centigrade\",\n    \"ceremonial\",\n    \"chaperoned\",\n    \"checkpoint\",\n    \"chemically\",\n    \"chieftains\",\n    \"chocolatey\",\n    \"chordatous\",\n    \"chromatics\",\n    \"chronicler\",\n    \"chrysalids\",\n    \"cicatrized\",\n    \"circumvent\",\n    \"civilising\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: cataclysmic (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Calamitous",
+          "Canonical",
+          "Capricious",
+          "Caravanned",
+          "Castration",
+          "Categorize",
+          "Celeritous",
+          "Centrifuge",
+          "Ceremonial",
+          "Championship",
+          "Chaperoned",
+          "Chromatic",
+          "Chronicles",
+          "Circuited",
+          "Circulated",
+          "Civilizing",
+          "Classicism",
+          "Clocksmith",
+          "Cognizance",
+          "Collapsing"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calamitous\",\n    \"Canonical\",\n    \"Capricious\",\n    \"Caravanned\",\n    \"Castration\",\n    \"Categorize\",\n    \"Celeritous\",\n    \"Centrifuge\",\n    \"Ceremonial\",\n    \"Championship\",\n    \"Chaperoned\",\n    \"Chromatic\",\n    \"Chronicles\",\n    \"Circuited\",\n    \"Circulated\",\n    \"Civilizing\",\n    \"Classicism\",\n    \"Clocksmith\",\n    \"Cognizance\",\n    \"Collapsing\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Canonical (9 letters), Championship (12 letters), Chromatic (9 letters), Circuited (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "calamitous",
+          "calligraph",
+          "calumniated",
+          "camouflage",
+          "campaigning",
+          "capacities",
+          "capitalism",
+          "caravaning",
+          "carbohydra",
+          "carcinogen",
+          "caretakers",
+          "carnations",
+          "cartoonish",
+          "cataloging",
+          "catastrophe",
+          "categorize",
+          "cauterized",
+          "celebrated",
+          "censorship",
+          "centrifugal"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"calamitous\",\n    \"calligraph\",\n    \"calumniated\",\n    \"camouflage\",\n    \"campaigning\",\n    \"capacities\",\n    \"capitalism\",\n    \"caravaning\",\n    \"carbohydra\",\n    \"carcinogen\",\n    \"caretakers\",\n    \"carnations\",\n    \"cartoonish\",\n    \"cataloging\",\n    \"catastrophe\",\n    \"categorize\",\n    \"cauterized\",\n    \"celebrated\",\n    \"censorship\",\n    \"centrifugal\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 16,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: calumniated (11 letters), campaigning (11 letters), catastrophe (11 letters), centrifugal (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Calisthenic",
+          "Capitalism",
+          "Carbohydrate",
+          "Cartographer",
+          "Catafalques",
+          "Celebrated",
+          "Cellophane",
+          "Cemeterys",
+          "Centrifuge",
+          "Ceremonial",
+          "Chameleon",
+          "Charactered",
+          "Charismatic",
+          "Chastising",
+          "Chronicles",
+          "Circumnav",
+          "Civilizing",
+          "Clarifying",
+          "Classrooms",
+          "Clienteles"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calisthenic\",\n    \"Capitalism\",\n    \"Carbohydrate\",\n    \"Cartographer\",\n    \"Catafalques\",\n    \"Celebrated\",\n    \"Cellophane\",\n    \"Cemeterys\",\n    \"Centrifuge\",\n    \"Ceremonial\",\n    \"Chameleon\",\n    \"Charactered\",\n    \"Charismatic\",\n    \"Chastising\",\n    \"Chronicles\",\n    \"Circumnav\",\n    \"Civilizing\",\n    \"Clarifying\",\n    \"Classrooms\",\n    \"Clienteles\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: Calisthenic (11 letters), Carbohydrate (12 letters), Cartographer (12 letters), Catafalques (11 letters), Cemeterys (9 letters), Chameleon (9 letters), Charactered (11 letters), Charismatic (11 letters), Circumnav (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "calendared",
+          "calisthene",
+          "calligraph",
+          "camarillas",
+          "canaliculi",
+          "cancellation",
+          "capitulate",
+          "capsulized",
+          "carabinieri",
+          "carbonated",
+          "caricature",
+          "carotenoid",
+          "carpetbagg",
+          "castrating",
+          "cataloging",
+          "catastases",
+          "categorize",
+          "causations",
+          "celebrants",
+          "cellarages"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"calendared\",\n    \"calisthene\",\n    \"calligraph\",\n    \"camarillas\",\n    \"canaliculi\",\n    \"cancellation\",\n    \"capitulate\",\n    \"capsulized\",\n    \"carabinieri\",\n    \"carbonated\",\n    \"caricature\",\n    \"carotenoid\",\n    \"carpetbagg\",\n    \"castrating\",\n    \"cataloging\",\n    \"catastases\",\n    \"categorize\",\n    \"causations\",\n    \"celebrants\",\n    \"cellarages\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 18,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: cancellation (12 letters), carabinieri (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Calendared",
+          "Calligraphy",
+          "Capricious",
+          "Caravansary",
+          "Cartography",
+          "Casualties",
+          "Cataclysmic",
+          "Categorize",
+          "Celebrated",
+          "Censorship",
+          "Centennial",
+          "Ceremonial",
+          "Championship",
+          "Charitable",
+          "Chicanery",
+          "Chromosome",
+          "Chronicles",
+          "Circulated",
+          "Circumvent",
+          "Classifies"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calendared\",\n    \"Calligraphy\",\n    \"Capricious\",\n    \"Caravansary\",\n    \"Cartography\",\n    \"Casualties\",\n    \"Cataclysmic\",\n    \"Categorize\",\n    \"Celebrated\",\n    \"Censorship\",\n    \"Centennial\",\n    \"Ceremonial\",\n    \"Championship\",\n    \"Charitable\",\n    \"Chicanery\",\n    \"Chromosome\",\n    \"Chronicles\",\n    \"Circulated\",\n    \"Circumvent\",\n    \"Classifies\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 14,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Calligraphy (11 letters), Caravansary (11 letters), Cartography (11 letters), Cataclysmic (11 letters), Championship (12 letters), Chicanery (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Calisthenic",
+          "Calligraph",
+          "Camphorate",
+          "Canaliculi",
+          "Candelabra",
+          "Capacitate",
+          "Capitalism",
+          "Captivating",
+          "Caravanned",
+          "Carburetor",
+          "Cartilages",
+          "Castigating",
+          "Catalyzing",
+          "Categorize",
+          "Causations",
+          "Cautionary",
+          "Celerities",
+          "Censorious",
+          "Centrifuge",
+          "Certifying"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calisthenic\",\n    \"Calligraph\",\n    \"Camphorate\",\n    \"Canaliculi\",\n    \"Candelabra\",\n    \"Capacitate\",\n    \"Capitalism\",\n    \"Captivating\",\n    \"Caravanned\",\n    \"Carburetor\",\n    \"Cartilages\",\n    \"Castigating\",\n    \"Catalyzing\",\n    \"Categorize\",\n    \"Causations\",\n    \"Cautionary\",\n    \"Celerities\",\n    \"Censorious\",\n    \"Centrifuge\",\n    \"Certifying\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: Calisthenic (11 letters), Captivating (11 letters), Castigating (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Calisthenic",
+          "Canistering",
+          "Cantaloupes",
+          "Capitalised",
+          "Caravanning",
+          "Carbonising",
+          "Carburetors",
+          "Caricatured",
+          "Cartographer",
+          "Cassiterite",
+          "Castigating",
+          "Cataloguing",
+          "Catastasis",
+          "Categorical",
+          "Caterpillar",
+          "Celebrated",
+          "Centennials",
+          "Centrifuged",
+          "Ceremonious",
+          "Certifiable"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calisthenic\",\n    \"Canistering\",\n    \"Cantaloupes\",\n    \"Capitalised\",\n    \"Caravanning\",\n    \"Carbonising\",\n    \"Carburetors\",\n    \"Caricatured\",\n    \"Cartographer\",\n    \"Cassiterite\",\n    \"Castigating\",\n    \"Cataloguing\",\n    \"Catastasis\",\n    \"Categorical\",\n    \"Caterpillar\",\n    \"Celebrated\",\n    \"Centennials\",\n    \"Centrifuged\",\n    \"Ceremonious\",\n    \"Certifiable\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.1,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.55,
+        "errors": [
+          "Words with incorrect length: Calisthenic (11 letters), Canistering (11 letters), Cantaloupes (11 letters), Capitalised (11 letters), Caravanning (11 letters), Carbonising (11 letters), Carburetors (11 letters), Caricatured (11 letters), Cartographer (12 letters), Cassiterite (11 letters), Castigating (11 letters), Cataloguing (11 letters), Categorical (11 letters), Caterpillar (11 letters), Centennials (11 letters), Centrifuged (11 letters), Ceremonious (11 letters), Certifiable (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Calibrated",
+          "Capricious",
+          "Captioning",
+          "Caravaning",
+          "Carpenting",
+          "Caterwauls",
+          "Celeriacum",
+          "Censurable",
+          "Centigrade",
+          "Ceremonial",
+          "Chameleons",
+          "Charioteer",
+          "Chimichurr",
+          "Chivalrous",
+          "Choregraph",
+          "Choristers",
+          "Chronicles",
+          "Circulated",
+          "Circumvent",
+          "Claimants"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calibrated\",\n    \"Capricious\",\n    \"Captioning\",\n    \"Caravaning\",\n    \"Carpenting\",\n    \"Caterwauls\",\n    \"Celeriacum\",\n    \"Censurable\",\n    \"Centigrade\",\n    \"Ceremonial\",\n    \"Chameleons\",\n    \"Charioteer\",\n    \"Chimichurr\",\n    \"Chivalrous\",\n    \"Choregraph\",\n    \"Choristers\",\n    \"Chronicles\",\n    \"Circulated\",\n    \"Circumvent\",\n    \"Claimants\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 19,
+        "correct_count": true,
+        "criteria_accuracy": 0.95,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.975,
+        "errors": [
+          "Words with incorrect length: Claimants (9 letters)"
+        ]
+      }
+    }
+  ]
+}

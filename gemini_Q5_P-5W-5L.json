@@ -1,0 +1,331 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 5,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 24,
+    "most_common_words": [
+      [
+        "parks",
+        5
+      ],
+      [
+        "paint",
+        5
+      ],
+      [
+        "piano",
+        5
+      ],
+      [
+        "paper",
+        4
+      ],
+      [
+        "phone",
+        4
+      ],
+      [
+        "perky",
+        4
+      ],
+      [
+        "pluck",
+        2
+      ],
+      [
+        "pouch",
+        2
+      ],
+      [
+        "pizza",
+        2
+      ],
+      [
+        "penal",
+        2
+      ]
+    ],
+    "total_duration_seconds": 19.280365228652954,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "paper",
+          "parks",
+          "pages",
+          "paint",
+          "phone"
+        ],
+        "raw_response": "{\n  \"words\": [\"paper\", \"parks\", \"pages\", \"paint\", \"phone\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "pluck",
+          "pouch",
+          "pizza",
+          "purge",
+          "piano"
+        ],
+        "raw_response": "{\n  \"words\": [\"pluck\", \"pouch\", \"pizza\", \"purge\", \"piano\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "parks",
+          "party",
+          "penal",
+          "perky",
+          "pizza"
+        ],
+        "raw_response": "{\n  \"words\": [\"parks\", \"party\", \"penal\", \"perky\", \"pizza\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "perky",
+          "poppy",
+          "piano",
+          "pouch",
+          "petal"
+        ],
+        "raw_response": "{\n  \"words\": [\"perky\", \"poppy\", \"piano\", \"pouch\", \"petal\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "piano",
+          "parse",
+          "paths",
+          "petal",
+          "phase"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"piano\",\n    \"parse\",\n    \"paths\",\n    \"petal\",\n    \"phase\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "paint",
+          "peace",
+          "pearl",
+          "phone",
+          "pluck"
+        ],
+        "raw_response": "{\n  \"words\": [\"paint\", \"peace\", \"pearl\", \"phone\", \"pluck\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "paint",
+          "paper",
+          "parks",
+          "parts",
+          "phone"
+        ],
+        "raw_response": "{\n  \"words\": [\"paint\", \"paper\", \"parks\", \"parts\", \"phone\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "paint",
+          "paper",
+          "parks",
+          "perky",
+          "piano"
+        ],
+        "raw_response": "{\n  \"words\": [\"paint\", \"paper\", \"parks\", \"perky\", \"piano\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "perky",
+          "penal",
+          "paled",
+          "poked",
+          "piles"
+        ],
+        "raw_response": "{\n  \"words\": [\"perky\", \"penal\", \"paled\", \"poked\", \"piles\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "paint",
+          "paper",
+          "parks",
+          "phone",
+          "piano"
+        ],
+        "raw_response": "{\n  \"words\": [\"paint\", \"paper\", \"parks\", \"phone\", \"piano\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

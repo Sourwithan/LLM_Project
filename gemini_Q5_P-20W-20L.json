@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 0.2,
+    "avg_criteria_accuracy": 0.01,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.505,
+    "total_unique_words": 154,
+    "most_common_words": [
+      [
+        "pneumonoultramicroscopicsilicovolcanoconiosis",
+        20
+      ],
+      [
+        "pneumoultramicroscopicsilicovolcanoconioses",
+        20
+      ],
+      [
+        "Pseudopseudohypoparathyroidism",
+        4
+      ],
+      [
+        "Psychoneuroimmunological",
+        2
+      ],
+      [
+        "Pneumoencephalographically",
+        2
+      ],
+      [
+        "Pseudophosphorescence",
+        2
+      ],
+      [
+        "Pneumonoultramicroscopicsilicovolcanoconiosis",
+        2
+      ],
+      [
+        "Pneumoultramicroscopicsilicovolcanoconiosis",
+        2
+      ],
+      [
+        "Pseudolamellibranchiata",
+        1
+      ],
+      [
+        "Proportionalityfactorsss",
+        1
+      ]
+    ],
+    "total_duration_seconds": 36.473745346069336,
+    "std_dev_criteria_accuracy": 0.021081851067789197,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.010540925533894607
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pseudolamellibranchiata",
+          "Proportionalityfactorsss",
+          "Parastratiosphearusdepressus",
+          "Pathologicopsychological",
+          "Pneumonoultramicroscopics",
+          "Photoelectronmicroscopist",
+          "Protopapaspyroukatsarides",
+          "Psychoneuroimmunological",
+          "Predeterminationalistically",
+          "Popularisingphilosophically",
+          "Preconcertedunquestionably",
+          "Palaeovolcanostratigraphy",
+          "Pharmacopsychotherapeutics",
+          "Professionalphilosophical",
+          "Paleoanthropologicalness",
+          "Posttransfusionpurpuraism",
+          "Presentablenessunfortunately",
+          "Palindromicallyphilosophical",
+          "Pneumoencephalographically",
+          "Philanthropicalimaginatively"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Pseudolamellibranchiata\",\n        \"Proportionalityfactorsss\",\n        \"Parastratiosphearusdepressus\",\n        \"Pathologicopsychological\",\n        \"Pneumonoultramicroscopics\",\n        \"Photoelectronmicroscopist\",\n        \"Protopapaspyroukatsarides\",\n        \"Psychoneuroimmunological\",\n        \"Predeterminationalistically\",\n        \"Popularisingphilosophically\",\n        \"Preconcertedunquestionably\",\n        \"Palaeovolcanostratigraphy\",\n        \"Pharmacopsychotherapeutics\",\n        \"Professionalphilosophical\",\n        \"Paleoanthropologicalness\",\n        \"Posttransfusionpurpuraism\",\n        \"Presentablenessunfortunately\",\n        \"Palindromicallyphilosophical\",\n        \"Pneumoencephalographically\",\n        \"Philanthropicalimaginatively\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pseudolamellibranchiata (23 letters), Proportionalityfactorsss (24 letters), Parastratiosphearusdepressus (28 letters), Pathologicopsychological (24 letters), Pneumonoultramicroscopics (25 letters), Photoelectronmicroscopist (25 letters), Protopapaspyroukatsarides (25 letters), Psychoneuroimmunological (24 letters), Predeterminationalistically (27 letters), Popularisingphilosophically (27 letters), Preconcertedunquestionably (26 letters), Palaeovolcanostratigraphy (25 letters), Pharmacopsychotherapeutics (26 letters), Professionalphilosophical (25 letters), Paleoanthropologicalness (24 letters), Posttransfusionpurpuraism (25 letters), Presentablenessunfortunately (28 letters), Palindromicallyphilosophical (28 letters), Pneumoencephalographically (26 letters), Philanthropicalimaginatively (28 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pseudophosphorescence",
+          "Pneumoultramicroscopic",
+          "Proportionablenessness",
+          "Pseudolamellibranchiate",
+          "Predeterminationistlike",
+          "Protoevangeliumological",
+          "Pteridospermatophytous",
+          "Postpharyngalizations",
+          "Preaccomplishmentality",
+          "Pathologicopsychologic",
+          "Postimpressionistically",
+          "Photoelectricallylight",
+          "Pseudoreconciliational",
+          "Phytosociologicallycal",
+          "Phreneticofrastically",
+          "Professionalistically",
+          "Philoprogenitiveness",
+          "Pancreatoduodenostomies",
+          "Paleodendrochronology",
+          "Parapsychologicallycal"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pseudophosphorescence\",\n    \"Pneumoultramicroscopic\",\n    \"Proportionablenessness\",\n    \"Pseudolamellibranchiate\",\n    \"Predeterminationistlike\",\n    \"Protoevangeliumological\",\n    \"Pteridospermatophytous\",\n    \"Postpharyngalizations\",\n    \"Preaccomplishmentality\",\n    \"Pathologicopsychologic\",\n    \"Postimpressionistically\",\n    \"Photoelectricallylight\",\n    \"Pseudoreconciliational\",\n    \"Phytosociologicallycal\",\n    \"Phreneticofrastically\",\n    \"Professionalistically\",\n    \"Philoprogenitiveness\",\n    \"Pancreatoduodenostomies\",\n    \"Paleodendrochronology\",\n    \"Parapsychologicallycal\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: Pseudophosphorescence (21 letters), Pneumoultramicroscopic (22 letters), Proportionablenessness (22 letters), Pseudolamellibranchiate (23 letters), Predeterminationistlike (23 letters), Protoevangeliumological (23 letters), Pteridospermatophytous (22 letters), Postpharyngalizations (21 letters), Preaccomplishmentality (22 letters), Pathologicopsychologic (22 letters), Postimpressionistically (23 letters), Photoelectricallylight (22 letters), Pseudoreconciliational (22 letters), Phytosociologicallycal (22 letters), Phreneticofrastically (21 letters), Professionalistically (21 letters), Pancreatoduodenostomies (23 letters), Paleodendrochronology (21 letters), Parapsychologicallycal (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "pneumonoultramicroscopicsilicovolcanoconioses",
+          "paedomorphogenetically",
+          "parastratiosphecomyiastratiosphecomyioides",
+          "pseudopseudohypoparathyroidism",
+          "pneumoencephalographically",
+          "predeterminationistically",
+          "prolactinoregulatoriness",
+          "problematizationistically",
+          "professionalizationisms",
+          "procrastinationistically",
+          "photoemissionmicroscopies",
+          "perpendicularitiescomplex",
+          "phenomenologicalistically",
+          "phosphofructokinasesubunit",
+          "particularizationistically",
+          "peripateticianphilsophies",
+          "preestablishmentarianly",
+          "presidentialtransitional",
+          "parliamentarianistically",
+          "paleoanthropomorphically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"pneumonoultramicroscopicsilicovolcanoconioses\",\n    \"paedomorphogenetically\",\n    \"parastratiosphecomyiastratiosphecomyioides\",\n    \"pseudopseudohypoparathyroidism\",\n    \"pneumoencephalographically\",\n    \"predeterminationistically\",\n    \"prolactinoregulatoriness\",\n    \"problematizationistically\",\n    \"professionalizationisms\",\n    \"procrastinationistically\",\n    \"photoemissionmicroscopies\",\n    \"perpendicularitiescomplex\",\n    \"phenomenologicalistically\",\n    \"phosphofructokinasesubunit\",\n    \"particularizationistically\",\n    \"peripateticianphilsophies\",\n    \"preestablishmentarianly\",\n    \"presidentialtransitional\",\n    \"parliamentarianistically\",\n    \"paleoanthropomorphically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: pneumonoultramicroscopicsilicovolcanoconioses (45 letters), paedomorphogenetically (22 letters), parastratiosphecomyiastratiosphecomyioides (42 letters), pseudopseudohypoparathyroidism (30 letters), pneumoencephalographically (26 letters), predeterminationistically (25 letters), prolactinoregulatoriness (24 letters), problematizationistically (25 letters), professionalizationisms (23 letters), procrastinationistically (24 letters), photoemissionmicroscopies (25 letters), perpendicularitiescomplex (25 letters), phenomenologicalistically (25 letters), phosphofructokinasesubunit (26 letters), particularizationistically (26 letters), peripateticianphilsophies (25 letters), preestablishmentarianly (23 letters), presidentialtransitional (24 letters), parliamentarianistically (24 letters), paleoanthropomorphically (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis",
+          "pneumonoultramicroscopicsilicovolcanoconiosis"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"pneumonoultramicroscopicsilicovolcanoconiosis\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), pneumonoultramicroscopicsilicovolcanoconiosis (45 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pseudophosphorescence",
+          "Proportionalityfactor",
+          "Pathophysiologicalness",
+          "Pneumoencephalographically",
+          "Pharyngolaryngitidises",
+          "Palaeoherpetologically",
+          "Psychoneuroimmunological",
+          "Paleoanthropologicals",
+          "Parapsychologicallyness",
+          "Prostaglandinproduction",
+          "Psychopathologicalness",
+          "Photospectroscopically",
+          "Palaeoclimatologically",
+          "Posttransplantationally",
+          "Presumptuousnessessss",
+          "Pneumoultramicroscopics",
+          "Polyoxyethylenationing",
+          "Problematicnessesesss",
+          "Ponderousnessesessss",
+          "Prototypicalnessesess"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pseudophosphorescence\",\n    \"Proportionalityfactor\",\n    \"Pathophysiologicalness\",\n    \"Pneumoencephalographically\",\n    \"Pharyngolaryngitidises\",\n    \"Palaeoherpetologically\",\n    \"Psychoneuroimmunological\",\n    \"Paleoanthropologicals\",\n    \"Parapsychologicallyness\",\n    \"Prostaglandinproduction\",\n    \"Psychopathologicalness\",\n    \"Photospectroscopically\",\n    \"Palaeoclimatologically\",\n    \"Posttransplantationally\",\n    \"Presumptuousnessessss\",\n    \"Pneumoultramicroscopics\",\n    \"Polyoxyethylenationing\",\n    \"Problematicnessesesss\",\n    \"Ponderousnessesessss\",\n    \"Prototypicalnessesess\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.05,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.525,
+        "errors": [
+          "Words with incorrect length: Pseudophosphorescence (21 letters), Proportionalityfactor (21 letters), Pathophysiologicalness (22 letters), Pneumoencephalographically (26 letters), Pharyngolaryngitidises (22 letters), Palaeoherpetologically (22 letters), Psychoneuroimmunological (24 letters), Paleoanthropologicals (21 letters), Parapsychologicallyness (23 letters), Prostaglandinproduction (23 letters), Psychopathologicalness (22 letters), Photospectroscopically (22 letters), Palaeoclimatologically (22 letters), Posttransplantationally (23 letters), Presumptuousnessessss (21 letters), Pneumoultramicroscopics (23 letters), Polyoxyethylenationing (22 letters), Problematicnessesesss (21 letters), Prototypicalnessesess (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pneumonoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Papilioonychomalachiafornicataephidrosis",
+          "Pseudolamellibranchiatebranchiostegalopercular",
+          "Photomicrographicallycontemplatinghypnotically",
+          "Pathophysiologicalneurotransmittersimultaneously",
+          "Palatopharyngoplastyprognosispreoperatively",
+          "Pharmacotherapeuticallyinterventionalcardiology",
+          "Problematicalcharacterizationsimultaneously",
+          "Protooncogeneamplificationtranscriptionfactorially",
+          "Predeterminedconstitutionalismcharacteristicity",
+          "Protoplasmatransformationexperimentallydemonstrated",
+          "Pleonasticallycharacterizedantidisestablishmentarian",
+          "Prognosticstatisticalanalysisinterpretatively",
+          "Palpabilityperceptibilitypsychologicallyinterpretative",
+          "Posttranscriptionalregulationdynamicallydemonstrated",
+          "Parallelogrammaticallydistinguishableexperimentally",
+          "Polyunsaturatedfattyacidmetabolismcharacteristically",
+          "Paradigmaticintellectualizationstransformationally",
+          "Pseudointellectualizationsubjectivityexperimentally"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Papilioonychomalachiafornicataephidrosis\",\n    \"Pseudolamellibranchiatebranchiostegalopercular\",\n    \"Photomicrographicallycontemplatinghypnotically\",\n    \"Pathophysiologicalneurotransmittersimultaneously\",\n    \"Palatopharyngoplastyprognosispreoperatively\",\n    \"Pharmacotherapeuticallyinterventionalcardiology\",\n    \"Problematicalcharacterizationsimultaneously\",\n    \"Protooncogeneamplificationtranscriptionfactorially\",\n    \"Predeterminedconstitutionalismcharacteristicity\",\n    \"Protoplasmatransformationexperimentallydemonstrated\",\n    \"Pleonasticallycharacterizedantidisestablishmentarian\",\n    \"Prognosticstatisticalanalysisinterpretatively\",\n    \"Palpabilityperceptibilitypsychologicallyinterpretative\",\n    \"Posttranscriptionalregulationdynamicallydemonstrated\",\n    \"Parallelogrammaticallydistinguishableexperimentally\",\n    \"Polyunsaturatedfattyacidmetabolismcharacteristically\",\n    \"Paradigmaticintellectualizationstransformationally\",\n    \"Pseudointellectualizationsubjectivityexperimentally\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), Pseudopseudohypoparathyroidism (30 letters), Papilioonychomalachiafornicataephidrosis (40 letters), Pseudolamellibranchiatebranchiostegalopercular (46 letters), Photomicrographicallycontemplatinghypnotically (46 letters), Pathophysiologicalneurotransmittersimultaneously (48 letters), Palatopharyngoplastyprognosispreoperatively (43 letters), Pharmacotherapeuticallyinterventionalcardiology (47 letters), Problematicalcharacterizationsimultaneously (43 letters), Protooncogeneamplificationtranscriptionfactorially (50 letters), Predeterminedconstitutionalismcharacteristicity (47 letters), Protoplasmatransformationexperimentallydemonstrated (51 letters), Pleonasticallycharacterizedantidisestablishmentarian (52 letters), Prognosticstatisticalanalysisinterpretatively (45 letters), Palpabilityperceptibilitypsychologicallyinterpretative (54 letters), Posttranscriptionalregulationdynamicallydemonstrated (52 letters), Parallelogrammaticallydistinguishableexperimentally (51 letters), Polyunsaturatedfattyacidmetabolismcharacteristically (52 letters), Paradigmaticintellectualizationstransformationally (50 letters), Pseudointellectualizationsubjectivityexperimentally (51 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pneumonoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Pentecostalizationalizations",
+          "Photosensitizationalizations",
+          "Pathophysiologicalizations",
+          "Problematicophysicalizations",
+          "Procrastinationalistically",
+          "Professionalizationalist",
+          "Proprioceptivelyinadequate",
+          "Phonocardiographicalically",
+          "Polymorphonucleocytically",
+          "Paraprofessionalizational",
+          "Psychophysiologicalistica",
+          "Preindustrializationalist",
+          "Paleoichthyologicalistica",
+          "Prognosticopharmaceutical",
+          "Photospectrofluorometrical",
+          "Pharmaceuticalistically",
+          "Phoneticallyalphabetizing",
+          "Paradoxicalphilosophically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumonoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Pentecostalizationalizations\",\n    \"Photosensitizationalizations\",\n    \"Pathophysiologicalizations\",\n    \"Problematicophysicalizations\",\n    \"Procrastinationalistically\",\n    \"Professionalizationalist\",\n    \"Proprioceptivelyinadequate\",\n    \"Phonocardiographicalically\",\n    \"Polymorphonucleocytically\",\n    \"Paraprofessionalizational\",\n    \"Psychophysiologicalistica\",\n    \"Preindustrializationalist\",\n    \"Paleoichthyologicalistica\",\n    \"Prognosticopharmaceutical\",\n    \"Photospectrofluorometrical\",\n    \"Pharmaceuticalistically\",\n    \"Phoneticallyalphabetizing\",\n    \"Paradoxicalphilosophically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumonoultramicroscopicsilicovolcanoconiosis (45 letters), Pseudopseudohypoparathyroidism (30 letters), Pentecostalizationalizations (28 letters), Photosensitizationalizations (28 letters), Pathophysiologicalizations (26 letters), Problematicophysicalizations (28 letters), Procrastinationalistically (26 letters), Professionalizationalist (24 letters), Proprioceptivelyinadequate (26 letters), Phonocardiographicalically (26 letters), Polymorphonucleocytically (25 letters), Paraprofessionalizational (25 letters), Psychophysiologicalistica (25 letters), Preindustrializationalist (25 letters), Paleoichthyologicalistica (25 letters), Prognosticopharmaceutical (25 letters), Photospectrofluorometrical (26 letters), Pharmaceuticalistically (23 letters), Phoneticallyalphabetizing (25 letters), Paradoxicalphilosophically (26 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pneumoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Papapapapapapapapapapapapapapapapapapapa",
+          "Palindromemordnilapalindromemordnilap",
+          "Procrastinationcontenderprocrastination",
+          "Preantepenultimatepreantepenultimatepre",
+          "Proprioceptiondisruptorproprioceptiondi",
+          "Photosynthesisgeneratorphotosynthesis",
+          "Pneumoencephalographypneumoencephalograp",
+          "Platitudinarianplatitudinarianplatitudi",
+          "Paradichlorobenzeneparadichlorobenzenepa",
+          "Pathophysiologicalpathophysiologicalpat",
+          "ParastratiosphecomyiaStratiosphecomyia",
+          "Pianismpianismpianismpianismpianismpian",
+          "Participatoryparticipatoryparticipatory",
+          "Penultimatepenultimatepenultimatepenulti",
+          "Peculiaritiespeculiaritiespeculiarities",
+          "Proportionalityproportionalityproportiona",
+          "Postmodernismpostmodernismpostmodernismp",
+          "Pharmaceuticalpharmaceuticalpharmaceutic"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Papapapapapapapapapapapapapapapapapapapa\",\n    \"Palindromemordnilapalindromemordnilap\",\n    \"Procrastinationcontenderprocrastination\",\n    \"Preantepenultimatepreantepenultimatepre\",\n    \"Proprioceptiondisruptorproprioceptiondi\",\n    \"Photosynthesisgeneratorphotosynthesis\",\n    \"Pneumoencephalographypneumoencephalograp\",\n    \"Platitudinarianplatitudinarianplatitudi\",\n    \"Paradichlorobenzeneparadichlorobenzenepa\",\n    \"Pathophysiologicalpathophysiologicalpat\",\n    \"ParastratiosphecomyiaStratiosphecomyia\",\n    \"Pianismpianismpianismpianismpianismpian\",\n    \"Participatoryparticipatoryparticipatory\",\n    \"Penultimatepenultimatepenultimatepenulti\",\n    \"Peculiaritiespeculiaritiespeculiarities\",\n    \"Proportionalityproportionalityproportiona\",\n    \"Postmodernismpostmodernismpostmodernismp\",\n    \"Pharmaceuticalpharmaceuticalpharmaceutic\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoultramicroscopicsilicovolcanoconiosis (43 letters), Pseudopseudohypoparathyroidism (30 letters), Papapapapapapapapapapapapapapapapapapapa (40 letters), Palindromemordnilapalindromemordnilap (37 letters), Procrastinationcontenderprocrastination (39 letters), Preantepenultimatepreantepenultimatepre (39 letters), Proprioceptiondisruptorproprioceptiondi (39 letters), Photosynthesisgeneratorphotosynthesis (37 letters), Pneumoencephalographypneumoencephalograp (40 letters), Platitudinarianplatitudinarianplatitudi (39 letters), Paradichlorobenzeneparadichlorobenzenepa (40 letters), Pathophysiologicalpathophysiologicalpat (39 letters), ParastratiosphecomyiaStratiosphecomyia (38 letters), Pianismpianismpianismpianismpianismpian (39 letters), Participatoryparticipatoryparticipatory (39 letters), Penultimatepenultimatepenultimatepenulti (40 letters), Peculiaritiespeculiaritiespeculiarities (39 letters), Proportionalityproportionalityproportiona (41 letters), Postmodernismpostmodernismpostmodernismp (40 letters), Pharmaceuticalpharmaceuticalpharmaceutic (40 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Pneumoultramicroscopicsilicovolcanoconiosis",
+          "Pseudopseudohypoparathyroidism",
+          "Papilioonychomalaciaanonychiaamblyopia",
+          "Pharmacopsychotherapeuticsuperintelligibility",
+          "Predeterminationnonsubstantialization",
+          "Procrastinationnonfulfillmentobligation",
+          "Photomicrographicalinvestigationspecification",
+          "Pluralisticallyindividualisticallyinterpretational",
+          "Psychophysiologicallytranscriptionallyinquisitional",
+          "Pedagogicallyreconciliationismconstitutionality",
+          "Photoelectricspectrophotometricallyinvestigation",
+          "Postmenopausalhypoestrogenismpathophysiology",
+          "Problematicityinterpretativehypothesesprognosis",
+          "Phonocardiographicallydiagnosticinformationbase",
+          "Pathophysiologicallyindividualisticallyinterpretational",
+          "Precipitationcrystallizationdisintegrationphenomenon",
+          "Proportionalrepresentationrepresentationjurisdiction",
+          "Phenomenologicallysubstantiationallyintellectualization",
+          "Palaeoanthropologicallyinspirationalistanthropophagite",
+          "Psychologicallytransplantationallyimmunologicallyimplicated"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pneumoultramicroscopicsilicovolcanoconiosis\",\n    \"Pseudopseudohypoparathyroidism\",\n    \"Papilioonychomalaciaanonychiaamblyopia\",\n    \"Pharmacopsychotherapeuticsuperintelligibility\",\n    \"Predeterminationnonsubstantialization\",\n    \"Procrastinationnonfulfillmentobligation\",\n    \"Photomicrographicalinvestigationspecification\",\n    \"Pluralisticallyindividualisticallyinterpretational\",\n    \"Psychophysiologicallytranscriptionallyinquisitional\",\n    \"Pedagogicallyreconciliationismconstitutionality\",\n    \"Photoelectricspectrophotometricallyinvestigation\",\n    \"Postmenopausalhypoestrogenismpathophysiology\",\n    \"Problematicityinterpretativehypothesesprognosis\",\n    \"Phonocardiographicallydiagnosticinformationbase\",\n    \"Pathophysiologicallyindividualisticallyinterpretational\",\n    \"Precipitationcrystallizationdisintegrationphenomenon\",\n    \"Proportionalrepresentationrepresentationjurisdiction\",\n    \"Phenomenologicallysubstantiationallyintellectualization\",\n    \"Palaeoanthropologicallyinspirationalistanthropophagite\",\n    \"Psychologicallytransplantationallyimmunologicallyimplicated\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Pneumoultramicroscopicsilicovolcanoconiosis (43 letters), Pseudopseudohypoparathyroidism (30 letters), Papilioonychomalaciaanonychiaamblyopia (38 letters), Pharmacopsychotherapeuticsuperintelligibility (45 letters), Predeterminationnonsubstantialization (37 letters), Procrastinationnonfulfillmentobligation (39 letters), Photomicrographicalinvestigationspecification (45 letters), Pluralisticallyindividualisticallyinterpretational (50 letters), Psychophysiologicallytranscriptionallyinquisitional (51 letters), Pedagogicallyreconciliationismconstitutionality (47 letters), Photoelectricspectrophotometricallyinvestigation (48 letters), Postmenopausalhypoestrogenismpathophysiology (44 letters), Problematicityinterpretativehypothesesprognosis (47 letters), Phonocardiographicallydiagnosticinformationbase (47 letters), Pathophysiologicallyindividualisticallyinterpretational (55 letters), Precipitationcrystallizationdisintegrationphenomenon (52 letters), Proportionalrepresentationrepresentationjurisdiction (52 letters), Phenomenologicallysubstantiationallyintellectualization (55 letters), Palaeoanthropologicallyinspirationalistanthropophagite (54 letters), Psychologicallytransplantationallyimmunologicallyimplicated (59 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses",
+          "pneumoultramicroscopicsilicovolcanoconioses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\",\n    \"pneumoultramicroscopicsilicovolcanoconioses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters), pneumoultramicroscopicsilicovolcanoconioses (43 letters)"
+        ]
+      }
+    }
+  ]
+}

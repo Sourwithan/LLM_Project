@@ -1,0 +1,381 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 10,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 73,
+    "most_common_words": [
+      [
+        "Catch",
+        4
+      ],
+      [
+        "Crown",
+        4
+      ],
+      [
+        "cider",
+        3
+      ],
+      [
+        "claim",
+        3
+      ],
+      [
+        "class",
+        3
+      ],
+      [
+        "Civil",
+        3
+      ],
+      [
+        "Clamp",
+        3
+      ],
+      [
+        "catch",
+        2
+      ],
+      [
+        "clock",
+        2
+      ],
+      [
+        "crabs",
+        2
+      ]
+    ],
+    "total_duration_seconds": 19.997846841812134,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "chaps",
+          "chips",
+          "choke",
+          "chord",
+          "chunk",
+          "cider",
+          "claim",
+          "class",
+          "click",
+          "cloak"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"chaps\",\n    \"chips\",\n    \"choke\",\n    \"chord\",\n    \"chunk\",\n    \"cider\",\n    \"claim\",\n    \"class\",\n    \"click\",\n    \"cloak\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "catch",
+          "cider",
+          "civil",
+          "claim",
+          "class",
+          "clean",
+          "clear",
+          "cliff",
+          "clock",
+          "clone"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"catch\",\n    \"cider\",\n    \"civil\",\n    \"claim\",\n    \"class\",\n    \"clean\",\n    \"clear\",\n    \"cliff\",\n    \"clock\",\n    \"clone\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "crabs",
+          "cares",
+          "cakes",
+          "calls",
+          "canal",
+          "cargo",
+          "carol",
+          "carve",
+          "cased",
+          "catch"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"crabs\",\n    \"cares\",\n    \"cakes\",\n    \"calls\",\n    \"canal\",\n    \"cargo\",\n    \"carol\",\n    \"carve\",\n    \"cased\",\n    \"catch\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "cider",
+          "coins",
+          "coral",
+          "cords",
+          "could",
+          "court",
+          "cover",
+          "crabs",
+          "craft",
+          "crane"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"cider\",\n    \"coins\",\n    \"coral\",\n    \"cords\",\n    \"could\",\n    \"court\",\n    \"cover\",\n    \"crabs\",\n    \"craft\",\n    \"crane\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "coats",
+          "cable",
+          "cares",
+          "carol",
+          "cause",
+          "caves",
+          "cells",
+          "chaos",
+          "chase",
+          "chick"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"coats\",\n    \"cable\",\n    \"cares\",\n    \"carol\",\n    \"cause\",\n    \"caves\",\n    \"cells\",\n    \"chaos\",\n    \"chase\",\n    \"chick\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Civil",
+          "Catch",
+          "Crown",
+          "Clamp",
+          "Class",
+          "Click",
+          "Chain",
+          "Chord",
+          "Crazy",
+          "Cream"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Civil\",\n    \"Catch\",\n    \"Crown\",\n    \"Clamp\",\n    \"Class\",\n    \"Click\",\n    \"Chain\",\n    \"Chord\",\n    \"Crazy\",\n    \"Cream\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Crown",
+          "Click",
+          "Charm",
+          "Cheap",
+          "Clown",
+          "Couch",
+          "Color",
+          "Cable",
+          "Catch",
+          "Cells"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Crown\",\n    \"Click\",\n    \"Charm\",\n    \"Cheap\",\n    \"Clown\",\n    \"Couch\",\n    \"Color\",\n    \"Cable\",\n    \"Catch\",\n    \"Cells\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "claim",
+          "class",
+          "clerk",
+          "clock",
+          "cloud",
+          "coach",
+          "coast",
+          "count",
+          "court",
+          "cover"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"claim\",\n    \"class\",\n    \"clerk\",\n    \"clock\",\n    \"cloud\",\n    \"coach\",\n    \"coast\",\n    \"count\",\n    \"court\",\n    \"cover\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Crane",
+          "Civil",
+          "Clamp",
+          "Crown",
+          "Crime",
+          "Chirp",
+          "Chart",
+          "Catch",
+          "Creep",
+          "Class"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Crane\",\n    \"Civil\",\n    \"Clamp\",\n    \"Crown\",\n    \"Crime\",\n    \"Chirp\",\n    \"Chart\",\n    \"Catch\",\n    \"Creep\",\n    \"Class\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Codes",
+          "Civil",
+          "Catch",
+          "Chief",
+          "Cards",
+          "Cable",
+          "Crown",
+          "Chalk",
+          "Chain",
+          "Clamp"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Codes\",\n    \"Civil\",\n    \"Catch\",\n    \"Chief\",\n    \"Cards\",\n    \"Cable\",\n    \"Crown\",\n    \"Chalk\",\n    \"Chain\",\n    \"Clamp\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

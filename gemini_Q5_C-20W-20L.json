@@ -1,0 +1,501 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 6.8,
+    "avg_criteria_accuracy": 0.34,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.67,
+    "total_unique_words": 167,
+    "most_common_words": [
+      [
+        "Compartmentalizations",
+        6
+      ],
+      [
+        "Counterdemonstrations",
+        5
+      ],
+      [
+        "Counterbalancingness",
+        3
+      ],
+      [
+        "Conscientiousnessness",
+        3
+      ],
+      [
+        "Conceptualistically",
+        3
+      ],
+      [
+        "Constitutionalization",
+        3
+      ],
+      [
+        "Conceptualizationships",
+        2
+      ],
+      [
+        "Characteristicalities",
+        2
+      ],
+      [
+        "Circumferentiallyness",
+        2
+      ],
+      [
+        "Counterrevolutionaries",
+        2
+      ]
+    ],
+    "total_duration_seconds": 27.879472494125366,
+    "std_dev_criteria_accuracy": 0.18226964152656422,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.09113482076328212
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Counterdemonstrations",
+          "Counterintelligenceism",
+          "Conceptualizationships",
+          "Characteristicalities",
+          "Circumferentiallyness",
+          "Counterrevolutionaries",
+          "Compartmentalizations",
+          "Crystallographicallys",
+          "Counterbalancingness",
+          "Counterfeitabilities",
+          "Congratulatorysation",
+          "Christianisationalism",
+          "Comprehensibilitieses",
+          "Consolidationizations",
+          "Contemporaneousnesses",
+          "Contradistinctiveness",
+          "Conscientiousnessness",
+          "Constitutionalisation",
+          "Commensurabilitiesess",
+          "Categorizationsations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Counterdemonstrations\",\n    \"Counterintelligenceism\",\n    \"Conceptualizationships\",\n    \"Characteristicalities\",\n    \"Circumferentiallyness\",\n    \"Counterrevolutionaries\",\n    \"Compartmentalizations\",\n    \"Crystallographicallys\",\n    \"Counterbalancingness\",\n    \"Counterfeitabilities\",\n    \"Congratulatorysation\",\n    \"Christianisationalism\",\n    \"Comprehensibilitieses\",\n    \"Consolidationizations\",\n    \"Contemporaneousnesses\",\n    \"Contradistinctiveness\",\n    \"Conscientiousnessness\",\n    \"Constitutionalisation\",\n    \"Commensurabilitiesess\",\n    \"Categorizationsations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.15,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.575,
+        "errors": [
+          "Words with incorrect length: Counterdemonstrations (21 letters), Counterintelligenceism (22 letters), Conceptualizationships (22 letters), Characteristicalities (21 letters), Circumferentiallyness (21 letters), Counterrevolutionaries (22 letters), Compartmentalizations (21 letters), Crystallographicallys (21 letters), Christianisationalism (21 letters), Comprehensibilitieses (21 letters), Consolidationizations (21 letters), Contemporaneousnesses (21 letters), Contradistinctiveness (21 letters), Conscientiousnessness (21 letters), Constitutionalisation (21 letters), Commensurabilitiesess (21 letters), Categorizationsations (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Circumscriptionically",
+          "Counterdemonstrations",
+          "Counterintelligence",
+          "Counterrevolutionary",
+          "Choreographicallyally",
+          "Compartmentalizations",
+          "Conceptualistically",
+          "Conscientiousnessness",
+          "Consubstantiational",
+          "Counterattractiveness",
+          "Characteristicallyly",
+          "Counterproductivities",
+          "Congratulationallyly",
+          "Contraordinariamente",
+          "Counterargumentation",
+          "Constitutionalisation",
+          "Conventionalisations",
+          "Championshipsponsorship",
+          "Corporatificationsss",
+          "Counterfactualization"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Circumscriptionically\",\n    \"Counterdemonstrations\",\n    \"Counterintelligence\",\n    \"Counterrevolutionary\",\n    \"Choreographicallyally\",\n    \"Compartmentalizations\",\n    \"Conceptualistically\",\n    \"Conscientiousnessness\",\n    \"Consubstantiational\",\n    \"Counterattractiveness\",\n    \"Characteristicallyly\",\n    \"Counterproductivities\",\n    \"Congratulationallyly\",\n    \"Contraordinariamente\",\n    \"Counterargumentation\",\n    \"Constitutionalisation\",\n    \"Conventionalisations\",\n    \"Championshipsponsorship\",\n    \"Corporatificationsss\",\n    \"Counterfactualization\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.35,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.675,
+        "errors": [
+          "Words with incorrect length: Circumscriptionically (21 letters), Counterdemonstrations (21 letters), Counterintelligence (19 letters), Choreographicallyally (21 letters), Compartmentalizations (21 letters), Conceptualistically (19 letters), Conscientiousnessness (21 letters), Consubstantiational (19 letters), Counterattractiveness (21 letters), Counterproductivities (21 letters), Constitutionalisation (21 letters), Championshipsponsorship (23 letters), Counterfactualization (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Characteristicallyness",
+          "Circumscriptionallyness",
+          "Compartmentalizationism",
+          "Conceptualizationistically",
+          "Congratulationallynesses",
+          "Considerablenessesomeness",
+          "Counterdemonstrationism",
+          "Counterintuitivenessses",
+          "Counterrevolutionaryism",
+          "Countertransferentially",
+          "Crystallographicallyical",
+          "Crystallographicallyness",
+          "Circumnavigationalistically",
+          "Centralisationalistically",
+          "Chronophotographicallycal",
+          "Chronophotographicallyness",
+          "Conventionalisationally",
+          "Conceptualisationistically",
+          "Communicationsystemically",
+          "Counterinsurgencyrelated"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Characteristicallyness\",\n    \"Circumscriptionallyness\",\n    \"Compartmentalizationism\",\n    \"Conceptualizationistically\",\n    \"Congratulationallynesses\",\n    \"Considerablenessesomeness\",\n    \"Counterdemonstrationism\",\n    \"Counterintuitivenessses\",\n    \"Counterrevolutionaryism\",\n    \"Countertransferentially\",\n    \"Crystallographicallyical\",\n    \"Crystallographicallyness\",\n    \"Circumnavigationalistically\",\n    \"Centralisationalistically\",\n    \"Chronophotographicallycal\",\n    \"Chronophotographicallyness\",\n    \"Conventionalisationally\",\n    \"Conceptualisationistically\",\n    \"Communicationsystemically\",\n    \"Counterinsurgencyrelated\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Characteristicallyness (22 letters), Circumscriptionallyness (23 letters), Compartmentalizationism (23 letters), Conceptualizationistically (26 letters), Congratulationallynesses (24 letters), Considerablenessesomeness (25 letters), Counterdemonstrationism (23 letters), Counterintuitivenessses (23 letters), Counterrevolutionaryism (23 letters), Countertransferentially (23 letters), Crystallographicallyical (24 letters), Crystallographicallyness (24 letters), Circumnavigationalistically (27 letters), Centralisationalistically (25 letters), Chronophotographicallycal (25 letters), Chronophotographicallyness (26 letters), Conventionalisationally (23 letters), Conceptualisationistically (26 letters), Communicationsystemically (25 letters), Counterinsurgencyrelated (24 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Conceptualizationssss",
+          "Characteristicallyyy",
+          "Counterintelligences",
+          "Circumlocutionaryyyy",
+          "Counterrevolutionist",
+          "Compartmentalization",
+          "Congratulatorinessss",
+          "Constitutionalization",
+          "Counterintuitivelyyy",
+          "Communicativenesssss",
+          "Choreographicallyyy",
+          "Contextualizationsss",
+          "Cryptographicallyyy",
+          "Consideratenesssss",
+          "Centralizationssss",
+          "Calculativenesssss",
+          "Commercializationss",
+          "Communitarianismsss",
+          "Colloquialismssss",
+          "Christianizationsss"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Conceptualizationssss\",\n    \"Characteristicallyyy\",\n    \"Counterintelligences\",\n    \"Circumlocutionaryyyy\",\n    \"Counterrevolutionist\",\n    \"Compartmentalization\",\n    \"Congratulatorinessss\",\n    \"Constitutionalization\",\n    \"Counterintuitivelyyy\",\n    \"Communicativenesssss\",\n    \"Choreographicallyyy\",\n    \"Contextualizationsss\",\n    \"Cryptographicallyyy\",\n    \"Consideratenesssss\",\n    \"Centralizationssss\",\n    \"Calculativenesssss\",\n    \"Commercializationss\",\n    \"Communitarianismsss\",\n    \"Colloquialismssss\",\n    \"Christianizationsss\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.45,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.725,
+        "errors": [
+          "Words with incorrect length: Conceptualizationssss (21 letters), Constitutionalization (21 letters), Choreographicallyyy (19 letters), Cryptographicallyyy (19 letters), Consideratenesssss (18 letters), Centralizationssss (18 letters), Calculativenesssss (18 letters), Commercializationss (19 letters), Communitarianismsss (19 letters), Colloquialismssss (17 letters), Christianizationsss (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Compartmentalizations",
+          "Conceptualizationses",
+          "Conglomerationships",
+          "Contradistinctionisms",
+          "Counterrevolutionisms",
+          "Counterintuitivelyly",
+          "Counterintuitivenesss",
+          "Circumnavigationship",
+          "Circumlocutionaryism",
+          "Championshipsubscribes",
+          "Characteristicnesses",
+          "Chronophotographical",
+          "Counterbalanceships",
+          "Cognizancesubscribes",
+          "Collaborationships",
+          "Commemorationscribes",
+          "Commercialisationsm",
+          "Compensationsubscribe",
+          "Complementationship",
+          "Comprehensiblenesses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Compartmentalizations\",\n    \"Conceptualizationses\",\n    \"Conglomerationships\",\n    \"Contradistinctionisms\",\n    \"Counterrevolutionisms\",\n    \"Counterintuitivelyly\",\n    \"Counterintuitivenesss\",\n    \"Circumnavigationship\",\n    \"Circumlocutionaryism\",\n    \"Championshipsubscribes\",\n    \"Characteristicnesses\",\n    \"Chronophotographical\",\n    \"Counterbalanceships\",\n    \"Cognizancesubscribes\",\n    \"Collaborationships\",\n    \"Commemorationscribes\",\n    \"Commercialisationsm\",\n    \"Compensationsubscribe\",\n    \"Complementationship\",\n    \"Comprehensiblenesses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 9,
+        "correct_count": true,
+        "criteria_accuracy": 0.45,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.725,
+        "errors": [
+          "Words with incorrect length: Compartmentalizations (21 letters), Conglomerationships (19 letters), Contradistinctionisms (21 letters), Counterrevolutionisms (21 letters), Counterintuitivenesss (21 letters), Championshipsubscribes (22 letters), Counterbalanceships (19 letters), Collaborationships (18 letters), Commercialisationsm (19 letters), Compensationsubscribe (21 letters), Complementationship (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Counterdemonstration",
+          "Counterintelligence",
+          "Counterrevolutionary",
+          "Characteristically",
+          "Compartmentalization",
+          "Conceptualistically",
+          "Congratulatorymanner",
+          "Conventionalization",
+          "Counterbalancingness",
+          "Counterintuitively",
+          "Correspondinglyness",
+          "Communicativenesses",
+          "Conscientiousnesses",
+          "Contemporaneouslyness",
+          "Counterargumentation",
+          "Counterdistinctions",
+          "Circumstantialities",
+          "Choreographically",
+          "Counteraccusations",
+          "Commercializations"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Counterdemonstration\",\n    \"Counterintelligence\",\n    \"Counterrevolutionary\",\n    \"Characteristically\",\n    \"Compartmentalization\",\n    \"Conceptualistically\",\n    \"Congratulatorymanner\",\n    \"Conventionalization\",\n    \"Counterbalancingness\",\n    \"Counterintuitively\",\n    \"Correspondinglyness\",\n    \"Communicativenesses\",\n    \"Conscientiousnesses\",\n    \"Contemporaneouslyness\",\n    \"Counterargumentation\",\n    \"Counterdistinctions\",\n    \"Circumstantialities\",\n    \"Choreographically\",\n    \"Counteraccusations\",\n    \"Commercializations\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.3,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.65,
+        "errors": [
+          "Words with incorrect length: Counterintelligence (19 letters), Characteristically (18 letters), Conceptualistically (19 letters), Conventionalization (19 letters), Counterintuitively (18 letters), Correspondinglyness (19 letters), Communicativenesses (19 letters), Conscientiousnesses (19 letters), Contemporaneouslyness (21 letters), Counterdistinctions (19 letters), Circumstantialities (19 letters), Choreographically (17 letters), Counteraccusations (18 letters), Commercializations (18 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Circumstantializeable",
+          "Circumstantiatingness",
+          "Characteristicalities",
+          "Counterintelligencees",
+          "Compartmentalizations",
+          "Conceptualizationships",
+          "Congratulatorilyizing",
+          "Counterrevolutionisms",
+          "Constitutionalization",
+          "Counterdemonstrations",
+          "Choreographicallyzing",
+          "Counterproductivitys",
+          "Counterintuitivelyist",
+          "Countertransferences",
+          "Conventionalizations",
+          "Contextualizationses",
+          "Catastrophicalities",
+          "Counterfactualities",
+          "Criminalizationships",
+          "Cryptographicallyzed"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Circumstantializeable\",\n    \"Circumstantiatingness\",\n    \"Characteristicalities\",\n    \"Counterintelligencees\",\n    \"Compartmentalizations\",\n    \"Conceptualizationships\",\n    \"Congratulatorilyizing\",\n    \"Counterrevolutionisms\",\n    \"Constitutionalization\",\n    \"Counterdemonstrations\",\n    \"Choreographicallyzing\",\n    \"Counterproductivitys\",\n    \"Counterintuitivelyist\",\n    \"Countertransferences\",\n    \"Conventionalizations\",\n    \"Contextualizationses\",\n    \"Catastrophicalities\",\n    \"Counterfactualities\",\n    \"Criminalizationships\",\n    \"Cryptographicallyzed\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.3,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.65,
+        "errors": [
+          "Words with incorrect length: Circumstantializeable (21 letters), Circumstantiatingness (21 letters), Characteristicalities (21 letters), Counterintelligencees (21 letters), Compartmentalizations (21 letters), Conceptualizationships (22 letters), Congratulatorilyizing (21 letters), Counterrevolutionisms (21 letters), Constitutionalization (21 letters), Counterdemonstrations (21 letters), Choreographicallyzing (21 letters), Counterintuitivelyist (21 letters), Catastrophicalities (19 letters), Counterfactualities (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Compartmentalizations",
+          "Conceptualizationss",
+          "Conglomeratingglazes",
+          "Consubstantiationalist",
+          "Contemporaneousnesses",
+          "Counterdemonstrations",
+          "Counterintelligences",
+          "Counterproductivities",
+          "Cryptocrystallineess",
+          "Circumferentiallyness",
+          "Constitutionalization",
+          "Conventionalizationn",
+          "Coincidentalizations",
+          "Communicationssatell",
+          "Conscientiousnessess",
+          "Considerablenessesss",
+          "Contextualizationsss",
+          "Contraindicationisms",
+          "Conversationalliness",
+          "Counterbalancingness"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Compartmentalizations\",\n    \"Conceptualizationss\",\n    \"Conglomeratingglazes\",\n    \"Consubstantiationalist\",\n    \"Contemporaneousnesses\",\n    \"Counterdemonstrations\",\n    \"Counterintelligences\",\n    \"Counterproductivities\",\n    \"Cryptocrystallineess\",\n    \"Circumferentiallyness\",\n    \"Constitutionalization\",\n    \"Conventionalizationn\",\n    \"Coincidentalizations\",\n    \"Communicationssatell\",\n    \"Conscientiousnessess\",\n    \"Considerablenessesss\",\n    \"Contextualizationsss\",\n    \"Contraindicationisms\",\n    \"Conversationalliness\",\n    \"Counterbalancingness\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 12,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Compartmentalizations (21 letters), Conceptualizationss (19 letters), Consubstantiationalist (22 letters), Contemporaneousnesses (21 letters), Counterdemonstrations (21 letters), Counterproductivities (21 letters), Circumferentiallyness (21 letters), Constitutionalization (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Circumscriptionally",
+          "Counterdemonstrations",
+          "Counterintellectualism",
+          "Conceptualistically",
+          "Counterproductiveness",
+          "Characteristicallyness",
+          "Compartmentalizations",
+          "Counterrevolutionaries",
+          "Counterpropagationss",
+          "Centralizationalisms",
+          "Conscientiousnessness",
+          "Choreographicallyness",
+          "Circumferentiallyity",
+          "Communicativenessness",
+          "Conservativenessness",
+          "Contemporaneouslyness",
+          "Congratulatorinesses",
+          "Contradictorilyness",
+          "Criminalisticallyness",
+          "Consolidationssssss"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Circumscriptionally\",\n    \"Counterdemonstrations\",\n    \"Counterintellectualism\",\n    \"Conceptualistically\",\n    \"Counterproductiveness\",\n    \"Characteristicallyness\",\n    \"Compartmentalizations\",\n    \"Counterrevolutionaries\",\n    \"Counterpropagationss\",\n    \"Centralizationalisms\",\n    \"Conscientiousnessness\",\n    \"Choreographicallyness\",\n    \"Circumferentiallyity\",\n    \"Communicativenessness\",\n    \"Conservativenessness\",\n    \"Contemporaneouslyness\",\n    \"Congratulatorinesses\",\n    \"Contradictorilyness\",\n    \"Criminalisticallyness\",\n    \"Consolidationssssss\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.25,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.625,
+        "errors": [
+          "Words with incorrect length: Circumscriptionally (19 letters), Counterdemonstrations (21 letters), Counterintellectualism (22 letters), Conceptualistically (19 letters), Counterproductiveness (21 letters), Characteristicallyness (22 letters), Compartmentalizations (21 letters), Counterrevolutionaries (22 letters), Conscientiousnessness (21 letters), Choreographicallyness (21 letters), Communicativenessness (21 letters), Contemporaneouslyness (21 letters), Contradictorilyness (19 letters), Criminalisticallyness (21 letters), Consolidationssssss (19 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 20,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "compartmentalizations",
+          "conceptualizationses",
+          "counterintelligences",
+          "counterrevolutionists",
+          "characterizationses",
+          "circumferentiallyity",
+          "collaborativenessses",
+          "commercializationses",
+          "communicativenessses",
+          "complementarinessses",
+          "comprehensivenessses",
+          "computerizationses",
+          "concentratedlynesses",
+          "conceptualistically",
+          "congratulatorinesses",
+          "conscientiousnesses",
+          "constitutionalities",
+          "contemporaneouslyness",
+          "counterbalancingness",
+          "crystallizationses"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"compartmentalizations\",\n    \"conceptualizationses\",\n    \"counterintelligences\",\n    \"counterrevolutionists\",\n    \"characterizationses\",\n    \"circumferentiallyity\",\n    \"collaborativenessses\",\n    \"commercializationses\",\n    \"communicativenessses\",\n    \"complementarinessses\",\n    \"comprehensivenessses\",\n    \"computerizationses\",\n    \"concentratedlynesses\",\n    \"conceptualistically\",\n    \"congratulatorinesses\",\n    \"conscientiousnesses\",\n    \"constitutionalities\",\n    \"contemporaneouslyness\",\n    \"counterbalancingness\",\n    \"crystallizationses\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: compartmentalizations (21 letters), counterrevolutionists (21 letters), characterizationses (19 letters), computerizationses (18 letters), conceptualistically (19 letters), conscientiousnesses (19 letters), constitutionalities (19 letters), contemporaneouslyness (21 letters), crystallizationses (18 letters)"
+        ]
+      }
+    }
+  ]
+}

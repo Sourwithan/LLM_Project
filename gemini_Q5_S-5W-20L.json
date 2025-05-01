@@ -1,0 +1,351 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 0.3,
+    "avg_criteria_accuracy": 0.060000000000000005,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.53,
+    "total_unique_words": 35,
+    "most_common_words": [
+      [
+        "Sesquipedalianistically",
+        7
+      ],
+      [
+        "Supercalifragilistics",
+        3
+      ],
+      [
+        "Spectrophotofluorometrically",
+        3
+      ],
+      [
+        "Superincomprehensibility",
+        3
+      ],
+      [
+        "Subdermatoglyphically",
+        2
+      ],
+      [
+        "Substantivalistically",
+        2
+      ],
+      [
+        "Supercalifragilistic",
+        2
+      ],
+      [
+        "Systematizationization",
+        1
+      ],
+      [
+        "Splenorrhaphiagraphically",
+        1
+      ],
+      [
+        "Systematizationically",
+        1
+      ]
+    ],
+    "total_duration_seconds": 22.324777126312256,
+    "std_dev_criteria_accuracy": 0.09660917830792959,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.04830458915396478
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Subdermatoglyphically",
+          "Supercalifragilistics",
+          "Systematizationization",
+          "Splenorrhaphiagraphically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Subdermatoglyphically\",\n    \"Supercalifragilistics\",\n    \"Systematizationization\",\n    \"Splenorrhaphiagraphically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Subdermatoglyphically (21 letters), Supercalifragilistics (21 letters), Systematizationization (22 letters), Splenorrhaphiagraphically (25 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Substantivalistically",
+          "Supercalifragilistic",
+          "Systematizationically",
+          "Splendiferouslyically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Substantivalistically\",\n    \"Supercalifragilistic\",\n    \"Systematizationically\",\n    \"Splendiferouslyically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Substantivalistically (21 letters), Systematizationically (21 letters), Splendiferouslyically (21 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Substantivizationally",
+          "Sesquicentennialses",
+          "Superincomprehensibly",
+          "Spectrophotometrically",
+          "Systematizationallys"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Substantivizationally\",\n        \"Sesquicentennialses\",\n        \"Superincomprehensibly\",\n        \"Spectrophotometrically\",\n        \"Systematizationallys\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Substantivizationally (21 letters), Sesquicentennialses (19 letters), Superincomprehensibly (21 letters), Spectrophotometrically (22 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Subdermatoglyphically",
+          "Supercalifragilistic",
+          "Supercalifragilistics",
+          "Schizophrenogenetically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Subdermatoglyphically\",\n    \"Supercalifragilistic\",\n    \"Supercalifragilistics\",\n    \"Schizophrenogenetically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Subdermatoglyphically (21 letters), Supercalifragilistics (21 letters), Schizophrenogenetically (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Substantivalistically",
+          "Supercalifragilistics",
+          "Schistosomatosistically",
+          "Spectrophotofluorometrically"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Substantivalistically\",\n    \"Supercalifragilistics\",\n    \"Schistosomatosistically\",\n    \"Spectrophotofluorometrically\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Substantivalistically (21 letters), Supercalifragilistics (21 letters), Schistosomatosistically (23 letters), Spectrophotofluorometrically (28 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Substantivizationsubstantivization",
+          "Sesquipedalianizationsesquipedalianization",
+          "Supercalifragilisticsexpialidocious",
+          "Standardizationsstandardizations",
+          "Sophisticationssophistications"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Substantivizationsubstantivization\",\n    \"Sesquipedalianizationsesquipedalianization\",\n    \"Supercalifragilisticsexpialidocious\",\n    \"Standardizationsstandardizations\",\n    \"Sophisticationssophistications\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Substantivizationsubstantivization (34 letters), Sesquipedalianizationsesquipedalianization (42 letters), Supercalifragilisticsexpialidocious (35 letters), Standardizationsstandardizations (32 letters), Sophisticationssophistications (30 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Substantializeablenesses",
+          "Superincomprehensibility",
+          "Systematizationabilities",
+          "Sophisticatedlydesigned"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Substantializeablenesses\",\n    \"Superincomprehensibility\",\n    \"Systematizationabilities\",\n    \"Sophisticatedlydesigned\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Substantializeablenesses (24 letters), Superincomprehensibility (24 letters), Systematizationabilities (24 letters), Sophisticatedlydesigned (23 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Substantivizationsubstantive",
+          "Sesquipedalianizationsesqui",
+          "Spectrophotofluorometrically",
+          "Systematizationsystematizing",
+          "Supercalifragilisticexpial"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Substantivizationsubstantive\",\n        \"Sesquipedalianizationsesqui\",\n        \"Spectrophotofluorometrically\",\n        \"Systematizationsystematizing\",\n        \"Supercalifragilisticexpial\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Substantivizationsubstantive (28 letters), Sesquipedalianizationsesqui (27 letters), Spectrophotofluorometrically (28 letters), Systematizationsystematizing (28 letters), Supercalifragilisticexpial (26 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Substantiveconstitutional",
+          "Superincomprehensibility",
+          "Sesquipedalianistically",
+          "Spectrophotofluorometrically",
+          "Schizophrenicophysiologically"
+        ],
+        "raw_response": "{\n    \"words\": [\n        \"Substantiveconstitutional\",\n        \"Superincomprehensibility\",\n        \"Sesquipedalianistically\",\n        \"Spectrophotofluorometrically\",\n        \"Schizophrenicophysiologically\"\n    ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Substantiveconstitutional (25 letters), Superincomprehensibility (24 letters), Sesquipedalianistically (23 letters), Spectrophotofluorometrically (28 letters), Schizophrenicophysiologically (29 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "S",
+        "word_length": 20,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Sesquipedalianistically",
+          "Superincomprehensibility",
+          "Subdermatoglyphicalness",
+          "Splendiferouslygoodlooking",
+          "Systematizationconception"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Sesquipedalianistically\",\n    \"Superincomprehensibility\",\n    \"Subdermatoglyphicalness\",\n    \"Splendiferouslygoodlooking\",\n    \"Systematizationconception\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Sesquipedalianistically (23 letters), Superincomprehensibility (24 letters), Subdermatoglyphicalness (23 letters), Splendiferouslygoodlooking (26 letters), Systematizationconception (25 letters)"
+        ]
+      }
+    }
+  ]
+}

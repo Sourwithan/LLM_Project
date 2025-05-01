@@ -4,12 +4,12 @@
     "prompt": "Write me a 10 word sentence without any words that appear in the Christian Bible.",
     "required_word_count": 10,
     "num_tests": 10,
-    "total_duration_seconds": 42.98216724395752,
-    "timestamp": "2025-04-18T21:27:05.794055"
+    "total_duration_seconds": 5.1269731521606445,
+    "timestamp": "2025-04-29T17:12:19.905378"
   },
   "average_metrics": {
     "num_tests": 10,
-    "word_count_accuracy": 0.3,
+    "word_count_accuracy": 0.5,
     "bible_words_accuracy": 0.0,
     "total_success_rate": 0.0
   },
@@ -21,43 +21,42 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Beneath vast skies, creatures roamed. Sun warmed earth, life flourished wondrously.\n"
+        "raw_response": "Serene skies painted horizons, while verdant meadows offered tranquil, earthy repose.\n"
       },
       "validation": {
-        "original_sentence": "Beneath vast skies, creatures roamed. Sun warmed earth, life flourished wondrously.",
-        "cleaned_sentence": "Beneath vast skies creatures roamed Sun warmed earth life flourished wondrously",
+        "original_sentence": "Serene skies painted horizons, while verdant meadows offered tranquil, earthy repose.",
+        "cleaned_sentence": "Serene skies painted horizons while verdant meadows offered tranquil earthy repose",
         "words": [
-          "Beneath",
-          "vast",
+          "Serene",
           "skies",
-          "creatures",
-          "roamed",
-          "Sun",
-          "warmed",
-          "earth",
-          "life",
-          "flourished",
-          "wondrously"
+          "painted",
+          "horizons",
+          "while",
+          "verdant",
+          "meadows",
+          "offered",
+          "tranquil",
+          "earthy",
+          "repose"
         ],
         "word_count": 11,
         "correct_word_count": false,
         "bible_words_found": [
-          "Beneath",
           "skies",
-          "creatures",
-          "Sun",
-          "warmed",
-          "earth",
-          "life",
-          "wondrously"
+          "painted",
+          "while",
+          "meadows",
+          "offered",
+          "tranquil",
+          "earthy"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 1,
-        "start_time": "2025-04-18T21:26:23.351814",
-        "duration_seconds": 0.5399158000946045
+        "start_time": "2025-04-29T17:12:15.303904",
+        "duration_seconds": 0.5254878997802734
       }
     },
     {
@@ -67,37 +66,40 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Galaxies swirl; quasars emit energy; existence wonders, pondering cosmic, physical phenomena. \n"
+        "raw_response": "Galaxies explode, vast cosmic dust swirls, a new world awakens suddenly.\n"
       },
       "validation": {
-        "original_sentence": "Galaxies swirl; quasars emit energy; existence wonders, pondering cosmic, physical phenomena.",
-        "cleaned_sentence": "Galaxies swirl quasars emit energy existence wonders pondering cosmic physical phenomena",
+        "original_sentence": "Galaxies explode, vast cosmic dust swirls, a new world awakens suddenly.",
+        "cleaned_sentence": "Galaxies explode vast cosmic dust swirls a new world awakens suddenly",
         "words": [
           "Galaxies",
-          "swirl",
-          "quasars",
-          "emit",
-          "energy",
-          "existence",
-          "wonders",
-          "pondering",
+          "explode",
+          "vast",
           "cosmic",
-          "physical",
-          "phenomena"
+          "dust",
+          "swirls",
+          "a",
+          "new",
+          "world",
+          "awakens",
+          "suddenly"
         ],
         "word_count": 11,
         "correct_word_count": false,
         "bible_words_found": [
-          "wonders",
-          "pondering"
+          "dust",
+          "a",
+          "new",
+          "world",
+          "suddenly"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 2,
-        "start_time": "2025-04-18T21:26:28.447229",
-        "duration_seconds": 0.5513110160827637
+        "start_time": "2025-04-29T17:12:15.820176",
+        "duration_seconds": 0.5162637233734131
       }
     },
     {
@@ -107,38 +109,38 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "The blue, vast sphere revolved, untouched by mankind's foolish squabbles.\n"
+        "raw_response": "Vast galaxies illuminate countless tiny planets, creating boundless, unexplored mysteries now.\n"
       },
       "validation": {
-        "original_sentence": "The blue, vast sphere revolved, untouched by mankind's foolish squabbles.",
-        "cleaned_sentence": "The blue vast sphere revolved untouched by mankinds foolish squabbles",
+        "original_sentence": "Vast galaxies illuminate countless tiny planets, creating boundless, unexplored mysteries now.",
+        "cleaned_sentence": "Vast galaxies illuminate countless tiny planets creating boundless unexplored mysteries now",
         "words": [
-          "The",
-          "blue",
-          "vast",
-          "sphere",
-          "revolved",
-          "untouched",
-          "by",
-          "mankinds",
-          "foolish",
-          "squabbles"
+          "Vast",
+          "galaxies",
+          "illuminate",
+          "countless",
+          "tiny",
+          "planets",
+          "creating",
+          "boundless",
+          "unexplored",
+          "mysteries",
+          "now"
         ],
-        "word_count": 10,
-        "correct_word_count": true,
+        "word_count": 11,
+        "correct_word_count": false,
         "bible_words_found": [
-          "The",
-          "blue",
-          "by",
-          "foolish"
+          "planets",
+          "mysteries",
+          "now"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 3,
-        "start_time": "2025-04-18T21:26:33.619128",
-        "duration_seconds": 0.5337309837341309
+        "start_time": "2025-04-29T17:12:16.289603",
+        "duration_seconds": 0.4694173336029053
       }
     },
     {
@@ -148,43 +150,39 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Serene clouds floated past old, grand fortress walls under vast azure skies.\n"
+        "raw_response": "Galaxies circle, creating nebulas, throughout existence, building cosmos, making anything. \n"
       },
       "validation": {
-        "original_sentence": "Serene clouds floated past old, grand fortress walls under vast azure skies.",
-        "cleaned_sentence": "Serene clouds floated past old grand fortress walls under vast azure skies",
+        "original_sentence": "Galaxies circle, creating nebulas, throughout existence, building cosmos, making anything.",
+        "cleaned_sentence": "Galaxies circle creating nebulas throughout existence building cosmos making anything",
         "words": [
-          "Serene",
-          "clouds",
-          "floated",
-          "past",
-          "old",
-          "grand",
-          "fortress",
-          "walls",
-          "under",
-          "vast",
-          "azure",
-          "skies"
+          "Galaxies",
+          "circle",
+          "creating",
+          "nebulas",
+          "throughout",
+          "existence",
+          "building",
+          "cosmos",
+          "making",
+          "anything"
         ],
-        "word_count": 12,
-        "correct_word_count": false,
+        "word_count": 10,
+        "correct_word_count": true,
         "bible_words_found": [
-          "clouds",
-          "past",
-          "old",
-          "fortress",
-          "walls",
-          "under",
-          "skies"
+          "circle",
+          "throughout",
+          "building",
+          "making",
+          "anything"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 4,
-        "start_time": "2025-04-18T21:26:37.226400",
-        "duration_seconds": 0.5352263450622559
+        "start_time": "2025-04-29T17:12:16.877473",
+        "duration_seconds": 0.5878584384918213
       }
     },
     {
@@ -194,39 +192,45 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Majestic aurora painted skies, illuminating frozen tundra's silent, icy expanse.\n"
+        "raw_response": "The forest beckons, promising mysteries that will remain forever lost, unknown.\n"
       },
       "validation": {
-        "original_sentence": "Majestic aurora painted skies, illuminating frozen tundra's silent, icy expanse.",
-        "cleaned_sentence": "Majestic aurora painted skies illuminating frozen tundras silent icy expanse",
+        "original_sentence": "The forest beckons, promising mysteries that will remain forever lost, unknown.",
+        "cleaned_sentence": "The forest beckons promising mysteries that will remain forever lost unknown",
         "words": [
-          "Majestic",
-          "aurora",
-          "painted",
-          "skies",
-          "illuminating",
-          "frozen",
-          "tundras",
-          "silent",
-          "icy",
-          "expanse"
+          "The",
+          "forest",
+          "beckons",
+          "promising",
+          "mysteries",
+          "that",
+          "will",
+          "remain",
+          "forever",
+          "lost",
+          "unknown"
         ],
-        "word_count": 10,
-        "correct_word_count": true,
+        "word_count": 11,
+        "correct_word_count": false,
         "bible_words_found": [
-          "Majestic",
-          "painted",
-          "skies",
-          "frozen",
-          "silent"
+          "The",
+          "forest",
+          "promising",
+          "mysteries",
+          "that",
+          "will",
+          "remain",
+          "forever",
+          "lost",
+          "unknown"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 5,
-        "start_time": "2025-04-18T21:26:44.406187",
-        "duration_seconds": 0.575678825378418
+        "start_time": "2025-04-29T17:12:17.385885",
+        "duration_seconds": 0.5084011554718018
       }
     },
     {
@@ -236,38 +240,39 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Gaia's vibrant flora thrives; sunbeam warmth melts glacial, frozen landscapes afar.\n"
+        "raw_response": "Silent zephyrs dance, gently pushing summer\u2019s vibrant green foliage aloft.\n"
       },
       "validation": {
-        "original_sentence": "Gaia's vibrant flora thrives; sunbeam warmth melts glacial, frozen landscapes afar.",
-        "cleaned_sentence": "Gaias vibrant flora thrives sunbeam warmth melts glacial frozen landscapes afar",
+        "original_sentence": "Silent zephyrs dance, gently pushing summer\u2019s vibrant green foliage aloft.",
+        "cleaned_sentence": "Silent zephyrs dance gently pushing summers vibrant green foliage aloft",
         "words": [
-          "Gaias",
+          "Silent",
+          "zephyrs",
+          "dance",
+          "gently",
+          "pushing",
+          "summers",
           "vibrant",
-          "flora",
-          "thrives",
-          "sunbeam",
-          "warmth",
-          "melts",
-          "glacial",
-          "frozen",
-          "landscapes",
-          "afar"
+          "green",
+          "foliage",
+          "aloft"
         ],
-        "word_count": 11,
-        "correct_word_count": false,
+        "word_count": 10,
+        "correct_word_count": true,
         "bible_words_found": [
-          "warmth",
-          "frozen",
-          "afar"
+          "Silent",
+          "dance",
+          "gently",
+          "pushing",
+          "green"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 6,
-        "start_time": "2025-04-18T21:26:48.688171",
-        "duration_seconds": 0.47270917892456055
+        "start_time": "2025-04-29T17:12:17.873485",
+        "duration_seconds": 0.4875915050506592
       }
     },
     {
@@ -277,40 +282,41 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Nature's grand tapestry unfolds, painting skies with twilight's brush, slowly fading.\n"
+        "raw_response": "Galaxies form vast cosmos; nature's hidden secrets now unveiled for humankind.\n"
       },
       "validation": {
-        "original_sentence": "Nature's grand tapestry unfolds, painting skies with twilight's brush, slowly fading.",
-        "cleaned_sentence": "Natures grand tapestry unfolds painting skies with twilights brush slowly fading",
+        "original_sentence": "Galaxies form vast cosmos; nature's hidden secrets now unveiled for humankind.",
+        "cleaned_sentence": "Galaxies form vast cosmos natures hidden secrets now unveiled for humankind",
         "words": [
-          "Natures",
-          "grand",
-          "tapestry",
-          "unfolds",
-          "painting",
-          "skies",
-          "with",
-          "twilights",
-          "brush",
-          "slowly",
-          "fading"
+          "Galaxies",
+          "form",
+          "vast",
+          "cosmos",
+          "natures",
+          "hidden",
+          "secrets",
+          "now",
+          "unveiled",
+          "for",
+          "humankind"
         ],
         "word_count": 11,
         "correct_word_count": false,
         "bible_words_found": [
-          "tapestry",
-          "skies",
-          "with",
-          "slowly",
-          "fading"
+          "form",
+          "hidden",
+          "secrets",
+          "now",
+          "unveiled",
+          "for"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 7,
-        "start_time": "2025-04-18T21:26:52.765627",
-        "duration_seconds": 0.44469428062438965
+        "start_time": "2025-04-29T17:12:18.397262",
+        "duration_seconds": 0.523768424987793
       }
     },
     {
@@ -320,39 +326,40 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Vast galactic cosmos: bright nebulas shine, stellar dust floats, amazing, grand.\n"
+        "raw_response": "Galaxies exploded, forming worlds, life began, thrived, struggled, then vanished.\n"
       },
       "validation": {
-        "original_sentence": "Vast galactic cosmos: bright nebulas shine, stellar dust floats, amazing, grand.",
-        "cleaned_sentence": "Vast galactic cosmos bright nebulas shine stellar dust floats amazing grand",
+        "original_sentence": "Galaxies exploded, forming worlds, life began, thrived, struggled, then vanished.",
+        "cleaned_sentence": "Galaxies exploded forming worlds life began thrived struggled then vanished",
         "words": [
-          "Vast",
-          "galactic",
-          "cosmos",
-          "bright",
-          "nebulas",
-          "shine",
-          "stellar",
-          "dust",
-          "floats",
-          "amazing",
-          "grand"
+          "Galaxies",
+          "exploded",
+          "forming",
+          "worlds",
+          "life",
+          "began",
+          "thrived",
+          "struggled",
+          "then",
+          "vanished"
         ],
-        "word_count": 11,
-        "correct_word_count": false,
+        "word_count": 10,
+        "correct_word_count": true,
         "bible_words_found": [
-          "bright",
-          "shine",
-          "dust",
-          "floats"
+          "worlds",
+          "life",
+          "began",
+          "struggled",
+          "then",
+          "vanished"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 8,
-        "start_time": "2025-04-18T21:26:57.242664",
-        "duration_seconds": 0.5182704925537109
+        "start_time": "2025-04-29T17:12:18.890421",
+        "duration_seconds": 0.4931488037109375
       }
     },
     {
@@ -362,35 +369,42 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Galaxies rotate, displaying complex mathematical relationships; studying this aids perception.\n"
+        "raw_response": "Dawn arrived, sun illuminating sky above mountains, painting earth anew.\n"
       },
       "validation": {
-        "original_sentence": "Galaxies rotate, displaying complex mathematical relationships; studying this aids perception.",
-        "cleaned_sentence": "Galaxies rotate displaying complex mathematical relationships studying this aids perception",
+        "original_sentence": "Dawn arrived, sun illuminating sky above mountains, painting earth anew.",
+        "cleaned_sentence": "Dawn arrived sun illuminating sky above mountains painting earth anew",
         "words": [
-          "Galaxies",
-          "rotate",
-          "displaying",
-          "complex",
-          "mathematical",
-          "relationships",
-          "studying",
-          "this",
-          "aids",
-          "perception"
+          "Dawn",
+          "arrived",
+          "sun",
+          "illuminating",
+          "sky",
+          "above",
+          "mountains",
+          "painting",
+          "earth",
+          "anew"
         ],
         "word_count": 10,
         "correct_word_count": true,
         "bible_words_found": [
-          "this"
+          "Dawn",
+          "arrived",
+          "sun",
+          "sky",
+          "above",
+          "mountains",
+          "earth",
+          "anew"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 9,
-        "start_time": "2025-04-18T21:27:01.671330",
-        "duration_seconds": 0.6051938533782959
+        "start_time": "2025-04-29T17:12:19.385914",
+        "duration_seconds": 0.4954829216003418
       }
     },
     {
@@ -400,44 +414,40 @@
         "required_word_count": 10
       },
       "response": {
-        "raw_response": "Serene twilight painted the sky; birds flew toward distant, unknown lands.\n"
+        "raw_response": "Zebras gallop quickly past my garden toward the ocean shores.\n"
       },
       "validation": {
-        "original_sentence": "Serene twilight painted the sky; birds flew toward distant, unknown lands.",
-        "cleaned_sentence": "Serene twilight painted the sky birds flew toward distant unknown lands",
+        "original_sentence": "Zebras gallop quickly past my garden toward the ocean shores.",
+        "cleaned_sentence": "Zebras gallop quickly past my garden toward the ocean shores",
         "words": [
-          "Serene",
-          "twilight",
-          "painted",
-          "the",
-          "sky",
-          "birds",
-          "flew",
+          "Zebras",
+          "gallop",
+          "quickly",
+          "past",
+          "my",
+          "garden",
           "toward",
-          "distant",
-          "unknown",
-          "lands"
+          "the",
+          "ocean",
+          "shores"
         ],
-        "word_count": 11,
-        "correct_word_count": false,
+        "word_count": 10,
+        "correct_word_count": true,
         "bible_words_found": [
-          "twilight",
-          "painted",
-          "the",
-          "sky",
-          "birds",
-          "flew",
+          "quickly",
+          "past",
+          "my",
+          "garden",
           "toward",
-          "unknown",
-          "lands"
+          "the"
         ],
         "has_bible_words": true,
         "success": false
       },
       "timing": {
         "test_number": 10,
-        "start_time": "2025-04-18T21:27:05.794038",
-        "duration_seconds": 0.5684125423431396
+        "start_time": "2025-04-29T17:12:19.905364",
+        "duration_seconds": 0.5194408893585205
       }
     }
   ]

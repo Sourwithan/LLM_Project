@@ -1,0 +1,349 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 2.6,
+    "avg_criteria_accuracy": 0.52,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.76,
+    "total_unique_words": 38,
+    "most_common_words": [
+      [
+        "Capricious",
+        3
+      ],
+      [
+        "Castigating",
+        3
+      ],
+      [
+        "Championship",
+        2
+      ],
+      [
+        "Choreograph",
+        2
+      ],
+      [
+        "Caterwauls",
+        2
+      ],
+      [
+        "Chancellors",
+        2
+      ],
+      [
+        "Calamitous",
+        2
+      ],
+      [
+        "Campaniles",
+        2
+      ],
+      [
+        "Centennials",
+        2
+      ],
+      [
+        "Calligraphy",
+        2
+      ]
+    ],
+    "total_duration_seconds": 20.020610094070435,
+    "std_dev_criteria_accuracy": 0.28596814119369623,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.14298407059684812
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Cartwheels",
+          "Centrifuge",
+          "Championship",
+          "Choreograph",
+          "Classified"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Cartwheels\",\n    \"Centrifuge\",\n    \"Championship\",\n    \"Choreograph\",\n    \"Classified\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Championship (12 letters), Choreograph (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Caterwauls",
+          "Chancellors",
+          "Choreograph",
+          "Compliances",
+          "Confectioner"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Caterwauls\",\n    \"Chancellors\",\n    \"Choreograph\",\n    \"Compliances\",\n    \"Confectioner\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 1,
+        "correct_count": true,
+        "criteria_accuracy": 0.2,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.6,
+        "errors": [
+          "Words with incorrect length: Chancellors (11 letters), Choreograph (11 letters), Compliances (11 letters), Confectioner (12 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "calculated",
+          "capacitive",
+          "captivated",
+          "castigation",
+          "cauliflower"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"calculated\",\n    \"capacitive\",\n    \"captivated\",\n    \"castigation\",\n    \"cauliflower\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: castigation (11 letters), cauliflower (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Calamitous",
+          "Capricious",
+          "Cataloging",
+          "Championship",
+          "Chromatics"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calamitous\",\n    \"Capricious\",\n    \"Cataloging\",\n    \"Championship\",\n    \"Chromatics\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 4,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Championship (12 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Campaniles",
+          "Capitalise",
+          "Caterpillar",
+          "Centennials",
+          "Chancellors"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Campaniles\",\n    \"Capitalise\",\n    \"Caterpillar\",\n    \"Centennials\",\n    \"Chancellors\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Caterpillar (11 letters), Centennials (11 letters), Chancellors (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Calamitous",
+          "Capricious",
+          "Castigating",
+          "Centrifugal",
+          "Chronicles"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calamitous\",\n    \"Capricious\",\n    \"Castigating\",\n    \"Centrifugal\",\n    \"Chronicles\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Castigating (11 letters), Centrifugal (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Calligraphy",
+          "Campaniles",
+          "Capriccios",
+          "Caterwauls",
+          "Centennials"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calligraphy\",\n    \"Campaniles\",\n    \"Capriccios\",\n    \"Caterwauls\",\n    \"Centennials\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 3,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Calligraphy (11 letters), Centennials (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Cacographer",
+          "Calumniated",
+          "Campanology",
+          "Capitalized",
+          "Castigating"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Cacographer\",\n    \"Calumniated\",\n    \"Campanology\",\n    \"Capitalized\",\n    \"Castigating\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 0,
+        "correct_count": true,
+        "criteria_accuracy": 0.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.5,
+        "errors": [
+          "Words with incorrect length: Cacographer (11 letters), Calumniated (11 letters), Campanology (11 letters), Capitalized (11 letters), Castigating (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "CALCULABLE",
+          "CALLIGRAPH",
+          "CANCELLING",
+          "CAPSIZABLE",
+          "CARBURETOR"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"CALCULABLE\",\n    \"CALLIGRAPH\",\n    \"CANCELLING\",\n    \"CAPSIZABLE\",\n    \"CARBURETOR\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 10,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "Calligraphy",
+          "Capitalism",
+          "Capricious",
+          "Caravanserai",
+          "Castigating"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Calligraphy\",\n    \"Capitalism\",\n    \"Capricious\",\n    \"Caravanserai\",\n    \"Castigating\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 2,
+        "correct_count": true,
+        "criteria_accuracy": 0.4,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.7,
+        "errors": [
+          "Words with incorrect length: Calligraphy (11 letters), Caravanserai (12 letters), Castigating (11 letters)"
+        ]
+      }
+    }
+  ]
+}

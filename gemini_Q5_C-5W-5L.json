@@ -1,0 +1,331 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 5,
+    "avg_correct_words": 5,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 28,
+    "most_common_words": [
+      [
+        "catch",
+        8
+      ],
+      [
+        "civil",
+        4
+      ],
+      [
+        "chick",
+        3
+      ],
+      [
+        "craft",
+        3
+      ],
+      [
+        "coach",
+        2
+      ],
+      [
+        "choir",
+        2
+      ],
+      [
+        "cable",
+        2
+      ],
+      [
+        "chard",
+        2
+      ],
+      [
+        "claim",
+        2
+      ],
+      [
+        "chose",
+        2
+      ]
+    ],
+    "total_duration_seconds": 18.807897090911865,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "chick",
+          " Civil",
+          "coach",
+          "cords"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"chick\", \" Civil\", \"coach\", \"cords\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "chick",
+          "choir",
+          "chump",
+          "crabs"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"chick\", \"choir\", \"chump\", \"crabs\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "civil",
+          "china",
+          "clear",
+          "coach"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"civil\", \"china\", \"clear\", \"coach\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "cable",
+          "catch",
+          "chard",
+          "choir",
+          "claim"
+        ],
+        "raw_response": "{\n  \"words\": [\"cable\", \"catch\", \"chard\", \"choir\", \"claim\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "chose",
+          "claim",
+          "craft",
+          "chick"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"chose\", \"claim\", \"craft\", \"chick\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "churn",
+          "civil",
+          "crane",
+          "craft"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"churn\", \"civil\", \"crane\", \"craft\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "cares",
+          "chose",
+          "chins",
+          "chaps",
+          "cigar"
+        ],
+        "raw_response": "{\n  \"words\": [\"cares\", \"chose\", \"chins\", \"chaps\", \"cigar\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "chard",
+          "chide",
+          "civil",
+          "craft"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"chard\", \"chide\", \"civil\", \"craft\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "crane",
+          "cable",
+          "cares",
+          "chase",
+          "click"
+        ],
+        "raw_response": "{\n  \"words\": [\"crane\", \"cable\", \"cares\", \"chase\", \"click\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "C",
+        "word_length": 5,
+        "word_count": 5
+      },
+      "response": {
+        "words": [
+          "catch",
+          "cello",
+          "chill",
+          "chips",
+          "civil"
+        ],
+        "raw_response": "{\n  \"words\": [\"catch\", \"cello\", \"chill\", \"chips\", \"civil\"]\n}"
+      },
+      "validation": {
+        "total_words": 5,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

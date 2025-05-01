@@ -1,0 +1,481 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 20,
+    "avg_criteria_accuracy": 1.0,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 1.0,
+    "total_unique_words": 85,
+    "most_common_words": [
+      [
+        "party",
+        8
+      ],
+      [
+        "paint",
+        7
+      ],
+      [
+        "parks",
+        7
+      ],
+      [
+        "peace",
+        7
+      ],
+      [
+        "pearl",
+        7
+      ],
+      [
+        "penal",
+        7
+      ],
+      [
+        "piano",
+        7
+      ],
+      [
+        "piece",
+        7
+      ],
+      [
+        "penny",
+        6
+      ],
+      [
+        "phone",
+        6
+      ]
+    ],
+    "total_duration_seconds": 23.043089628219604,
+    "std_dev_criteria_accuracy": 0.0,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paint",
+          "paper",
+          "parks",
+          "party",
+          "pasta",
+          "pause",
+          "peace",
+          "peach",
+          "pearl",
+          "pedal",
+          "penal",
+          "pence",
+          "penny",
+          "perch",
+          "peril",
+          "perky",
+          "pesky",
+          "petal",
+          "phase",
+          "phone"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paint\",\n    \"paper\",\n    \"parks\",\n    \"party\",\n    \"pasta\",\n    \"pause\",\n    \"peace\",\n    \"peach\",\n    \"pearl\",\n    \"pedal\",\n    \"penal\",\n    \"pence\",\n    \"penny\",\n    \"perch\",\n    \"peril\",\n    \"perky\",\n    \"pesky\",\n    \"petal\",\n    \"phase\",\n    \"phone\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "parts",
+          "photo",
+          "paint",
+          "paths",
+          "panel",
+          "paper",
+          "parks",
+          "party",
+          "pasta",
+          "patch",
+          "pause",
+          "peace",
+          "pearl",
+          "penal",
+          "penny",
+          "phase",
+          "phone",
+          "piano",
+          "picks",
+          "piece"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"parts\",\n    \"photo\",\n    \"paint\",\n    \"paths\",\n    \"panel\",\n    \"paper\",\n    \"parks\",\n    \"party\",\n    \"pasta\",\n    \"patch\",\n    \"pause\",\n    \"peace\",\n    \"pearl\",\n    \"penal\",\n    \"penny\",\n    \"phase\",\n    \"phone\",\n    \"piano\",\n    \"picks\",\n    \"piece\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "party",
+          "parks",
+          "panel",
+          "pains",
+          "paint",
+          "pairs",
+          "palms",
+          "panda",
+          "panic",
+          "pants",
+          "papas",
+          "paper",
+          "paved",
+          "peace",
+          "peach",
+          "peaks",
+          "pearl",
+          "pedal",
+          "peers",
+          "penal"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"party\",\n    \"parks\",\n    \"panel\",\n    \"pains\",\n    \"paint\",\n    \"pairs\",\n    \"palms\",\n    \"panda\",\n    \"panic\",\n    \"pants\",\n    \"papas\",\n    \"paper\",\n    \"paved\",\n    \"peace\",\n    \"peach\",\n    \"peaks\",\n    \"pearl\",\n    \"pedal\",\n    \"peers\",\n    \"penal\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paint",
+          "paper",
+          "parks",
+          "party",
+          "pasta",
+          "pause",
+          "peace",
+          "peach",
+          "pearl",
+          "penal",
+          "pence",
+          "penny",
+          "perky",
+          "pesky",
+          "phone",
+          "photo",
+          "piano",
+          "piece",
+          "pilot",
+          "pinch"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paint\",\n    \"paper\",\n    \"parks\",\n    \"party\",\n    \"pasta\",\n    \"pause\",\n    \"peace\",\n    \"peach\",\n    \"pearl\",\n    \"penal\",\n    \"pence\",\n    \"penny\",\n    \"perky\",\n    \"pesky\",\n    \"phone\",\n    \"photo\",\n    \"piano\",\n    \"piece\",\n    \"pilot\",\n    \"pinch\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "party",
+          "peace",
+          "pearl",
+          "pedal",
+          "penal",
+          "penny",
+          "perky",
+          "photo",
+          "piano",
+          "piece",
+          "pilot",
+          "pinch",
+          "piney",
+          "pixel",
+          "pizza",
+          "place",
+          "plain",
+          "plant",
+          "plaza",
+          "pluck"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"party\",\n    \"peace\",\n    \"pearl\",\n    \"pedal\",\n    \"penal\",\n    \"penny\",\n    \"perky\",\n    \"photo\",\n    \"piano\",\n    \"piece\",\n    \"pilot\",\n    \"pinch\",\n    \"piney\",\n    \"pixel\",\n    \"pizza\",\n    \"place\",\n    \"plain\",\n    \"plant\",\n    \"plaza\",\n    \"pluck\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "party",
+          "peace",
+          "peach",
+          "penny",
+          "phone",
+          "photo",
+          "piano",
+          "piece",
+          "pilot",
+          "pitch",
+          "pizza",
+          "place",
+          "plain",
+          "plant",
+          "plate",
+          "plaza",
+          "pluck",
+          "plumb",
+          "poems",
+          "point"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"party\",\n    \"peace\",\n    \"peach\",\n    \"penny\",\n    \"phone\",\n    \"photo\",\n    \"piano\",\n    \"piece\",\n    \"pilot\",\n    \"pitch\",\n    \"pizza\",\n    \"place\",\n    \"plain\",\n    \"plant\",\n    \"plate\",\n    \"plaza\",\n    \"pluck\",\n    \"plumb\",\n    \"poems\",\n    \"point\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "parks",
+          "piece",
+          "piano",
+          "pluck",
+          "poems",
+          "pouch",
+          "paint",
+          "phone",
+          "point",
+          "price",
+          "proof",
+          "prowl",
+          "pride",
+          "patch",
+          "plaza",
+          "panel",
+          "party",
+          "pasta",
+          "pause",
+          "pearl"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"parks\",\n    \"piece\",\n    \"piano\",\n    \"pluck\",\n    \"poems\",\n    \"pouch\",\n    \"paint\",\n    \"phone\",\n    \"point\",\n    \"price\",\n    \"proof\",\n    \"prowl\",\n    \"pride\",\n    \"patch\",\n    \"plaza\",\n    \"panel\",\n    \"party\",\n    \"pasta\",\n    \"pause\",\n    \"pearl\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paint",
+          "paper",
+          "parks",
+          "party",
+          "pasta",
+          "pause",
+          "peace",
+          "peach",
+          "penal",
+          "penny",
+          "perky",
+          "photo",
+          "piano",
+          "picks",
+          "piece",
+          "pilot",
+          "pinch",
+          "pipes",
+          "pizza",
+          "plaid"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paint\",\n    \"paper\",\n    \"parks\",\n    \"party\",\n    \"pasta\",\n    \"pause\",\n    \"peace\",\n    \"peach\",\n    \"penal\",\n    \"penny\",\n    \"perky\",\n    \"photo\",\n    \"piano\",\n    \"picks\",\n    \"piece\",\n    \"pilot\",\n    \"pinch\",\n    \"pipes\",\n    \"pizza\",\n    \"plaid\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "pales",
+          "paint",
+          "parks",
+          "parts",
+          "paved",
+          "peaks",
+          "pearl",
+          "penal",
+          "perky",
+          "pesky",
+          "phone",
+          "piano",
+          "picks",
+          "piece",
+          "piety",
+          "pilot",
+          "pinch",
+          "pined",
+          "pines",
+          "pinky"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"pales\",\n    \"paint\",\n    \"parks\",\n    \"parts\",\n    \"paved\",\n    \"peaks\",\n    \"pearl\",\n    \"penal\",\n    \"perky\",\n    \"pesky\",\n    \"phone\",\n    \"piano\",\n    \"picks\",\n    \"piece\",\n    \"piety\",\n    \"pilot\",\n    \"pinch\",\n    \"pined\",\n    \"pines\",\n    \"pinky\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 5,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Parks",
+          "Panel",
+          "Paris",
+          "Party",
+          "Pasta",
+          "Pause",
+          "Peace",
+          "Peach",
+          "Penny",
+          "Phase",
+          "Phone",
+          "Photo",
+          "Pilot",
+          "Pitch",
+          "Pizza",
+          "Place",
+          "Plane",
+          "Plant",
+          "Plate",
+          "Plaza"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Parks\",\n    \"Panel\",\n    \"Paris\",\n    \"Party\",\n    \"Pasta\",\n    \"Pause\",\n    \"Peace\",\n    \"Peach\",\n    \"Penny\",\n    \"Phase\",\n    \"Phone\",\n    \"Photo\",\n    \"Pilot\",\n    \"Pitch\",\n    \"Pizza\",\n    \"Place\",\n    \"Plane\",\n    \"Plant\",\n    \"Plate\",\n    \"Plaza\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    }
+  ]
+}

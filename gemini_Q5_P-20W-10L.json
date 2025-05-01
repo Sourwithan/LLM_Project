@@ -1,0 +1,499 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 20,
+    "avg_correct_words": 14.3,
+    "avg_criteria_accuracy": 0.715,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.8575,
+    "total_unique_words": 151,
+    "most_common_words": [
+      [
+        "passionate",
+        6
+      ],
+      [
+        "peacefully",
+        5
+      ],
+      [
+        "paraphrase",
+        4
+      ],
+      [
+        "paramounts",
+        3
+      ],
+      [
+        "patriarchs",
+        3
+      ],
+      [
+        "paragraph",
+        2
+      ],
+      [
+        "parentally",
+        2
+      ],
+      [
+        "partition",
+        2
+      ],
+      [
+        "pathfinder",
+        2
+      ],
+      [
+        "penicillin",
+        2
+      ]
+    ],
+    "total_duration_seconds": 27.555413246154785,
+    "std_dev_criteria_accuracy": 0.23693646593314607,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.11846823296657304
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "pacifying",
+          "painfully",
+          "paragraph",
+          "parentally",
+          "partaking",
+          "partition",
+          "passingly",
+          "passionate",
+          "pathfinder",
+          "patriotism",
+          "patronize",
+          "peacefully",
+          "penicillin",
+          "perfecting",
+          "permanency",
+          "perpetuate",
+          "personally",
+          "persuader",
+          "perturbing",
+          "pictorial"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"pacifying\",\n    \"painfully\",\n    \"paragraph\",\n    \"parentally\",\n    \"partaking\",\n    \"partition\",\n    \"passingly\",\n    \"passionate\",\n    \"pathfinder\",\n    \"patriotism\",\n    \"patronize\",\n    \"peacefully\",\n    \"penicillin\",\n    \"perfecting\",\n    \"permanency\",\n    \"perpetuate\",\n    \"personally\",\n    \"persuader\",\n    \"perturbing\",\n    \"pictorial\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: pacifying (9 letters), painfully (9 letters), paragraph (9 letters), partaking (9 letters), partition (9 letters), passingly (9 letters), patronize (9 letters), persuader (9 letters), pictorial (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paragraphy",
+          "palingenes",
+          "paperbacks",
+          "parachuted",
+          "paramounts",
+          "paraphrase",
+          "parenthood",
+          "particular",
+          "partitioned",
+          "passionate",
+          "pasteurized",
+          "patriarchs",
+          "patriotics",
+          "patrolship",
+          "patronized",
+          "peacefully",
+          "pedestrian",
+          "penetrable",
+          "perception",
+          "perfection"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paragraphy\",\n    \"palingenes\",\n    \"paperbacks\",\n    \"parachuted\",\n    \"paramounts\",\n    \"paraphrase\",\n    \"parenthood\",\n    \"particular\",\n    \"partitioned\",\n    \"passionate\",\n    \"pasteurized\",\n    \"patriarchs\",\n    \"patriotics\",\n    \"patrolship\",\n    \"patronized\",\n    \"peacefully\",\n    \"pedestrian\",\n    \"penetrable\",\n    \"perception\",\n    \"perfection\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 18,
+        "correct_count": true,
+        "criteria_accuracy": 0.9,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.95,
+        "errors": [
+          "Words with incorrect length: partitioned (11 letters), pasteurized (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Paradigm",
+          "Paraphrase",
+          "Parentage",
+          "Participant",
+          "Passionate",
+          "Pathology",
+          "Patriotism",
+          "Peacefully",
+          "Peninsula",
+          "Perception",
+          "Perfecting",
+          "Perfuming",
+          "Permeable",
+          "Perpetual",
+          "Pessimist",
+          "Phonetics",
+          "Photograph",
+          "Picnicking",
+          "Pioneering",
+          "Plagiarism"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paradigm\",\n    \"Paraphrase\",\n    \"Parentage\",\n    \"Participant\",\n    \"Passionate\",\n    \"Pathology\",\n    \"Patriotism\",\n    \"Peacefully\",\n    \"Peninsula\",\n    \"Perception\",\n    \"Perfecting\",\n    \"Perfuming\",\n    \"Permeable\",\n    \"Perpetual\",\n    \"Pessimist\",\n    \"Phonetics\",\n    \"Photograph\",\n    \"Picnicking\",\n    \"Pioneering\",\n    \"Plagiarism\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: Paradigm (8 letters), Parentage (9 letters), Participant (11 letters), Pathology (9 letters), Peninsula (9 letters), Perfuming (9 letters), Permeable (9 letters), Perpetual (9 letters), Pessimist (9 letters), Phonetics (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paintbrush",
+          "pamphlets",
+          "panicking",
+          "parachute",
+          "paragraph",
+          "paramount",
+          "parameter",
+          "paraphrase",
+          "parasites",
+          "parenting",
+          "partially",
+          "particles",
+          "partition",
+          "passports",
+          "patriotic",
+          "patrolling",
+          "peninsula",
+          "perceiving",
+          "perfecting",
+          "perpetual"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paintbrush\",\n    \"pamphlets\",\n    \"panicking\",\n    \"parachute\",\n    \"paragraph\",\n    \"paramount\",\n    \"parameter\",\n    \"paraphrase\",\n    \"parasites\",\n    \"parenting\",\n    \"partially\",\n    \"particles\",\n    \"partition\",\n    \"passports\",\n    \"patriotic\",\n    \"patrolling\",\n    \"peninsula\",\n    \"perceiving\",\n    \"perfecting\",\n    \"perpetual\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.25,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.625,
+        "errors": [
+          "Words with incorrect length: pamphlets (9 letters), panicking (9 letters), parachute (9 letters), paragraph (9 letters), paramount (9 letters), parameter (9 letters), parasites (9 letters), parenting (9 letters), partially (9 letters), particles (9 letters), partition (9 letters), passports (9 letters), patriotic (9 letters), peninsula (9 letters), perpetual (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "perceptive",
+          "petroleum",
+          "phantomize",
+          "pheromone",
+          "portfolio",
+          "positioned",
+          "posthumous",
+          "postponing",
+          "potpourris",
+          "practicals",
+          "preambling",
+          "prearrange",
+          "preceptory",
+          "precipices",
+          "precursory",
+          "predicting",
+          "preferreds",
+          "preheating",
+          "prescience",
+          "presumably"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"perceptive\",\n    \"petroleum\",\n    \"phantomize\",\n    \"pheromone\",\n    \"portfolio\",\n    \"positioned\",\n    \"posthumous\",\n    \"postponing\",\n    \"potpourris\",\n    \"practicals\",\n    \"preambling\",\n    \"prearrange\",\n    \"preceptory\",\n    \"precipices\",\n    \"precursory\",\n    \"predicting\",\n    \"preferreds\",\n    \"preheating\",\n    \"prescience\",\n    \"presumably\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: petroleum (9 letters), pheromone (9 letters), portfolio (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paramounts",
+          "paraphrase",
+          "parenteral",
+          "paroxysmal",
+          "particular",
+          "passionate",
+          "pasteboard",
+          "patronised",
+          "patronises",
+          "peacefully",
+          "peculiarly",
+          "pedestrian",
+          "penicillin",
+          "perceptive",
+          "perfection",
+          "perfidious",
+          "perforated",
+          "peripheral",
+          "perishable",
+          "personable"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paramounts\",\n    \"paraphrase\",\n    \"parenteral\",\n    \"paroxysmal\",\n    \"particular\",\n    \"passionate\",\n    \"pasteboard\",\n    \"patronised\",\n    \"patronises\",\n    \"peacefully\",\n    \"peculiarly\",\n    \"pedestrian\",\n    \"penicillin\",\n    \"perceptive\",\n    \"perfection\",\n    \"perfidious\",\n    \"perforated\",\n    \"peripheral\",\n    \"perishable\",\n    \"personable\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 20,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "Parabolise",
+          "Paragraphs",
+          "Paraphrase",
+          "Parasailing",
+          "Parentless",
+          "Pathfinder",
+          "Patriotism",
+          "Patronised",
+          "Peacefully",
+          "Penicillin",
+          "Pennyworth",
+          "Perception",
+          "Perfecting",
+          "Permissive",
+          "Personally",
+          "Persuading",
+          "Pessimist",
+          "Philander",
+          "Phosphorus",
+          "Photograph"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Parabolise\",\n    \"Paragraphs\",\n    \"Paraphrase\",\n    \"Parasailing\",\n    \"Parentless\",\n    \"Pathfinder\",\n    \"Patriotism\",\n    \"Patronised\",\n    \"Peacefully\",\n    \"Penicillin\",\n    \"Pennyworth\",\n    \"Perception\",\n    \"Perfecting\",\n    \"Permissive\",\n    \"Personally\",\n    \"Persuading\",\n    \"Pessimist\",\n    \"Philander\",\n    \"Phosphorus\",\n    \"Photograph\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: Parasailing (11 letters), Pessimist (9 letters), Philander (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "palindromes",
+          "paperknife",
+          "parachuted",
+          "parameter",
+          "parenthood",
+          "paroxysmal",
+          "passionate",
+          "pastorship",
+          "pathfinder",
+          "patriarchs",
+          "patronised",
+          "peacefully",
+          "pedagogics",
+          "penalising",
+          "penitently",
+          "pepperidge",
+          "perceiving",
+          "perfumery",
+          "periodical",
+          "perishable"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"palindromes\",\n    \"paperknife\",\n    \"parachuted\",\n    \"parameter\",\n    \"parenthood\",\n    \"paroxysmal\",\n    \"passionate\",\n    \"pastorship\",\n    \"pathfinder\",\n    \"patriarchs\",\n    \"patronised\",\n    \"peacefully\",\n    \"pedagogics\",\n    \"penalising\",\n    \"penitently\",\n    \"pepperidge\",\n    \"perceiving\",\n    \"perfumery\",\n    \"periodical\",\n    \"perishable\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: palindromes (11 letters), parameter (9 letters), perfumery (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paintbrush",
+          "paleobotan",
+          "pancreatic",
+          "paperbound",
+          "paradoxical",
+          "paragraphic",
+          "paralleling",
+          "parameteric",
+          "paraphrases",
+          "parentally",
+          "participate",
+          "passionate",
+          "pasteboards",
+          "pathogenic",
+          "patricians",
+          "patriotics",
+          "patronizing",
+          "pejorative",
+          "penetrable",
+          "perceptible"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paintbrush\",\n    \"paleobotan\",\n    \"pancreatic\",\n    \"paperbound\",\n    \"paradoxical\",\n    \"paragraphic\",\n    \"paralleling\",\n    \"parameteric\",\n    \"paraphrases\",\n    \"parentally\",\n    \"participate\",\n    \"passionate\",\n    \"pasteboards\",\n    \"pathogenic\",\n    \"patricians\",\n    \"patriotics\",\n    \"patronizing\",\n    \"pejorative\",\n    \"penetrable\",\n    \"perceptible\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 11,
+        "correct_count": true,
+        "criteria_accuracy": 0.55,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.775,
+        "errors": [
+          "Words with incorrect length: paradoxical (11 letters), paragraphic (11 letters), paralleling (11 letters), parameteric (11 letters), paraphrases (11 letters), participate (11 letters), pasteboards (11 letters), patronizing (11 letters), perceptible (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 20
+      },
+      "response": {
+        "words": [
+          "paramounts",
+          "paraphrase",
+          "parcelings",
+          "participate",
+          "passionate",
+          "patchworks",
+          "patrolling",
+          "patriarchs",
+          "patronages",
+          "peacefully",
+          "penalising",
+          "perception",
+          "perfections",
+          "periodical",
+          "perishing",
+          "perpetrate",
+          "personally",
+          "persuading",
+          "pertaining",
+          "philanders"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"paramounts\",\n    \"paraphrase\",\n    \"parcelings\",\n    \"participate\",\n    \"passionate\",\n    \"patchworks\",\n    \"patrolling\",\n    \"patriarchs\",\n    \"patronages\",\n    \"peacefully\",\n    \"penalising\",\n    \"perception\",\n    \"perfections\",\n    \"periodical\",\n    \"perishing\",\n    \"perpetrate\",\n    \"personally\",\n    \"persuading\",\n    \"pertaining\",\n    \"philanders\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 20,
+        "correct_words": 17,
+        "correct_count": true,
+        "criteria_accuracy": 0.85,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.925,
+        "errors": [
+          "Words with incorrect length: participate (11 letters), perfections (11 letters), perishing (9 letters)"
+        ]
+      }
+    }
+  ]
+}

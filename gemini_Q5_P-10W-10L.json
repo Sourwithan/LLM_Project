@@ -1,0 +1,399 @@
+{
+  "avg_metrics": {
+    "num_tests": 10,
+    "successful_tests": 10,
+    "success_rate": 1.0,
+    "avg_total_words": 10,
+    "avg_correct_words": 7.6,
+    "avg_criteria_accuracy": 0.76,
+    "avg_count_accuracy": 1.0,
+    "avg_overall_accuracy": 0.88,
+    "total_unique_words": 75,
+    "most_common_words": [
+      [
+        "Passionate",
+        5
+      ],
+      [
+        "Paraphrase",
+        4
+      ],
+      [
+        "Pathfinder",
+        3
+      ],
+      [
+        "Patronized",
+        2
+      ],
+      [
+        "Penultimate",
+        2
+      ],
+      [
+        "Perfidious",
+        2
+      ],
+      [
+        "Peripheral",
+        2
+      ],
+      [
+        "Personable",
+        2
+      ],
+      [
+        "Philander",
+        2
+      ],
+      [
+        "Pamphleteer",
+        2
+      ]
+    ],
+    "total_duration_seconds": 23.84470558166504,
+    "std_dev_criteria_accuracy": 0.1349897115421106,
+    "std_dev_count_accuracy": 0.0,
+    "std_dev_overall_accuracy": 0.0674948557710553
+  },
+  "all_results": [
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Paramedics",
+          "Patronized",
+          "Penultimate",
+          "Perfidious",
+          "Peripheral",
+          "Personable",
+          "Persuaded",
+          "Philander",
+          "Pilasters",
+          "Pioneering"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paramedics\",\n    \"Patronized\",\n    \"Penultimate\",\n    \"Perfidious\",\n    \"Peripheral\",\n    \"Personable\",\n    \"Persuaded\",\n    \"Philander\",\n    \"Pilasters\",\n    \"Pioneering\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 6,
+        "correct_count": true,
+        "criteria_accuracy": 0.6,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.8,
+        "errors": [
+          "Words with incorrect length: Penultimate (11 letters), Persuaded (9 letters), Philander (9 letters), Pilasters (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Pamphleteer",
+          "Paradoxical",
+          "Paraphrased",
+          "Parenthoods",
+          "Passionate",
+          "Pathfinder",
+          "Patriarchal",
+          "Pedagogies",
+          "Penitently",
+          "Perfection"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pamphleteer\",\n    \"Paradoxical\",\n    \"Paraphrased\",\n    \"Parenthoods\",\n    \"Passionate\",\n    \"Pathfinder\",\n    \"Patriarchal\",\n    \"Pedagogies\",\n    \"Penitently\",\n    \"Perfection\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 5,
+        "correct_count": true,
+        "criteria_accuracy": 0.5,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.75,
+        "errors": [
+          "Words with incorrect length: Pamphleteer (11 letters), Paradoxical (11 letters), Paraphrased (11 letters), Parenthoods (11 letters), Patriarchal (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Paratroops",
+          "Patronship",
+          "Pedagogues",
+          "Pentathlon",
+          "Perfection",
+          "Peripheral",
+          "Philander",
+          "Photograph",
+          "Plantation",
+          "Pneumonia"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paratroops\",\n    \"Patronship\",\n    \"Pedagogues\",\n    \"Pentathlon\",\n    \"Perfection\",\n    \"Peripheral\",\n    \"Philander\",\n    \"Photograph\",\n    \"Plantation\",\n    \"Pneumonia\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Philander (9 letters), Pneumonia (9 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Penitently",
+          "Perchloric",
+          "Periodical",
+          "Peristatic",
+          "Pestilence",
+          "Petrography",
+          "Phenomenon",
+          "Philanderer",
+          "Pianissimo",
+          "Plagiarism"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Penitently\",\n    \"Perchloric\",\n    \"Periodical\",\n    \"Peristatic\",\n    \"Pestilence\",\n    \"Petrography\",\n    \"Phenomenon\",\n    \"Philanderer\",\n    \"Pianissimo\",\n    \"Plagiarism\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Petrography (11 letters), Philanderer (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Pantomimes",
+          "Paperknife",
+          "Paragraphs",
+          "Paralyzing",
+          "Paramounts",
+          "Parasolled",
+          "Paroxysmly",
+          "Parthenons",
+          "Passionate",
+          "Patronages"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pantomimes\",\n    \"Paperknife\",\n    \"Paragraphs\",\n    \"Paralyzing\",\n    \"Paramounts\",\n    \"Parasolled\",\n    \"Paroxysmly\",\n    \"Parthenons\",\n    \"Passionate\",\n    \"Patronages\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 10,
+        "correct_count": true,
+        "criteria_accuracy": 1.0,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 1.0,
+        "errors": []
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Paperboard",
+          "Paramounts",
+          "Parentages",
+          "Passionate",
+          "Patriotism",
+          "Pederastic",
+          "Perambulate",
+          "Perceptible",
+          "Perfecting",
+          "Perfidious"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paperboard\",\n    \"Paramounts\",\n    \"Parentages\",\n    \"Passionate\",\n    \"Patriotism\",\n    \"Pederastic\",\n    \"Perambulate\",\n    \"Perceptible\",\n    \"Perfecting\",\n    \"Perfidious\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Perambulate (11 letters), Perceptible (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Pacifistic",
+          "Painstaking",
+          "Paraphrase",
+          "Particular",
+          "Passionate",
+          "Pathfinder",
+          "Patronized",
+          "Penultimate",
+          "Perceptive",
+          "Persistent"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Pacifistic\",\n    \"Painstaking\",\n    \"Paraphrase\",\n    \"Particular\",\n    \"Passionate\",\n    \"Pathfinder\",\n    \"Patronized\",\n    \"Penultimate\",\n    \"Perceptive\",\n    \"Persistent\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Painstaking (11 letters), Penultimate (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Paintbrush",
+          "Palindrome",
+          "Pamphleteer",
+          "Paperknife",
+          "Parachuted",
+          "Paraphrase",
+          "Paternalism",
+          "Pathfinder",
+          "Peppercorn",
+          "Perforation"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paintbrush\",\n    \"Palindrome\",\n    \"Pamphleteer\",\n    \"Paperknife\",\n    \"Parachuted\",\n    \"Paraphrase\",\n    \"Paternalism\",\n    \"Pathfinder\",\n    \"Peppercorn\",\n    \"Perforation\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 7,
+        "correct_count": true,
+        "criteria_accuracy": 0.7,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.85,
+        "errors": [
+          "Words with incorrect length: Pamphleteer (11 letters), Paternalism (11 letters), Perforation (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Paperwork",
+          "Paradoxical",
+          "Paraphrase",
+          "Parentally",
+          "Particular",
+          "Passionate",
+          "Patriarchs",
+          "Patronised",
+          "Pedestrian",
+          "Penmanship"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paperwork\",\n    \"Paradoxical\",\n    \"Paraphrase\",\n    \"Parentally\",\n    \"Particular\",\n    \"Passionate\",\n    \"Patriarchs\",\n    \"Patronised\",\n    \"Pedestrian\",\n    \"Penmanship\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Paperwork (9 letters), Paradoxical (11 letters)"
+        ]
+      }
+    },
+    {
+      "success": true,
+      "requested": {
+        "starting_letter": "P",
+        "word_length": 10,
+        "word_count": 10
+      },
+      "response": {
+        "words": [
+          "Paraphrase",
+          "Patronised",
+          "Pendulums",
+          "Penicillin",
+          "Perforated",
+          "Perpetrate",
+          "Personable",
+          "Phenomenon",
+          "Pizzazzes",
+          "Plagiarism"
+        ],
+        "raw_response": "{\n  \"words\": [\n    \"Paraphrase\",\n    \"Patronised\",\n    \"Pendulums\",\n    \"Penicillin\",\n    \"Perforated\",\n    \"Perpetrate\",\n    \"Personable\",\n    \"Phenomenon\",\n    \"Pizzazzes\",\n    \"Plagiarism\"\n  ]\n}"
+      },
+      "validation": {
+        "total_words": 10,
+        "correct_words": 8,
+        "correct_count": true,
+        "criteria_accuracy": 0.8,
+        "count_accuracy": 1.0,
+        "overall_accuracy": 0.9,
+        "errors": [
+          "Words with incorrect length: Pendulums (9 letters), Pizzazzes (9 letters)"
+        ]
+      }
+    }
+  ]
+}
